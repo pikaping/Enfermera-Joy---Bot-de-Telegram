@@ -10,10 +10,12 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
 2. [Ayuda para administradores](#ayuda-para-administradores)
    1. [Añadir el bot a un grupo o canal](#añadir-el-bot-a-un-grupo-o-canal)
    2. [Configuración](#configuración)
-   3. [Modo niñero](#modo-niñero)
-   4. [Zona horaria](#zona-horaria)
-   5. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
+   3. [Modo enfermera](#modo-enfermera)
+   4. [Tipo de grupo](#tipo-de-grupo)
+   5. [Zona horaria](#zona-horaria)
+   6. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
 3. [Reglamento General de Uso del Bot](#reglamento-general-de-uso-del-bot)
+4. [Política de privacidad](#políica-de-privacidad)
 
 ## Ayuda para entrenadores ##
 
@@ -53,7 +55,6 @@ Para **añadir el bot a un grupo** tienes tres alternativas:
 
 3. Puedes intentar añadirlo como un contacto más desde el grupo con su alias `@NurseJoyBot`, pero en versiones recientes de Telegram hay problemas usando este método.
 
-
 ### Configuración ###
 
 Para hacer la configuración básica del bot utiliza el comando `/settings`. La configuración está dividida en varios apartados:
@@ -66,8 +67,7 @@ Para hacer la configuración básica del bot utiliza el comando `/settings`. La 
 
 4. **Tipo de grupo**. Cuenta con cinco opciones. Mira el [apartado del tipo de grupo](#tipo-de-grupo) para más información. Opción desactivada por defecto.
 
-5. **Configuración de los avisos**. Si está activada, esta opción hace que el bot reflote todas las incursiones activas cada 5, 10, 15 o 30 minutos. Las incursiones se consideran activas si falta **menos de una hora y media para que comiencen** o si acaban de comenzar (una vez comenzadas, se reflotarán una única vez). Opción desactivada por defecto.
-
+5. **Configuración de los avisos**. Esta función sirve para determinar el número de avisos que recibirá un usuario antes de ser expulsado de un grupo. Las diferentes opciones son 5/10/25/50/100.
 
 ### Modo enfermera ###
 
@@ -80,7 +80,17 @@ El comando `/settalkgroup` permite definir un grupo para hablar. Si está el mod
 
 ### Tipo de grupo ###
 
-Por defecto, los grupos 
+Por defecto al introducir el bot, se establece el grupo como *grupo sin requisitos*
+
+| Identificador   | Definición                       |
+|:----------------|:---------------------------------|
+|        ▪️        | Grupo sin requisitos             |
+|       ✅       | Grupo con validación obligatoria |
+|       ❤️       | Grupo exclusivo Rojo             |
+|       💙       | Grupo exclusivo Azul             |
+|       💛       | Grupo exclusivo Amarillo         |
+
+En caso de que un usuario intente acceder a un grupo en el cual no cumpla las condiciones de entrada, el bot si cuenta con los privilegios pertinentes expulsará al usuario.
 
 ### Zona horaria ###
 
@@ -96,6 +106,7 @@ Para establecer la zona horaria correcta se debe utilizar el comando `/settimezo
 `/ban`: Expulsa y banea al usuario en el grupo acutal. Se utiliza respondiendo a un mensaje del usuario a banear.
 `/kick`:  Expulsa al usuario en el grupo acutal. Se utiliza respondiendo a un mensaje del usuario a expulsar.
 `/warn`: Advierte al usuario en el grupo acutal. Al alcanzar el nº máximo de advertencias banea al usuario del grupo. Se utiliza respondiendo a un mensaje del usuario a advertir.
+
 
 ## Reglamento General de Uso del Bot ##
 
