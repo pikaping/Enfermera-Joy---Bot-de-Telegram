@@ -93,12 +93,9 @@ Para establecer la zona horaria correcta se debe utilizar el comando `/settimezo
 
 ### Otros comandos exclusivos para administradores ###
 
-Para revertir la cancelación de una incursión puedes usar el comando `/descancelar`. Se utiliza exactamente igual que el `/cancelar`, pero sobre incursiones canceladas.
-
-Un administrador siempre puede cancelar incursiones con el comando `/cancelar`, aunque sean antiguas. Normalmente, un creador de incursión solo puede cancelar incursiones que no sean más antiguas de tres horas.
-
-Para reflotar todas las incursiones activas una vez, sin necesidad de usar el reflotado automático, se puede usar el comando `/reflotaractivas`. También se pueden reflotar todas las incursiones, incluídas las EX que transcurrirán dentro de varias horas o días, con `/reflotartodas`.
-
+`/ban`: Expulsa y banea al usuario en el grupo acutal. Se utiliza respondiendo a un mensaje del usuario a banear.
+`/kick`:  Expulsa al usuario en el grupo acutal. Se utiliza respondiendo a un mensaje del usuario a expulsar.
+`/warn`: Advierte al usuario en el grupo acutal. Al alcanzar el nº máximo de advertencias banea al usuario del grupo. Se utiliza respondiendo a un mensaje del usuario a advertir.
 
 ## Reglamento General de Uso del Bot ##
 
