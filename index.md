@@ -145,7 +145,7 @@ Estado de la cuenta (validada, no validada o baneada)
 Datos relacionados con la cuenta de Pokémon GO facilitados en el proceso de registro: equipo, nombre de entrenador y nivel
 El bot también almacena unos ficheros no ordenados con las interacciones en grupos y directas (logs), con el objetivo de poder trazar problemas técnicos y atender a las apelaciones de baneo.
 
-###Cómo se utiliza la información ###
+### Cómo se utiliza la información ###
 
 La información almacenada se utiliza para los siguientes fines:
 
