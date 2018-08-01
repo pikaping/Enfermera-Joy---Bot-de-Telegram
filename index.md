@@ -43,7 +43,7 @@ El soporte de [@NurseJoyBot](https://t.me/NurseJoyBot) por el momento solo está
 
 En **grupos** el bot ya se puede utilizar tan pronto entra al grupo y envía un saludo. Conviene configurarlo, no obstante. Ten cuidado porque, si una vez añadas el bot conviertes el grupo a supergrupo, tendrás que volver a configurarlo. Un supergrupo es la mejor opción en la mayoría de los casos.
 
-### Añadir el bot a un grupo###
+### Añadir el bot a un grupo ###
 
 Para **añadir el bot a un grupo** tienes tres alternativas:
 
@@ -135,7 +135,7 @@ Debido a la polémica generada con los usuarios que utilicen más de una cuenta 
 
 ## Política de privacidad ##
 
-###Qué información recopilamos y sometemos a tratamiento###
+### Qué información recopilamos y sometemos a tratamiento ###
 
 Este bot recoge la siguiente información sobre sus usuarios al interactuar con él en privado o a través de un grupo o canal de Telegram:
 
@@ -145,7 +145,7 @@ Estado de la cuenta (validada, no validada o baneada)
 Datos relacionados con la cuenta de Pokémon GO facilitados en el proceso de registro: equipo, nombre de entrenador y nivel
 El bot también almacena unos ficheros no ordenados con las interacciones en grupos y directas (logs), con el objetivo de poder trazar problemas técnicos y atender a las apelaciones de baneo.
 
-###Cómo se utiliza la información###
+###Cómo se utiliza la información ###
 
 La información almacenada se utiliza para los siguientes fines:
 
@@ -155,7 +155,7 @@ La base legal para el tratamiento de datos mencionado en esta sección es la pre
 
 Como se explica en la Política de tramposos, se rastrearán los logs la actividad de forma automatizada en busca de sospechosa. La base legal para este tratamiento de datos es el artículo 6, párrafo 1 (f) del RGPD.
 
-###Quién tiene acceso a la información###
+### Quién tiene acceso a la información ###
 
 El alias público de Telegram y los datos relacionados con la cuenta de Pokémon GO podrán compartirse en grupos o canales en los que se mantenga actividad. Esta compartición puede ser pública, dependiendo de la configuración de cada grupo o canal.
 
@@ -163,14 +163,14 @@ El identificador numérico y alias público de Telegram y el nombre de entrenado
 
 La base legal para compartir los datos proporcionados es la prestación del servicio que se solicita voluntariamente (artículo 6, párrafo 1 (b) del RGPD).
 
-###Duración del almacenamiento###
+### Duración del almacenamiento ###
 
 La información se almacena durante el tiempo necesario para cumplir con los fines para los que se se recopila:
 
 La información de la cuenta de Pokémon GO y alias de Telegram se eliminan al pasar seis meses desde la última participación en una incursión.
 Las interacciones en grupos y directas con el bot (logs) se eliminan pasados dos meses.
 
-###Derechos contemplados en el RGPD###
+### Derechos contemplados en el RGPD ###
 
 Se debe enviar un correo a [apelaciones@qwert1.es](mailto:apelaciones@qwert1.es) indicando que se desea ejercer alguno de los derechos contemplados: acceso, rectificación, supresión y limitación del tratamiento, portabilidad de datos.
 
