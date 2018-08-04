@@ -1,4 +1,4 @@
-Enfermera Joy es un bot de Telegram especializado en gestionar grupos de Pokémon GO en Telegram.
+Enfermera Joy es un bot especializado en gestionar grupos de Pokémon GO en Telegram.
 
 Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayuda) y estar informado de las novedades en el canal [@enfermerajoynoticias](https://t.me/enfermerajoynoticias).
 
