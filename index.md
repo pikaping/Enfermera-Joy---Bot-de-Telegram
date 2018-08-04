@@ -4,8 +4,8 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
 
 1. [Ayuda para entrenadores](#ayuda-para-entrenadores)
    1. [Registrarse en el bot](#registrarse-en-el-bot)
-   2. [Código de Entrenador](#friend-id)
-   3. [Registrarse en el bot](#tablas)   
+   2. [Código de Entrenador](#código-de-entrenador)
+   3. [Tablas](#tablas)   
    4. [Más ayuda](#más-ayuda)
 2. [Ayuda para administradores](#ayuda-para-administradores)
    1. [Añadir el bot a un grupo o canal](#añadir-el-bot-a-un-grupo-o-canal)
@@ -29,6 +29,22 @@ Para registrarte tienes dos opciones:
 1. En un privado con [@NurseJoyBot](https://t.me/NurseJoyBot), escribe el comando `/register` y comenzarás el proceso de registro y validación. El proceso es automatizado y te pedirá que hagas una captura de pantalla del juego con unas condiciones.
 
 2. Si estás registrado y validado con [@detectivepikachubot](https://t.me/detectivepikachubot), puedes escribir el comando `/profile` y reenviar la respuesta a [@NurseJoyBot](https://t.me/NurseJoyBot). Este método, sirve tanto para registrarse como para subir de nivel.
+
+### Código de Entrenador ###
+
+Si quieres, puedes compartir tu código de entrenador con el bot para que cuando pregunten por ti, aparezca junto al resto de información. Únicamente verán tu código aquellas personas que hayan compartido el suyo con el bot.
+
+Para compartir tu código de entrenador, lo debes hacer de la siguiente manera (el número sin espacios y separado del comando):
+
+    /setfriendid 123456789123
+
+Una vez hecho esto, para ver los codigos de entrenador de los demás, tienes dos formas:
+`/idlist` - Este comando es **exclusivo** para grupos. El bot te enviará un listado de todos los IDs conocidos del grupo por privado.
+`Joy, quien es` - Respondiendo a un mensaje de alguien, Joy te enviará por privado la información de ese usuario.
+
+### Tablas ###
+
+
 
 ### Más ayuda ###
 
