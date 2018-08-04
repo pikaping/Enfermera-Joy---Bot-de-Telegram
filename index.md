@@ -146,10 +146,10 @@ Debido a la polémica generada con los usuarios que utilicen más de una cuenta 
 
 Este bot recoge la siguiente información sobre sus usuarios al interactuar con él en privado o a través de un grupo o canal de Telegram:
 
-*Identificador numérico de Telegram
-*Alias público de Telegram
-*Estado de la cuenta (validada, no validada o baneada)
-*Datos relacionados con la cuenta de Pokémon GO facilitados en el proceso de registro: equipo, nombre de entrenador y nivel
+- Identificador numérico de Telegram
+- Alias público de Telegram
+- Estado de la cuenta (validada, no validada o baneada)
+- Datos relacionados con la cuenta de Pokémon GO facilitados en el proceso de registro: equipo, nombre de entrenador y nivel
 
 El bot también almacena unos ficheros no ordenados con las interacciones en grupos y directas (logs), con el objetivo de poder trazar problemas técnicos y atender a las apelaciones de baneo.
 
