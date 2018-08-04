@@ -90,7 +90,7 @@ Por defecto al introducir el bot, se establece el grupo como *grupo sin requisit
 |       💙       | Grupo exclusivo Azul             |
 |       💛       | Grupo exclusivo Amarillo         |
 
-En caso de que un usuario intente acceder a un grupo en el cual no cumpla las condiciones de entrada, el bot si cuenta con los privilegios pertinentes expulsará al usuario.
+En caso de que un usuario intente acceder a un grupo en el cual no cumpla las condiciones de entrada, si el bot cuenta con los privilegios pertinentes, expulsará al usuario.
 
 ### Zona horaria ###
 
