@@ -39,7 +39,9 @@ Para compartir tu código de entrenador, lo debes hacer de la siguiente manera (
     /setfriendid 123456789123
 
 Una vez hecho esto, para ver los codigos de entrenador de los demás, tienes dos formas:
+
 `/idlist` - Este comando es **exclusivo** para grupos. El bot te enviará un listado de todos los IDs conocidos del grupo por privado.
+
 `Joy, quien es` - Respondiendo a un mensaje de alguien, Joy te enviará por privado la información de ese usuario.
 
 ### Tablas ###
@@ -57,15 +59,15 @@ De aquí en adelante, [@NurseJoyBot](https://t.me/NurseJoyBot) pasará a ser *el
 
 ### Grupos ###
 
-El soporte de [@NurseJoyBot](https://t.me/NurseJoyBot) por el momento solo está probado en **grupos y supergrupos**. En un futuro, contará con soporte en canales.
+El soporte de [@NurseJoyBot](https://t.me/NurseJoyBot), por el momento, solo está probado en **grupos y supergrupos**. En un futuro, contará con soporte en canales.
 
 En **grupos** el bot ya se puede utilizar tan pronto entra al grupo y envía un saludo. Conviene configurarlo, no obstante. Ten cuidado porque, si una vez añadas el bot conviertes el grupo a supergrupo, tendrás que volver a configurarlo. Un supergrupo es la mejor opción en la mayoría de los casos.
 
-### Añadir el bot a un grupo ###
+### Añadir el bot a un grupo o canal ###
 
 Para **añadir el bot a un grupo** tienes tres alternativas:
 
-1. Vete al perfil de [@NurseJoyBot](https://t.me/NurseJoyBot). En el menú, selecciona la opción *Añadir a un grupo* y escoge el grupo de la lista.
+1. Dirígete al perfil de [@NurseJoyBot](https://t.me/NurseJoyBot). En el menú, selecciona la opción *Añadir a un grupo* y escoge el grupo de la lista.
 
 2. Pulsa en [este enlace](https://telegram.me/NurseJoyBot?startgroup=true) en un dispositivo donde tengas Telegram instalado.
 
@@ -89,10 +91,12 @@ Para hacer la configuración básica del bot utiliza el comando `/settings`. La 
 
 El modo enfermera evita que la gente hable en un grupo, borrando todos los mensajes que pongan los usuarios (no los administradores).
 
-El comando `/settalkgroup` permite definir un grupo para hablar. Si está el modo niñero activado, el bot recordará el enlace al grupo para hablar cada vez que hable alguien. Por ejemplo:
+El comando `/settalkgroup` permite definir un grupo para hablar.  Por ejemplo:
 
     /settalkgroup @enfermerajoyayuda
     /settalkgroup https://t.me/joinchat/XXs3XkzYsXXxnvbtxxe11x
+
+Si está el modo niñero activado, el bot recordará el enlace al grupo para hablar cada vez que hable alguien.
 
 ### Tipo de grupo ###
 
@@ -119,10 +123,11 @@ Para establecer la zona horaria correcta se debe utilizar el comando `/settimezo
 
 ### Otros comandos exclusivos para administradores ###
 
-`/ban`: Expulsa y banea al usuario en el grupo acutal. Se utiliza respondiendo a un mensaje del usuario a banear.
-`/kick`:  Expulsa al usuario en el grupo acutal. Se utiliza respondiendo a un mensaje del usuario a expulsar.
-`/warn`: Advierte al usuario en el grupo acutal. Al alcanzar el nº máximo de advertencias banea al usuario del grupo. Se utiliza respondiendo a un mensaje del usuario a advertir.
+`/ban`: Expulsa y banea al usuario en el grupo actual. Se utiliza respondiendo a un mensaje del usuario a banear.
 
+`/kick`:  Expulsa al usuario en el grupo actual. Se utiliza respondiendo a un mensaje del usuario a expulsar.
+
+`/warn`: Advierte al usuario en el grupo actual. Al alcanzar el nº máximo de advertencias banea al usuario del grupo. Se utiliza respondiendo a un mensaje del usuario a advertir.
 
 ## Reglamento General de Uso del Bot ##
 
@@ -130,16 +135,16 @@ El siguiente punto, detalla la normativa a cumplir en caso de registrarse en el 
 
 Este bot no puede ser utilizado en grupos o canales que promueven el uso de trampas en el juego. Si bien no se puede evitar que sea utilizado casi por cualquiera, el bot implementa algunas medidas anti-trampas que detectan determinados comportamientos que pueden llevar a un baneo preventivo.
 
-En caso de formar parte de un grupo en el cual se encuentre [@NurseJoyBot](https://t.me/NurseJoyBot) y conozcas a un usuario o administrador que no cumpla alguna de las normas, se deberá comunicar mediante correo electronico a la dirección [reportes@qwert1.es](mailto:reportes@qwert1.es). Cualquier sancion aplicada será debatida entre los miembros del staff del bot, apelable en la siguiente dirección de E-mail: [apelaciones@qwert1.es](mailto:apelaciones@qwert1.es).
+En caso de formar parte de un grupo en el cual se encuentre [@NurseJoyBot](https://t.me/NurseJoyBot) y conozcas a un usuario o administrador que no cumpla alguna de las normas, se deberá comunicar mediante correo electrónico a la dirección [reportes@qwert1.es](mailto:reportes@qwert1.es). Cualquier sanción aplicada será debatida entre los miembros del staff del bot, apelable en la siguiente dirección de E-mail: [apelaciones@qwert1.es](mailto:apelaciones@qwert1.es).
 
 ### Normas de Enfermera Joy ### 
 
 - 🔞 Está totalmente prohibido enviar material sensible.
-- ⛔️ Está **COMPLETAMENTE PROHIBIDO** solicitar y/o aportar información relativa a otro jugador en cualquiera de los grupos oficiales del bot o bien por privado a cualquier miembro del staff. En caso de producirse esta situacion, los administradores se reservan el derecho de banear **definitivamente** la cuenta del entrenador.
+- ⛔️ Está **COMPLETAMENTE PROHIBIDO** solicitar y/o aportar información relativa a otro jugador en cualquiera de los grupos oficiales del bot o bien por privado a cualquier miembro del staff. En caso de producirse esta situación, los administradores se reservan el derecho de banear **definitivamente** la cuenta del entrenador.
 - 😈 Nunca difames, abuses, hostigues, dañes, acoses, amenaces o violes de cualquier manera los derechos legales (incluidos los derechos de privacidad y publicidad) de los demás.
 - 👺 Se ruega evitar generar discusiones o debates *interminables*, o que no aporten información útil al grupo, incluyendo temas de hacks, trampas, emuladores o similares.
 - 😊 Ante todo, ¡fomenta el buen rollo! El grupo no es restrictivo, no tengas miedo de preguntar o conversar sobre el juego. Pero ten cuidado con las cosas o "bromas" que digas, puedes ofender a alguien.
-- 📩 Se considera **flood** el hecho de repetir contínuamente palabras, hacer *cadenas* de contenido multimedia o comandos (enviar muchas fotos o stickers seguidos), provocando molestias al grupo con contenido innecesario. 
+- 📩 Se considera **flood** el hecho de repetir continuamente palabras, hacer *cadenas* de contenido multimedia o comandos (enviar muchas fotos o stickers seguidos), provocando molestias al grupo con contenido innecesario. 
 - 🌍 Normalmente el usuario estará unido en los grupos cercanos a su ubicación, o que suela frecuentar. Si un usuario es avistado en varios grupos de diferentes ubicaciones a la vez, podría ser expulsado de todos ellos por sospechas de posibles trampas. Se entiende que si un usuario se va de vacaciones a otro lugar, no es necesario abandonar los grupos de su ubicación, y se valorará este motivo.
 
 
@@ -153,7 +158,7 @@ Obviando la parte de comportamiento ético como personas, se detalla que jugar d
 - Usar herramientas o técnicas para alterar o falsificar la ubicación
 - Vender y comerciar con las cuentas
 
-Debido a la polémica generada con los usuarios que utilicen más de una cuenta o compartán la suya, a diferencia de lo que dicen las normas del entrenador, **NO** será sancionable a excepción de usuarios que abusen de estas o las utilicen con el fin de perjudicar a terceras personas.
+Debido a la polémica generada con los usuarios que utilicen más de una cuenta o compartan la suya, a diferencia de lo que dicen las normas del entrenador, **NO** será sancionable a excepción de usuarios que abusen de estas o las utilicen con el fin de perjudicar a terceras personas.
 
 
 ## Política de privacidad ##
