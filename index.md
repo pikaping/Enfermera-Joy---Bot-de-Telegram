@@ -46,6 +46,39 @@ Una vez hecho esto, para ver los codigos de entrenador de los demás, tienes dos
 
 ### Tablas ###
 
+- Absol
+- Articuno
+- Celebi
+- Entei
+- Golem
+- Groudon
+- Ho-oh
+- Kyogre
+- Lapras
+- Latias
+- Latios
+- Lugia
+- Machamp
+- Magikarp
+- Marowak (alola)
+- Mawile
+- Mew
+- Mewtwo
+- Moltres
+- Raichu (alola)
+- Raikou
+- Rayquaza
+- Regice
+- Regirock
+- Registeel
+- Rhydon
+- Snorlax
+- Suicune
+- Tyranitar
+- Zapdos
+***
+- Amistad
+- Community
 
 
 ### Más ayuda ###
