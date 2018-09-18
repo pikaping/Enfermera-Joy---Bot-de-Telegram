@@ -76,7 +76,9 @@ Una vez hecho esto, para ver los codigos de entrenador de los demás, tienes dos
 - Suicune
 - Tyranitar
 - Zapdos
+
 ***
+
 - Amistad
 - Community
 
