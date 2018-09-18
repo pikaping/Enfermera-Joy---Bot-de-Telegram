@@ -85,7 +85,7 @@ Una vez hecho esto, para ver los codigos de entrenador de los demás, tienes dos
 
 ### Más ayuda ###
 
-Si necesitas ayuda que no se encuentre en este manual, puedes preguntar en [@enfermerajoyayuda](https://t.me/enfermerajoyayuda). Si estás administrando un grupo o un canal, mira más abajo para ver la ayuda para administradores.
+Si necesitas ayuda que no se encuentre en este manual, puedes preguntar en [@enfermerajoyayuda](https://t.me/enfermerajoyayuda). Si estás administrando un grupo o un canal, continua leyendo para ver la ayuda para administradores.
 
 
 ## Ayuda para administradores ##
@@ -94,7 +94,7 @@ De aquí en adelante, [@NurseJoyBot](https://t.me/NurseJoyBot) pasará a ser *el
 
 ### Grupos ###
 
-El soporte de [@NurseJoyBot](https://t.me/NurseJoyBot), por el momento, solo está probado en **grupos y supergrupos**. En un futuro, contará con soporte en canales.
+El soporte del bot, por el momento, solo está probado en **grupos y supergrupos**. En un futuro, contará con soporte en canales.
 
 En **grupos** el bot ya se puede utilizar tan pronto entra al grupo y envía un saludo. Conviene configurarlo, no obstante. Ten cuidado porque, si una vez añadas el bot conviertes el grupo a supergrupo, tendrás que volver a configurarlo. Un supergrupo es la mejor opción en la mayoría de los casos.
 
@@ -102,7 +102,7 @@ En **grupos** el bot ya se puede utilizar tan pronto entra al grupo y envía un 
 
 Para **añadir el bot a un grupo** tienes tres alternativas:
 
-1. Dirígete al perfil de [@NurseJoyBot](https://t.me/NurseJoyBot). En el menú, selecciona la opción *Añadir a un grupo* y escoge el grupo de la lista.
+1. Dirígete al perfil del bot. En el menú, selecciona la opción *Añadir a un grupo* y escoge el grupo de la lista.
 
 2. Pulsa en [este enlace](https://telegram.me/NurseJoyBot?startgroup=true) en un dispositivo donde tengas Telegram instalado.
 
