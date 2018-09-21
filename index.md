@@ -167,16 +167,11 @@ Para poder definir el mensaje de bienvenida del bot es necesario utilizar el com
 
 Además el bot dispone de tres strings que se pueden introducir en el texto de bienvenida para conocer más información del miembro que acaba de entrar. Por ejemplo:
 
-    /set_welcome Bienvenido $pogo
-
-Bienvenido Bernylickitung **L40** 💛 ✅
-
-    /set_welcome Hola $username . Lee las normas.
-
-Hola Bernylickitung. Lee las normas.
-
-    /set_welcome $title
-
+| Strings         | Texto mostrado                   |
+|:----------------|:---------------------------------|
+|      $pogo      | Bernylickitung **L40** 💛 ✅     |
+|    $username    | Bernylickitung                   |
+|     $title      | Grupo con validación obligatoria |
 
 ### Otros comandos exclusivos para administradores ###
 
