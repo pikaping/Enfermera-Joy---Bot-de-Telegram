@@ -167,11 +167,11 @@ Para poder definir el mensaje de bienvenida del bot es necesario utilizar el com
 
 Además el bot dispone de tres strings que se pueden introducir en el texto de bienvenida para conocer más información del entrenador que acaba de entrar. Por ejemplo:
 
-| Strings         | Texto mostrado                   | Definición                       |
-|:----------------|:---------------------------------|:---------------------------------|
-|      $pogo      | Bernylickitung **L40** 💛 ✅     | Nick + Nivel + Equipo + Validado |
-|    $username    | Bernylickitung                   | Nick                             |
-|     $title      | PoGo de tu ciudad                | Nombre del grupo                 | 
+| Strings         | Texto mostrado                   | Definición                                    |
+|:----------------|:---------------------------------|:----------------------------------------------|
+|      $pogo      | Bernylickitung **L40** 💛 ✅     | Nick + Nivel + Equipo + Proceso de validación |
+|    $username    | Bernylickitung                   | Nick                                          |
+|     $title      | PoGo de tu ciudad                | Nombre del grupo                              | 
 
 ### Otros comandos exclusivos para administradores ###
 
