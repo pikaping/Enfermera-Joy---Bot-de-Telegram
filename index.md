@@ -36,13 +36,13 @@ Si quieres, puedes compartir tu código de entrenador con el bot para que cuando
 
 Para compartir tu código de entrenador, lo debes hacer de la siguiente manera (el número sin espacios y separado del comando):
 
-    /setfriendid 123456789123
+    (no disponible)
 
 Una vez hecho esto, para ver los codigos de entrenador de los demás, tienes dos formas:
 
-`/idlist` - Este comando es **exclusivo** para grupos. El bot te enviará un listado de todos los IDs conocidos del grupo por privado.
+`(no disponible)` - Este comando es **exclusivo** para grupos. El bot te enviará un listado de todos los IDs conocidos del grupo por privado.
 
-`Joy, quien es` - Respondiendo a un mensaje de alguien, Joy te enviará por privado la información de ese usuario.
+`(no disponible)` - Respondiendo a un mensaje de alguien, Joy te enviará por privado la información de ese usuario.
 
 ### Tablas ###
 
