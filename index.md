@@ -163,17 +163,17 @@ El bot puede dar la bienvenida a los miembros que vayan entrando al grupo.
 
 Para poder definir el mensaje de bienvenida del bot es necesario utilizar el comando `/set_welcome`. Por ejemplo, si se quiere poner el mensaje "Bienvenidos al grupo", sería:
 
-/set_welcome Bienvenidos al grupo.
+    /set_welcome Bienvenidos al grupo.
 
 Además el bot dispone de tres strings que se pueden introducir en el texto de bienvenida para conocer más información del miembro que acaba de entrar. Por ejemplo:
 
-/set_welcome Bienvenido $pogo
-Bienvenido Bernylickitung **L40** :yellow_heart: :white_check_mark:
+    /set_welcome Bienvenido $pogo
+Bienvenido Bernylickitung **L40** 💛 ✅
 
-/set_welcome Hola $username . Lee las normas.
+    /set_welcome Hola $username . Lee las normas.
 Hola Bernylickitung. Lee las normas.
 
-$title
+    /set_welcome $title
 
 
 ### Otros comandos exclusivos para administradores ###
