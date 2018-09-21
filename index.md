@@ -13,7 +13,8 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
    3. [Modo enfermera](#modo-enfermera)
    4. [Tipo de grupo](#tipo-de-grupo)
    5. [Zona horaria](#zona-horaria)
-   6. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
+   6. Bienvenida
+   7. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
 3. [Reglamento General de Uso del Bot](#reglamento-general-de-uso-del-bot)
 4. [Política de privacidad](#políica-de-privacidad)
 
@@ -155,6 +156,25 @@ Para establecer la zona horaria correcta se debe utilizar el comando `/settimezo
 
     /settimezone Europe/Madrid
     /settimezone Atlantic/Canary
+
+### Bienvenida ###
+
+El bot puede dar la bienvenida a los miembros que vayan entrando al grupo.
+
+Para poder definir el mensaje de bienvenida del bot es necesario utilizar el comando `/set_welcome`. Por ejemplo, si se quiere poner el mensaje "Bienvenidos al grupo", sería:
+
+/set_welcome Bienvenidos al grupo.
+
+Además el bot dispone de tres strings que se pueden introducir en el texto de bienvenida para conocer más información del miembro que acaba de entrar. Por ejemplo:
+
+/set_welcome Bienvenido $pogo
+Bienvenido Bernylickitung **L40** :yellow_heart: :white_check_mark:
+
+/set_welcome Hola $username . Lee las normas.
+Hola Bernylickitung. Lee las normas.
+
+$title
+
 
 ### Otros comandos exclusivos para administradores ###
 
