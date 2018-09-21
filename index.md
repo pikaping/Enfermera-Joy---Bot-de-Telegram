@@ -173,6 +173,8 @@ Además el bot dispone de tres strings que se pueden introducir en el texto de b
 |    $username    | Bernylickitung                   | Nick                                          |
 |     $title      | PoGo de tu ciudad                | Nombre del grupo                              | 
 
+Si se quiere eliminar el mensaje de bienvenida, para que el bot deje de saludar cuando entren entrenadores nuevos, entonces se debe escribir el comando `/set_welcome` sin ningún texto más.
+
 ### Otros comandos exclusivos para administradores ###
 
 `/ban`: Expulsa y banea al usuario en el grupo actual. Se utiliza respondiendo a un mensaje del usuario a banear.
