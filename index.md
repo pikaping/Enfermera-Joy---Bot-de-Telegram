@@ -4,7 +4,7 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
 
 1. [Ayuda para entrenadores](#ayuda-para-entrenadores)
    1. [Registrarse en el bot](#registrarse-en-el-bot)
-   2. [Código de Entrenador](#código-de-entrenador)
+   2. [Código de Entrenador](#código-de-entrenador) ESTE COMANDO NO ESTÁ DISPONIBLE
    3. [Tablas](#tablas)   
    4. [Más ayuda](#más-ayuda)
 2. [Ayuda para administradores](#ayuda-para-administradores)
