@@ -30,7 +30,7 @@ Para registrarte tienes dos opciones:
 
 2. Si estás registrado y validado con [@detectivepikachubot](https://t.me/detectivepikachubot), puedes escribir el comando `/profile` y reenviar la respuesta a [@NurseJoyBot](https://t.me/NurseJoyBot). Este método, sirve tanto para registrarse como para subir de nivel.
 
-### Código de Entrenador - ESTE COMANDO NO ESTÁ AÚN DISPONIBLE### 
+### Código de Entrenador - ESTE COMANDO NO ESTÁ DISPONIBLE ### 
 
 Si quieres, puedes compartir tu código de entrenador con el bot para que cuando pregunten por ti, aparezca junto al resto de información. Únicamente verán tu código aquellas personas que hayan compartido el suyo con el bot.
 
