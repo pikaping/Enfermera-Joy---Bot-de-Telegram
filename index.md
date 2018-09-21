@@ -159,19 +159,19 @@ Para establecer la zona horaria correcta se debe utilizar el comando `/settimezo
 
 ### Bienvenida ###
 
-El bot puede dar la bienvenida a los miembros que vayan entrando al grupo.
+El bot puede dar la bienvenida a los entrenadores que vayan entrando al grupo.
 
 Para poder definir el mensaje de bienvenida del bot es necesario utilizar el comando `/set_welcome`. Por ejemplo, si se quiere poner el mensaje "Bienvenidos al grupo", sería:
 
     /set_welcome Bienvenidos al grupo.
 
-Además el bot dispone de tres strings que se pueden introducir en el texto de bienvenida para conocer más información del miembro que acaba de entrar. Por ejemplo:
+Además el bot dispone de tres strings que se pueden introducir en el texto de bienvenida para conocer más información del entrenador que acaba de entrar. Por ejemplo:
 
-| Strings         | Texto mostrado                   |
-|:----------------|:---------------------------------|
-|      $pogo      | Bernylickitung **L40** 💛 ✅     |
-|    $username    | Bernylickitung                   |
-|     $title      | Grupo con validación obligatoria |
+| Strings         | Texto mostrado                   | Definición                       |
+|:----------------|:---------------------------------|:---------------------------------|
+|      $pogo      | Bernylickitung **L40** 💛 ✅     | Nick + Nivel + Equipo + Validado |
+|    $username    | Bernylickitung                   | Nick                             |
+|     $title      | PoGo de tu ciudad                | Nombre del grupo                 | 
 
 ### Otros comandos exclusivos para administradores ###
 
