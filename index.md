@@ -46,21 +46,21 @@ Una vez hecho esto, para ver los codigos de entrenador de los demás, tienes dos
 
 `(no disponible)` - Respondiendo a un mensaje de alguien, Joy te enviará por privado la información de ese usuario.
 
+
 ### Quién es ###
 
-El comando "quién es" hace que el bot te responda la información de la Ficha de Entrenador (Nick del juego, Equipo y Nivel) del jugador solicitado. Si el bot no dispone de esa información responderá con un "X No tengo información sobre este entrenador.", si el jugador ha iniciado el registro pero no lo ha terminado entonces el bot responderá con un "Desconocido, es Desconocio nivel Desconocido".
+El comando "quién es" hace que el bot te responda la información de la Ficha de Entrenador (Nick del juego, Equipo y Nivel) del jugador solicitado. Si el bot no dispone de esa información responderá con un "X No tengo información sobre este entrenador.", si el jugador ha iniciado el registro, pero no lo ha terminado, entonces el bot responderá con un "Desconocido, es Desconocio nivel Desconocido".
 
-Este comando dispone de una gran variedad de formas de ser solicitado:
+Para solicitar esta información se dispone de tres comandos que funcionan de la misma forma: "quién es", "quien es" y "/whois".
 
-1. Por grupo general (el bot eliminará automáticamente el mensaje del jugador que solicite la información y responderá con un mensaje que también será eliminado cuando hayan pasado unos segundos):
+Este comando dispone dos formas de ser solicitado:
 
-1.1. Citando un mensaje del jugador solicitado y escribiendo uno de estos tres comandos: "quién es", "quien es" o "/whois".
+1. Citando el mensaje del jugador por el grupo general y escribiendo alguno de los tres comandos: el bot eliminará automáticamente el mensaje del jugador que solicite la información y responderá con un mensaje que también será eliminado cuando hayan pasado unos segundos.
 
-1.2. 
+2. Citando el mensajde del jugador por privado: Este método evita escribir el mensaje por grupo, pero es algo más rebuscado. Los pasos que se deben seguir son los siguientes:
 
-2. Por privado:
-
- En todos ellos se debe citar el mensaje del jugador de quien quieres la información. 
+   2.1. Reenviar un mensaje del jugador que se desea al privado con el bot @nursejoybot.
+   2.2. Dentro del privado del bot, citar el mensaje que acabas de reenviarle y escribir alguno de los tres comandos del "quién es".
 
 
 ### Tablas ###
