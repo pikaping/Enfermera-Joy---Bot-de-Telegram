@@ -62,7 +62,14 @@ Este comando dispone de una gran variedad de formas de ser solicitado:
 
  En todos ellos se debe citar el mensaje del jugador de quien quieres la información. 
 
+
 ### Tablas ###
+
+El bot dispone de una gran cantidad de tablas de IV, de recompensas por amistad, Pokémon de los Community Day, Pokémon shiny, etc. Para solicitarlas se debe emplear el comando /tabla o /table seguido de un espacio y el nombre de la tabla que se desea. El mensaje solicitando la tabla será eliminado por el bot de forma automática.
+
+Todas las tablas son mandadas al privado del bot, para ello es necesario tener abierta una conversación con @nurseyjoybot.
+
+Estos son las tablas de las que se disponen actualmente:
 
 - Absol
 - Articuno
@@ -99,6 +106,8 @@ Este comando dispone de una gran variedad de formas de ser solicitado:
 
 - Amistad
 - Community
+
+Todas las tablas se van modificando según los cambios que puedan haber en Pokémon Go y se van añadiendo tablas nuevas necesarias, por lo tanto la lista de tablas es algo que irá cambiando.
 
 
 ### Más ayuda ###
