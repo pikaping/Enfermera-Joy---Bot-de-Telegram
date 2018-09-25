@@ -49,13 +49,11 @@ Una vez hecho esto, para ver los codigos de entrenador de los demás, tienes dos
 
 ### Quién es ###
 
-El comando `quién es` hace que el bot te responda la información de la Ficha de Entrenador (Nick del juego, Equipo y Nivel) del jugador solicitado. Si el bot no dispone de esa información responderá con un `X No tengo información sobre este entrenador.`, si el jugador ha iniciado el registro, pero no lo ha terminado, entonces el bot responderá con un `Desconocido, es Desconocio nivel Desconocido`.
+El comando `quién es` (también aceptado como `quien es` o `/whois`) hace que el bot te responda la información de la Ficha de Entrenador (Nick del juego, Equipo y Nivel) del jugador solicitado. Si el bot no dispone de esa información responderá con un `X No tengo información sobre este entrenador.`, si el jugador ha iniciado el registro, pero no lo ha terminado, entonces el bot responderá con un `Desconocido, es Desconocio nivel Desconocido`.
 
-Para solicitar esta información se dispone de tres comandos que funcionan de la misma forma sin importar las mayúsculas: `quién es`, `quien es` y `/whois`. Por lo tanto, se puede usar cualquiera de los tres ya que el resultado será el mismo.
+Se puede emplear el comando de dos formas (el bot mandará siempre la información al privado):
 
-Además se puede solicitar de dos formas:
-
-1. Citando el mensaje del jugador por el grupo general y escribiendo alguno de los tres comandos: el bot eliminará automáticamente el mensaje del jugador que solicite la información y responderá con un mensaje que también será eliminado cuando hayan pasado unos segundos.
+1. Citando el mensaje del jugador por el grupo general y escribiendo el comando. El bot eliminará automáticamente el mensaje donde esté el comando y responderá con un mensaje que también será eliminado cuando hayan pasado unos segundos.
 
 2. Citando el mensajde del jugador por privado: Este método evita escribir el mensaje por grupo, pero es algo más rebuscado. Los pasos que se deben seguir son los siguientes:
 
