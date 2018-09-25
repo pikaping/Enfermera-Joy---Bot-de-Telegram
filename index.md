@@ -5,8 +5,9 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
 1. [Ayuda para entrenadores](#ayuda-para-entrenadores)
    1. [Registrarse en el bot](#registrarse-en-el-bot)
    2. [Código de Entrenador](#código-de-entrenador) ESTE COMANDO NO ESTÁ DISPONIBLE
-   3. [Tablas](#tablas)   
-   4. [Más ayuda](#más-ayuda)
+   3. Quién es
+   4. [Tablas](#tablas)   
+   5. [Más ayuda](#más-ayuda)
 2. [Ayuda para administradores](#ayuda-para-administradores)
    1. [Añadir el bot a un grupo o canal](#añadir-el-bot-a-un-grupo-o-canal)
    2. [Configuración](#configuración)
@@ -44,6 +45,22 @@ Una vez hecho esto, para ver los codigos de entrenador de los demás, tienes dos
 `(no disponible)` - Este comando es **exclusivo** para grupos. El bot te enviará un listado de todos los IDs conocidos del grupo por privado.
 
 `(no disponible)` - Respondiendo a un mensaje de alguien, Joy te enviará por privado la información de ese usuario.
+
+### Quién es ###
+
+El comando "quién es" hace que el bot te responda la información de la Ficha de Entrenador (Nick del juego, Equipo y Nivel) del jugador solicitado. Si el bot no dispone de esa información responderá con un "X No tengo información sobre este entrenador.", si el jugador ha iniciado el registro pero no lo ha terminado entonces el bot responderá con un "Desconocido, es Desconocio nivel Desconocido".
+
+Este comando dispone de una gran variedad de formas de ser solicitado:
+
+1. Por grupo general (el bot eliminará automáticamente el mensaje del jugador que solicite la información y responderá con un mensaje que también será eliminado cuando hayan pasado unos segundos):
+
+1.1. Citando un mensaje del jugador solicitado y escribiendo uno de estos tres comandos: "quién es", "quien es" o "/whois".
+
+1.2. 
+
+2. Por privado:
+
+ En todos ellos se debe citar el mensaje del jugador de quien quieres la información. 
 
 ### Tablas ###
 
