@@ -60,6 +60,7 @@ Este comando dispone dos formas de ser solicitado:
 2. Citando el mensajde del jugador por privado: Este método evita escribir el mensaje por grupo, pero es algo más rebuscado. Los pasos que se deben seguir son los siguientes:
 
    2.1. Reenviar un mensaje del jugador que se desea al privado con el bot @nursejoybot.
+   
    2.2. Dentro del privado del bot, citar el mensaje que acabas de reenviarle y escribir alguno de los tres comandos del `quién es`.
 
 
