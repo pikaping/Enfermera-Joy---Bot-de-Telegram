@@ -49,9 +49,9 @@ Una vez hecho esto, para ver los codigos de entrenador de los demás, tienes dos
 
 ### Quién es ###
 
-El comando "quién es" hace que el bot te responda la información de la Ficha de Entrenador (Nick del juego, Equipo y Nivel) del jugador solicitado. Si el bot no dispone de esa información responderá con un "X No tengo información sobre este entrenador.", si el jugador ha iniciado el registro, pero no lo ha terminado, entonces el bot responderá con un "Desconocido, es Desconocio nivel Desconocido".
+El comando `quién es` hace que el bot te responda la información de la Ficha de Entrenador (Nick del juego, Equipo y Nivel) del jugador solicitado. Si el bot no dispone de esa información responderá con un `X No tengo información sobre este entrenador.`, si el jugador ha iniciado el registro, pero no lo ha terminado, entonces el bot responderá con un `Desconocido, es Desconocio nivel Desconocido`.
 
-Para solicitar esta información se dispone de tres comandos que funcionan de la misma forma: "quién es", "quien es" y "/whois".
+Para solicitar esta información se dispone de tres comandos que funcionan de la misma forma: `quién es`, `quien es` y `/whois`.
 
 Este comando dispone dos formas de ser solicitado:
 
@@ -60,12 +60,12 @@ Este comando dispone dos formas de ser solicitado:
 2. Citando el mensajde del jugador por privado: Este método evita escribir el mensaje por grupo, pero es algo más rebuscado. Los pasos que se deben seguir son los siguientes:
 
    2.1. Reenviar un mensaje del jugador que se desea al privado con el bot @nursejoybot.
-   2.2. Dentro del privado del bot, citar el mensaje que acabas de reenviarle y escribir alguno de los tres comandos del "quién es".
+   2.2. Dentro del privado del bot, citar el mensaje que acabas de reenviarle y escribir alguno de los tres comandos del `quién es`.
 
 
 ### Tablas ###
 
-El bot dispone de una gran cantidad de tablas de IV, de recompensas por amistad, Pokémon de los Community Day, Pokémon shiny, etc. Para solicitarlas se debe emplear el comando /tabla o /table seguido de un espacio y el nombre de la tabla que se desea. El mensaje solicitando la tabla será eliminado por el bot de forma automática.
+El bot dispone de una gran cantidad de tablas de IV, de recompensas por amistad, Pokémon de los Community Day, Pokémon shiny, etc. Para solicitarlas se debe emplear el comando `/tabla` o `/table` seguido de un espacio y el nombre de la tabla que se desea. El mensaje solicitando la tabla será eliminado por el bot de forma automática.
 
 Todas las tablas son mandadas al privado del bot, para ello es necesario tener abierta una conversación con @nurseyjoybot.
 
