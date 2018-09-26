@@ -4,10 +4,11 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
 
 1. [Ayuda para entrenadores](#ayuda-para-entrenadores)
    1. [Registrarse en el bot](#registrarse-en-el-bot)
-   2. [Código de Entrenador](#código-de-entrenador) ESTE COMANDO NO ESTÁ DISPONIBLE
-   3. Quién es
-   4. [Tablas](#tablas)   
-   5. [Más ayuda](#más-ayuda)
+   2. Profile
+   3. [Código de Entrenador](#código-de-entrenador) ESTE COMANDO NO ESTÁ DISPONIBLE
+   4. Quién es
+   5. [Tablas](#tablas)   
+   6. [Más ayuda](#más-ayuda)
 2. [Ayuda para administradores](#ayuda-para-administradores)
    1. [Añadir el bot a un grupo o canal](#añadir-el-bot-a-un-grupo-o-canal)
    2. [Configuración](#configuración)
@@ -36,6 +37,16 @@ Para registrarte tienes dos opciones:
 ### Profile ###
 
 El comando `/Profile` debe utilizarse dentro de una conversación privada con el bot [@NurseJoyBot](https://t.me/NurseJoyBot). Este comando hará que el bot responda con la Ficha de Entrenador (Nick del juego, Equipo, Nivel y Estado de Validación) del jugador que la solicita.
+
+Ejemplos de posibles respuestas del bot:
+
+1. **Berny**, eres del equipo **Instinto** nivel **40** ✅ .
+   
+   Estás registrado correctamente.
+
+2. *Desconocido*, es *Desconocio* nivel *Desconocido*.
+
+   Esto quiere decir que el proceso de validación ha sido iniciado pero no finalizado, por lo tanto no estás registrado con el bot.
 
 
 ### Código de Entrenador - ESTE COMANDO NO ESTÁ DISPONIBLE ### 
