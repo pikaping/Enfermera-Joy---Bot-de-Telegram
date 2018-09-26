@@ -33,6 +33,10 @@ Para registrarte tienes dos opciones:
 2. Si estás registrado y validado con [@detectivepikachubot](https://t.me/detectivepikachubot), puedes escribir el comando `/profile` y reenviar la respuesta a [@NurseJoyBot](https://t.me/NurseJoyBot). Este método, sirve tanto para registrarse como para subir de nivel.
 
 
+### Profile ###
+
+El comando `/Profile` debe utilizarse dentro de una conversación privada con el bot [@NurseJoyBot](https://t.me/NurseJoyBot). Este comando hará que el bot responda con la Ficha de Entrenador (Nick del juego, Equipo, Nivel y Estado de Validación) del jugador que la solicita.
+
 
 ### Código de Entrenador - ESTE COMANDO NO ESTÁ DISPONIBLE ### 
 
@@ -48,24 +52,25 @@ Una vez hecho esto, para ver los codigos de entrenador de los demás, tienes dos
 
 `(no disponible)` - Respondiendo a un mensaje de alguien, Joy te enviará por privado la información de ese usuario.
 
+
 ### Quién es ###
 
-El comando `quién es` (también aceptado como `quien es` o `/whois`) hace que el bot te responda la información de la Ficha de Entrenador (Nick del juego, Equipo y Nivel) del jugador solicitado. Si el bot no dispone de esa información responderá con un `X No tengo información sobre este entrenador.`, si el jugador ha iniciado el registro, pero no lo ha terminado, entonces el bot responderá con un `Desconocido, es Desconocio nivel Desconocido`.
+El comando `quién es` (también aceptado como `quien es` o `/whois`) hace que el bot te responda la información de la Ficha de Entrenador (Nick del juego, Equipo, Nivel y Estado de Validación) del jugador solicitado. Si el bot no dispone de esa información responderá con un `X No tengo información sobre este entrenador.`, si el jugador ha iniciado el registro, pero no lo ha terminado, entonces el bot responderá con un `Desconocido, es Desconocio nivel Desconocido`.
 
-El bot siempre enviará la información al privado, por ello es imprescindible tener abierta una conversación privada con @NurseJoyBot.
+El bot siempre enviará la información al privado, por ello es imprescindible tener abierta una conversación privada con [@NurseJoyBot](https://t.me/NurseJoyBot).
 
 Se puede emplear el comando de dos formas:
 
 1. Citando el mensaje del jugador por el grupo general y escribiendo el comando. El bot eliminará automáticamente el mensaje donde esté el comando y responderá con un mensaje que también será eliminado cuando hayan pasado unos segundos.
 
-2. Citando el mensajde del jugador por privado. Este método evita escribir el mensaje por grupo, pero es algo más rebuscado. Primero de todo se debe reenviar un mensaje del jugador que se desea al privado del bot @NurseJoyBot, seguidamente, dentro del privado del bot, deberás citar el mensaje que acabas de reenviarle y escribir el comando.
+2. Citando el mensajde del jugador por privado. Este método evita escribir el mensaje por grupo, pero es algo más rebuscado. Primero de todo se debe reenviar un mensaje del jugador que se desea al privado del bot [@NurseJoyBot](https://t.me/NurseJoyBot), seguidamente, dentro del privado del bot, deberás citar el mensaje que acabas de reenviarle y escribir el comando.
 
 
 ### Tablas ###
 
 El bot dispone de una gran cantidad de tablas de IV, de recompensas por amistad, Pokémon de los Community Day, Pokémon shiny, etc. Para solicitarlas se debe emplear el comando `/tabla` o `/table` seguido de un espacio y el nombre de la tabla que se desea. El mensaje solicitando la tabla será eliminado por el bot de forma automática.
 
-Todas las tablas son mandadas al privado del bot, para ello es necesario tener abierta una conversación con @nurseyjoybot.
+Todas las tablas son mandadas al privado del bot, para ello es necesario tener abierta una conversación privada con [@NurseJoyBot](https://t.me/NurseJoyBot).
 
 Estos son las tablas de las que se disponen actualmente:
 
