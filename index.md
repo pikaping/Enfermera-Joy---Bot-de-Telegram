@@ -37,17 +37,19 @@ Para registrarte tienes dos opciones:
 
 ### Profile ###
 
-El comando `/Profile` debe utilizarse dentro de una conversación privada con el bot [@NurseJoyBot](https://t.me/NurseJoyBot). Este comando hará que el bot responda con la Ficha de Entrenador (Nick del juego, Equipo, Nivel y Estado de Validación) del jugador que la solicita.
+El comando `/Profile` puede utilizarse en un grupo o en una conversación privada con el bot [@NurseJoyBot](https://t.me/NurseJoyBot), pero la resupesta de Joy será enviada al privado. Este comando hará que el bot responda con la Ficha de Entrenador (Nick del juego, Equipo, Nivel y Estado de Validación) del jugador que la solicita.
 
 Ejemplos de posibles respuestas del bot:
 
-1. **Berny**, eres del equipo **Instinto** nivel **40** ✅ .
+1. **Berny**, eres del equipo **Instinto** nivel **40** ✅
    
    Estás registrado correctamente.
 
 2. *Desconocido*, es *Desconocido* nivel *Desconocido*.
 
    Esto quiere decir que el proceso de validación ha sido iniciado pero no finalizado, por lo tanto no estás registrado con el bot.
+
+3. X No tengo información sobre ti.
 
 
 ### Iconos en la Ficha de Entrenador ###
@@ -79,7 +81,21 @@ Una vez hecho esto, para ver los codigos de entrenador de los demás, tienes dos
 
 ### Quién es ###
 
-El comando `quién es` (también aceptado como `quien es` o `/whois`) hace que el bot te responda la información de la Ficha de Entrenador (Nick del juego, Equipo, Nivel y Estado de Validación) del jugador solicitado. Si el bot no dispone de esa información responderá con un `X No tengo información sobre este entrenador.`, si el jugador ha iniciado el registro, pero no lo ha terminado, entonces el bot responderá con un `Desconocido, es Desconocido nivel Desconocido`.
+El comando `quién es` (también aceptado como `quien es` o `/whois`, sin interrogante) hace que el bot te responda la información de la Ficha de Entrenador (Nick del juego, Equipo, Nivel y Estado de Validación) del jugador solicitado.
+
+Ejemplos de psibles respuestas de Joy:
+
+1. **Berny**, es del equipo **Instinto** nivel **40** ✅
+
+   El Entrenador utiliza el nick de Berny en el juego, es del equipo Instinto, nivel 40 y está validado. Aunque no es freqüente, la        Ficha de Entrenador puede tener otros iconos. Para más información leer el apartado [Iconos en la Ficha de Entrenador](#iconos-en-la-ficha-de-entrenador).
+
+2. X No tengo información sobre este entrenador.
+   
+   El Entrenador no está registrado.
+
+3. *Desconocido*, es *Desconocido* nivel *Desconocido*.
+
+   El Entrenador ha iniciado un proceso de registro, pero no se ha terminado correctamente.
 
 El bot siempre enviará la información al privado, por ello es imprescindible tener abierta una conversación privada con [@NurseJoyBot](https://t.me/NurseJoyBot).
 
