@@ -5,6 +5,7 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
 1. [Ayuda para entrenadores](#ayuda-para-entrenadores)
    1. [Registrarse en el bot](#registrarse-en-el-bot)
    2. Profile
+   3. Iconos en la Ficha de Entrenador
    3. [Código de Entrenador](#código-de-entrenador) ESTE COMANDO NO ESTÁ DISPONIBLE
    4. Quién es
    5. [Tablas](#tablas)   
@@ -44,9 +45,21 @@ Ejemplos de posibles respuestas del bot:
    
    Estás registrado correctamente.
 
-2. *Desconocido*, es *Desconocio* nivel *Desconocido*.
+2. *Desconocido*, es *Desconocido* nivel *Desconocido*.
 
    Esto quiere decir que el proceso de validación ha sido iniciado pero no finalizado, por lo tanto no estás registrado con el bot.
+
+
+### Iconos en la Ficha de Entrenador ###
+
+En principio, el único icono que deberías de ver ya sea en tu Ficha de Entrenador o en la de tus companeros es el de Validado (✅), pero existen mucho otros.
+
+Algunos de ellos son los siguientes:
+
+| Icono           | Definición                       |
+|:----------------|:---------------------------------|
+|        A        | Baneado                          |
+|        A        | Staff                            |
 
 
 ### Código de Entrenador - ESTE COMANDO NO ESTÁ DISPONIBLE ### 
@@ -66,7 +79,7 @@ Una vez hecho esto, para ver los codigos de entrenador de los demás, tienes dos
 
 ### Quién es ###
 
-El comando `quién es` (también aceptado como `quien es` o `/whois`) hace que el bot te responda la información de la Ficha de Entrenador (Nick del juego, Equipo, Nivel y Estado de Validación) del jugador solicitado. Si el bot no dispone de esa información responderá con un `X No tengo información sobre este entrenador.`, si el jugador ha iniciado el registro, pero no lo ha terminado, entonces el bot responderá con un `Desconocido, es Desconocio nivel Desconocido`.
+El comando `quién es` (también aceptado como `quien es` o `/whois`) hace que el bot te responda la información de la Ficha de Entrenador (Nick del juego, Equipo, Nivel y Estado de Validación) del jugador solicitado. Si el bot no dispone de esa información responderá con un `X No tengo información sobre este entrenador.`, si el jugador ha iniciado el registro, pero no lo ha terminado, entonces el bot responderá con un `Desconocido, es Desconocido nivel Desconocido`.
 
 El bot siempre enviará la información al privado, por ello es imprescindible tener abierta una conversación privada con [@NurseJoyBot](https://t.me/NurseJoyBot).
 
