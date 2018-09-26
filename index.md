@@ -32,9 +32,11 @@ Para registrarte tienes dos opciones:
 
 2. Si estás registrado y validado con [@detectivepikachubot](https://t.me/detectivepikachubot), puedes escribir el comando `/profile` y reenviar la respuesta a [@NurseJoyBot](https://t.me/NurseJoyBot). Este método, sirve tanto para registrarse como para subir de nivel.
 
+
+
 ### Código de Entrenador - ESTE COMANDO NO ESTÁ DISPONIBLE ### 
 
-Si quieres, puedes compartir tu código de entrenador con el bot para que cuando pregunten por ti, aparezca junto al resto de información. Únicamente verán tu código aquellas personas que hayan compartido el suyo con el bot.
+Si quieres, puedes compartir tu código de entrenador con el bot para que cuando pregunten por ti con el comando `quién es` (para más información sobre este comando mira el apartado [Quién es](#quien-es)), aparezca junto al resto de información. Únicamente verán tu código aquellas personas que hayan compartido el suyo con el bot.
 
 Para compartir tu código de entrenador, lo debes hacer de la siguiente manera (el número sin espacios y separado del comando):
 
@@ -189,11 +191,11 @@ Para poder definir el mensaje de bienvenida del bot es necesario utilizar el com
 
 Además el bot dispone de tres strings que se pueden introducir en el texto de bienvenida para conocer más información del entrenador que acaba de entrar. Por ejemplo:
 
-| Strings         | Texto mostrado                   | Definición                                    |
-|:----------------|:---------------------------------|:----------------------------------------------|
-|      $pogo      | Bernylickitung **L40** 💛 ✅     | Nick + Nivel + Equipo + Proceso de validación |
-|    $username    | Bernylickitung                   | Nick                                          |
-|     $title      | PoGo de tu ciudad                | Nombre del grupo                              | 
+| Strings   | Texto mostrado       | Definición                              |
+|:----------|:---------------------|:----------------------------------------|
+|   $pogo   | Berny **L40** 💛 ✅ | Nick +Nivel +Equipo +Proceso validación |
+| $username | Berny                | Nick                                    |
+|  $title   | PoGo de tu ciudad    | Nombre del grupo                        | 
 
 Si se quiere eliminar el mensaje de bienvenida, para que el bot deje de saludar cuando entren entrenadores nuevos, entonces se debe escribir el comando `/set_welcome` sin ningún texto más.
 
