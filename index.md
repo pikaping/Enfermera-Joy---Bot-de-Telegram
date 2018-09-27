@@ -118,6 +118,7 @@ Estos son las tablas de las que se disponen actualmente:
 - Absol
 - Articuno
 - Celebi
+- Deoxys
 - Entei
 - Golem
 - Groudon
