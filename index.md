@@ -6,7 +6,7 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
    1. [Registrarse en el bot](#registrarse-en-el-bot)
    2. Profile
    3. Iconos en la Ficha de Entrenador
-   3. [Código de Entrenador](#código-de-entrenador) ESTE COMANDO NO ESTÁ DISPONIBLE
+   3. [Código de Entrenador](#código-de-entrenador)
    4. Quién es
    5. [Tablas](#tablas)   
    6. [Más ayuda](#más-ayuda)
@@ -69,7 +69,7 @@ Algunos de ellos son los siguientes:
 |        A        | Staff                            |
 
 
-### Código de Entrenador - ESTE COMANDO NO ESTÁ DISPONIBLE ### 
+### Código de Entrenador ### 
 
 Si quieres, puedes compartir tu código de entrenador con el bot para que cuando pregunten por ti con el comando `quién es` (para más información sobre este comando mira el apartado [Quién es](#quien-es)), aparezca junto al resto de información. Únicamente verán tu código aquellas personas que hayan compartido el suyo con el bot.
 
