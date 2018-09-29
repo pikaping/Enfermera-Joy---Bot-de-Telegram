@@ -307,8 +307,7 @@ El bot también almacena unos ficheros no ordenados con las interacciones en gru
 
 La información almacenada se utiliza para los siguientes fines:
 
-Ofrecer el servicio de organización de incursiones de Pokémon GO.
-Ofrecer a cada usuario y grupo o canal estadísticas y rankings semanales y mensuales sobre el uso del bot.
+Ofrecer el servicio de gestión de grupos de Pokémon GO en Telegram.
 La base legal para el tratamiento de datos mencionado en esta sección es la prestación del servicio que se solicita voluntariamente (artículo 6, párrafo 1 (b) del RGPD).
 
 Como se explica en la Política de tramposos, se rastrearán los logs la actividad de forma automatizada en busca de sospechosa. La base legal para este tratamiento de datos es el artículo 6, párrafo 1 (f) del RGPD.
