@@ -207,7 +207,7 @@ El comando `/settalkgroup` permite definir un grupo para hablar.  Por ejemplo:
     /settalkgroup @enfermerajoyayuda
     /settalkgroup https://t.me/joinchat/XXs3XkzYsXXxnvbtxxe11x
 
-Si está el modo niñero activado, el bot recordará el enlace al grupo para hablar cada vez que hable alguien.
+Si está el modo enfermera activado, el bot recordará el enlace al grupo para hablar cada vez que hable alguien.
 
 ### Tipo de grupo ###
 
