@@ -5,9 +5,9 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
 1. [Ayuda para entrenadores](#ayuda-para-entrenadores)
    1. [Registrarse en el bot](#registrarse-en-el-bot)
    2. [Profile](#profile)
-   3. Iconos en la Ficha de Entrenador
+   3. [Iconos en la Ficha de Entrenador](#iconos-en-la-ficha-de-entrenador)
    3. [Código de Entrenador](#código-de-entrenador)
-   4. Quién es
+   4. [Quién es](#quién-es)
    5. [Tablas](#tablas)   
    6. [Más ayuda](#más-ayuda)
 2. [Ayuda para administradores](#ayuda-para-administradores)
@@ -16,7 +16,7 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
    3. [Modo enfermera](#modo-enfermera)
    4. [Tipo de grupo](#tipo-de-grupo)
    5. [Zona horaria](#zona-horaria)
-   6. Bienvenida
+   6. [Bienvenida](#bienvenida)
    7. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
 3. [Reglamento General de Uso del Bot](#reglamento-general-de-uso-del-bot)
 4. [Política de privacidad](#políica-de-privacidad)
