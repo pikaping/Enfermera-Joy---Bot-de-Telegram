@@ -33,7 +33,7 @@ Para registrarte tienes tres opciones:
 
 1. La opción más rápida es decirle a [@NurseJoyBot](https://t.me/NurseJoyBot) por privado el comando `/register`, entonces, si estás registrado con [@detectivepikachubot](https://t.me/detectivepikachubot) te preguntará si quieres que le pregunte a Detective Pikachu tus datos. Si aceptas tendrás que abrir la conversación privada con Detective Pikachu que te preguntará lo mismo. Si aceptas en ambos entonces ya estarás registrado.
 
-Si antes de eso ya le habías dicho a Detective Pikachu que aceptas compartir los datos con Enfermera Joy, entonces al escribirle `/register` preguntará automáticamente los datos a Detective Pikachu y ya estarás registrado.
+   Si antes de eso ya le habías dicho a Detective Pikachu que aceptas compartir los datos con Enfermera Joy, entonces al escribirle        `/register` preguntará automáticamente los datos a Detective Pikachu y ya estarás registrado.
 
 2. Si al decirle `/register` en un privado a [@NurseJoyBot](https://t.me/NurseJoyBot) no estás registrado con el bot [@detectivepikachubot](https://t.me/detectivepikachubot) o no has aceptado que Enfermera Joy pregunte los datos a Detective Pikachu, entonces iniciará automáticamente el proceso de registro en el cual te preguntará tu nick de entrenador y te pedirá que hagas una captura de pantalla del juego con unas condiciones.
 
