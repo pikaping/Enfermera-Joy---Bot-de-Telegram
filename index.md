@@ -29,11 +29,14 @@ El registro puede ser obligatorio en algunos grupos (todo depende de la configur
 
 Registrarte te permite disfrutar de todas las funcionalidades del bot, como por ejemplo preguntar por otros usuarios, solicitar información de los Pokémon y muchas más funcionalidades que llegarán en un futuro.
 
-Para registrarte tienes dos opciones:
+Para registrarte tienes tres opciones:
 
-1. En un privado con [@NurseJoyBot](https://t.me/NurseJoyBot), escribe el comando `/register` y comenzarás el proceso de registro y validación. El proceso es automatizado y te pedirá que hagas una captura de pantalla del juego con unas condiciones.
+1. La opción más rápida es decirle a [@NurseJoyBot](https://t.me/NurseJoyBot) por privado el comando `/register`, entonces, si estás registrado con [@detectivepikachubot](https://t.me/detectivepikachubot) te preguntará si quieres que le pregunte a Detective Pikachu tus datos. Si aceptas tendrás que abrir la conversación privada con Detective Pikachu que te preguntará lo mismo. Si aceptas en ambos entonces ya estarás registrado.
+Si antes de eso ya le habías dicho a Detective Pikachu que aceptas compartir los datos con Enfermera Joy, entonces al escribirle `/register` preguntará automáticamente los datos a Detective Pikachu y ya estarás registrado.
 
-2. Si estás registrado y validado con [@detectivepikachubot](https://t.me/detectivepikachubot), puedes escribir el comando `/profile` y reenviar la respuesta a [@NurseJoyBot](https://t.me/NurseJoyBot). Este método, sirve tanto para registrarse como para subir de nivel.
+2. Si al decirle `/register` en un privado a [@NurseJoyBot](https://t.me/NurseJoyBot) no estás registrado con el bot [@detectivepikachubot](https://t.me/detectivepikachubot) o no has aceptado que Enfermera Joy pregunte los datos a Detective Pikachu, entonces iniciará automáticamente el proceso de registro en el cual te preguntará tu nick de entrenador y te pedirá que hagas una captura de pantalla del juego con unas condiciones.
+
+2. También tienes la opción de que si estás registrado y validado con [@detectivepikachubot](https://t.me/detectivepikachubot), puedes escribir el comando `/profile` en el privado de Detective Pikachu y reenviar la respuesta a [@NurseJoyBot](https://t.me/NurseJoyBot). Este método, sirve tanto para registrarse como para subir de nivel.
 
 
 ### Profile ###
@@ -69,9 +72,9 @@ Algunos de ellos son los siguientes:
 
 Si quieres, puedes compartir tu código de entrenador con el bot para que cuando pregunten por ti con el comando `quién es` (para más información sobre este comando mira el apartado [Quién es](#quien-es)), aparezca junto al resto de información. Únicamente verán tu código aquellas personas que hayan compartido el suyo con el bot.
 
-Para compartir tu código de entrenador, lo debes hacer de la siguiente manera (el número sin espacios y separado del comando):
+Para compartir tu código de entrenador, lo debes hacer con el siguiente comando (el número sin espacios y separado del comando):
 
-    (no disponible)
+    /set_friendid 
 
 Una vez hecho esto, para ver los codigos de entrenador de los demás, tienes dos formas:
 
@@ -84,7 +87,7 @@ Una vez hecho esto, para ver los codigos de entrenador de los demás, tienes dos
 
 El comando `quién es` (también aceptado como `quien es` o `/whois`, sin interrogante) hace que el bot te responda la información de la Ficha de Entrenador (Nick del juego, Equipo, Nivel y Estado de Validación) del jugador solicitado.
 
-Ejemplos de psibles respuestas de Joy:
+Ejemplos de posibles respuestas de Joy:
 
 1. **Berny**, es del equipo **Instinto** nivel **40** ✅
 
@@ -152,7 +155,7 @@ Estos son las tablas de las que se disponen actualmente:
 - Amistad
 - Community
 
-Todas las tablas se van modificando según los cambios que puedan haber en Pokémon Go y se van añadiendo tablas nuevas necesarias, por lo tanto la lista de tablas es algo que irá cambiando.
+Todas las tablas se van modificando según los cambios que van surgiendo en Pokémon Go y se van añadiendo tablas nuevas necesarias, por lo tanto la lista de tablas es algo que irá cambiando.
 
 
 ### Más ayuda ###
