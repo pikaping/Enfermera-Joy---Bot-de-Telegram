@@ -4,7 +4,7 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
 
 1. [Ayuda para entrenadores](#ayuda-para-entrenadores)
    1. [Registrarse en el bot](#registrarse-en-el-bot)
-   2. Profile
+   2. [Profile](#profile)
    3. Iconos en la Ficha de Entrenador
    3. [Código de Entrenador](#código-de-entrenador)
    4. Quién es
