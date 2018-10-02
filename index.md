@@ -73,7 +73,7 @@ Algunos de ellos son los siguientes:
 
 ### Código de Entrenador ### 
 
-Si quieres, puedes compartir tu código de entrenador con el bot para que cuando pregunten por ti con el comando `quién es` (para más información sobre este comando mira el apartado [Quién es](#quien-es)), aparezca junto al resto de información. Únicamente verán tu código aquellas personas que hayan compartido el suyo con el bot.
+Si quieres, puedes compartir tu código de entrenador con el bot para que cuando pregunten por ti con el comando `quién es` (para más información sobre este comando mira el apartado [Quién es](#quién-es)), aparezca junto al resto de información. Únicamente verán tu código aquellas personas que hayan compartido el suyo con el bot.
 
 Para compartir tu código de entrenador, lo debes hacer con el siguiente comando (el número sin espacios y separado del comando):
 
