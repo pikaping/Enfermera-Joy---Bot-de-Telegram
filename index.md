@@ -123,8 +123,9 @@ Estos son las tablas de las que se disponen actualmente:
 
 - Absol
 - Articuno
+- Beldum (también la puedes solicitar como Community)
 - Celebi
-- Deoxys
+- Deoxys normal
 - Entei
 - Golem
 - Groudon
