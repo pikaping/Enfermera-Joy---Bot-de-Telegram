@@ -41,7 +41,7 @@ Para registrarte tienes tres opciones:
 
 #### Alias de Telegram ####
 
-Para poder utilizar algunas de las funciones más básicas del bot es necesario tener definido un alias en Telegram. Puede hacerse desde los ajustes de Telegram.
+Para poder utilizar algunas de las funciones más básicas del bot es necesario tener definido un alias en Telegram. Puede hacerse desde: Opciones de Telegram -> Ajustes -> Alias
 
 #### Subida de nivel ####
 
