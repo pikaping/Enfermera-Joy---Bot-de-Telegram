@@ -330,7 +330,7 @@ La base legal para compartir los datos proporcionados es la prestación del serv
 
 La información se almacena durante el tiempo necesario para cumplir con los fines para los que se se recopila:
 
-La información de la cuenta de Pokémon GO y alias de Telegram se eliminan al pasar seis meses desde la última participación en una incursión.
+La información de la cuenta de Pokémon GO y alias de Telegram se eliminan al pasar seis meses desde la última participación en un grupo en el cual esté el bot.
 Las interacciones en grupos y directas con el bot (logs) se eliminan pasados dos meses.
 
 ### Derechos contemplados en el RGPD ###
