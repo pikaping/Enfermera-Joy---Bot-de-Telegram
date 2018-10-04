@@ -231,7 +231,6 @@ En caso de que un usuario intente acceder a un grupo en el cual no cumpla las co
 El bot reconoce la hora que escriben los usuarios y hace operaciones con ellas, por lo que es importante que la hora que utilice el bot se corresponda con la hora real de tu grupo.
 
 Para establecer la zona horaria correcta se debe utilizar el comando `/settimezone` con la zona horaria correspondiente como parámetro siguiendo el formato del [listado de zonas horarias de la IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). Por ejemplo:
-
     /settimezone Europe/Madrid
     /settimezone Atlantic/Canary
 
@@ -245,11 +244,11 @@ Para poder definir el mensaje de bienvenida del bot es necesario utilizar el com
 
 Además el bot dispone de tres strings que se pueden introducir en el texto de bienvenida para conocer más información del entrenador que acaba de entrar. Por ejemplo:
 
-| Strings   | Texto mostrado       | Definición                              |
-|:----------|:---------------------|:----------------------------------------|
-|   $pogo   | Berny **L40** 💛 ✅ | Nick +Nivel +Equipo +Proceso validación |
-| $username | Berny                | Nick                                    |
-|  $title   | PoGo de tu ciudad    | Nombre del grupo                        | 
+| Strings | Texto mostrado       | Definición                              |
+|:--------|:---------------------|:----------------------------------------|
+|  $pogo  | Berny **L40** 💛 ✅ | Nick +Nivel +Equipo +Proceso validación |
+|$username| Berny                | Nick                                    |
+| $title  | PoGo de tu ciudad    | Nombre del grupo                        | 
 
 Para poner links en el mensaje de bienvenida lo puedes hacer mediante el siguiente string: `[NombreLink](Link)`.
 Por ejemplo: `[superjoy](https://websuperenfermerajoy.com)`. Este link que veremos en el mensaje de bienvenida como `superjoy` al clickarlo nos mandará a la web `https://websuperenfermerajoy.com`.
