@@ -39,6 +39,11 @@ Para registrarte tienes tres opciones:
 
 3. También tienes la opción de que si estás registrado y validado con [@detectivepikachubot](https://t.me/detectivepikachubot), puedes escribir el comando `/profile` en el privado de Detective Pikachu y reenviar la respuesta a [@NurseJoyBot](https://t.me/NurseJoyBot). Este método, sirve tanto para registrarse como para subir de nivel.
 
+#### Alias de Telegram ####
+
+#### Subida de nivel ####
+
+
 
 ### Profile ###
 
