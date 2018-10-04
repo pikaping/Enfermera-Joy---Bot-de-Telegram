@@ -261,7 +261,9 @@ Si se quiere eliminar el mensaje de bienvenida, para que el bot deje de saludar 
 
 `/kick`:  Expulsa al usuario en el grupo actual. Se utiliza respondiendo a un mensaje del usuario a expulsar.
 
-`/warn`: Advierte al usuario en el grupo actual. Al alcanzar el nº máximo de advertencias banea al usuario del grupo. Se utiliza respondiendo a un mensaje del usuario a advertir.
+`/warn`: Advierte al usuario en el grupo actual. Al alcanzar el nº máximo de advertencias banea al usuario del grupo. Se utiliza respondiendo a un mensaje del usuario a advertir. La cantidad de warn que se le dará a un usuario antes de que el bot lo banee es configurable para: 3, 5, 10, 25, 50 o 100 avisos. Para ello es necesario emplear el comando `/settings` y luego dándole cliks al botón de "N° de avisos para ban:" hasta que aparezca el número que deseas.
+
+`/unban`: Desbanea a un usuario. También se puede desbanear en: Ajustes de Grupo -> Administrar grupo -> Suspendidos.
 
 ## Reglamento General de Uso del Bot ##
 
