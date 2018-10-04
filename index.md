@@ -41,8 +41,19 @@ Para registrarte tienes tres opciones:
 
 #### Alias de Telegram ####
 
+Para poder utilizar algunas de las funciones más básicas del bot es necesario tener definido un alias en Telegram. Puede hacerse desde los ajustes de Telegram.
+
 #### Subida de nivel ####
 
+Para indicar una subida de nivel, basta con enviar una captura de pantalla del perfil donde se vea el nuevo nivel, una vez se esté validado.
+
+#### Cambio de nombre de entrenador ####
+
+Si has cambiado tu nombre de entrenador en el juego, debes volver a hacer el proceso de registro. No hay ninguna restricción, aunque ya estuvieras validado anteriormente con otra cuenta.
+
+Para ello puedes seguir cualquiera de los tres métodos que encontrarás en el apartado [Registrarse en el bot](#registrarse-en-el-bot).
+
+#### Cambio de cuenta de Telegram ####
 
 
 ### Profile ###
@@ -80,7 +91,7 @@ Algunos de ellos son los siguientes:
 
 Si quieres, puedes compartir tu código de entrenador con el bot para que cuando pregunten por ti con el comando `quién es` (para más información sobre este comando mira el apartado [Quién es](#quién-es)), aparezca junto al resto de información. Únicamente verán tu código aquellas personas que hayan compartido el suyo con el bot.
 
-Para compartir tu código de entrenador, lo debes hacer con el siguiente comando (el número sin espacios y separado del comando):
+Para compartir tu código de entrenador, lo debes hacer con el siguiente comando por privado a [@NurseJoyBot](https://t.me/NurseJoyBot) (el número sin espacios y separado del comando):
 
     /set_friendid 
 
