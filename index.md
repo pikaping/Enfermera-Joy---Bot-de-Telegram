@@ -143,6 +143,7 @@ Estos son las tablas de las que se disponen actualmente:
 - Celebi
 - Deoxys normal
 - Entei
+
 - Golem
 - Groudon
 - Ho-oh
@@ -172,6 +173,7 @@ Estos son las tablas de las que se disponen actualmente:
 
 ***
 
+- Raid (también se puede solicitar como: Raids, incursión, incursion, incursiones, jefe o jefes)
 - Amistad
 - Community
 
