@@ -45,7 +45,7 @@ Para poder utilizar algunas de las funciones más básicas del bot es necesario 
 
 #### Subida de nivel ####
 
-Para indicar una subida de nivel, basta con enviar una captura de pantalla del perfil donde se vea el nuevo nivel, una vez se esté validado.
+Para indicar una subida de nivel una vez se esté validado, basta con enviar una captura de pantalla del perfil de entrenador de Pokémon Go por privado a [@NurseJoyBot](https://t.me/NurseJoyBot).
 
 #### Cambio de nombre de entrenador ####
 
