@@ -231,7 +231,7 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
       
       3. **<< Menú principal**
       
-3. **Nidos**.[Nidos](#nidos)
+3. [Nidos](#nidos)
 
       1. **Nidos**
 
@@ -241,7 +241,7 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
       
       4. **<< Menú principal**
       
-4. **Noticias**.[Noticias](#noticias)
+4. [Noticias](#noticias)
 
       1. **@pokemongohonesto**
 
@@ -249,7 +249,7 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
       
       3. **<< Menú principal**
 
-5. **Bienvenida**.[Bienvenida](#bienvenida)
+5. [Bienvenida](#bienvenida)
 
       1. **Bienvenida**
       
