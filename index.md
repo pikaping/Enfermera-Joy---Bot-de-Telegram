@@ -251,15 +251,10 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
 
 5. **Bienvenida**.
 
-      3. **Bienvenida**
+      1. **Bienvenida**
       
-      4. **<< Menú principal*
+      2. **<< Menú principal*
 
-4. **Tipo de grupo**. Cuenta con cinco opciones. Mira el [apartado del tipo de grupo](#tipo-de-grupo) para más información. Opción desactivada por defecto.
-
-5. **Configuración de los avisos**. Esta función sirve para determinar el número de avisos que recibirá un usuario antes de ser expulsado de un grupo. Las diferentes opciones son 5/10/25/50/100.
-
-Para hacer la **configuración de administración** del bot utiliza el comando `/settings_adm`.
 
 #### Ajustes generales ####
 
@@ -284,11 +279,11 @@ Si está el modo enfermera activado, el bot recordará el enlace al grupo para h
 
 **Castigo por Warns:**
 
-Este botón puede estar activado como `Ban (Warns)` o como `Kick (Warns)` y determina el "castigo" que recibirá el usuario al llegar al máximo de Warns determinado por el grupo.
+Este botón puede estar activado como `Ban (Warns)` o como `Kick (Warns)` y determina el tipo de expulsión que recibirá el usuario al llegar al máximo de Warns determinado por el grupo.
 
 **Cantidad de Warns:**
 
-Clicando sobre el botón determina la cantidad máxima de Warns que podrá tener un usuario antes de recibir el "castigo". La cantidad de Warns que se puede configurar es de: 3, 5, 10, 25, 50 o 100.
+Clicando sobre el botón determina la cantidad máxima de Warns que podrá tener un usuario antes de recibir la expulsión del grupo. La cantidad de Warns que se puede configurar es de: 3, 5, 10, 25, 50 o 100.
 
 #### Ajustes de entrada ####
 
@@ -296,7 +291,7 @@ Clicando sobre el botón determina la cantidad máxima de Warns que podrá tener
 
 **Tipo de grupo:**
 
-Por defecto al introducir el bot, se establece el grupo como *grupo sin requisitos*
+Por defecto al introducir el bot, se establece el grupo como *grupo sin requisitos*.
 
 | Identificador   | Definición                       |
 |:----------------|:---------------------------------|
@@ -332,9 +327,7 @@ Para determinar el nivel mínimo se debe escribir el comando..........
 
 El bot puede dar la bienvenida a los entrenadores que vayan entrando al grupo. Opción desactivada por defecto. 
 
-Para activar la Bienvenida 
-
-Para poder definir el mensaje de bienvenida del bot es necesario utilizar el comando `/set_welcome`. Por ejemplo, si se quiere poner el mensaje "Bienvenidos al grupo", sería:
+Para activar la Bienvenida es necesario activarla en Settings y después es necesario utilizar el comando `/set_welcome` para definir el mensaje de bienvenida que dará el bot. Por ejemplo, si se quiere poner el mensaje "Bienvenidos al grupo", sería:
 
     /set_welcome Bienvenidos al grupo.
 
@@ -342,7 +335,7 @@ Además el bot dispone de tres strings que se pueden introducir en el texto de b
 
 | Strings | Texto mostrado       | Definición                              |
 |:--------|:---------------------|:----------------------------------------|
-|  $pogo  | Berny **L40** 💛 ✅ | Nick +Nivel +Equipo +Proceso validación |
+|  $pogo  | Berny **L40** 💛 ✅  | Nick +Nivel +Equipo +Proceso validación |
 |$username| Berny                | Nick                                    |
 | $title  | PoGo de tu ciudad    | Nombre del grupo                        | 
 
@@ -351,6 +344,10 @@ Por ejemplo: `[superjoy](https://websuperenfermerajoy.com)`. Este link que verem
 
 Si se quiere eliminar el mensaje de bienvenida, para que el bot deje de saludar cuando entren entrenadores nuevos, entonces se debe escribir el comando `/set_welcome` sin ningún texto más.
 
+5. **Configuración de los avisos**. Esta función sirve para determinar el número de avisos que recibirá un usuario antes de ser expulsado de un grupo. Las diferentes opciones son 5/10/25/50/100.
+
+Para hacer la **configuración de administración** del bot utiliza el comando `/settings_adm`.
+
 ### Zona horaria ###
 
 El bot reconoce la hora que escriben los usuarios y hace operaciones con ellas, por lo que es importante que la hora que utilice el bot se corresponda con la hora real de tu grupo.
@@ -358,8 +355,6 @@ El bot reconoce la hora que escriben los usuarios y hace operaciones con ellas, 
 Para establecer la zona horaria correcta se debe utilizar el comando `/settimezone` con la zona horaria correspondiente como parámetro siguiendo el formato del [listado de zonas horarias de la IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). Por ejemplo:
     /settimezone Europe/Madrid
     /settimezone Atlantic/Canary
-
-
 
 ### Otros comandos exclusivos para administradores ###
 
