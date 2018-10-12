@@ -209,7 +209,7 @@ Para **añadir el bot a un grupo** tienes tres alternativas:
 
 Para hacer la **configuración básica** del bot utiliza el comando `/settings`. La configuración está dividida en varios apartados y subapartados:
 
-1. **Ajustes generales**. (Configuraciones básicas de juegos y modo de administración.)
+1. [Ajustes generales](#ajustes-generales) (Configuraciones básicas de juegos y modo de administración.)
 
       1. **Chistes**
 
@@ -223,7 +223,7 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
       
       6. **<< Menú principal**
 
-2. **Ajustes de entrada**. (Configuración de los tipos de grupo y los requisitos.)
+2. [Ajustes de entrada](#ajustes-de-entrada) (Configuración de los tipos de grupo y los requisitos.)
 
       1. **Tipo de grupo**
 
@@ -231,7 +231,7 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
       
       3. **<< Menú principal**
       
-3. **Nidos**.
+3. **Nidos**.[Nidos](#nidos)
 
       1. **Nidos**
 
@@ -241,7 +241,7 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
       
       4. **<< Menú principal**
       
-4. **Noticias**.
+4. **Noticias**.[Noticias](#noticias)
 
       1. **@pokemongohonesto**
 
@@ -249,7 +249,7 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
       
       3. **<< Menú principal**
 
-5. **Bienvenida**.
+5. **Bienvenida**.[Bienvenida](#bienvenida)
 
       1. **Bienvenida**
       
