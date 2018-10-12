@@ -207,21 +207,56 @@ Para **añadir el bot a un grupo** tienes tres alternativas:
 
 ### Configuración ###
 
-Para hacer la configuración básica del bot utiliza el comando `/settings`. La configuración está dividida en varios apartados:
+Para hacer la **configuración básica** del bot utiliza el comando `/settings`. La configuración está dividida en varios apartados y subapartados:
 
-1. **Chistes**. Activa o desactiva los chistes, refranes y cualquier cosa que pueda hacer que el bot hable sin que nadie lo invoque. Opción desactivada por defecto.
+1. **Ajustes generales**. (Configuraciones básicas de juegos y modo de administración.)
 
-2. **Juegos**. Permite o no que los usuarios ejecuten los comandos para jugar con el bot. Opción desactivada por defecto.
+      1. **Chistes**
 
-3. **Modo enfermera**. Borra todos los mensajes a excepción de los enviados por administradores. Mira el [apartado del modo enfermera](#modo-enfermera) para más información. Opción desactivada por defecto.
+      2. **Juegos**
+
+      3. **Modo enfermera**
+      
+      4. **Ban (Warns)** o **Kick (Warns)**
+      
+      5. **Cantidad de Warns**
+      
+      6. **<< Menú principal**
+
+2. **Ajustes de entrada**. (Configuración de los tipos de grupo y los requisitos.)
+
+      1. **Tipo de grupo**
+
+      2. **Requisitos de nivel**
+      
+      3. **<< Menú principal**
+      
+3. **Nidos**.
+
+4. **Noticias**.
+
+5. **Bienvenida**.
+
 
 4. **Tipo de grupo**. Cuenta con cinco opciones. Mira el [apartado del tipo de grupo](#tipo-de-grupo) para más información. Opción desactivada por defecto.
 
 5. **Configuración de los avisos**. Esta función sirve para determinar el número de avisos que recibirá un usuario antes de ser expulsado de un grupo. Las diferentes opciones son 5/10/25/50/100.
 
-### Modo enfermera ###
+Para hacer la **configuración de administración** del bot utiliza el comando `/settings_adm`.
 
-El modo enfermera evita que la gente hable en un grupo, borrando todos los mensajes que pongan los usuarios (no los administradores).
+#### Ajustes generales ####
+
+. **Chistes**
+
+Activa o desactiva los chistes, refranes y cualquier cosa que pueda hacer que el bot hable sin que nadie lo invoque. Opción desactivada por defecto. `Actualmente esta opción no está disponible.`
+
+. **Juegos**
+
+Activa o desactiva los juegos del bot. Por defecto esta opción está desactivada. `Actualmente esta opción no está disponible.`
+
+. **Modo enfermera**
+
+El modo enfermera evita que la gente hable en un grupo, borrando todos los mensajes que pongan los usuarios (no los mensajes de los administradores ni de los bots). Opción desactivada por defecto.
 
 El comando `/settalkgroup` permite definir un grupo para hablar.  Por ejemplo:
 
@@ -230,7 +265,19 @@ El comando `/settalkgroup` permite definir un grupo para hablar.  Por ejemplo:
 
 Si está el modo enfermera activado, el bot recordará el enlace al grupo para hablar cada vez que hable alguien.
 
-### Tipo de grupo ###
+. **Castigo por Warns**
+
+Este botón puede estar activado como `Ban (Warns)` o como `Kick (Warns)` y determina el "castigo" que recibirá el usuario al llegar al máximo de Warns determinado por el grupo.
+
+. **Cantidad de Warns**
+
+Clicando sobre el botón determina la cantidad máxima de Warns que podrá tener un usuario antes de recibir el "castigo". La cantidad de Warns que se puede configurar es de: 3, 5, 10, 25, 50 o 100.
+
+#### Ajustes de entrada ####
+
+(Configuración de los tipos de grupo y los requisitos.)
+
+. **Tipo de grupo**
 
 Por defecto al introducir el bot, se establece el grupo como *grupo sin requisitos*
 
@@ -244,17 +291,14 @@ Por defecto al introducir el bot, se establece el grupo como *grupo sin requisit
 
 En caso de que un usuario intente acceder a un grupo en el cual no cumpla las condiciones de entrada, si el bot cuenta con los privilegios pertinentes, expulsará al usuario.
 
-### Zona horaria ###
+. **Requisitos de nivel**
 
-El bot reconoce la hora que escriben los usuarios y hace operaciones con ellas, por lo que es importante que la hora que utilice el bot se corresponda con la hora real de tu grupo.
+Determina un nivel mínimo como requisito para entrar al grupo. Esta opción viene activada por defecto como *Sin nivel mínimo*.
 
-Para establecer la zona horaria correcta se debe utilizar el comando `/settimezone` con la zona horaria correspondiente como parámetro siguiendo el formato del [listado de zonas horarias de la IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). Por ejemplo:
-    /settimezone Europe/Madrid
-    /settimezone Atlantic/Canary
 
 ### Bienvenida ###
 
-El bot puede dar la bienvenida a los entrenadores que vayan entrando al grupo.
+El bot puede dar la bienvenida a los entrenadores que vayan entrando al grupo. Opción desactivada por defecto. Para activarla es necesario 
 
 Para poder definir el mensaje de bienvenida del bot es necesario utilizar el comando `/set_welcome`. Por ejemplo, si se quiere poner el mensaje "Bienvenidos al grupo", sería:
 
@@ -272,6 +316,16 @@ Para poner links en el mensaje de bienvenida lo puedes hacer mediante el siguien
 Por ejemplo: `[superjoy](https://websuperenfermerajoy.com)`. Este link que veremos en el mensaje de bienvenida como `superjoy` al clickarlo nos mandará a la web `https://websuperenfermerajoy.com`.
 
 Si se quiere eliminar el mensaje de bienvenida, para que el bot deje de saludar cuando entren entrenadores nuevos, entonces se debe escribir el comando `/set_welcome` sin ningún texto más.
+
+### Zona horaria ###
+
+El bot reconoce la hora que escriben los usuarios y hace operaciones con ellas, por lo que es importante que la hora que utilice el bot se corresponda con la hora real de tu grupo.
+
+Para establecer la zona horaria correcta se debe utilizar el comando `/settimezone` con la zona horaria correspondiente como parámetro siguiendo el formato del [listado de zonas horarias de la IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). Por ejemplo:
+    /settimezone Europe/Madrid
+    /settimezone Atlantic/Canary
+
+
 
 ### Otros comandos exclusivos para administradores ###
 
