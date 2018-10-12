@@ -217,7 +217,7 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
 
       3. **Modo enfermera**
       
-      4. **Ban (Warns)** o **Kick (Warns)**
+      4. **Tipo de expulsión por Warns**
       
       5. **Cantidad de Warns**
       
@@ -277,7 +277,7 @@ El comando `/settalkgroup` permite definir un grupo para hablar.  Por ejemplo:
 
 Si está el modo enfermera activado, el bot recordará el enlace al grupo para hablar cada vez que hable alguien.
 
-**Castigo por Warns:**
+**Tipo de expulsión por Warns:**
 
 Este botón puede estar activado como `Ban (Warns)` o como `Kick (Warns)` y determina el tipo de expulsión que recibirá el usuario al llegar al máximo de Warns determinado por el grupo.
 
@@ -311,17 +311,17 @@ Para determinar el nivel mínimo se debe escribir el comando..........
 
 #### Nidos ####
 
-**Nidos**
+##### Nidos #####
 
-**Requisito de cantidad de días**
+##### Requisito de cantidad de días #####
 
-**Requisito de cantidad de mensajes**
+##### Requisito de cantidad de mensajes #####
 
 #### Noticias ####
 
-**@pokemongohonesto**
+**@pokemongohonesto:**
 
-**@enfermerajoynoticias**
+**@enfermerajoynoticias:**
 
 #### Bienvenida ####
 
