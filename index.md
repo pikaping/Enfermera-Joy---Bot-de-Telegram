@@ -233,10 +233,27 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
       
 3. **Nidos**.
 
+      1. **Nidos**
+
+      2. **Requisito de cantidad de días**
+      
+      3. **Requisito de cantidad de mensajes**
+      
+      4. **<< Menú principal**
+      
 4. **Noticias**.
+
+      1. **@pokemongohonesto**
+
+      2. **@enfermerajoynoticias**
+      
+      3. **<< Menú principal**
 
 5. **Bienvenida**.
 
+      3. **Bienvenida**
+      
+      4. **<< Menú principal*
 
 4. **Tipo de grupo**. Cuenta con cinco opciones. Mira el [apartado del tipo de grupo](#tipo-de-grupo) para más información. Opción desactivada por defecto.
 
@@ -246,15 +263,15 @@ Para hacer la **configuración de administración** del bot utiliza el comando `
 
 #### Ajustes generales ####
 
-. **Chistes**
+**Chistes:**
 
 Activa o desactiva los chistes, refranes y cualquier cosa que pueda hacer que el bot hable sin que nadie lo invoque. Opción desactivada por defecto. `Actualmente esta opción no está disponible.`
 
-. **Juegos**
+**Juegos:**
 
 Activa o desactiva los juegos del bot. Por defecto esta opción está desactivada. `Actualmente esta opción no está disponible.`
 
-. **Modo enfermera**
+**Modo enfermera:**
 
 El modo enfermera evita que la gente hable en un grupo, borrando todos los mensajes que pongan los usuarios (no los mensajes de los administradores ni de los bots). Opción desactivada por defecto.
 
@@ -265,11 +282,11 @@ El comando `/settalkgroup` permite definir un grupo para hablar.  Por ejemplo:
 
 Si está el modo enfermera activado, el bot recordará el enlace al grupo para hablar cada vez que hable alguien.
 
-. **Castigo por Warns**
+**Castigo por Warns:**
 
 Este botón puede estar activado como `Ban (Warns)` o como `Kick (Warns)` y determina el "castigo" que recibirá el usuario al llegar al máximo de Warns determinado por el grupo.
 
-. **Cantidad de Warns**
+**Cantidad de Warns:**
 
 Clicando sobre el botón determina la cantidad máxima de Warns que podrá tener un usuario antes de recibir el "castigo". La cantidad de Warns que se puede configurar es de: 3, 5, 10, 25, 50 o 100.
 
@@ -277,7 +294,7 @@ Clicando sobre el botón determina la cantidad máxima de Warns que podrá tener
 
 (Configuración de los tipos de grupo y los requisitos.)
 
-. **Tipo de grupo**
+**Tipo de grupo:**
 
 Por defecto al introducir el bot, se establece el grupo como *grupo sin requisitos*
 
@@ -291,14 +308,31 @@ Por defecto al introducir el bot, se establece el grupo como *grupo sin requisit
 
 En caso de que un usuario intente acceder a un grupo en el cual no cumpla las condiciones de entrada, si el bot cuenta con los privilegios pertinentes, expulsará al usuario.
 
-. **Requisitos de nivel**
+**Requisitos de nivel:**
 
 Determina un nivel mínimo como requisito para entrar al grupo. Esta opción viene activada por defecto como *Sin nivel mínimo*.
 
+Para determinar el nivel mínimo se debe escribir el comando..........
 
-### Bienvenida ###
+#### Nidos ####
 
-El bot puede dar la bienvenida a los entrenadores que vayan entrando al grupo. Opción desactivada por defecto. Para activarla es necesario 
+**Nidos**
+
+**Requisito de cantidad de días**
+
+**Requisito de cantidad de mensajes**
+
+#### Noticias ####
+
+**@pokemongohonesto**
+
+**@enfermerajoynoticias**
+
+#### Bienvenida ####
+
+El bot puede dar la bienvenida a los entrenadores que vayan entrando al grupo. Opción desactivada por defecto. 
+
+Para activar la Bienvenida 
 
 Para poder definir el mensaje de bienvenida del bot es necesario utilizar el comando `/set_welcome`. Por ejemplo, si se quiere poner el mensaje "Bienvenidos al grupo", sería:
 
