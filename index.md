@@ -258,15 +258,15 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
 
 #### Ajustes generales ####
 
-**Chistes:**
+##### Chistes #####
 
 Activa o desactiva los chistes, refranes y cualquier cosa que pueda hacer que el bot hable sin que nadie lo invoque. Opción desactivada por defecto. `Actualmente esta opción no está disponible.`
 
-**Juegos:**
+##### Juegos #####
 
 Activa o desactiva los juegos del bot. Por defecto esta opción está desactivada. `Actualmente esta opción no está disponible.`
 
-**Modo enfermera:**
+##### Modo enfermera #####
 
 El modo enfermera evita que la gente hable en un grupo, borrando todos los mensajes que pongan los usuarios (no los mensajes de los administradores ni de los bots). Opción desactivada por defecto.
 
