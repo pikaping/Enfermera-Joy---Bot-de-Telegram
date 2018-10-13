@@ -6,18 +6,20 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
    1. [Registrarse en el bot](#registrarse-en-el-bot)
    2. [Profile](#profile)
    3. [Iconos en la Ficha de Entrenador](#iconos-en-la-ficha-de-entrenador)
-   3. [Código de Entrenador](#código-de-entrenador)
-   4. [Quién es](#quién-es)
-   5. [Tablas](#tablas)   
-   6. [Más ayuda](#más-ayuda)
+   4. [Código de Entrenador](#código-de-entrenador)
+   5. [Quién es](#quién-es)
+   6. [Tablas](#tablas)   
+   7. [Más ayuda](#más-ayuda)
 2. [Ayuda para administradores](#ayuda-para-administradores)
    1. [Añadir el bot a un grupo o canal](#añadir-el-bot-a-un-grupo-o-canal)
-   2. [Configuración](#configuración)
-   3. [Modo enfermera](#modo-enfermera)
-   4. [Tipo de grupo](#tipo-de-grupo)
-   5. [Zona horaria](#zona-horaria)
-   6. [Bienvenida](#bienvenida)
-   7. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
+   2. [Configuración básica](#configuracion-basica)
+      1. [Ajustes generales](#ajustes-generales)
+      2. [Ajustes de entrada](#ajustes-de-entrada)
+      3. [Nidos](#nidos)
+      4. [Noticias](#noticias)
+      5. [Bienvenida](#bienvenida)
+   3. [Zona horaria](#zona-horaria)
+   4. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
 3. [Reglamento General de Uso del Bot](#reglamento-general-de-uso-del-bot)
 4. [Política de privacidad](#políica-de-privacidad)
 
@@ -205,7 +207,7 @@ Para **añadir el bot a un grupo** tienes tres alternativas:
 
 3. Puedes intentar añadirlo como un contacto más desde el grupo con su alias `@NurseJoyBot`, pero en versiones recientes de Telegram hay problemas usando este método.
 
-### Configuración ###
+### Configuración básica ###
 
 Para hacer la **configuración básica** del bot utiliza el comando `/settings`. La configuración está dividida en varios apartados y subapartados:
 
@@ -253,7 +255,7 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
 
       1. **Bienvenida**
       
-      2. **<< Menú principal*
+      2. **<< Menú principal**
 
 
 #### Ajustes generales ####
