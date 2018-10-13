@@ -8,8 +8,9 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
    3. [Iconos en la Ficha de Entrenador](#iconos-en-la-ficha-de-entrenador)
    4. [Código de Entrenador](#código-de-entrenador)
    5. [Quién es](#quién-es)
-   6. [Tablas](#tablas)   
-   7. [Más ayuda](#más-ayuda)
+   6. [Tablas](#tablas)  
+   7. [Nidos](#nidos)  
+   8. [Más ayuda](#más-ayuda)
 2. [Ayuda para administradores](#ayuda-para-administradores)
    1. [Añadir el bot a un grupo o canal](#añadir-el-bot-a-un-grupo-o-canal)
    2. [Configuración básica](#configuracion-basica)
@@ -18,8 +19,9 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
       3. [Nidos](#nidos)
       4. [Noticias](#noticias)
       5. [Bienvenida](#bienvenida)
-   3. [Zona horaria](#zona-horaria)
-   4. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
+   3. [Configuración Admins](#configuracion-admins)
+   4. [Zona horaria](#zona-horaria)
+   5. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
 3. [Reglamento General de Uso del Bot](#reglamento-general-de-uso-del-bot)
 4. [Política de privacidad](#políica-de-privacidad)
 
@@ -279,11 +281,11 @@ El comando `/settalkgroup` permite definir un grupo para hablar.  Por ejemplo:
 
 Si está el modo enfermera activado, el bot recordará el enlace al grupo para hablar cada vez que hable alguien.
 
-**Tipo de expulsión por Warns:**
+##### Tipo de expulsión por Warns #####
 
 Este botón puede estar activado como `Ban (Warns)` o como `Kick (Warns)` y determina el tipo de expulsión que recibirá el usuario al llegar al máximo de Warns determinado por el grupo.
 
-**Cantidad de Warns:**
+##### Cantidad de Warns #####
 
 Clicando sobre el botón determina la cantidad máxima de Warns que podrá tener un usuario antes de recibir la expulsión del grupo. La cantidad de Warns que se puede configurar es de: 3, 5, 10, 25, 50 o 100.
 
@@ -305,7 +307,7 @@ Por defecto al introducir el bot, se establece el grupo como *grupo sin requisit
 
 En caso de que un usuario intente acceder a un grupo en el cual no cumpla las condiciones de entrada, si el bot cuenta con los privilegios pertinentes, expulsará al usuario.
 
-**Requisitos de nivel:**
+##### Requisitos de nivel #####
 
 Determina un nivel mínimo como requisito para entrar al grupo. Esta opción viene activada por defecto como 0, eso queriere decir que no hay nivel mínimo requerido.
 
@@ -330,9 +332,9 @@ Por defecto, este requisito, viene configurado como sin requisitos, 0 mensajes.
 
 #### Noticias ####
 
-**@pokemongohonesto:**
+##### @pokemongohonesto #####
 
-**@enfermerajoynoticias:**
+##### @enfermerajoynoticias #####
 
 #### Bienvenida ####
 
