@@ -183,6 +183,9 @@ Estos son las tablas de las que se disponen actualmente:
 
 Todas las tablas se van modificando según los cambios que van surgiendo en Pokémon Go y se van añadiendo tablas nuevas necesarias, por lo tanto la lista de tablas es algo que irá cambiando.
 
+## Nidos ##
+
+El bot dispone de registro de nidos, para ello debe de estar configurado el grupo para aceptar su registro 
 
 ### Más ayuda ###
 
