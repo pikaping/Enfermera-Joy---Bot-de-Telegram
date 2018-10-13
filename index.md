@@ -296,26 +296,35 @@ Por defecto al introducir el bot, se establece el grupo como *grupo sin requisit
 | Identificador   | Definición                       |
 |:----------------|:---------------------------------|
 |        ▪️        | Grupo sin requisitos             |
-|       ✅       | Grupo con validación obligatoria |
-|       ❤️       | Grupo exclusivo Rojo             |
-|       💙       | Grupo exclusivo Azul             |
-|       💛       | Grupo exclusivo Amarillo         |
+|       ✅        | Grupo con validación obligatoria |
+|       ❤️        | Grupo exclusivo Rojo             |
+|       💙        | Grupo exclusivo Azul             |
+|       💛        | Grupo exclusivo Amarillo         |
 
 En caso de que un usuario intente acceder a un grupo en el cual no cumpla las condiciones de entrada, si el bot cuenta con los privilegios pertinentes, expulsará al usuario.
 
 **Requisitos de nivel:**
 
-Determina un nivel mínimo como requisito para entrar al grupo. Esta opción viene activada por defecto como *Sin nivel mínimo*.
+Determina un nivel mínimo como requisito para entrar al grupo. Esta opción viene activada por defecto como 0, eso queriere decir que no hay nivel mínimo requerido.
 
-Para determinar el nivel mínimo se debe escribir el comando..........
+El nivel mínimo para entrar en el grupo se puede configurar, clicando en el botón hasta que salga la opción deseada, según: 0 (sin nivel requerido), 15, 20, 25, 30, 35 o 40.
 
 #### Nidos ####
 
 ##### Nidos #####
 
+
 ##### Requisito de cantidad de días #####
 
+Para determinar el número mínimo de días que un jugador ha de pertenecer al grupo para poder registrar un nido es necesario clicar sobre el botón hasta que aparezca la opción deseada. La cantidad de días que se pueden configurar son: 0 (sin requisito de días), 1, 3, 5, 7, 15 o 30.
+
+Por defecto viene configurado el requisito como sin requisito, 0 días.
+
 ##### Requisito de cantidad de mensajes #####
+
+Para determinar el número mínimo de mensajes que un jugador debe de hacer en un grupo para poder registrar un nido se debe de clicar sobre el botón hasta que aparezca la opción deseada. La cantidad de mensajes requeridos que se puede configurar son: 0 (sin requisitos), 1, 5, 10, 20, 50 o 100.
+
+Por defecto, este requisito, viene configurado como sin requisitos, 0 mensajes.
 
 #### Noticias ####
 
