@@ -458,6 +458,7 @@ Se debe enviar un correo a [apelaciones@qwert1.es](mailto:apelaciones@qwert1.es)
 En caso de ejercitar el derecho de supresión, el bot guardará el identificador numérico de Telegram junto con una marca que indica este deseo. En este caso, no será posible utilizar el bot y el estado de la cuenta aparecerá como baneada.
 
 ## Glosario de comandos ##
+
 Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 --------|-------------|:-------------------------:|:------:|-----------
 
