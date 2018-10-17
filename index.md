@@ -459,9 +459,9 @@ En caso de ejercitar el derecho de supresión, el bot guardará el identificador
 
 ## Glosario de comandos ##
 
-Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
---------|-------------|:-------------------------:|:------:|-----------
 
+Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
+--------|-------------|---------------------------|--------|-----------
 `/ban`   | ? | ✅ | Grupo | `{Motivo}`<sup>1</sup>
 `/banuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
 `/banmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
