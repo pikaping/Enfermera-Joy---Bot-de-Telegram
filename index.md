@@ -462,27 +462,27 @@ En caso de ejercitar el derecho de supresión, el bot guardará el identificador
 
 Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 --------|-------------|---------------------------|--------|-----------
-`/ban`   | ? | ✅ | Grupo | `{Motivo}`<sup>1</sup>
+`/ban`   | ? | ✅ | Grupo | `{Motivo}`
 `/banuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
 `/banmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
 `/banold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
-`/banall`| ? | ✅ | Grupo & Grupo administración | `UserID Motivo`<sup>1,2</sup>
+`/banall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
 `/banteam`| ? | ✅ | Grupo & Grupo administración | `Grupo Equipo`<sup>1</sup>
-`/bangroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>1,2</sup>
-`/kick`   | ? | ✅ | Grupo | `{Motivo}`<sup>1</sup>
+`/bangroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
+`/kick`   | ? | ✅ | Grupo | `{Motivo}`
 `/kickuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
 `/kickmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
 `/kickold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
-`/kickall`| ? | ✅ | Grupo & Grupo administración | `UserID Motivo`<sup>1,2</sup>
+`/kickall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
 `/kickteam`| ? | ✅ | Grupo & Grupo administración | `Grupo Equipo`<sup>1</sup>
-`/kickgroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>1,2</sup>
+`/kickgroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
 `/kickeveryone`| ? | ✅ | Grupo administración | `GrupoEX`<sup>3</sup>
-`/warn`   | ? | ✅ | Grupo | `{Motivo}`<sup>1</sup>
+`/warn`   | ? | ✅ | Grupo | `{Motivo}`
 `/warnuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
 `/warnmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
 `/warnold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
-`/warnall`| ? | ✅ | Grupo & Grupo administración | `UserID Motivo`<sup>1,2</sup>
-`/warngroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>1,2</sup>
+`/warnall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
+`/warngroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
 `Borrar nido de {Pokémon} en {Lugar}`| ? | ❌ | Grupo | `Pokémon Lugar`<sup>4</sup>
 `Confirmo nido de {Pokémon} en {Lugar}`| ? | ✅ | Grupo | `Pokémon Lugar`<sup>4</sup>
 `/settings_admin`| ? | ✅ | Grupo administración | ❌
@@ -500,9 +500,15 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 `/groups`| ? | ✅ | Grupo & Grupo administración<sup>5</sup> | ❌
 `/start /help`| ? | ❌ | Todos | ❌
 `/register`| ? | ❌ | Privado | ❌
-`/set_friendid`| ? | ❌ | Privado | ID de Pokémon GO
+`/set_friendid`| ? | ❌ | Privado | `ID de Pokémon GO`
 `Quién es`| ? | ❌ | Todos | ❌
-`Quién es Entrenador`| ? | ❌ | Todos | Nombre de entrenador
+`Quién es Entrenador`| ? | ❌ | Todos | `Nombre de entrenador`
 `/profile`| ? | ❌ | Todos | ❌
-`/tabla`| ? | ❌ | Todos | Tabla disponible
+`/tabla`| ? | ❌ | Todos | `Tabla disponible`
 `/joyping`| ? | ❌ | Todos | ❌
+
+1. Argumento `Grupo` unicamente válido desde el grupo de administración.
+2. Argumento `Motivo` opcional.
+3. Solo disponible para grupos etiquetados como EX.
+4. Número máximo de caracteres: 50.
+5. En el grupo de administración incluye los ID.
