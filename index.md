@@ -456,3 +456,52 @@ Las interacciones en grupos y directas con el bot (logs) se eliminan pasados dos
 Se debe enviar un correo a [apelaciones@qwert1.es](mailto:apelaciones@qwert1.es) indicando que se desea ejercer alguno de los derechos contemplados: acceso, rectificación, supresión y limitación del tratamiento, portabilidad de datos.
 
 En caso de ejercitar el derecho de supresión, el bot guardará el identificador numérico de Telegram junto con una marca que indica este deseo. En este caso, no será posible utilizar el bot y el estado de la cuenta aparecerá como baneada.
+
+## Glosario de comandos ##
+Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
+--------|-------------|:-------------------------:|:------:|-----------
+
+`/ban`   | ? | ✅ | Grupo | `{Motivo}`<sup>1</sup>
+`/banuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
+`/banmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
+`/banold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
+`/banall`| ? | ✅ | Grupo & Grupo administración | `UserID Motivo`<sup>1,2</sup>
+`/banteam`| ? | ✅ | Grupo & Grupo administración | `Grupo Equipo`<sup>1</sup>
+`/bangroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>1,2</sup>
+`/kick`   | ? | ✅ | Grupo | `{Motivo}`<sup>1</sup>
+`/kickuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
+`/kickmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
+`/kickold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
+`/kickall`| ? | ✅ | Grupo & Grupo administración | `UserID Motivo`<sup>1,2</sup>
+`/kickteam`| ? | ✅ | Grupo & Grupo administración | `Grupo Equipo`<sup>1</sup>
+`/kickgroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>1,2</sup>
+`/kickeveryone`| ? | ✅ | Grupo administración | `GrupoEX`<sup>3</sup>
+`/warn`   | ? | ✅ | Grupo | `{Motivo}`<sup>1</sup>
+`/warnuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
+`/warnmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
+`/warnold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
+`/warnall`| ? | ✅ | Grupo & Grupo administración | `UserID Motivo`<sup>1,2</sup>
+`/warngroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>1,2</sup>
+`Borrar nido de {Pokémon} en {Lugar}`| ? | ❌ | Grupo | `Pokémon Lugar`<sup>4</sup>
+`Confirmo nido de {Pokémon} en {Lugar}`| ? | ✅ | Grupo | `Pokémon Lugar`<sup>4</sup>
+`/settings_admin`| ? | ✅ | Grupo administración | ❌
+`/settings`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
+`/set_welcome`| ? | ✅ | Grupo | `Mensaje de bienvenida`
+`/set_zone`| ? | ✅ | Grupo & Grupo administración | `Zona horaria`
+`/set_stops`| ? | ✅ | Grupo & Grupo administración | `Enlace hoja de calculo`
+`/set_talkgroup`| ? | ✅ | Grupo & Grupo administración | `Alias o enlace de Telegram`
+`/mk_admin`| ? | ✅ | Grupo administración | ❌
+`/rm_admin`| ? | ✅ | Grupo administración | ❌
+`/add_group`| ? | ✅ | Grupo | `AdminID Tipo Etiqueta`
+`/add_link`| ? | ✅ | Grupo | `Alias o enlace de Telegram`
+`/rm_group`| ? | ✅ | Grupo | ❌
+`/request_verification`| ? | ✅ | Grupo | ❌
+`/groups`| ? | ✅ | Grupo & Grupo administración<sup>5</sup> | ❌
+`/start /help`| ? | ❌ | Todos | ❌
+`/register`| ? | ❌ | Privado | ❌
+`/set_friendid`| ? | ❌ | Privado | ID de Pokémon GO
+`Quién es`| ? | ❌ | Todos | ❌
+`Quién es Entrenador`| ? | ❌ | Todos | Nombre de entrenador
+`/profile`| ? | ❌ | Todos | ❌
+`/tabla`| ? | ❌ | Todos | Tabla disponible
+`/joyping`| ? | ❌ | Todos | ❌
