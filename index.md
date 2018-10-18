@@ -280,11 +280,11 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
 
 #### Ajustes generales ####
 
-##### Chistes ##### `Actualmente esta opción no está disponible.`
+##### Chistes #####   `Actualmente esta opción no está disponible.`
 
 Activa o desactiva los chistes, refranes y cualquier cosa que pueda hacer que el bot hable sin que nadie lo invoque. Opción desactivada por defecto. 
 
-##### Juegos ##### `Actualmente esta opción no está disponible.`
+##### Juegos #####   `Actualmente esta opción no está disponible.`
 
 Activa o desactiva los juegos del bot. Por defecto esta opción está desactivada.
 
@@ -397,7 +397,7 @@ Para establecer la zona horaria correcta se debe utilizar el comando `/settimezo
     /settimezone Europe/Madrid
     /settimezone Atlantic/Canary
 
-### Otros comandos exclusivos para administradores ### `En proceso de escritura`
+### Otros comandos exclusivos para administradores ###    `En proceso de escritura`
 
 Ban (los ban expulsan al entrenador del grupo y no permite que este vuelva a entrar)
 `/ban`: Citando el mensaje y escribiendo el comando en la respuesta. Puede ir seguido del motivo del ban.
