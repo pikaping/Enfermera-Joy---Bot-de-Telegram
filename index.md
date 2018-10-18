@@ -209,8 +209,8 @@ Hace que el bot te responda si hay registrado algún nido de Chansey en tu grupo
 
 Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 --------|-------------|---------------------------|--------|-----------
-`Borrar nido de {Pokémon} en {Lugar}`| ? | ❌ | Grupo | `Pokémon Lugar`<sup>1</sup>
-`Confirmo nido de {Pokémon} en {Lugar}`| ? | ✅ | Grupo | `Pokémon Lugar`<sup>1</sup>
+`Confirmo nido de {Pokémon} en {Lugar}`| ? | ❌ | Grupo | `Pokémon Lugar`<sup>1</sup>
+`Borrar nido de {Pokémon} en {Lugar}`| ? | ✅ | Grupo | `Pokémon Lugar`<sup>1</sup>
 `Nido en {Lugar}`| ? | ❌ | Grupo | `Lugar`<sup>1</sup>
 `Nido de {Pokémon}`| ? | ❌ | Grupo | `Lugar`<sup>1</sup>
 `/start`| ? | ❌ | Todos | ❌
@@ -333,7 +333,7 @@ Determina un nivel mínimo como requisito para entrar al grupo. Esta opción vie
 
 El nivel mínimo para entrar en el grupo se puede configurar, clicando en el botón hasta que salga la opción deseada, según: 0 (sin nivel requerido), 15, 20, 25, 30, 35 o 40.
 
-#### Nidos ####
+#### Configurar Nidos ####
 
 El bot dispone de la opción de registrar nidos, para ello es necesario configurar el apartado de Nidos y sus requisitos.
 
@@ -447,6 +447,7 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 `/rm_group`| ? | ✅ | Grupo | ❌
 `/request_verification`| ? | ✅ | Grupo | ❌
 `/groups`| ? | ✅ | Grupo & Grupo administración<sup>4</sup> | ❌
+`Borrar nido de {Pokémon} en {Lugar}`| ? | ✅ | Grupo | `Pokémon Lugar`<sup>1</sup>
 `/joyping`| ? | ❌ | Todos | ❌
 
 1. Argumento `Grupo` unicamente válido desde el grupo de administración.
