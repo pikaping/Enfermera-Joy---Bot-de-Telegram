@@ -191,17 +191,15 @@ El bot dispone de registro de nidos, para ello debe de estar configurado el grup
 
 Para registrar un nido se debe emplear el comando `Confirmo nido de {Pokémon} en {Lugar}` cambiando la variable {Pokémon} por el nombre del Pokémon del que sea el nido y {Lugar} por el nombre por el cual se reconozca ese espacio. 
 
-Si el nido es erroneo y se quiere borrar antes de que Joy los reinicie entonces se deberá utilizar el comando `Borrar nido de {Pokémon} en {Lugar}`. Siendo, igual que al registrar el nido, las variables {Pokémon} y {Lugar} las únicas palabras que se modificarán del comando.
-
-Enfermera Joy reiniciará dejando en blanco la información de los nidos cada........................
+Si el nido es erroneo y se quiere borrar antes de que Joy los reinicie entonces se deberá utilizar el comando `Borrar nido de {Pokémon} en {Lugar}`. Siendo, igual que al registrar el nido, las variables {Pokémon} y {Lugar} las únicas palabras que se modificarán del comando. Este comando es exclusivo para administradores.
 
 Otros dos comandos relacionados con los nidos son:  `Nido en {Lugar}` y `Nido de {Pokémon}`.
 
-`Nido en {Lugar}`, por ejemplo, *"Nido en Parque Ilm"*.
+`Nido en {Lugar}`, por ejemplo, "Nido en Parque Ilm".
 
 Hace que el bot te responda si hay registrado algún nido en el lugar llamado "Parque Ilm" y, si lo hay, te diga de qué pokémon se trata.
 
-`Nido de {Pokémon}`, por ejemplo, *"Nido de Chansey"*.
+`Nido de {Pokémon}`, por ejemplo, "Nido de Chansey".
 
 Hace que el bot te responda si hay registrado algún nido de Chansey en tu grupo, si lo hay, te responderá con el nombre del lugar donde se ha registrado.
 
@@ -230,6 +228,8 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 Si necesitas ayuda que no se encuentre en este manual, puedes preguntar en [@enfermerajoyayuda](https://t.me/enfermerajoyayuda). Si estás administrando un grupo o un canal, continua leyendo para ver la ayuda para administradores.
 
 ----
+----
+
 
 ## Ayuda para administradores ##
 
@@ -280,13 +280,13 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
 
 #### Ajustes generales ####
 
-##### Chistes #####
+##### Chistes ##### `Actualmente esta opción no está disponible.`
 
-Activa o desactiva los chistes, refranes y cualquier cosa que pueda hacer que el bot hable sin que nadie lo invoque. Opción desactivada por defecto. `Actualmente esta opción no está disponible.`
+Activa o desactiva los chistes, refranes y cualquier cosa que pueda hacer que el bot hable sin que nadie lo invoque. Opción desactivada por defecto. 
 
-##### Juegos #####
+##### Juegos ##### `Actualmente esta opción no está disponible.`
 
-Activa o desactiva los juegos del bot. Por defecto esta opción está desactivada. `Actualmente esta opción no está disponible.`
+Activa o desactiva los juegos del bot. Por defecto esta opción está desactivada.
 
 ##### Modo enfermera #####
 
@@ -335,7 +335,7 @@ El nivel mínimo para entrar en el grupo se puede configurar, clicando en el bot
 
 El bot dispone de la opción de registrar nidos, para ello es necesario configurar el apartado de Nidos y sus requisitos.
 
-##### Nidos #####
+##### Nidos ##### `Actualmente esta opción no está disponible.`
 
 Clicando sobre el botón `Nidos` podrás activar o desactivar esta opción para que no pueda entrar en conflicto con otros bots que puedan estar haciendo la misma función en el grupo.
 
@@ -397,7 +397,7 @@ Para establecer la zona horaria correcta se debe utilizar el comando `/settimezo
     /settimezone Europe/Madrid
     /settimezone Atlantic/Canary
 
-### Otros comandos exclusivos para administradores ###
+### Otros comandos exclusivos para administradores ### `En proceso de escritura`
 
 Ban (los ban expulsan al entrenador del grupo y no permite que este vuelva a entrar)
 `/ban`: Citando el mensaje y escribiendo el comando en la respuesta. Puede ir seguido del motivo del ban.
@@ -408,7 +408,7 @@ Ban (los ban expulsan al entrenador del grupo y no permite que este vuelva a ent
 `/banteam`:`Grupo Equipo`<sup>1< Grupo & Grupo administración
 
 
-`/warn`: Advierte al usuario en el grupo actual. Al alcanzar el nº máximo de advertencias banea al usuario del grupo. Se utiliza respondiendo a un mensaje del usuario a advertir. La cantidad de warn que se le dará a un usuario antes de que el bot lo banee es configurable para: 3, 5, 10, 25, 50 o 100 avisos. Para ello es necesario emplear el comando `/settings` y luego dándole cliks al botón de "N° de avisos para ban:" hasta que aparezca el número que deseas.
+
 
 `/unban`: Desbanea a un usuario. También se puede desbanear en: Ajustes de Grupo -> Administrar grupo -> Suspendidos.
 
@@ -427,12 +427,14 @@ Kick (los kick expulsan al entrenador del grupo, pero permite que este vuelva a 
 `/kickeveryone` Grupo administración `GrupoEX`<sup>3</sup>
 
 Warn (los warn son advertencias al jugador de la futura expulsión, por ban o kick, del grupo)
-`/warn`   | ? | ✅ | Grupo | `{Motivo}`
-`/warnuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
-`/warnmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
-`/warnold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
-`/warnall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
-`/warngroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
+`/warn`   Grupo  `{Motivo}`
+`/warnuv` Grupo & Grupo administración `Grupo`<sup>1</sup>
+`/warnmsg` Grupo & Grupo administración `Grupo Nº Mensajes`<sup>1</sup>
+`/warnold` Grupo & Grupo administración `Grupo Días`<sup>1</sup>
+`/warnall` Grupo administración `UserID Motivo`<sup>2</sup>
+`/warngroup` Grupo & Grupo administración `UserID Grupo Motivo`<sup>2</sup>
+
+`/warn`: Advierte al usuario en el grupo actual. Al alcanzar el nº máximo de advertencias banea al usuario del grupo. Se utiliza respondiendo a un mensaje del usuario a advertir.
 
 ### Glosario de comandos para administradores ###
 
