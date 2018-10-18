@@ -17,7 +17,7 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
    2. [Configuración básica](#configuración-básica)
       1. [Ajustes generales](#ajustes-generales)
       2. [Ajustes de entrada](#ajustes-de-entrada)
-      3. [Nidos](#nidos)
+      3. [Configurar nidos](#configurar-nidos)
       4. [Noticias](#noticias)
       5. [Bienvenida](#bienvenida)
    3. [Configuración Admins](#configuración-admins)
@@ -76,7 +76,7 @@ Ejemplos de posibles respuestas del bot:
 
    Esto quiere decir que el proceso de validación ha sido iniciado pero no finalizado, por lo tanto no estás registrado con el bot.
 
-3. X No tengo información sobre ti.
+3. ❌ No tengo información sobre ti.
    
    No tiene ningún tipo de dato sobre ti.
 
@@ -118,7 +118,7 @@ Ejemplos de posibles respuestas de Joy:
 
    El Entrenador utiliza el nick de Berny en el juego, es del equipo Instinto, nivel 40 y está validado. Aunque no es freqüente, la        Ficha de Entrenador puede tener otros iconos. Para más información leer el apartado [Iconos en la Ficha de Entrenador](#iconos-en-la-ficha-de-entrenador).
 
-2. X No tengo información sobre este entrenador.
+2. ❌ No tengo información sobre este entrenador.
    
    El Entrenador no está registrado.
 
@@ -185,13 +185,25 @@ Estos son las tablas de las que se disponen actualmente:
 
 Todas las tablas se van modificando según los cambios que van surgiendo en Pokémon Go y se van añadiendo tablas nuevas necesarias, por lo tanto la lista de tablas es algo que irá cambiando.
 
-### Nidos ###
+### Registrar nidos ###
 
-El bot dispone de registro de nidos, para ello debe de estar configurado el grupo para aceptar su registro. Esta configuración únicamente la puede realizar un administrador de dicho grupo. Si eres administrador de un grupo y quieres saber más información al respecto lee el apartado [Nidos](#nidos).
+El bot dispone de registro de nidos, para ello debe de estar configurado el grupo para aceptar su registro. Esta configuración únicamente la puede realizar un administrador de dicho grupo. Si eres administrador de un grupo y quieres saber más información al respecto lee el apartado [Configurar nidos](#configurar-nidos).
 
-Para registrar un nido se debe emplear el comando `Confirmo nido de {Pokémon} en {Lugar}` cambiando la variable {Pokémon} por el nombre del Pokémon del que sea el nido y {Lugar} por el nombre por el cual se reconozca ese espacio.
+Para registrar un nido se debe emplear el comando `Confirmo nido de {Pokémon} en {Lugar}` cambiando la variable {Pokémon} por el nombre del Pokémon del que sea el nido y {Lugar} por el nombre por el cual se reconozca ese espacio. 
 
 Si el nido es erroneo y se quiere borrar antes de que Joy los reinicie entonces se deberá utilizar el comando `Borrar nido de {Pokémon} en {Lugar}`. Siendo, igual que al registrar el nido, las variables {Pokémon} y {Lugar} las únicas palabras que se modificarán del comando.
+
+Enfermera Joy reiniciará dejando en blanco la información de los nidos cada........................
+
+Otros dos comandos relacionados con los nidos son:  `Nido en {Lugar}` y `Nido de {Pokémon}`.
+
+`Nido en {Lugar}`, por ejemplo, *"Nido en Parque Ilm"*.
+
+Hace que el bot te responda si hay registrado algún nido en el lugar llamado "Parque Ilm" y, si lo hay, te diga de qué pokémon se trata.
+
+`Nido de {Pokémon}`, por ejemplo, *"Nido de Chansey"*.
+
+Hace que el bot te responda si hay registrado algún nido de Chansey en tu grupo, si lo hay, te responderá con el nombre del lugar donde se ha registrado.
 
 ### Glosario de comandos para entrenadores ###
 
@@ -199,6 +211,8 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 --------|-------------|---------------------------|--------|-----------
 `Borrar nido de {Pokémon} en {Lugar}`| ? | ❌ | Grupo | `Pokémon Lugar`<sup>1</sup>
 `Confirmo nido de {Pokémon} en {Lugar}`| ? | ✅ | Grupo | `Pokémon Lugar`<sup>1</sup>
+`Nido en {Lugar}`| ? | ❌ | Grupo | `Lugar`<sup>1</sup>
+`Nido de {Pokémon}`| ? | ❌ | Grupo | `Lugar`<sup>1</sup>
 `/start`| ? | ❌ | Todos | ❌
 `/help`| ? | ❌ | Todos | ❌
 `/register`| ? | ❌ | Privado | ❌
@@ -243,22 +257,22 @@ Para **añadir el bot a un grupo** tienes tres alternativas:
 Para hacer la **configuración básica** del bot utiliza el comando `/settings`. La configuración está dividida en varios apartados y subapartados:
 
 1. [Ajustes generales](#ajustes-generales) (Configuraciones básicas de juegos y modo de administración.)
-      1. [Chistes](#chistes)
-      2. [Juegos](#Juegos)
+      1. [Chistes](#chistes) `Actualmente esta opción no está disponible.`
+      2. [Juegos](#Juegos) `Actualmente esta opción no está disponible.`
       3. [Modo enfermera](#modo-enfermera)   
       4. [Tipo de expulsión por Warns](#tipo-de-expulsión-por-warns)
       5. [Cantidad de Warns](#cantidad-de-warns)      
 
 2. [Ajustes de entrada](#ajustes-de-entrada) (Configuración de los tipos de grupo y los requisitos.)
-      1. **Tipo de grupo**
-      2. **Requisitos de nivel**
+      1. [Tipo de grupo](#tipo-de-grupo)
+      2. [Requisito de nivel](#requisito-de-nivel)
       
-3. [Nidos](#nidos)
-      1. [Nidos](#Nidos)
+3. [Configurar Nidos](#configurar-nidos) (Configuración de los nidos y requisitos para el registro) `Actualmente esta opción no está disponible.`
+      1. [Nidos](#nidos) 
       2. [Requisito de cantidad de días](#requisito-de-cantidad-de-días)
       3. [Requisito de cantidad de mensajes](#requisito-de-cantidad-de-mensajes)
       
-4. [Noticias](#noticias)
+4. [Noticias](#noticias) `Actualmente esta opción no está disponible.`
       1. **@pokemongohonesto**
       2. **@enfermerajoynoticias**
 
@@ -299,7 +313,7 @@ Clicando sobre el botón determina la cantidad máxima de Warns que podrá tener
 
 (Configuración de los tipos de grupo y los requisitos.)
 
-**Tipo de grupo:**
+##### Tipo de grupo #####
 
 Por defecto al introducir el bot, se establece el grupo como *grupo sin requisitos*.
 
@@ -313,7 +327,7 @@ Por defecto al introducir el bot, se establece el grupo como *grupo sin requisit
 
 En caso de que un usuario intente acceder a un grupo en el cual no cumpla las condiciones de entrada, si el bot cuenta con los privilegios pertinentes, expulsará al usuario.
 
-##### Requisitos de nivel #####
+##### Requisito de nivel #####
 
 Determina un nivel mínimo como requisito para entrar al grupo. Esta opción viene activada por defecto como 0, eso queriere decir que no hay nivel mínimo requerido.
 
@@ -321,8 +335,18 @@ El nivel mínimo para entrar en el grupo se puede configurar, clicando en el bot
 
 #### Nidos ####
 
+El bot dispone de la opción de registrar nidos, para ello es necesario configurar el apartado de Nidos y sus requisitos.
+
 ##### Nidos #####
 
+Clicando sobre el botón `Nidos` podrás activar o desactivar esta opción para que no pueda entrar en conflicto con otros bots que puedan estar haciendo la misma función en el grupo.
+
+| Identificador   | Definición                       |
+|:----------------|:---------------------------------|
+|    ▪️ Nidos      | Registro de nidos desactivado |
+|    ✅ Nidos    | Registro de nidos activado |    
+
+El registro de nidos viene desactivada por defecto.
 
 ##### Requisito de cantidad de días #####
 
