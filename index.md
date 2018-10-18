@@ -9,19 +9,21 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
    4. [Código de Entrenador](#código-de-entrenador)
    5. [Quién es](#quién-es)
    6. [Tablas](#tablas)  
-   7. [Nidos](#nidos)  
-   8. [Más ayuda](#más-ayuda)
+   7. [Registrar nidos](#registrar-nidos)  
+   8. [Glosario de comandos para entrenadores](#glosario-de-comandos-para-entrenadores)
+   9. [Más ayuda](#más-ayuda)
 2. [Ayuda para administradores](#ayuda-para-administradores)
    1. [Añadir el bot a un grupo o canal](#añadir-el-bot-a-un-grupo-o-canal)
-   2. [Configuración básica](#configuracion-basica)
+   2. [Configuración básica](#configuración-básica)
       1. [Ajustes generales](#ajustes-generales)
       2. [Ajustes de entrada](#ajustes-de-entrada)
       3. [Nidos](#nidos)
       4. [Noticias](#noticias)
       5. [Bienvenida](#bienvenida)
-   3. [Configuración Admins](#configuracion-admins)
+   3. [Configuración Admins](#configuración-admins)
    4. [Zona horaria](#zona-horaria)
    5. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
+   6. [Glosario de comandos para administradores](#glosario-de-comandos-para-administradores)
 3. [Reglamento General de Uso del Bot](#reglamento-general-de-uso-del-bot)
 4. [Política de privacidad](#políica-de-privacidad)
 
@@ -183,13 +185,37 @@ Estos son las tablas de las que se disponen actualmente:
 
 Todas las tablas se van modificando según los cambios que van surgiendo en Pokémon Go y se van añadiendo tablas nuevas necesarias, por lo tanto la lista de tablas es algo que irá cambiando.
 
-## Nidos ##
+### Nidos ###
 
-El bot dispone de registro de nidos, para ello debe de estar configurado el grupo para aceptar su registro 
+El bot dispone de registro de nidos, para ello debe de estar configurado el grupo para aceptar su registro. Esta configuración únicamente la puede realizar un administrador de dicho grupo. Si eres administrador de un grupo y quieres saber más información al respecto lee el apartado [Nidos](#nidos).
+
+Para registrar un nido se debe emplear el comando `Confirmo nido de {Pokémon} en {Lugar}` cambiando la variable {Pokémon} por el nombre del Pokémon del que sea el nido y {Lugar} por el nombre por el cual se reconozca ese espacio.
+
+Si el nido es erroneo y se quiere borrar antes de que Joy los reinicie entonces se deberá utilizar el comando `Borrar nido de {Pokémon} en {Lugar}`. Siendo, igual que al registrar el nido, las variables {Pokémon} y {Lugar} las únicas palabras que se modificarán del comando.
+
+### Glosario de comandos para entrenadores ###
+
+Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
+--------|-------------|---------------------------|--------|-----------
+`Borrar nido de {Pokémon} en {Lugar}`| ? | ❌ | Grupo | `Pokémon Lugar`<sup>1</sup>
+`Confirmo nido de {Pokémon} en {Lugar}`| ? | ✅ | Grupo | `Pokémon Lugar`<sup>1</sup>
+`/start`| ? | ❌ | Todos | ❌
+`/help`| ? | ❌ | Todos | ❌
+`/register`| ? | ❌ | Privado | ❌
+`/set_friendid`| ? | ❌ | Privado | `ID de Pokémon GO`
+`Quién es`| ? | ❌ | Todos | ❌
+`Quién es Entrenador`| ? | ❌ | Todos | `Nombre de entrenador`
+`/profile`| ? | ❌ | Todos | ❌
+`/tabla`| ? | ❌ | Todos | `Tabla disponible`
+`/joyping`| ? | ❌ | Todos | ❌
+
+1. Número máximo de caracteres: 50.
+
 
 ### Más ayuda ###
 
 Si necesitas ayuda que no se encuentre en este manual, puedes preguntar en [@enfermerajoyayuda](https://t.me/enfermerajoyayuda). Si estás administrando un grupo o un canal, continua leyendo para ver la ayuda para administradores.
+
 
 
 ## Ayuda para administradores ##
@@ -217,50 +243,27 @@ Para **añadir el bot a un grupo** tienes tres alternativas:
 Para hacer la **configuración básica** del bot utiliza el comando `/settings`. La configuración está dividida en varios apartados y subapartados:
 
 1. [Ajustes generales](#ajustes-generales) (Configuraciones básicas de juegos y modo de administración.)
-
-      1. **Chistes**
-
-      2. **Juegos**
-
-      3. **Modo enfermera**
-      
-      4. **Tipo de expulsión por Warns**
-      
-      5. **Cantidad de Warns**
-      
-      6. **<< Menú principal**
+      1. [Chistes](#chistes)
+      2. [Juegos](#Juegos)
+      3. [Modo enfermera](#modo-enfermera)   
+      4. [Tipo de expulsión por Warns](#tipo-de-expulsión-por-warns)
+      5. [Cantidad de Warns](#cantidad-de-warns)      
 
 2. [Ajustes de entrada](#ajustes-de-entrada) (Configuración de los tipos de grupo y los requisitos.)
-
       1. **Tipo de grupo**
-
       2. **Requisitos de nivel**
       
-      3. **<< Menú principal**
-      
 3. [Nidos](#nidos)
-
-      1. **Nidos**
-
-      2. **Requisito de cantidad de días**
-      
-      3. **Requisito de cantidad de mensajes**
-      
-      4. **<< Menú principal**
+      1. [Nidos](#Nidos)
+      2. [Requisito de cantidad de días](#requisito-de-cantidad-de-días)
+      3. [Requisito de cantidad de mensajes](#requisito-de-cantidad-de-mensajes)
       
 4. [Noticias](#noticias)
-
       1. **@pokemongohonesto**
-
       2. **@enfermerajoynoticias**
-      
-      3. **<< Menú principal**
 
 5. [Bienvenida](#bienvenida)
-
       1. **Bienvenida**
-      
-      2. **<< Menú principal**
 
 
 #### Ajustes generales ####
@@ -382,6 +385,52 @@ Para establecer la zona horaria correcta se debe utilizar el comando `/settimezo
 
 `/unban`: Desbanea a un usuario. También se puede desbanear en: Ajustes de Grupo -> Administrar grupo -> Suspendidos.
 
+### Glosario de comandos para administradores ###
+
+Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
+--------|-------------|---------------------------|--------|-----------
+`/ban`   | ? | ✅ | Grupo | `{Motivo}`
+`/banuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
+`/banmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
+`/banold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
+`/banall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
+`/banteam`| ? | ✅ | Grupo & Grupo administración | `Grupo Equipo`<sup>1</sup>
+`/bangroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
+`/kick`   | ? | ✅ | Grupo | `{Motivo}`
+`/kickuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
+`/kickmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
+`/kickold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
+`/kickall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
+`/kickteam`| ? | ✅ | Grupo & Grupo administración | `Grupo Equipo`<sup>1</sup>
+`/kickgroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
+`/kickeveryone`| ? | ✅ | Grupo administración | `GrupoEX`<sup>3</sup>
+`/warn`   | ? | ✅ | Grupo | `{Motivo}`
+`/warnuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
+`/warnmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
+`/warnold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
+`/warnall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
+`/warngroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
+`/settings_admin`| ? | ✅ | Grupo administración | ❌
+`/settings`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
+`/set_welcome`| ? | ✅ | Grupo | `Mensaje de bienvenida`
+`/set_zone`| ? | ✅ | Grupo & Grupo administración | `Zona horaria`
+`/set_stops`| ? | ✅ | Grupo & Grupo administración | `Enlace hoja de calculo`
+`/set_talkgroup`| ? | ✅ | Grupo & Grupo administración | `Alias o enlace de Telegram`
+`/mk_admin`| ? | ✅ | Grupo administración | ❌
+`/rm_admin`| ? | ✅ | Grupo administración | ❌
+`/add_group`| ? | ✅ | Grupo | `AdminID Tipo Etiqueta`
+`/add_link`| ? | ✅ | Grupo | `Alias o enlace de Telegram`
+`/rm_group`| ? | ✅ | Grupo | ❌
+`/request_verification`| ? | ✅ | Grupo | ❌
+`/groups`| ? | ✅ | Grupo & Grupo administración<sup>4</sup> | ❌
+`/joyping`| ? | ❌ | Todos | ❌
+
+1. Argumento `Grupo` unicamente válido desde el grupo de administración.
+2. Argumento `Motivo` opcional.
+3. Solo disponible para grupos etiquetados como EX.
+4. En el grupo de administración incluye los ID.
+
+
 ## Reglamento General de Uso del Bot ##
 
 El siguiente punto, detalla la normativa a cumplir en caso de registrarse en el bot. El desconocimiento de la misma no exime al usuario de su aplicación pues todas las normas aquí recogidas son de sentido común. 
@@ -456,59 +505,3 @@ Las interacciones en grupos y directas con el bot (logs) se eliminan pasados dos
 Se debe enviar un correo a [apelaciones@qwert1.es](mailto:apelaciones@qwert1.es) indicando que se desea ejercer alguno de los derechos contemplados: acceso, rectificación, supresión y limitación del tratamiento, portabilidad de datos.
 
 En caso de ejercitar el derecho de supresión, el bot guardará el identificador numérico de Telegram junto con una marca que indica este deseo. En este caso, no será posible utilizar el bot y el estado de la cuenta aparecerá como baneada.
-
-## Glosario de comandos ##
-
-
-Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
---------|-------------|---------------------------|--------|-----------
-`/ban`   | ? | ✅ | Grupo | `{Motivo}`
-`/banuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
-`/banmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
-`/banold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
-`/banall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
-`/banteam`| ? | ✅ | Grupo & Grupo administración | `Grupo Equipo`<sup>1</sup>
-`/bangroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
-`/kick`   | ? | ✅ | Grupo | `{Motivo}`
-`/kickuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
-`/kickmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
-`/kickold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
-`/kickall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
-`/kickteam`| ? | ✅ | Grupo & Grupo administración | `Grupo Equipo`<sup>1</sup>
-`/kickgroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
-`/kickeveryone`| ? | ✅ | Grupo administración | `GrupoEX`<sup>3</sup>
-`/warn`   | ? | ✅ | Grupo | `{Motivo}`
-`/warnuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
-`/warnmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
-`/warnold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
-`/warnall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
-`/warngroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
-`Borrar nido de {Pokémon} en {Lugar}`| ? | ❌ | Grupo | `Pokémon Lugar`<sup>4</sup>
-`Confirmo nido de {Pokémon} en {Lugar}`| ? | ✅ | Grupo | `Pokémon Lugar`<sup>4</sup>
-`/settings_admin`| ? | ✅ | Grupo administración | ❌
-`/settings`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
-`/set_welcome`| ? | ✅ | Grupo | `Mensaje de bienvenida`
-`/set_zone`| ? | ✅ | Grupo & Grupo administración | `Zona horaria`
-`/set_stops`| ? | ✅ | Grupo & Grupo administración | `Enlace hoja de calculo`
-`/set_talkgroup`| ? | ✅ | Grupo & Grupo administración | `Alias o enlace de Telegram`
-`/mk_admin`| ? | ✅ | Grupo administración | ❌
-`/rm_admin`| ? | ✅ | Grupo administración | ❌
-`/add_group`| ? | ✅ | Grupo | `AdminID Tipo Etiqueta`
-`/add_link`| ? | ✅ | Grupo | `Alias o enlace de Telegram`
-`/rm_group`| ? | ✅ | Grupo | ❌
-`/request_verification`| ? | ✅ | Grupo | ❌
-`/groups`| ? | ✅ | Grupo & Grupo administración<sup>5</sup> | ❌
-`/start /help`| ? | ❌ | Todos | ❌
-`/register`| ? | ❌ | Privado | ❌
-`/set_friendid`| ? | ❌ | Privado | `ID de Pokémon GO`
-`Quién es`| ? | ❌ | Todos | ❌
-`Quién es Entrenador`| ? | ❌ | Todos | `Nombre de entrenador`
-`/profile`| ? | ❌ | Todos | ❌
-`/tabla`| ? | ❌ | Todos | `Tabla disponible`
-`/joyping`| ? | ❌ | Todos | ❌
-
-1. Argumento `Grupo` unicamente válido desde el grupo de administración.
-2. Argumento `Motivo` opcional.
-3. Solo disponible para grupos etiquetados como EX.
-4. Número máximo de caracteres: 50.
-5. En el grupo de administración incluye los ID.
