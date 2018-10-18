@@ -280,11 +280,13 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
 
 #### Ajustes generales ####
 
-##### Chistes #####   `Actualmente esta opción no está disponible.`
+##### Chistes #####   
+`Actualmente esta opción no está disponible.`
 
 Activa o desactiva los chistes, refranes y cualquier cosa que pueda hacer que el bot hable sin que nadie lo invoque. Opción desactivada por defecto. 
 
-##### Juegos #####   `Actualmente esta opción no está disponible.`
+##### Juegos #####   
+`Actualmente esta opción no está disponible.`
 
 Activa o desactiva los juegos del bot. Por defecto esta opción está desactivada.
 
@@ -335,7 +337,8 @@ El nivel mínimo para entrar en el grupo se puede configurar, clicando en el bot
 
 El bot dispone de la opción de registrar nidos, para ello es necesario configurar el apartado de Nidos y sus requisitos.
 
-##### Nidos ##### `Actualmente esta opción no está disponible.`
+##### Nidos ##### 
+`Actualmente esta opción no está disponible.`
 
 Clicando sobre el botón `Nidos` podrás activar o desactivar esta opción para que no pueda entrar en conflicto con otros bots que puedan estar haciendo la misma función en el grupo.
 
@@ -397,7 +400,8 @@ Para establecer la zona horaria correcta se debe utilizar el comando `/settimezo
     /settimezone Europe/Madrid
     /settimezone Atlantic/Canary
 
-### Otros comandos exclusivos para administradores ###    `En proceso de escritura`
+### Otros comandos exclusivos para administradores ###   
+`En proceso de escritura`
 
 Ban (los ban expulsan al entrenador del grupo y no permite que este vuelva a entrar)
 `/ban`: Citando el mensaje y escribiendo el comando en la respuesta. Puede ir seguido del motivo del ban.
@@ -406,8 +410,6 @@ Ban (los ban expulsan al entrenador del grupo y no permite que este vuelva a ent
 `/banold`:`Grupo Días`<sup>1</sup> Grupo & Grupo administración
 `/banall`: únicamente se puede realizar desde el grupo de administración `UserID Motivo`<sup>2</sup>
 `/banteam`:`Grupo Equipo`<sup>1< Grupo & Grupo administración
-
-
 
 
 `/unban`: Desbanea a un usuario. También se puede desbanear en: Ajustes de Grupo -> Administrar grupo -> Suspendidos.
