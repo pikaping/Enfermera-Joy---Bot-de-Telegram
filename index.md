@@ -225,12 +225,11 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 
 1. Número máximo de caracteres: 50.
 
-
 ### Más ayuda ###
 
 Si necesitas ayuda que no se encuentre en este manual, puedes preguntar en [@enfermerajoyayuda](https://t.me/enfermerajoyayuda). Si estás administrando un grupo o un canal, continua leyendo para ver la ayuda para administradores.
 
-
+----
 
 ## Ayuda para administradores ##
 
@@ -278,7 +277,6 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
 
 5. [Bienvenida](#bienvenida)
       1. **Bienvenida**
-
 
 #### Ajustes generales ####
 
@@ -387,7 +385,7 @@ Por ejemplo: `[superjoy](https://websuperenfermerajoy.com)`. Este link que verem
 
 Si se quiere eliminar el mensaje de bienvenida, para que el bot deje de saludar cuando entren entrenadores nuevos, entonces se debe escribir el comando `/set_welcome` sin ningún texto más.
 
-5. **Configuración de los avisos**. Esta función sirve para determinar el número de avisos que recibirá un usuario antes de ser expulsado de un grupo. Las diferentes opciones son 5/10/25/50/100.
+### Configuración Admins ###
 
 Para hacer la **configuración de administración** del bot utiliza el comando `/settings_adm`.
 
@@ -401,13 +399,40 @@ Para establecer la zona horaria correcta se debe utilizar el comando `/settimezo
 
 ### Otros comandos exclusivos para administradores ###
 
-`/ban`: Expulsa y banea al usuario en el grupo actual. Se utiliza respondiendo a un mensaje del usuario a banear.
+Ban (los ban expulsan al entrenador del grupo y no permite que este vuelva a entrar)
+`/ban`: Citando el mensaje y escribiendo el comando en la respuesta. Puede ir seguido del motivo del ban.
+`/banuv`: Se puede hacer desde el grupo o desde el grupo de administración, si se hace desde el de administración se puede especificar el grupo al cual va dirigido el ban, sino baneará al entrenador de todos los grupos vinculados al grupo de administración.
+`/banmsg`:`Grupo Nº Mensajes`<sup>1</sup> Grupo & Grupo administración
+`/banold`:`Grupo Días`<sup>1</sup> Grupo & Grupo administración
+`/banall`: únicamente se puede realizar desde el grupo de administración `UserID Motivo`<sup>2</sup>
+`/banteam`:`Grupo Equipo`<sup>1< Grupo & Grupo administración
 
-`/kick`:  Expulsa al usuario en el grupo actual. Se utiliza respondiendo a un mensaje del usuario a expulsar.
 
 `/warn`: Advierte al usuario en el grupo actual. Al alcanzar el nº máximo de advertencias banea al usuario del grupo. Se utiliza respondiendo a un mensaje del usuario a advertir. La cantidad de warn que se le dará a un usuario antes de que el bot lo banee es configurable para: 3, 5, 10, 25, 50 o 100 avisos. Para ello es necesario emplear el comando `/settings` y luego dándole cliks al botón de "N° de avisos para ban:" hasta que aparezca el número que deseas.
 
 `/unban`: Desbanea a un usuario. También se puede desbanear en: Ajustes de Grupo -> Administrar grupo -> Suspendidos.
+
+
+`/bangroup` Grupo & Grupo administración `UserID Grupo Motivo`<sup>2</sup>
+
+Kick (los kick expulsan al entrenador del grupo, pero permite que este vuelva a entrar)
+
+`/kick`   Grupo  `{Motivo}`
+`/kickuv` Grupo & Grupo administración `Grupo`<sup>1</sup>
+`/kickmsg` Grupo & Grupo administración `Grupo Nº Mensajes`<sup>1</sup>
+`/kickold` Grupo & Grupo administración `Grupo Días`<sup>1</sup>
+`/kickall` Grupo administración `UserID Motivo`<sup>2</sup>
+`/kickteam` Grupo & Grupo administración `Grupo Equipo`<sup>1</sup>
+`/kickgroup` Grupo & Grupo administración `UserID Grupo Motivo`<sup>2</sup>
+`/kickeveryone` Grupo administración `GrupoEX`<sup>3</sup>
+
+Warn (los warn son advertencias al jugador de la futura expulsión, por ban o kick, del grupo)
+`/warn`   | ? | ✅ | Grupo | `{Motivo}`
+`/warnuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
+`/warnmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
+`/warnold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
+`/warnall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
+`/warngroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
 
 ### Glosario de comandos para administradores ###
 
@@ -420,6 +445,7 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 `/banall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
 `/banteam`| ? | ✅ | Grupo & Grupo administración | `Grupo Equipo`<sup>1</sup>
 `/bangroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
+`/unban`| ? | ✅ | Grupo & Grupo administración | ❌
 `/kick`   | ? | ✅ | Grupo | `{Motivo}`
 `/kickuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
 `/kickmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
