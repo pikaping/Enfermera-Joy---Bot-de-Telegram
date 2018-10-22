@@ -403,6 +403,40 @@ Para establecer la zona horaria correcta se debe utilizar el comando `/settimezo
 ### Otros comandos exclusivos para administradores ###   
 `En proceso de escritura`
 
+Algunos de los comandos más importantes para un administrador son los de tipo "castigo". Estos comandos únicamente pueden ser utilizados por los administradores, y si algún usuario lo escribiese el bot respondería que dicho usuario no tiene permisos para ello.
+
+La mayoría de bots disponen de tres "castigos" muy diferenciados: Warn, Kick y Ban.
+
+   Warn - El Warn es un aviso (advertencia), que después de una determinada cantidad de avisos será una expulsión del grupo por kick o ban (dependiendo de cómo esté configurado). Para ver la configuración de los Warn leer el apartado [Tipo de expulsión por Warns](#tipo-de-expulsión-por-warns) y [Cantidad de Warns](#cantidad-de-warns).
+
+   Kick - El Kick es la expulsión del grupo a un usuario, pero este podrá volver a entrar al momento.
+   
+   Ban - El Ban es la expulsión del grupo a un usuario, y este no podrá volver a entrar al grupo hasta que un administrador le quite el ban.
+
+Como se ha dicho, la mayoría de bots disponen de estos tres, al menos de los dos últimos, pero `@NurseJoyBot` dispone, además, de muchos más que facilitarán la labor de los administradores.
+
+Tipos de Warn:
+
+`/warn` - Advierte al entrenador. Este comando se puede emplear únicamente en el grupo en el cual se quiere advertir al entrenador. Se puede escribir también como `/warn {Motivo}`, siendo `{Motivo}` un texto de no más de 30 carácteres escrito por el administrador justificando la advertencia.
+   
+`/warnuv` Grupo & Grupo administración `Grupo`<sup>1</sup>
+`/warnmsg` Grupo & Grupo administración `Grupo Nº Mensajes`<sup>1</sup>
+`/warnold` Grupo & Grupo administración `Grupo Días`<sup>1</sup>
+`/warnall` Grupo administración `UserID Motivo`<sup>2</sup>
+`/warngroup` Grupo & Grupo administración `UserID Grupo Motivo`<sup>2</sup>
+
+`/warn`: Advierte al usuario en el grupo actual. Al alcanzar el nº máximo de advertencias banea al usuario del grupo. Se utiliza respondiendo a un mensaje del usuario a advertir.
+
+Tipos de Kick:
+
+
+Tipos de Ban:
+
+
+
+
+
+
 Ban (los ban expulsan al entrenador del grupo y no permite que este vuelva a entrar)
 `/ban`: Citando el mensaje y escribiendo el comando en la respuesta. Puede ir seguido del motivo del ban.
 `/banuv`: Se puede hacer desde el grupo o desde el grupo de administración, si se hace desde el de administración se puede especificar el grupo al cual va dirigido el ban, sino baneará al entrenador de todos los grupos vinculados al grupo de administración.
@@ -428,15 +462,7 @@ Kick (los kick expulsan al entrenador del grupo, pero permite que este vuelva a 
 `/kickgroup` Grupo & Grupo administración `UserID Grupo Motivo`<sup>2</sup>
 `/kickeveryone` Grupo administración `GrupoEX`<sup>3</sup>
 
-Warn (los warn son advertencias al jugador de la futura expulsión, por ban o kick, del grupo)
-`/warn`   Grupo  `{Motivo}`
-`/warnuv` Grupo & Grupo administración `Grupo`<sup>1</sup>
-`/warnmsg` Grupo & Grupo administración `Grupo Nº Mensajes`<sup>1</sup>
-`/warnold` Grupo & Grupo administración `Grupo Días`<sup>1</sup>
-`/warnall` Grupo administración `UserID Motivo`<sup>2</sup>
-`/warngroup` Grupo & Grupo administración `UserID Grupo Motivo`<sup>2</sup>
 
-`/warn`: Advierte al usuario en el grupo actual. Al alcanzar el nº máximo de advertencias banea al usuario del grupo. Se utiliza respondiendo a un mensaje del usuario a advertir.
 
 ### Glosario de comandos para administradores ###
 
