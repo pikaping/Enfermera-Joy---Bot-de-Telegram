@@ -371,7 +371,7 @@ Clicando sobre el botón `Nidos` podrás activar o desactivar esta opción para 
 |    ▪️ Nidos      | Registro de nidos desactivado |
 |    ✅ Nidos    | Registro de nidos activado |    
 
-El registro de nidos viene desactivada por defecto.
+El registro de nidos viene desactivado por defecto.
 
 ##### Requisito de cantidad de días #####
 
