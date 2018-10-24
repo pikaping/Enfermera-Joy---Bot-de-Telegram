@@ -479,19 +479,17 @@ Antes de empezar con el listado debes saber que todos los comandos de este apart
 
 Tipos de Warn:
 
-`/warn` - Advierte al entrenador. Este comando se puede emplear únicamente en el grupo en el cual se quiere advertir al entrenador. Se puede escribir también como `/warn {Motivo}`, siendo `{Motivo}` un texto de no más de 30 carácteres escrito por el administrador justificando la advertencia.
+`/warn` - Advierte al entrenador. Este comando se puede emplear únicamente en el grupo en el cual se quiere advertir al entrenador. Se puede escribir también como `/warn {Motivo}`, siendo `{Motivo}` un texto de no más de 30 carácteres escrito por el administrador justificando la advertencia. Por ejemplo: `/warn lenguaje inapropiado`
    
 `/warnuv` Grupo & Grupo administración `Grupo`<sup>1</sup>
 
 `/warnmsg {Nº Mensajes}` - Advierte a todos aquellos jugadores que hayan escrito en el grupo menos mensajes que los especificados en el comando, siendo la variable `{Nº Mensajes}` un número entero. Este comando se puede emplear desde el grupo en el cual se quiere dar el aviso o desde el grupo de Admins especificando el grupo como variable. Por ejemplo: `/warnmsg 5 enfermerajoyayuda`
 
-`/warnold {Días}` - Advierte a todos aquellos jugadores que lleven más de la cantidad que especifíca la variable `{Días}` inactivos en el grupo. La variable `{Días}` es un número entero especificado por el administrador en el momento de emplear el comando. Este comando se puede emplear desde el grupo en el cual se quiere dar el aviso o desde el grupo de Admins especificando el grupo como variable. Por ejemplo: `/warnold 50 enfermerajoyayuda`
+`/warnold {Días}` - Advierte a todos aquellos jugadores que lleven más de la cantidad que especifíca la variable `{Días}` inactivos en el grupo. La variable `{Días}` es un número entero especificado por el administrador en el momento de emplear el comando. Este comando se puede emplear desde el grupo en el cual se quiere dar el aviso o desde el grupo de Admins especificando el grupo como variable. Por ejemplo: `/warnold 30 enfermerajoyayuda`
 
-`/warnall` Grupo administración `UserID {Motivo}`<sup>2</sup>
+`/warnall {ID usuario}` Grupo administración `{Motivo}`<sup>2</sup>
 
-`/warngroup` Grupo & Grupo administración `UserID {Grupo} {Motivo}`<sup>2</sup>
-
-`/warn`: Advierte al usuario en el grupo actual. Al alcanzar el nº máximo de advertencias banea al usuario del grupo. Se utiliza respondiendo a un mensaje del usuario a advertir.
+`/warngroup {ID usuario}` Grupo & Grupo administración `{Grupo}` `{Motivo}`<sup>2</sup>
 
 Tipos de Kick:
 
@@ -499,9 +497,9 @@ Tipos de Kick:
 
 `/kickuv` Grupo & Grupo administración `Grupo`<sup>1</sup>
 
-`/kickmsg` Grupo & Grupo administración `Grupo Nº Mensajes`<sup>1</sup>
+`/kickmsg` Grupo & Grupo administración `Grupo` `Nº Mensajes`<sup>1</sup>
 
-`/kickold` Grupo & Grupo administración `Grupo Días`<sup>1</sup>
+`/kickold` Grupo & Grupo administración `Grupo` `Días`<sup>1</sup>
 
 `/kickall` Grupo administración `UserID Motivo`<sup>2</sup>
 
@@ -529,7 +527,7 @@ Tipos de Ban:
 
 El comando para quitar el Ban a un usuario es:
 
-`/unban` - Desbanea a un usuario. También se puede desbanear en: Ajustes de Grupo -> Administrar grupo -> Suspendidos.
+`/unban` - Desbanea a un usuario. También se puede desbanear sin necesidad de comando en: Ajustes de Grupo -> Administrar grupo -> Suspendidos.
 
 ### Glosario de comandos para administradores ###
 
