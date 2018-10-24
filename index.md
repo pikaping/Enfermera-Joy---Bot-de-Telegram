@@ -186,6 +186,7 @@ Estos son las tablas de las que se disponen actualmente:
 Todas las tablas se van modificando según los cambios que van surgiendo en Pokémon Go y se van añadiendo tablas nuevas necesarias, por lo tanto la lista de tablas es algo que irá cambiando.
 
 ### Registrar nidos ###
+`Actualmente esta opción no está disponible.`
 
 El bot dispone de registro de nidos, para ello debe de estar configurado el grupo para aceptar su registro. Esta configuración únicamente la puede realizar un administrador de dicho grupo. Si eres administrador de un grupo y quieres saber más información al respecto lee el apartado [Configurar nidos](#configurar-nidos).
 
@@ -389,8 +390,41 @@ Por ejemplo: `[superjoy](https://websuperenfermerajoy.com)`. Este link que verem
 Si se quiere eliminar el mensaje de bienvenida, para que el bot deje de saludar cuando entren entrenadores nuevos, entonces se debe escribir el comando `/set_welcome` sin ningún texto más.
 
 ### Configuración Admins ###
+`En proceso de escritura` + `Actualmente esta opción no está disponible.`
 
 Para hacer la **configuración de administración** del bot utiliza el comando `/settings_adm`.
+
+Para crear un grupo de administración que tenga uno o diversos grupos vinculados se debe seguir los siguientes pasos:
+
+1. Ejecutar el comando `/create_adm` en el grupo al cual quieres que vaya la información, el que será de los administradores.
+Es importante guardar el ID que te dará el bot, lo necesitarás más adelante.
+
+Como ejemplo a nosotros nos daría: ID 123456.
+
+2. En el mismo grupo escribe `/settings_adm`. Este comando te permitirá activar distintas opciones de avisos que llegarán al grupo. No te preocupes mucho si no sabes bien bien qué activar, dispondrás siempre de este comando y podrás activar o desactivar las opciones siempre que lo necesites recurriendo a ese comando.
+
+Opciones de las que dispones:
+
+- Aviso de la gente que entra al grupo o grupos vinculados.
+
+- Aviso de la gente que sale del grupo o grupos vinculados.
+
+- Aviso cuando se escribe @admin en el grupo o grupos vinculados.
+
+- Aviso de expulsiones y baneos individuales en el grupo o grupos vinculados.
+
+- Aviso de los warn en el grupo o los grupos vinculados.
+
+- Aviso de la solicitud de nidos en el grupo o grupos vinculados.
+
+3. Seguidamente ve al grupo que quieres vincular y ejecuta en dicho grupo el comando `/link_adm ID`.
+
+En nuestro caso de muestra sería: /link_adm 123456.
+
+4. Vuelve al grupo de administradores y sigue las instrucciones de la botonera.
+
+5. Para vincular más de un grupo a un mismo grupo de administradores vuelve al paso número 3 (la ID será la misma del paso número 1).
+
 
 ### Zona horaria ###
 
@@ -401,7 +435,7 @@ Para establecer la zona horaria correcta se debe utilizar el comando `/settimezo
     /settimezone Atlantic/Canary
 
 ### Otros comandos exclusivos para administradores ###   
-`En proceso de escritura`
+`En proceso de escritura` + `Actualmente esta opción no está disponible.`
 
 Algunos de los comandos más importantes para un administrador son los de tipo "castigo". Estos comandos únicamente pueden ser utilizados por los administradores, y si algún usuario lo escribiese el bot respondería que dicho usuario no tiene permisos para ello.
 
