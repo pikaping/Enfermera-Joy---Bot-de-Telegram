@@ -407,8 +407,6 @@ Si se quiere eliminar el mensaje de bienvenida, para que el bot deje de saludar 
 ### Configuración Admins ###
 `En proceso de escritura (todo el apartado)` + `Actualmente esta opción no está disponible.`
 
-Para hacer la **configuración de administración** del bot utiliza el comando `/settings_adm`.
-
 #### Ajustes del grupo de Admins ####
 
 Escribe, en el grupo de administración (el grupo de admins) el comando `/settings_adm`. Este comando te permitirá activar distintas opciones de avisos que llegarán al grupo de Admins de los grupos que tenga vinculados (leer apartado [Vincular grupos al grupo de Admins](#vincular-grupos-al-grupo-de-admins)). No te preocupes mucho si no sabes bien bien qué activar, dispondrás siempre de este comando y podrás activar o desactivar las opciones siempre que lo necesites recurriendo a ese comando.
@@ -477,9 +475,9 @@ Tipos de Warn:
    
 `/warnuv` Grupo & Grupo administración `Grupo`<sup>1</sup>
 
-`/warnmsg {Nº Mensajes}` - Advierte a todos aquellos jugadores que hayan escrito en el grupo menos mensajes que los especificados en el comando, siendo la variable {Nº Mensajes} un número. Este comando se puede emplear desde el grupo en el cual se quiere dar el aviso o desde el grupo de Admins especificando el grupo como variable. Por ejemplo: `/warnmsg 5 enfermerajoyayuda`
+`/warnmsg {Nº Mensajes}` - Advierte a todos aquellos jugadores que hayan escrito en el grupo menos mensajes que los especificados en el comando, siendo la variable `{Nº Mensajes}` un número entero. Este comando se puede emplear desde el grupo en el cual se quiere dar el aviso o desde el grupo de Admins especificando el grupo como variable. Por ejemplo: `/warnmsg 5 enfermerajoyayuda`
 
-`/warnold` Grupo & Grupo administración `Grupo {Días}`<sup>1</sup>
+`/warnold {Días}` - Advierte a todos aquellos jugadores que lleven más de la cantidad que especifíca la variable `{Días}` inactivos en el grupo. La variable `{Días}` es un número entero especificado por el administrador en el momento de emplear el comando. Este comando se puede emplear desde el grupo en el cual se quiere dar el aviso o desde el grupo de Admins especificando el grupo como variable. Por ejemplo: `/warnold 50 enfermerajoyayuda`
 
 `/warnall` Grupo administración `UserID {Motivo}`<sup>2</sup>
 
@@ -489,40 +487,41 @@ Tipos de Warn:
 
 Tipos de Kick:
 
+`/kick`   Grupo  `{Motivo}`
+
+`/kickuv` Grupo & Grupo administración `Grupo`<sup>1</sup>
+
+`/kickmsg` Grupo & Grupo administración `Grupo Nº Mensajes`<sup>1</sup>
+
+`/kickold` Grupo & Grupo administración `Grupo Días`<sup>1</sup>
+
+`/kickall` Grupo administración `UserID Motivo`<sup>2</sup>
+
+`/kickteam` Grupo & Grupo administración `Grupo Equipo`<sup>1</sup>
+
+`/kickgroup` Grupo & Grupo administración `UserID Grupo Motivo`<sup>2</sup>
+
+`/kickeveryone` Grupo administración `GrupoEX`<sup>3</sup>
 
 Tipos de Ban:
 
-
-
-
-
-
-Ban (los ban expulsan al entrenador del grupo y no permite que este vuelva a entrar)
 `/ban`: Citando el mensaje y escribiendo el comando en la respuesta. Puede ir seguido del motivo del ban.
+
 `/banuv`: Se puede hacer desde el grupo o desde el grupo de administración, si se hace desde el de administración se puede especificar el grupo al cual va dirigido el ban, sino baneará al entrenador de todos los grupos vinculados al grupo de administración.
+
 `/banmsg`:`Grupo Nº Mensajes`<sup>1</sup> Grupo & Grupo administración
+
 `/banold`:`Grupo Días`<sup>1</sup> Grupo & Grupo administración
+
 `/banall`: únicamente se puede realizar desde el grupo de administración `UserID Motivo`<sup>2</sup>
+
 `/banteam`:`Grupo Equipo`<sup>1< Grupo & Grupo administración
-
-
-`/unban`: Desbanea a un usuario. También se puede desbanear en: Ajustes de Grupo -> Administrar grupo -> Suspendidos.
-
 
 `/bangroup` Grupo & Grupo administración `UserID Grupo Motivo`<sup>2</sup>
 
-Kick (los kick expulsan al entrenador del grupo, pero permite que este vuelva a entrar)
+El comando para quitar el Ban a un usuario es:
 
-`/kick`   Grupo  `{Motivo}`
-`/kickuv` Grupo & Grupo administración `Grupo`<sup>1</sup>
-`/kickmsg` Grupo & Grupo administración `Grupo Nº Mensajes`<sup>1</sup>
-`/kickold` Grupo & Grupo administración `Grupo Días`<sup>1</sup>
-`/kickall` Grupo administración `UserID Motivo`<sup>2</sup>
-`/kickteam` Grupo & Grupo administración `Grupo Equipo`<sup>1</sup>
-`/kickgroup` Grupo & Grupo administración `UserID Grupo Motivo`<sup>2</sup>
-`/kickeveryone` Grupo administración `GrupoEX`<sup>3</sup>
-
-
+`/unban` - Desbanea a un usuario. También se puede desbanear en: Ajustes de Grupo -> Administrar grupo -> Suspendidos.
 
 ### Glosario de comandos para administradores ###
 
