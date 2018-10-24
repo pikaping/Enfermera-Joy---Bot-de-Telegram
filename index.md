@@ -154,8 +154,9 @@ Estos son las tablas de las que se disponen actualmente:
 - Articuno
 - Beldum (también la puedes solicitar como Community)
 - Celebi
-- Deoxys (versión normal, también se puede solicitar como DeoxysN)
+- Deoxys (versión normal, también se puede solicitar como DeoxysN. Es la forma activa en el juego)
 - Entei
+- Giratina (la forma activa en el juego)
 - GiratinaO (versión Origen, también se puede solicitar como OGiratina)
 - GiratinaM (versión modificada, también se puede solicitar como MGiratina)
 - Golem
@@ -182,6 +183,7 @@ Estos son las tablas de las que se disponen actualmente:
 - Rhydon
 - Shinx
 - Snorlax
+- Spiritomb
 - Suicune
 - Tyranitar
 - Zapdos
