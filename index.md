@@ -4,6 +4,10 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
 
 1. [Ayuda para entrenadores](#ayuda-para-entrenadores)
    1. [Registrarse en el bot](#registrarse-en-el-bot)
+      1. [Alias de Telegram](#alias-de-telegram)
+      2. [Subida de nivel](#subida-de-nivel)
+      3. [Cambio de nombre de entrenador](#cambio-de-nombre-de-entrenador)
+      4. [Cambio de cuenta de Telegram](#cambio-de-cuenta-de-telegram)
    2. [Profile](#profile)
    3. [Iconos en la Ficha de Entrenador](#iconos-en-la-ficha-de-entrenador)
    4. [Código de Entrenador](#código-de-entrenador)
@@ -26,6 +30,7 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
    6. [Glosario de comandos para administradores](#glosario-de-comandos-para-administradores)
 3. [Reglamento General de Uso del Bot](#reglamento-general-de-uso-del-bot)
 4. [Política de privacidad](#políica-de-privacidad)
+
 
 ## Ayuda para entrenadores ##
 
