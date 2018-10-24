@@ -199,7 +199,11 @@ Todas las tablas se van modificando según los cambios que van surgiendo en Pok�
 
 El bot dispone de registro de nidos, para ello debe de estar configurado el grupo para aceptar su registro. Esta configuración únicamente la puede realizar un administrador de dicho grupo. Si eres administrador de un grupo y quieres saber más información al respecto lee el apartado [Configurar nidos](#configurar-nidos).
 
-Para registrar un nido se debe emplear el comando `Confirmo nido de {Pokémon} en {Lugar}` cambiando la variable {Pokémon} por el nombre del Pokémon del que sea el nido y {Lugar} por el nombre por el cual se reconozca ese espacio. 
+Para registrar un nido se debe emplear el comando `Confirmo nido de {Pokémon} en {Lugar}` cambiando la variable {Pokémon} por el nombre del Pokémon del que sea el nido y {Lugar} por el nombre por el cual se reconozca ese espacio. Por ejemplo:
+
+`Confirmo nido de Chansey en Parque Ilm`. En este caso, es *Chansey* la variable {Pokémon} y *Parque Ilm* la variable {Lugar}.
+
+Antes de poner el nombre del lugar ten en cuanta que el número máximo de carácteres que registra es 50.
 
 Si el nido es erroneo y se quiere borrar antes de que Joy los reinicie entonces se deberá utilizar el comando `Borrar nido de {Pokémon} en {Lugar}`. Siendo, igual que al registrar el nido, las variables {Pokémon} y {Lugar} las únicas palabras que se modificarán del comando. Este comando es exclusivo para administradores.
 
@@ -207,11 +211,11 @@ Otros dos comandos relacionados con los nidos son:  `Nido en {Lugar}` y `Nido de
 
 `Nido en {Lugar}`, por ejemplo, "Nido en Parque Ilm".
 
-Hace que el bot te responda si hay registrado algún nido en el lugar llamado "Parque Ilm" y, si lo hay, te diga de qué pokémon se trata.
+Según el ejemplo, el bot te buscará en sus datos si hay registrado algún nido en el lugar llamado *Parque Ilm* y, si lo hay, te dirá de qué pokémon se trata.
 
 `Nido de {Pokémon}`, por ejemplo, "Nido de Chansey".
 
-Hace que el bot te responda si hay registrado algún nido de Chansey en tu grupo, si lo hay, te responderá con el nombre del lugar donde se ha registrado.
+Siguiendo también el ejemplo, el bot mirará si hay registrado algún nido de *Chansey* en tu grupo, si lo hay, te responderá con el nombre del lugar donde se ha registrado.
 
 ### Glosario de comandos para entrenadores ###
 
