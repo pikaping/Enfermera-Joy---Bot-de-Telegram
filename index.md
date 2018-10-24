@@ -431,7 +431,7 @@ Opciones de las que dispones:
 
 Para crear un grupo de administración que tenga uno o diversos grupos vinculados se debe seguir los siguientes pasos:
 
-1. Ejecutar el comando `/create_adm` en el grupo al cual quieres que vaya la información, el que será de los administradores, el grupo de Admins. Para configurar el grupo de Admins leer el apartado: [Vincular grupos al grupo de Admins](#vincular-grupos-al-grupo-de-admins)
+1. Ejecutar el comando `/create_adm` en el grupo al cual quieres que vaya la información, el que será de los administradores, el grupo de Admins. Para configurar el grupo de Admins leer el apartado: [Ajustes del grupo de Admins](#ajustes-del-grupo-de-admins)
 
 Es importante guardar el ID que te dará el bot, lo necesitarás más adelante.
 
@@ -469,15 +469,21 @@ La mayoría de bots disponen de tres "castigos" muy diferenciados: Warn, Kick y 
 
 Como se ha dicho, la mayoría de bots disponen de estos tres, al menos de los dos últimos, pero `@NurseJoyBot` dispone, además, de muchos más que facilitarán la labor de los administradores.
 
+Antes de empezar con el listado debes saber que todos los comandos de este apartado funcionan tanto con la ID de Telegram del usuario al que se quiere expulsar o avisar, como citando un mensaje de dicho usuario.
+
 Tipos de Warn:
 
 `/warn` - Advierte al entrenador. Este comando se puede emplear únicamente en el grupo en el cual se quiere advertir al entrenador. Se puede escribir también como `/warn {Motivo}`, siendo `{Motivo}` un texto de no más de 30 carácteres escrito por el administrador justificando la advertencia.
    
 `/warnuv` Grupo & Grupo administración `Grupo`<sup>1</sup>
-`/warnmsg` Grupo & Grupo administración `Grupo Nº Mensajes`<sup>1</sup>
-`/warnold` Grupo & Grupo administración `Grupo Días`<sup>1</sup>
-`/warnall` Grupo administración `UserID Motivo`<sup>2</sup>
-`/warngroup` Grupo & Grupo administración `UserID Grupo Motivo`<sup>2</sup>
+
+`/warnmsg {Nº Mensajes}` - Advierte a todos aquellos jugadores que hayan escrito en el grupo menos mensajes que los especificados en el comando, siendo la variable {Nº Mensajes} un número. Este comando se puede emplear desde el grupo en el cual se quiere dar el aviso o desde el grupo de Admins especificando el grupo como variable. Por ejemplo: `/warnmsg 5 enfermerajoyayuda`
+
+`/warnold` Grupo & Grupo administración `Grupo {Días}`<sup>1</sup>
+
+`/warnall` Grupo administración `UserID {Motivo}`<sup>2</sup>
+
+`/warngroup` Grupo & Grupo administración `UserID {Grupo} {Motivo}`<sup>2</sup>
 
 `/warn`: Advierte al usuario en el grupo actual. Al alcanzar el nº máximo de advertencias banea al usuario del grupo. Se utiliza respondiendo a un mensaje del usuario a advertir.
 
