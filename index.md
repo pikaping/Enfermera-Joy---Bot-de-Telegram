@@ -207,7 +207,15 @@ Para registrar un nido se debe emplear el comando `Confirmo nido de {Pokémon} e
 
 Antes de poner el nombre del lugar ten en cuanta que el número máximo de carácteres que registra es 50.
 
-Si el nido es erroneo y se quiere borrar antes de que Joy los reinicie entonces se deberá utilizar el comando `Borrar nido de {Pokémon} en {Lugar}`. Siendo, igual que al registrar el nido, las variables {Pokémon} y {Lugar} las únicas palabras que se modificarán del comando. Este comando es exclusivo para administradores.
+Este comando también lo puedes escribir como:
+
+`Confirmar nido de {Pokémon} en {Lugar}`
+
+`Confirmo spawn de {Pokémon} en {Lugar}`
+
+`Confirmar spawn de {Pokémon} en {Lugar}`
+
+Si el nido es erroneo y se quiere borrar antes de que Joy los reinicie entonces se deberá utilizar el comando `Borrar nido de {Pokémon} en {Lugar}`. Siendo, igual que al registrar el nido, las variables {Pokémon} y {Lugar} las únicas palabras que se modificarán del comando. También se puede borrar todos los nidos de golpe empleando el comando `Borrar todos los nidos`. Estos dos comandos (de borrar nidos) son exclusivos para administradores.
 
 Otros dos comandos relacionados con los nidos son:  `Nido en {Lugar}` y `Nido de {Pokémon}`.
 
