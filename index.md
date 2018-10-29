@@ -152,10 +152,12 @@ Estos son las tablas de las que se disponen actualmente:
 
 - Absol
 - Articuno
-- Beldum (también la puedes solicitar como Community)
+- Beldum 
 - Celebi
+- Cyndaquil (también la puedes solicitar como Community)
 - Deoxys (versión normal, también se puede solicitar como DeoxysN. Es la forma activa en el juego)
 - Entei
+- Gengar
 - Giratina (la forma activa en el juego)
 - GiratinaO (versión Origen, también se puede solicitar como OGiratina)
 - GiratinaM (versión modificada, también se puede solicitar como MGiratina)
@@ -181,6 +183,7 @@ Estos son las tablas de las que se disponen actualmente:
 - Regirock
 - Registeel
 - Rhydon
+- Shedinja
 - Shinx
 - Snorlax
 - Spiritomb
