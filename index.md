@@ -206,21 +206,21 @@ Todas las tablas se van modificando según los cambios que van surgiendo en Pok�
 
 El bot dispone de registro de nidos, para ello debe de estar configurado el grupo para aceptar su registro. Esta configuración únicamente la puede realizar un administrador de dicho grupo. Si eres administrador de un grupo y quieres saber más información al respecto lee el apartado [Configurar nidos](#configurar-nidos).
 
-Para registrar un nido se debe emplear el comando `Confirmo nido de {Pokémon} en {Lugar}` cambiando la variable {Pokémon} por el nombre del Pokémon del que sea el nido y {Lugar} por el nombre por el cual se reconozca ese espacio. Por ejemplo:
+Para registrar un nido se debe emplear el comando `Registrar nido de {Pokémon} en {Lugar}` cambiando la variable {Pokémon} por el nombre del Pokémon del que sea el nido y {Lugar} por el nombre por el cual se reconozca ese espacio. Por ejemplo:
 
-`Confirmo nido de Chansey en Parque Ilm`. En este caso, es *Chansey* la variable {Pokémon} y *Parque Ilm* la variable {Lugar}.
+`Registrar nido de Chansey en Parque Ilm`. En este caso, es *Chansey* la variable {Pokémon} y *Parque Ilm* la variable {Lugar}.
 
 Antes de poner el nombre del lugar ten en cuanta que el número máximo de carácteres que registra es 50.
 
 Este comando también lo puedes escribir como:
 
-`Confirmar nido de {Pokémon} en {Lugar}`
+`Registro nido de {Pokémon} en {Lugar}`
 
-`Confirmo spawn de {Pokémon} en {Lugar}`
+`Registrar spawn de {Pokémon} en {Lugar}`
 
-`Confirmar spawn de {Pokémon} en {Lugar}`
+`Registro spawn de {Pokémon} en {Lugar}`
 
-Si el nido es erroneo y se quiere borrar antes de que Joy los reinicie entonces se deberá utilizar el comando `Borrar nido de {Pokémon} en {Lugar}`. Siendo, igual que al registrar el nido, las variables {Pokémon} y {Lugar} las únicas palabras que se modificarán del comando. También se puede borrar todos los nidos de golpe empleando el comando `Borrar todos los nidos`. Estos dos comandos (de borrar nidos) son exclusivos para administradores.
+Si el nido es erroneo y se quiere borrar antes de que Joy los reinicie entonces se deberá utilizar el comando `Eliminar nido de {Pokémon} en {Lugar}`. Siendo, igual que al registrar el nido, las variables {Pokémon} y {Lugar} las únicas palabras que se modificarán del comando. También se puede borrar todos los nidos de golpe empleando el comando `Eliminar todos los nidos`. Estos dos comandos (de borrar nidos) son exclusivos para administradores.
 
 Otros dos comandos relacionados con los nidos son:  `Nido en {Lugar}` y `Nido de {Pokémon}`.
 
@@ -236,8 +236,9 @@ Siguiendo también el ejemplo, el bot mirará si hay registrado algún nido de *
 
 Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 --------|-------------|---------------------------|--------|-----------
-`Confirmo nido de {Pokémon} en {Lugar}`| ? | ❌ | Grupo | `Pokémon Lugar`<sup>1</sup>
-`Borrar nido de {Pokémon} en {Lugar}`| ? | ✅ | Grupo | `Pokémon Lugar`<sup>1</sup>
+`Registrar nido de {Pokémon} en {Lugar}`| ? | ❌ | Grupo | `Pokémon Lugar`<sup>1</sup>
+`Eliminar nido de {Pokémon} en {Lugar}`| ? | ✅ | Grupo | `Pokémon Lugar`<sup>1</sup>
+`Eliminar todos los nidos`| ? | ✅ | Grupo | ❌
 `Nido en {Lugar}`| ? | ❌ | Grupo | `Lugar`<sup>1</sup>
 `Nido de {Pokémon}`| ? | ❌ | Grupo | `Lugar`<sup>1</sup>
 `/start`| ? | ❌ | Todos | ❌
