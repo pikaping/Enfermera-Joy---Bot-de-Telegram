@@ -29,6 +29,8 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
       2. [Vincular grupos al grupo de Admins](#vincular-grupos-al-grupo-de-admins)
    4. [Zona horaria](#zona-horaria)
    5. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
+      1. [Moderación de un usuario](#moderación-de-un-usuario)
+      1. [Moderación de varios usuarios](#moderación-de-varios-usuarios)
    6. [Glosario de comandos para administradores](#glosario-de-comandos-para-administradores)
 3. [Reglamento General de Uso del Bot](#reglamento-general-de-uso-del-bot)
 4. [Política de privacidad](#políica-de-privacidad)
@@ -468,6 +470,8 @@ Para establecer la zona horaria correcta se debe utilizar el comando `/settimezo
 
 Algunos de los comandos más importantes para un administrador son los de tipo "castigo". Estos comandos únicamente pueden ser utilizados por los administradores, y si algún usuario lo escribiese el bot respondería que dicho usuario no tiene permisos para ello.
 
+#### Moderación de un usuario ####
+
 La mayoría de bots disponen de tres "castigos" muy diferenciados: Warn, Kick y Ban.
 
    Warn - El Warn es un aviso (advertencia), que después de una determinada cantidad de avisos será una expulsión del grupo por kick o ban (dependiendo de cómo esté configurado). Para ver la configuración de los Warn leer el apartado [Tipo de expulsión por Warns](#tipo-de-expulsión-por-warns) y [Cantidad de Warns](#cantidad-de-warns).
@@ -476,41 +480,45 @@ La mayoría de bots disponen de tres "castigos" muy diferenciados: Warn, Kick y 
    
    Ban - El Ban es la expulsión del grupo a un usuario, y este no podrá volver a entrar al grupo hasta que un administrador le quite el ban.
 
+#### Moderación de varios usuarios ####
+
 Como se ha dicho, la mayoría de bots disponen de estos tres, al menos de los dos últimos, pero `@NurseJoyBot` dispone, además, de muchos más que facilitarán la labor de los administradores.
 
 Antes de empezar con el listado debes saber que todos los comandos de este apartado funcionan tanto con la ID de Telegram del usuario al que se quiere expulsar o avisar, como citando un mensaje de dicho usuario.
 
+Este comando se puede emplear desde el grupo en el cual se quiere dar el aviso o desde el grupo de Admins especificando el grupo como variable.
+
 Tipos de Warn:
 
-`/warn` - Advierte al entrenador. Este comando se puede emplear únicamente en el grupo en el cual se quiere advertir al entrenador. Se puede escribir también como `/warn {Motivo}`, siendo `{Motivo}` un texto de no más de 30 carácteres escrito por el administrador justificando la advertencia. Por ejemplo: `/warn lenguaje inapropiado`
+`/warn` - Advierte al usuario. Este comando se puede emplear únicamente en el grupo en el cual se quiere advertir al entrenador. Se puede escribir también como `/warn {Motivo}`, siendo `{Motivo}` un texto de no más de 30 carácteres escrito por el administrador justificando la advertencia. Por ejemplo: `/warn lenguaje inapropiado`
    
-`/warnuv` Grupo & Grupo administración `Grupo`<sup>1</sup>
+`/warnuv` 
 
-`/warnmsg {Nº Mensajes}` - Advierte a todos aquellos jugadores que hayan escrito en el grupo menos mensajes que los especificados en el comando, siendo la variable `{Nº Mensajes}` un número entero. Este comando se puede emplear desde el grupo en el cual se quiere dar el aviso o desde el grupo de Admins especificando el grupo como variable. Por ejemplo: `/warnmsg 5 enfermerajoyayuda`
+`/warnmsg {Nº Mensajes}` - Advierte a los usuarios que hayan enviado menos de X mensajes, siendo X el número de mensajes especificados en el parámetro. Por ejemplo: `/warnmsg 20`
 
-`/warnold {Días}` - Advierte a todos aquellos jugadores que lleven más de la cantidad que especifíca la variable `{Días}` inactivos en el grupo. La variable `{Días}` es un número entero especificado por el administrador en el momento de emplear el comando. Este comando se puede emplear desde el grupo en el cual se quiere dar el aviso o desde el grupo de Admins especificando el grupo como variable. Por ejemplo: `/warnold 30 enfermerajoyayuda`
+`/warnold {Días}` - Advierte a los usuarios que no han hablado en los últimos X días, siendo X los días especificados en el parámetro. Por ejemplo: `/warnold 20`
 
-`/warnall {ID usuario}` Grupo administración `{Motivo}`<sup>2</sup>
+`/warnall {ID usuario}` 
 
-`/warngroup {ID usuario}` Grupo & Grupo administración `{Grupo}` `{Motivo}`<sup>2</sup>
+`/warngroup {ID usuario}` 
 
 Tipos de Kick:
 
-`/kick`   Grupo  `{Motivo}`
+`/kick`   Grupo  `{Equipo}`
 
-`/kickuv` Grupo & Grupo administración `Grupo`<sup>1</sup>
+`/kickuv` 
 
-`/kickmsg` Grupo & Grupo administración `Grupo` `Nº Mensajes`<sup>1</sup>
+`/kickmsg {Nº Mensajes}`  - Expulsa a los usuarios que hayan enviado menos de X mensajes, siendo X el número de mensajes especificados en el parámetro. Por ejemplo: `/kickmsg 20`
 
-`/kickold` Grupo & Grupo administración `Grupo` `Días`<sup>1</sup>
+`/kickold {Días}` - Expulsa a los usuarios que no han hablado en los últimos X días, siendo X los días especificados en el parámetro. Por ejemplo: `/kickold 20`
 
-`/kickall` Grupo administración `UserID Motivo`<sup>2</sup>
+`/kickall {ID usuario}`
 
-`/kickteam` Grupo & Grupo administración `Grupo Equipo`<sup>1</sup>
+`/kickteam {Equipo}` - Expulsa a todos los usuarios registrados del equipo TEAM (R para rojo, B para azul o Y para amarillo). Por ejemplo, /kickteam Y para expulsar a los del equipo amarillo.
 
-`/kickgroup` Grupo & Grupo administración `UserID Grupo Motivo`<sup>2</sup>
+`/kickgroup {ID usuario}`
 
-`/kickeveryone` Grupo administración `GrupoEX`<sup>3</sup>
+`/kickeveryone`
 
 Tipos de Ban:
 
@@ -518,15 +526,15 @@ Tipos de Ban:
 
 `/banuv`: Se puede hacer desde el grupo o desde el grupo de administración, si se hace desde el de administración se puede especificar el grupo al cual va dirigido el ban, sino baneará al entrenador de todos los grupos vinculados al grupo de administración.
 
-`/banmsg`:`Grupo Nº Mensajes`<sup>1</sup> Grupo & Grupo administración
+`/banmsg {Nº Mensajes}` - Expulsa y no les permite volver a entrar a los usuarios que hayan enviado menos de X mensajes, siendo X el número de mensajes especificados en el parámetro. Por ejemplo: `/banmsg 30`
 
-`/banold`:`Grupo Días`<sup>1</sup> Grupo & Grupo administración
+`/banold {Días}` - Expulsa y no les permite volver a entrar a los usuarios que no han hablado en los últimos X días, siendo X los días especificados en el parámetro. Por ejemplo: `/banold 30`
 
-`/banall`: únicamente se puede realizar desde el grupo de administración `UserID Motivo`<sup>2</sup>
+`/banall {ID usuario}`: únicamente se puede realizar desde el grupo de administración `UserID Motivo`<sup>2</sup>
 
-`/banteam`:`Grupo Equipo`<sup>1< Grupo & Grupo administración
+`/banteam {Equipo}`
 
-`/bangroup` Grupo & Grupo administración `UserID Grupo Motivo`<sup>2</sup>
+`/bangroup {ID usuario}` 
 
 El comando para quitar el Ban a un usuario es:
 
