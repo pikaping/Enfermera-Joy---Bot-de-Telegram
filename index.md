@@ -98,7 +98,7 @@ Algunos de ellos son los siguientes:
 
 | Icono           | Definición                       |
 |:----------------|:---------------------------------|
-|        .        | Baneado                          |
+|        :no_entry:        | Baneado                          |
 |        .        | Staff                            |
 
 
@@ -212,7 +212,7 @@ Para registrar un nido se debe emplear el comando `Registrar nido de {Pokémon} 
 
 Antes de poner el nombre del lugar ten en cuanta que el número máximo de carácteres que registra es 50.
 
-Este comando también lo puedes escribir como:
+Este comando también lo puedes escribir como: :feet:
 
 `Registro nido de {Pokémon} en {Lugar}`
 
