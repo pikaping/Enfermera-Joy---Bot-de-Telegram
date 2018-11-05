@@ -295,7 +295,7 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
       1. [Tipo de grupo](#tipo-de-grupo)
       2. [Requisito de nivel](#requisito-de-nivel)
       
-3. [Configurar Nidos](#configurar-nidos) (Configuración de los nidos y requisitos para el registro) `Actualmente esta opción no está disponible.`
+3. [Configurar Nidos](#configurar-nidos) (Configuración de los nidos y requisitos para el registro)
       1. [Nidos](#nidos) 
       2. [Requisito de cantidad de días](#requisito-de-cantidad-de-días)
       3. [Requisito de cantidad de mensajes](#requisito-de-cantidad-de-mensajes)
@@ -358,7 +358,7 @@ En caso de que un usuario intente acceder a un grupo en el cual no cumpla las co
 
 ##### Requisito de nivel #####
 
-Determina un nivel mínimo como requisito para entrar al grupo. Esta opción viene activada por defecto como 0, eso queriere decir que no hay nivel mínimo requerido.
+Determina un nivel mínimo como requisito para entrar al grupo. Esta opción viene activada por defecto como 0, eso quiere decir que no hay nivel mínimo requerido.
 
 El nivel mínimo para entrar en el grupo se puede configurar, clicando en el botón hasta que salga la opción deseada, según: 0 (sin nivel requerido), 15, 20, 25, 30, 35 o 40.
 
