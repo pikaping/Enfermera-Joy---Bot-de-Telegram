@@ -423,7 +423,7 @@ Si se quiere eliminar el mensaje de bienvenida, para que el bot deje de saludar 
 
 #### Ajustes del grupo de Admins ####
 
-Escribe, en el grupo de administración (el grupo de admins) el comando `/settings_adm`. Este comando te permitirá activar distintas opciones de avisos que llegarán al grupo de Admins de los grupos que tenga vinculados (leer apartado [Vincular grupos al grupo de Admins](#vincular-grupos-al-grupo-de-admins)). No te preocupes mucho si no sabes bien bien qué activar, dispondrás siempre de este comando y podrás activar o desactivar las opciones siempre que lo necesites recurriendo a ese comando.
+Escribe, en el grupo de administración (el grupo de admins) el comando `/settings_admin`. Este comando te permitirá activar distintas opciones de avisos que llegarán al grupo de Admins de los grupos que tenga vinculados (leer apartado [Vincular grupos al grupo de Admins](#vincular-grupos-al-grupo-de-admins)). No te preocupes mucho si no sabes bien bien qué activar, dispondrás siempre de este comando y podrás activar o desactivar las opciones siempre que lo necesites recurriendo a ese comando.
 
 Opciones de las que dispones:
 
@@ -443,19 +443,38 @@ Opciones de las que dispones:
 
 Para crear un grupo de administración que tenga uno o diversos grupos vinculados se debe seguir los siguientes pasos:
 
-1. Ejecutar el comando `/create_adm` en el grupo al cual quieres que vaya la información, el que será de los administradores, el grupo de Admins. Para configurar el grupo de Admins leer el apartado: [Ajustes del grupo de Admins](#ajustes-del-grupo-de-admins)
+1. Ejecutar el comando `/create_admin` en el grupo al cual quieres que vaya la información, el que será de los administradores, el grupo de Admins. Para configurar el grupo de Admins leer el apartado: [Ajustes del grupo de Admins](#ajustes-del-grupo-de-admins)
 
 Es importante guardar el ID que te dará el bot, lo necesitarás más adelante.
 
 `Como ejemplo, a nosotros nos daría: ID 123456.`
 
-2. Seguidamente ve al grupo que quieres vincular y ejecuta en dicho grupo el comando `/link_adm ID`.
+2. Seguidamente ve al grupo que quieres vincular y ejecuta en dicho grupo el comando `/create_link ID`.
 
-`En nuestro caso de muestra sería: /link_adm 123456.`
+`En nuestro caso de muestra sería: /create_link 123456.`
 
-3. Vuelve al grupo de administradores y sigue las instrucciones de la botonera.
+3. Vuelve al grupo de administradores e indica, en la botonera, de qué trata el grupo que acabas de vincular. LAs opciones de las que dispones son las siguientes:
+
+Icono | Nombre | Descripción 
+--------|-------------|---------------------------
+:boom:   | Raids | Grupo para incursiones (Raids)
+:repeat:   | Intercambios | Grupo para intercambios de Pokémon
+🗣   | Raids | Grupo para incursiones (Raids)
+:couple:   | Charla | Grupo para incursiones (Raids)
+:star2:   | EX | Grupo para incursiones (Raids) EX
+:eyes:   | Alertas | Grupo para alertas
+:mag:   | Misiones | Grupo para misiones
+:space_invader:   | Otros | Cuando ninguno de los otros define tu grupo, este es el indicado
+:heart:   | Valor | Grupo para miembros del equipo rojo (Valor)
+:yellow_heart:   | Instinto | Grupo para miembros del equipo amarillo (Instinto)
+:blue_heart:   | Sabiduría | Grupo para miembros del equipo azul (Sabiduría)
 
 4. Para vincular más de un grupo a un mismo grupo de administradores vuelve al paso número 3 (la ID será la misma del paso número 1).
+
+Si quieres que el bot deje de considerar un grupo como grupo de administración puedes hacerlo escribiendo `/rm_admin` en el grupo que quieres que deje de ser de administración. Con ese comando se desvincularán todos los grupos que tuvieses vinculados. Si sólo quieres desvincular un grupo entonces dirígete a dicho grupo y ejecuta el comando `/rm_link`.
+
+Para saber qué grupos están vinculados a un grupo de administración escribe el comando `/groups` y el bot te hará una lista de los grupos vinculados, excepto el de administración.
+
 
 
 ### Zona horaria ###
