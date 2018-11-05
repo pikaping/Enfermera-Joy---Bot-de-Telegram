@@ -202,7 +202,6 @@ Estos son las tablas de las que se disponen actualmente:
 Todas las tablas se van modificando según los cambios que van surgiendo en Pokémon Go y se van añadiendo tablas nuevas necesarias, por lo tanto la lista de tablas es algo que irá cambiando.
 
 ### Registrar nidos ###
-`Actualmente esta opción no está disponible.`
 
 El bot dispone de registro de nidos, para ello debe de estar configurado el grupo para aceptar su registro. Esta configuración únicamente la puede realizar un administrador de dicho grupo. Si eres administrador de un grupo y quieres saber más información al respecto lee el apartado [Configurar nidos](#configurar-nidos).
 
@@ -368,7 +367,6 @@ El nivel mínimo para entrar en el grupo se puede configurar, clicando en el bot
 El bot dispone de la opción de registrar nidos, para ello es necesario configurar el apartado de Nidos y sus requisitos.
 
 ##### Nidos ##### 
-`Actualmente esta opción no está disponible.`
 
 Clicando sobre el botón `Nidos` podrás activar o desactivar esta opción para que no pueda entrar en conflicto con otros bots que puedan estar haciendo la misma función en el grupo.
 
@@ -378,6 +376,8 @@ Clicando sobre el botón `Nidos` podrás activar o desactivar esta opción para 
 |    ✅ Nidos    | Registro de nidos activado |    
 
 El registro de nidos viene desactivado por defecto.
+
+Para saber cómo registrar un nido o spawn, o para borrar los que haya registrados leer el apartado [Registrar nidos](#registrar-nidos).
 
 ##### Requisito de cantidad de días #####
 
@@ -443,7 +443,7 @@ Opciones de las que dispones:
 
 Para crear un grupo de administración que tenga uno o diversos grupos vinculados se debe seguir los siguientes pasos:
 
-1. Ejecutar el comando `/create_admin` en el grupo al cual quieres que vaya la información, el que será de los administradores, el grupo de Admins. Para configurar el grupo de Admins leer el apartado: [Ajustes del grupo de Admins](#ajustes-del-grupo-de-admins)
+1. Ejecutar el comando `/create_admin` en el grupo al cual quieres que vaya la información, el que será el grupo de Admins. Para configurar el grupo de Admins leer el apartado: [Ajustes del grupo de Admins](#ajustes-del-grupo-de-admins)
 
 Es importante guardar el ID que te dará el bot, lo necesitarás más adelante.
 
@@ -453,7 +453,7 @@ Es importante guardar el ID que te dará el bot, lo necesitarás más adelante.
 
 `En nuestro caso de muestra sería: /create_link 123456.`
 
-3. Vuelve al grupo de administradores e indica, en la botonera, de qué trata el grupo que acabas de vincular. LAs opciones de las que dispones son las siguientes:
+3. Vuelve al grupo de administradores e indica, en la botonera, de qué trata el grupo que acabas de vincular. Las opciones de las que dispones son las siguientes:
 
 Icono | Nombre | Descripción 
 --------|-------------|---------------------------
@@ -471,7 +471,7 @@ Icono | Nombre | Descripción
 
 4. Para vincular más de un grupo a un mismo grupo de administradores vuelve al paso número 3 (la ID será la misma del paso número 1).
 
-Si quieres que el bot deje de considerar un grupo como grupo de administración puedes hacerlo escribiendo `/rm_admin` en el grupo que quieres que deje de ser de administración. Con ese comando se desvincularán todos los grupos que tuvieses vinculados. Si sólo quieres desvincular un grupo entonces dirígete a dicho grupo y ejecuta el comando `/rm_link`.
+Si quieres que el bot deje de considerar un grupo como grupo de administración puedes hacerlo escribiendo `/rm_admin` en dicho grupo. Con ese comando se desvincularán todos los grupos que tuvieses vinculados. Si sólo quieres desvincular un grupo entonces dirígete a ese grupo y ejecuta el comando `/rm_link`.
 
 Para saber qué grupos están vinculados a un grupo de administración escribe el comando `/groups` y el bot te hará una lista de los grupos vinculados, excepto el de administración.
 
