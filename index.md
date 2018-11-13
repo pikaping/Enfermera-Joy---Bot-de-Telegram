@@ -100,7 +100,7 @@ Algunos de ellos son los siguientes:
 
 | Icono           | Definición                       |
 |:----------------|:---------------------------------|
-|        :no_entry:        | Baneado                          |
+|        ⛔        | Baneado                          |
 |        .        | Staff                            |
 
 
