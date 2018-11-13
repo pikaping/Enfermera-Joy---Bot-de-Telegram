@@ -101,7 +101,7 @@ Algunos de ellos son los siguientes:
 | Icono           | Definición                       |
 |:----------------|:---------------------------------|
 |        ⛔        | Baneado                          |
-|        .        | Staff                            |
+|        👩‍⚕️        | Staff                            |
 
 
 ### Código de Entrenador ### 
@@ -327,14 +327,14 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
       3. [Requisito de cantidad de mensajes](#requisito-de-cantidad-de-mensajes)
       
 4. [Noticias](#noticias) 
-      1. **@pokemongohonesto**
-      2. **@enfermerajoynoticias**
-      3. **@detectivepikachunoticias**
-      4. **@noticiasPoGo**
-      5. **teamRocketFake**
+      1. @pokemongohonesto
+      2. @enfermerajoynoticias
+      3. @detectivepikachunoticias
+      4. @noticiasPoGo
+      5. @teamRocketFake
 
 5. [Bienvenida](#bienvenida)
-      1. **Bienvenida**
+      1. Bienvenida
 
 #### Ajustes generales ####
 
@@ -457,7 +457,7 @@ Además el bot dispone de tres strings que se pueden introducir en el texto de b
 | {nombre}  | Perrito   | Nombre en Telegram              | 
 | {apellido}  | Lindo   | Apellido en Telegram            | 
 | {mention}  | x   | x            | 
-| {count}  | x   | x             | 
+| {count}  | 35   | Contador de usuarios que entran al grupo           | 
 
 Para poner links en el mensaje de bienvenida lo puedes hacer mediante el siguiente string: `[NombreLink](Link)`.
 Por ejemplo: `[superjoy](https://websuperenfermerajoy.com)`. Este link que veremos en el mensaje de bienvenida como `superjoy` al clickarlo nos mandará a la web `https://websuperenfermerajoy.com`.
@@ -509,17 +509,17 @@ Es importante guardar el ID que te dará el bot, lo necesitarás más adelante.
 
 Icono | Nombre | Descripción 
 --------|-------------|---------------------------
-:boom:   | Raids | Grupo para incursiones (Raids)
+💥   | Raids | Grupo para incursiones (Raids)
 :repeat:   | Intercambios | Grupo para intercambios de Pokémon
-🗣   | Raids | Grupo para incursiones (Raids)
-:couple:   | Charla | Grupo para incursiones (Raids)
-:star2:   | EX | Grupo para incursiones (Raids) EX
-:eyes:   | Alertas | Grupo para alertas
-:mag:   | Misiones | Grupo para misiones
-:space_invader:   | Otros | Cuando ninguno de los otros define tu grupo, este es el indicado
-:heart:   | Valor | Grupo para miembros del equipo rojo (Valor)
-:yellow_heart:   | Instinto | Grupo para miembros del equipo amarillo (Instinto)
-:blue_heart:   | Sabiduría | Grupo para miembros del equipo azul (Sabiduría)
+🗣   | Charla | Grupo de charla
+👫   | Amigos | Grupo de amigos
+🌟   | EX | Grupo para incursiones (Raids) EX
+👀   | Alertas | Grupo para alertas
+🔍   | Misiones | Grupo para misiones
+👾   | Otros | Cuando ninguno de los otros define tu grupo, este es el indicado
+❤️   | Valor | Grupo para miembros del equipo rojo (Valor)
+💛   | Instinto | Grupo para miembros del equipo amarillo (Instinto)
+💙   | Sabiduría | Grupo para miembros del equipo azul (Sabiduría)
 
 4. Para vincular más de un grupo a un mismo grupo de administradores vuelve al paso número 3 (la ID será la misma del paso número 1).
 
