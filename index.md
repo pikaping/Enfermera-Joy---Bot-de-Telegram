@@ -252,7 +252,7 @@ Por ejemplo, podría haber un comando personalizado que se llame `Dios bidoof` y
 
 Ten en cuenta que el bot responderá únicamente si la frase que se escribas es únicamente el comando personalizado, sin importar las mayúsuculas o minúsuclas, y borrará el comando personalizado dejando únicamente su respuesta.
 
-Por ejemplo, si escribieses "dios bidoof" el bot te respondería con el gif, pero si escribieses "Dios bidoff." ya no sería aceptado y el bot no lo detectaría como el comando personalizado.
+Por ejemplo, si escribieses "dios bidoof" el bot te respondería con el gif, pero si escribieses "Dios bidoof." ya no sería aceptado y el bot no lo detectaría como el comando personalizado.
 
 ### Glosario de comandos para entrenadores ###
 
@@ -539,7 +539,7 @@ Para establecer la zona horaria correcta se debe utilizar el comando `/settimezo
 Los comandos personalizados pueden ser creados y eliminados únicamente por los administradores. Estos comandos personalizados harán que el bot responda con una frase, imagen, link, fichero, video, audio, nota de voz o gif.
 
 Pasos para crear comandos:
-   1. Para crear un comando personalizado se debe escribir `crear comando`.
+   1. Para crear un comando personalizado se debe escribir `nuevo comando`.
    2. Seguidamente el bot te preguntará qué nombre quieres ponerle a dicho comando a lo que deberás responder únicamente con el nombre        que quieras que tenga (máximo 30 carácteres). Ten en cuenta que cada vez que el bot lea ese comando responderá automáticamente con      la respuesta que le vas a dar. Una vez le digas el nombre del comando el bot te pedirá la respuesta que quieres que dé.
    3. Aquí es cuando puedes escribir una frase, poner un gif, un link, un audio, una nota de voz, un video, un fichero o una imagen.
    
@@ -549,7 +549,7 @@ Además, el bot responderá únicamente si la frase que se escriba es únicament
 
 Para que el bot te diga todos los comandos registrados en un grupo se debe emplear la frase: `Listado de comandos`. La lista de comandos será mandada al privado del usuario que lo solicite sin importar si es administrador o no.
 
-Si deseas borrar un comando puedes hacerlo con `Borrar comando {nombre del comando}`, substituyendo la variable {nombre del comando} por el nombre del comando personalizado que tenga. Por ejemplo:
+Si deseas borrar un comando puedes hacerlo con `eliminar comando {nombre del comando}`, substituyendo la variable {nombre del comando} por el nombre del comando personalizado que tenga. Por ejemplo:
 
 `Borrar comando Dios bidoof`
 
@@ -557,7 +557,7 @@ En este caso el comando que se borraría sería el que responda al nombre de `Di
 
 Si al intentar borrar un comando personalizado el bot te responde que este no existe te recomiendo que le solicites al bot la lista de comandos (está explicado más arriba, en este mismo apartado, cómo se hace) para que te asegures de qué comando quieres eliminar.
 
-Para borrar todos los comandos personalizados de golpe se puede hacer mediante el comando `Borrar todos los comandos`, pero tener cuidado que si el bot tenía en uno de ellos alguna información que querías conservar esta se perderá.
+Para borrar todos los comandos personalizados de golpe se puede hacer mediante el comando `eliminar todos los comandos`, pero tener cuidado que si el bot tenía en uno de ellos alguna información que querías conservar esta se perderá.
 
 ### Otros comandos exclusivos para administradores ###   
 `En proceso de escritura` + `Actualmente esta opción no está disponible.`
@@ -664,6 +664,10 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 `/settings`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
 `/set_welcome`| ? | ✅ | Grupo | `Mensaje de bienvenida`
 `/set_zone`| ? | ✅ | Grupo & Grupo administración | `Zona horaria`
+`nuevo comando`| ? | ✅ | Grupo | ❌
+`eliminar comando {nombre del comando}`| ? | ✅ | Grupo | `{nombre del comando}`
+`eliminar todos los comandos`| ? | ✅ | Grupo | ❌
+`Listado de comandos`| ? | ❌ | Grupo| ❌
 `/set_stops`| ? | ✅ | Grupo & Grupo administración | `Enlace hoja de calculo`
 `/set_talkgroup`| ? | ✅ | Grupo & Grupo administración | `Alias o enlace de Telegram`
 `/mk_admin`| ? | ✅ | Grupo administración | ❌
