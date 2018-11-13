@@ -309,9 +309,9 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
 4. [Noticias](#noticias) 
       1. **@pokemongohonesto**
       2. **@enfermerajoynoticias**
-      3. **@
-      4. **
-      5. **
+      3. **@detectivepikachunoticias**
+      4. **@noticiasPoGo**
+      5. **teamRocketFake**
 
 5. [Bienvenida](#bienvenida)
       1. **Bienvenida**
@@ -410,11 +410,11 @@ Los canales de los que se dipone actualmente son los siguientes:
 - @enfermerajoynoticias (noticias sobre el bot @NurseJoyBot)
 - @detectivepikachunoticias (noticias sobre el bot @detectivepikachu)
 - @NoticiasPoGo (noticias sobre Pokémon Go)
-- @..... (noticias broma de sobre Pokémon Go)
+- @teamRocketFake (noticias broma de sobre Pokémon Go)
 
 Cada uno de los siguientes canales tienen sus própias características por los cuales son importantes y seguidos: algunos son de noticias sobre bots, noticias sobre el juego o noticias de broma.
 
-Es decisión de cada grupo activar o no el reenvio de las noticias (y cuales) para mantenerse informados.
+Es decisión de cada grupo activar o no el reenvio de las noticias (y cuales) para mantenerse informados. Por defecto todas las noticias estarán desactivadas.
 
 
 #### Bienvenida ####
