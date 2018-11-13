@@ -198,12 +198,11 @@ Estos son las tablas de las que se disponen actualmente:
 
 ***
 
-- Raid (también se puede solicitar como: Raids, incursión, incursion, incursiones, jefe o jefes)
+- Jefes (también se puede solicitar como: raid, raids, incursión, incursion, incursiones o jefe)
 - Amistad
 - Community
 - Shiny (también se puede solicitar como: Shinys)
 - Huevos
-- Jefes
 
 Todas las tablas se van modificando según los cambios que van surgiendo en Pokémon Go y se van añadiendo tablas nuevas necesarias, por lo tanto la lista de tablas es algo que irá cambiando.
 
