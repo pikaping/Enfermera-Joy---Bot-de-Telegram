@@ -446,6 +446,8 @@ El bot también puede tener botones en el mensaje de bienvenida, para ello se de
 
 `[Enlace a google.es](buttonurl:Google.es)`
 
+Para escribir texto en **negrita** dentro del mensaje de bienvenida se debe escribir con un * antes y después del texto, para escribir en *cursiva* se debe escribir, antes y después del texto, un _ .
+
 Si se quiere eliminar el mensaje de bienvenida, para que el bot deje de saludar cuando entren entrenadores nuevos, entonces se debe escribir el comando `/set_welcome` sin ningún texto más.
 
 ### Configuración Admins ###
