@@ -14,8 +14,9 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
    5. [Quién es](#quién-es)
    6. [Tablas](#tablas)  
    7. [Registrar nidos](#registrar-nidos)  
-   8. [Glosario de comandos para entrenadores](#glosario-de-comandos-para-entrenadores)
-   9. [Más ayuda](#más-ayuda)
+   8. [Listado de comandos](#listado-de-comandos)
+   9. [Glosario de comandos para entrenadores](#glosario-de-comandos-para-entrenadores)
+   10. [Más ayuda](#más-ayuda)
 2. [Ayuda para administradores](#ayuda-para-administradores)
    1. [Añadir el bot a un grupo o canal](#añadir-el-bot-a-un-grupo-o-canal)
    2. [Configuración básica](#configuración-básica)
@@ -28,10 +29,11 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
       1. [Ajustes del grupo de Admins](#ajustes-del-grupo-de-admins)
       2. [Vincular grupos al grupo de Admins](#vincular-grupos-al-grupo-de-admins)
    4. [Zona horaria](#zona-horaria)
-   5. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
+   5. [Comandos personalizados](#comandos-personalizados)
+   6. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
       1. [Moderación de un usuario](#moderación-de-un-usuario)
-      1. [Moderación de varios usuarios](#moderación-de-varios-usuarios)
-   6. [Glosario de comandos para administradores](#glosario-de-comandos-para-administradores)
+      2. [Moderación de varios usuarios](#moderación-de-varios-usuarios)
+   7. [Glosario de comandos para administradores](#glosario-de-comandos-para-administradores)
 3. [Reglamento General de Uso del Bot](#reglamento-general-de-uso-del-bot)
 4. [Política de privacidad](#políica-de-privacidad)
 
@@ -237,6 +239,22 @@ Siguiendo también el ejemplo, el bot mirará si hay registrado algún nido de *
 
 Para que el bot te mande una lista de todos los nidos o spawns que se haya registrado en tu grupo, debes utilizar el comando `Listado de nidos`. Este comando lo puedes escribir en el grupo y Joy responderá borrando el comando y avisando de que alguien ha solicitado la lista y ofreciendo mandarsela a quien la solicite pulsando en el botón de "¡Yo!". La lista será mandada al privado del bot.
 
+### Listado de comandos ###
+
+Los comandos personalizados pueden ser creados y eliminados únicamente por los administradores. Si eres administrador te recomiendo que leas el apartado [Comandos personalizados](#comandos-personalizados).
+
+Como entrenador y miembro del grupo puedes emplear y hacer que el bot responda con los comandos personalizados que hayan creado los administradores de tu grupo.
+
+Los comandos personalizados son una información própia de cada grupo, es por ello que los comandos cambiarán según en el grupo en el que te encuentres.
+
+Para solicitar el listado de comandos personalizados de un grupo debes escribir en dicho grupo la frase: `Listado de comandos`. La lista de comandos será mandada al privado que tienes con del bot y podrás ver todos los comandos personalizados que tiene ese grupo en concreto. 
+
+Por ejemplo, podría haber un comando personalizado que se llame `Dios bidoof` y que el bot responderá a este con un gif sobre bidoof.
+
+Ten en cuenta que el bot responderá únicamente si la frase que se escribas es únicamente el comando personalizado, sin importar las mayúsuculas o minúsuclas, y borrará el comando personalizado dejando únicamente su respuesta.
+
+Por ejemplo, si escribieses "dios bidoof" el bot te respondería con el gif, pero si escribieses "Dios bidoff." ya no sería aceptado y el bot no lo detectaría como el comando personalizado.
+
 ### Glosario de comandos para entrenadores ###
 
 Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
@@ -246,6 +264,7 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 `Eliminar todos los nidos`| ? | ✅ | Grupo | ❌
 `Nido en {Lugar}`| ? | ❌ | Grupo | `Lugar`<sup>1</sup>
 `Nido de {Pokémon}`| ? | ❌ | Grupo | `Lugar`<sup>1</sup>
+`Listado de comandos`| ? | ❌ | Grupo | ❌
 `/start`| ? | ❌ | Todos | ❌
 `/help`| ? | ❌ | Todos | ❌
 `/register`| ? | ❌ | Privado | ❌
@@ -515,6 +534,31 @@ El bot reconoce la hora que escriben los usuarios y hace operaciones con ellas, 
 Para establecer la zona horaria correcta se debe utilizar el comando `/settimezone` con la zona horaria correspondiente como parámetro siguiendo el formato del [listado de zonas horarias de la IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). Por ejemplo:
     /settimezone Europe/Madrid
     /settimezone Atlantic/Canary
+    
+### Comandos personalizados ###
+
+Los comandos personalizados pueden ser creados y eliminados únicamente por los administradores. Estos comandos personalizados harán que el bot responda con una frase, imagen, link, fichero, video, audio, nota de voz o gif.
+
+Pasos para crear comandos:
+   1. Para crear un comando personalizado se debe escribir `crear comando`.
+   2. Seguidamente el bot te preguntará qué nombre quieres ponerle a dicho comando a lo que deberás responder únicamente con el nombre        que quieras que tenga (máximo 30 carácteres). Ten en cuenta que cada vez que el bot lea ese comando responderá automáticamente con      la respuesta que le vas a dar. Una vez le digas el nombre del comando el bot te pedirá la respuesta que quieres que dé.
+   3. Aquí es cuando puedes escribir una frase, poner un gif, un link, un audio, una nota de voz, un video, un fichero o una imagen.
+   
+Por ejemplo, podría haber un comando personalizado que se llame `Dios bidoof` y que el bot responderá a este con un gif sobre bidoof.
+
+Además, el bot responderá únicamente si la frase que se escriba es únicamente el comando personalizado, sin importar las mayúsuculas o minúsuclas, y borrará el comando personalizado dejando únicamente su respuesta.
+
+Para que el bot te diga todos los comandos registrados en un grupo se debe emplear la frase: `Listado de comandos`. La lista de comandos será mandada al privado del usuario que lo solicite sin importar si es administrador o no.
+
+Si deseas borrar un comando puedes hacerlo con `Borrar comando {nombre del comando}`, substituyendo la variable {nombre del comando} por el nombre del comando personalizado que tenga. Por ejemplo:
+
+`Borrar comando Dios bidoof`
+
+En este caso el comando que se borraría sería el que responda al nombre de `Dios bidoof`.
+
+Si al intentar borrar un comando personalizado el bot te responde que este no existe te recomiendo que le solicites al bot la lista de comandos (está explicado más arriba, en este mismo apartado, cómo se hace) para que te asegures de qué comando quieres eliminar.
+
+Para borrar todos los comandos personalizados de golpe se puede hacer mediante el comando `Borrar todos los comandos`, pero tener cuidado que si el bot tenía en uno de ellos alguna información que querías conservar esta se perderá.
 
 ### Otros comandos exclusivos para administradores ###   
 `En proceso de escritura` + `Actualmente esta opción no está disponible.`
