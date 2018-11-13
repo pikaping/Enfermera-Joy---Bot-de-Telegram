@@ -160,6 +160,8 @@ Estos son las tablas de las que se disponen actualmente:
 - Celebi
 - Cyndaquil (también la puedes solicitar como Community)
 - Deoxys (versión normal, también se puede solicitar como DeoxysN. Es la forma activa en el juego)
+- DeoxysA (versión ataque)
+- DeoxysD (versión defensa)
 - DeoxysV (versión velocidad)
 - Entei
 - Gengar
