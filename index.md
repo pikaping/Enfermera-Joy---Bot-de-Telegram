@@ -158,6 +158,7 @@ Estos son las tablas de las que se disponen actualmente:
 - Celebi
 - Cyndaquil (también la puedes solicitar como Community)
 - Deoxys (versión normal, también se puede solicitar como DeoxysN. Es la forma activa en el juego)
+- DeoxysV (versión velocidad)
 - Entei
 - Gengar
 - Giratina (la forma activa en el juego)
@@ -198,6 +199,9 @@ Estos son las tablas de las que se disponen actualmente:
 - Raid (también se puede solicitar como: Raids, incursión, incursion, incursiones, jefe o jefes)
 - Amistad
 - Community
+- Shiny (también se puede solicitar como: Shinys)
+- Huevos
+- Jefes
 
 Todas las tablas se van modificando según los cambios que van surgiendo en Pokémon Go y se van añadiendo tablas nuevas necesarias, por lo tanto la lista de tablas es algo que irá cambiando.
 
@@ -302,9 +306,12 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
       2. [Requisito de cantidad de días](#requisito-de-cantidad-de-días)
       3. [Requisito de cantidad de mensajes](#requisito-de-cantidad-de-mensajes)
       
-4. [Noticias](#noticias) `Actualmente esta opción no está disponible.`
+4. [Noticias](#noticias) 
       1. **@pokemongohonesto**
       2. **@enfermerajoynoticias**
+      3. **@
+      4. **
+      5. **
 
 5. [Bienvenida](#bienvenida)
       1. **Bienvenida**
@@ -395,9 +402,20 @@ Por defecto, este requisito, viene configurado como sin requisitos, 0 mensajes.
 
 #### Noticias ####
 
-##### @pokemongohonesto #####
+El bot dispone de la opción de *Noticias*: Eso quiere decir que puede reenviar automáticamente las publicaciones que salgan en distintos canales.
 
-##### @enfermerajoynoticias #####
+Los canales de los que se dipone actualmente son los siguientes:
+
+- @pokemongohonesto (noticias sobre Pokémon Go)
+- @enfermerajoynoticias (noticias sobre el bot @NurseJoyBot)
+- @detectivepikachunoticias (noticias sobre el bot @detectivepikachu)
+- @NoticiasPoGo (noticias sobre Pokémon Go)
+- @..... (noticias broma de sobre Pokémon Go)
+
+Cada uno de los siguientes canales tienen sus própias características por los cuales son importantes y seguidos: algunos son de noticias sobre bots, noticias sobre el juego o noticias de broma.
+
+Es decisión de cada grupo activar o no el reenvio de las noticias (y cuales) para mantenerse informados.
+
 
 #### Bienvenida ####
 
@@ -411,12 +429,22 @@ Además el bot dispone de tres strings que se pueden introducir en el texto de b
 
 | Strings | Texto mostrado       | Definición                              |
 |:--------|:---------------------|:----------------------------------------|
-|  $pogo  | Berny **L40** 💛 ✅  | Nick +Nivel +Equipo +Proceso validación |
-|$username| Berny                | Nick                                    |
-| $title  | PoGo de tu ciudad    | Nombre del grupo                        | 
+|  {pogo}  | Berny **L40** 💛 ✅  | Nick +Nivel +Equipo +Proceso validación |
+|{usuario}| Berny                | Nick                                    |
+| {title}  | PoGo de tu ciudad    | Nombre del grupo       | 
+| {id}  | 123456789    | ID de Telegram                    | 
+| {nombre_completo}  | Perrito Lindo   | Nombre y apellido en Telegram  | 
+| {nombre}  | Perrito   | Nombre en Telegram              | 
+| {apellido}  | Lindo   | Apellido en Telegram            | 
+| {mention}  | x   | x            | 
+| {count}  | x   | x             | 
 
 Para poner links en el mensaje de bienvenida lo puedes hacer mediante el siguiente string: `[NombreLink](Link)`.
 Por ejemplo: `[superjoy](https://websuperenfermerajoy.com)`. Este link que veremos en el mensaje de bienvenida como `superjoy` al clickarlo nos mandará a la web `https://websuperenfermerajoy.com`.
+
+El bot también puede tener botones en el mensaje de bienvenida, para ello se debe escribir de la siguiente manera: `[Texto a mostrar en el botón](buttonurl:Google.es)`. Se debe escribir todo junto, sin espacio, y cambiar el texto del botón y el enlace. Como ejemplo:
+
+`[Enlace a google.es](buttonurl:Google.es)`
 
 Si se quiere eliminar el mensaje de bienvenida, para que el bot deje de saludar cuando entren entrenadores nuevos, entonces se debe escribir el comando `/set_welcome` sin ningún texto más.
 
@@ -476,7 +504,6 @@ Icono | Nombre | Descripción
 Si quieres que el bot deje de considerar un grupo como grupo de administración puedes hacerlo escribiendo `/rm_admin` en dicho grupo. Con ese comando se desvincularán todos los grupos que tuvieses vinculados. Si sólo quieres desvincular un grupo entonces dirígete a ese grupo y ejecuta el comando `/rm_link`.
 
 Para saber qué grupos están vinculados a un grupo de administración escribe el comando `/groups` y el bot te hará una lista de los grupos vinculados, excepto el de administración.
-
 
 
 ### Zona horaria ###
