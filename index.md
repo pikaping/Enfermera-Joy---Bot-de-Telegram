@@ -481,7 +481,7 @@ Opciones de las que dispones:
 
    - Aviso de la gente que entra al grupo o grupos vinculados.
 
-   - Aviso de la gente que sale del grupo o grupos vinculados.
+   - Aviso de la gente que sale del grupo o grupos vinculados. (sólo avisará si son grupos de 50 usuarios o menos, o si ha slido del grupo por ban o kick)
 
    - Aviso cuando se escribe @admin en el grupo o grupos vinculados.
 
