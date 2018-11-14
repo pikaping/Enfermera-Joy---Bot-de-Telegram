@@ -14,7 +14,7 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
    5. [Quién es](#quién-es)
    6. [Tablas](#tablas)  
    7. [Registrar nidos](#registrar-nidos)  
-   8. [Listado de comandos](#listado-de-comandos)
+   8. [Listado de comandos](#listado-de-comandos) 
    9. [Glosario de comandos para entrenadores](#glosario-de-comandos-para-entrenadores)
    10. [Más ayuda](#más-ayuda)
 2. [Ayuda para administradores](#ayuda-para-administradores)
@@ -241,6 +241,8 @@ Siguiendo también el ejemplo, el bot mirará si hay registrado algún nido de *
 Para que el bot te mande una lista de todos los nidos o spawns que se haya registrado en tu grupo, debes utilizar el comando `Listado de nidos`. Este comando lo puedes escribir en el grupo y Joy responderá borrando el comando y avisando de que alguien ha solicitado la lista y ofreciendo mandarsela a quien la solicite pulsando en el botón de "¡Yo!". La lista será mandada al privado del bot.
 
 ### Listado de comandos ###
+
+`Actualmente esta opción no está disponible.`
 
 Los comandos personalizados pueden ser creados y eliminados únicamente por los administradores. Si eres administrador te recomiendo que leas el apartado [Comandos personalizados](#comandos-personalizados).
 
@@ -537,6 +539,8 @@ Para establecer la zona horaria correcta se debe utilizar el comando `/settimezo
     /settimezone Atlantic/Canary
     
 ### Comandos personalizados ###
+
+`Actualmente esta opción no está disponible.`
 
 Los comandos personalizados pueden ser creados y eliminados únicamente por los administradores. Estos comandos personalizados harán que el bot responda con una frase, imagen, link, fichero, video, audio, nota de voz o gif.
 
