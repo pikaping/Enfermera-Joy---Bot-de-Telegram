@@ -127,7 +127,7 @@ Ejemplos de posibles respuestas de Joy:
 
 1. **Berny**, es del equipo **Instinto** nivel **40** ✅
 
-   El Entrenador utiliza el nick de Berny en el juego, es del equipo Instinto, nivel 40 y está validado. Aunque no es freqüente, la        Ficha de Entrenador puede tener otros iconos. Para más información leer el apartado [Iconos en la Ficha de Entrenador](#iconos-en-la-ficha-de-entrenador).
+   El Entrenador utiliza el nick de Berny en el juego, es del equipo Instinto, nivel 40 y está validado. Aunque no es frecuente, la        Ficha de Entrenador puede tener otros iconos. Para más información leer el apartado [Iconos en la Ficha de Entrenador](#iconos-en-la-ficha-de-entrenador).
 
 2. ❌ No tengo información sobre este entrenador.
    
@@ -143,7 +143,7 @@ Se puede emplear el comando de dos formas:
 
 1. Citando el mensaje del jugador por el grupo general y escribiendo el comando. El bot eliminará automáticamente el mensaje donde esté el comando y responderá con un mensaje que también será eliminado cuando hayan pasado unos segundos.
 
-2. Citando el mensajde del jugador por privado. Este método evita escribir el mensaje por grupo, pero es algo más rebuscado. Primero de todo se debe reenviar un mensaje del jugador que se desea al privado del bot [@NurseJoyBot](https://t.me/NurseJoyBot), seguidamente, dentro del privado del bot, deberás citar el mensaje que acabas de reenviarle y escribir el comando.
+2. Citando el mensaje del jugador por privado. Este método evita escribir el mensaje por grupo, pero es algo más rebuscado. Primero de todo se debe reenviar un mensaje del jugador que se desea al privado del bot [@NurseJoyBot](https://t.me/NurseJoyBot), seguidamente, dentro del privado del bot, deberás citar el mensaje que acabas de reenviarle y escribir el comando.
 
 
 ### Tablas ###
@@ -252,7 +252,7 @@ Para solicitar el listado de comandos personalizados de un grupo debes escribir 
 
 Por ejemplo, podría haber un comando personalizado que se llame `Dios bidoof` y que el bot responderá a este con un gif sobre bidoof.
 
-Ten en cuenta que el bot responderá únicamente si la frase que se escribas es únicamente el comando personalizado, sin importar las mayúsuculas o minúsuclas, y borrará el comando personalizado dejando únicamente su respuesta.
+Ten en cuenta que el bot responderá únicamente si la frase que se escribas es únicamente el comando personalizado, sin importar las mayúsculas o minúsculas, y borrará el comando personalizado dejando únicamente su respuesta.
 
 Por ejemplo, si escribieses "dios bidoof" el bot te respondería con el gif, pero si escribieses "Dios bidoof." ya no sería aceptado y el bot no lo detectaría como el comando personalizado.
 
