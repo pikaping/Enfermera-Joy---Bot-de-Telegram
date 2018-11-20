@@ -765,4 +765,8 @@ Las interacciones en grupos y directas con el bot (logs) se eliminan pasados dos
 
 Se debe enviar un correo a [apelaciones@qwert1.es](mailto:apelaciones@qwert1.es) indicando que se desea ejercer alguno de los derechos contemplados: acceso, rectificación, supresión y limitación del tratamiento, portabilidad de datos.
 
-En caso de ejercitar el derecho de supresión, el bot guardará el identificador numérico de Telegram junto con una marca que indica este deseo. En este caso, no será posible utilizar el bot y el estado de la cuenta aparecerá como baneada.
+En caso de ejercitar el derecho de supresión, el bot guardará el identificador numérico de Telegram junto con una marca que indica este deseo. En este caso, no será posible utilizar el bot y el estado de la cuenta aparecerá como baneada y eliminada.
+
+Para eliminar sus datos se requerirá de su Documento Nacional de Identidad con fines acreditativos y de defensa en futuras reclamaciones. [Fuente 1 - Página 21 Apartado 5.4](https://www.aepd.es/media/guias/guia-ciudadano.pdf) [Fuente 2](https://ayudaleyprotecciondatos.es/2016/06/18/los-derechos-arco-acceso-rectificacion-cancelacion-y-oposicion/) 
+
+
