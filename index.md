@@ -35,7 +35,7 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
       2. [Moderación de varios usuarios](#moderación-de-varios-usuarios)
    7. [Glosario de comandos para administradores](#glosario-de-comandos-para-administradores)
 3. [Reglamento General de Uso del Bot](#reglamento-general-de-uso-del-bot)
-4. [Política de privacidad](#políica-de-privacidad)
+4. [Política de privacidad](#Políica-de-privacidad)
 
 
 ## Ayuda para entrenadores ##
