@@ -226,7 +226,9 @@ Este comando también lo puedes escribir como: :feet:
 
 `Registro spawn de {Pokémon} en {Lugar}`
 
-Si el nido es erroneo y se quiere borrar antes de que Joy los reinicie entonces se deberá utilizar el comando `Eliminar nido de {Pokémon} en {Lugar}`. Siendo, igual que al registrar el nido, las variables {Pokémon} y {Lugar} las únicas palabras que se modificarán del comando. También se puede borrar todos los nidos de golpe empleando el comando `Eliminar todos los nidos`. Estos dos comandos (de borrar nidos) son exclusivos para administradores.
+Para que el bot te mande una lista de todos los nidos o spawns que se haya registrado en tu grupo, debes utilizar el comando `Listado de nidos`. Este comando lo puedes escribir en el grupo y Joy responderá borrando el comando y avisando de que alguien ha solicitado la lista y ofreciendo mandarsela a quien la solicite pulsando en el botón de "Yo!". La lista será mandada al privado del bot.
+
+Si el nido es erroneo y se quiere borrar antes de que Joy los reinicie entonces se deberá utilizar el comando `Eliminar nido número {Número del nido}`. Puedes encontrar la variable {Número del nido} al solicitar el *Listado de nidos*. También se puede borrar todos los nidos de golpe empleando el comando `Eliminar todos los nidos`. Estos dos comandos (de borrar nidos) son exclusivos para administradores.
 
 Otros dos comandos relacionados con los nidos son:  `Nido en {Lugar}` y `Nido de {Pokémon}`.
 
@@ -237,8 +239,6 @@ Según el ejemplo, el bot te buscará en sus datos si hay registrado algún nido
 `Nido de {Pokémon}`, por ejemplo, "Nido de Chansey".
 
 Siguiendo también el ejemplo, el bot mirará si hay registrado algún nido de *Chansey* en tu grupo, si lo hay, te responderá con el nombre del lugar donde se ha registrado.
-
-Para que el bot te mande una lista de todos los nidos o spawns que se haya registrado en tu grupo, debes utilizar el comando `Listado de nidos`. Este comando lo puedes escribir en el grupo y Joy responderá borrando el comando y avisando de que alguien ha solicitado la lista y ofreciendo mandarsela a quien la solicite pulsando en el botón de "¡Yo!". La lista será mandada al privado del bot.
 
 ### Listado de comandos ###
 
@@ -455,10 +455,9 @@ Además el bot dispone de tres strings que se pueden introducir en el texto de b
 |{usuario}| Berny                | Nick                                    |
 | {title}  | PoGo de tu ciudad    | Nombre del grupo       | 
 | {id}  | 123456789    | ID de Telegram                    | 
-| {nombre_completo}  | Perrito Lindo   | Nombre y apellido en Telegram  | 
 | {nombre}  | Perrito   | Nombre en Telegram              | 
 | {apellido}  | Lindo   | Apellido en Telegram            | 
-| {mention}  | x   | x            | 
+| {mention}  | @bernyelperro   | Alias de Telegram           | 
 | {count}  | 35   | Contador de usuarios que entran al grupo           | 
 
 Para poner links en el mensaje de bienvenida lo puedes hacer mediante el siguiente string: `[NombreLink](Link)`.
