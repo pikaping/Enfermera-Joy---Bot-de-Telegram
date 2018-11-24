@@ -263,7 +263,8 @@ Por ejemplo, si escribieses "dios bidoof" el bot te respondería con el gif, per
 Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 --------|-------------|---------------------------|--------|-----------
 `Registrar nido de {Pokémon} en {Lugar}`| ? | ❌ | Grupo | `Pokémon Lugar`<sup>1</sup>
-`Eliminar nido de {Pokémon} en {Lugar}`| ? | ✅ | Grupo | `Pokémon Lugar`<sup>1</sup>
+`Listado de nidos`| ? | ❌ | Grupo | ❌
+`Eliminar nido número {Número del nido}`| ? | ✅ | Grupo | `Número del nido`
 `Eliminar todos los nidos`| ? | ✅ | Grupo | ❌
 `Nido en {Lugar}`| ? | ❌ | Grupo | `Lugar`<sup>1</sup>
 `Nido de {Pokémon}`| ? | ❌ | Grupo | `Lugar`<sup>1</sup>
@@ -273,9 +274,9 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 `/register`| ? | ❌ | Privado | ❌
 `/set_friendid`| ? | ❌ | Privado | `ID de Pokémon GO`
 `Quién es`| ? | ❌ | Todos | ❌
-`Quién es Entrenador`| ? | ❌ | Todos | `Nombre de entrenador`
+`Quién es ´{Entrenador}`| ? | ❌ | Todos | `Nombre de entrenador`
 `/profile`| ? | ❌ | Todos | ❌
-`/tabla`| ? | ❌ | Todos | `Tabla disponible`
+`/tabla {Pokémon}`| ? | ❌ | Todos | `Tabla disponible`
 `/joyping`| ? | ❌ | Todos | ❌
 
 1. Número máximo de caracteres: 50.
