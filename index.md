@@ -145,6 +145,11 @@ Se puede emplear el comando de dos formas:
 
 2. Citando el mensaje del jugador por privado. Este método evita escribir el mensaje por grupo, pero es algo más rebuscado. Primero de todo se debe reenviar un mensaje del jugador que se desea al privado del bot [@NurseJoyBot](https://t.me/NurseJoyBot), seguidamente, dentro del privado del bot, deberás citar el mensaje que acabas de reenviarle y escribir el comando.
 
+También se dispone, mediante únicamente el comando `/whois` (las otras versiones no lo permiten), de dos formas más de solicitar la información de otro entrenador:
+
+1. Escribiendo el comando y escribiendo el Nick del juego del entrenador del que quieres información. Por ejemplo: `/whois Berny`
+
+2. Escribiendo el comando y escribiendo el Alias de Telegram (sin la @). Por ejemplo: `/whois bernyelperro`
 
 ### Tablas ###
 
