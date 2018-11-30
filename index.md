@@ -270,7 +270,7 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 `Registrar nido de {Pokémon} en {Lugar}`| ? | ❌ | Grupo | `Pokémon Lugar`<sup>1</sup>
 `Listado de nidos`| ? | ❌ | Grupo | ❌
 `Eliminar nido número {Número del nido}`| ? | ✅ | Grupo | `Número del nido`
-`Eliminar todos los nidos`| ? | ✅ | Grupo | ❌
+`Eliminar todos los nidos de este grupo`| ? | ✅ | Grupo | ❌
 `Nido en {Lugar}`| ? | ❌ | Grupo | `Lugar`<sup>1</sup>
 `Nido de {Pokémon}`| ? | ❌ | Grupo | `Lugar`<sup>1</sup>
 `Listado de comandos`| ? | ❌ | Grupo | ❌
