@@ -233,7 +233,7 @@ Este comando también lo puedes escribir como: :feet:
 
 Para que el bot te mande una lista de todos los nidos o spawns que se haya registrado en tu grupo, debes utilizar el comando `Listado de nidos`. Este comando lo puedes escribir en el grupo y Joy responderá borrando el comando y avisando de que alguien ha solicitado la lista y ofreciendo mandarsela a quien la solicite pulsando en el botón de "Yo!". La lista será mandada al privado del bot.
 
-Si el nido es erroneo y se quiere borrar antes de que Joy los reinicie entonces se deberá utilizar el comando `Eliminar nido número {Número del nido}`. Puedes encontrar la variable {Número del nido} al solicitar el *Listado de nidos*. También se puede borrar todos los nidos de golpe empleando el comando `Eliminar todos los nidos`. Estos dos comandos (de borrar nidos) son exclusivos para administradores.
+Si el nido es erroneo y se quiere borrar antes de que Joy los reinicie entonces se deberá utilizar el comando `Eliminar nido número {Número del nido}`. Puedes encontrar la variable {Número del nido} al solicitar el *Listado de nidos*. También se puede borrar todos los nidos de golpe empleando el comando `Eliminar todos los nidos de este grupo`. Estos dos comandos (de borrar nidos) son exclusivos para administradores.
 
 Otros dos comandos relacionados con los nidos son:  `Nido en {Lugar}` y `Nido de {Pokémon}`.
 
@@ -469,16 +469,23 @@ Además el bot dispone de tres strings que se pueden introducir en el texto de b
 Para poner links en el mensaje de bienvenida lo puedes hacer mediante el siguiente string: `[NombreLink](Link)`.
 Por ejemplo: `[superjoy](https://websuperenfermerajoy.com)`. Este link que veremos en el mensaje de bienvenida como `superjoy` al clickarlo nos mandará a la web `https://websuperenfermerajoy.com`.
 
-El bot también puede tener botones en el mensaje de bienvenida, para ello se debe escribir de la siguiente manera: `[Texto a mostrar en el botón](buttonurl:Google.es)`. Se debe escribir todo junto, sin espacio, y cambiar el texto del botón y el enlace. Como ejemplo:
+El bot también puede tener botones en el mensaje de bienvenida, para ello se debe escribir de la siguiente manera: `[Texto a mostrar en el botón](buttonurl://dirección.com)`. Se debe escribir todo junto, sin espacio, y cambiar el texto del botón y el enlace. Como ejemplo:
 
 `[Enlace a google.es](buttonurl:Google.es)`
+
+Para escribir más de un botón en una misma línea se ha de escribir `:same` al final de la dirección. En el siguiente ejemplo se verían 3 botones seguidos (Botón 1, 2 y 3) y en la siguiente línea dos botones (Botón 4 y 5).
+
+`[Botón 1](buttonurl:Google.es)`
+`[Botón 2](buttonurl:Google.es:same)`
+`[Botón 3](buttonurl:Google.es:same)`
+`[Botón 4](buttonurl:Google.es)`
+`[Botón 5](buttonurl:Google.es:same)`
 
 Para escribir texto en **negrita** dentro del mensaje de bienvenida se debe escribir con un * antes y después del texto, para escribir en *cursiva* se debe escribir, antes y después del texto, un _ .
 
 Si se quiere eliminar el mensaje de bienvenida, para que el bot deje de saludar cuando entren entrenadores nuevos, entonces se debe escribir el comando `/set_welcome` sin ningún texto más.
 
 ### Configuración Admins ###
-`En proceso de escritura (todo el apartado)` + `Actualmente esta opción no está disponible.`
 
 #### Ajustes del grupo de Admins ####
 
@@ -533,7 +540,6 @@ Icono | Nombre | Descripción
 Si quieres que el bot deje de considerar un grupo como grupo de administración puedes hacerlo escribiendo `/rm_admin` en dicho grupo. Con ese comando se desvincularán todos los grupos que tuvieses vinculados. Si sólo quieres desvincular un grupo entonces dirígete a ese grupo y ejecuta el comando `/rm_link`.
 
 Para saber qué grupos están vinculados a un grupo de administración escribe el comando `/groups` y el bot te hará una lista de los grupos vinculados, excepto el de administración.
-
 
 ### Zona horaria ###
 
