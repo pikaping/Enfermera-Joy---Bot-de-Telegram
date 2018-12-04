@@ -29,11 +29,12 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
       1. [Ajustes del grupo de Admins](#ajustes-del-grupo-de-admins)
       2. [Vincular grupos al grupo de Admins](#vincular-grupos-al-grupo-de-admins)
    4. [Zona horaria](#zona-horaria)
-   5. [Comandos personalizados](#comandos-personalizados)
-   6. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
+   5. [Gestión de usuarios](#gestión-de-usuarios)
+   6. [Comandos personalizados](#comandos-personalizados)
+   7. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
       1. [Moderación de un usuario](#moderación-de-un-usuario)
       2. [Moderación de varios usuarios](#moderación-de-varios-usuarios)
-   7. [Glosario de comandos para administradores](#glosario-de-comandos-para-administradores)
+   8. [Glosario de comandos para administradores](#glosario-de-comandos-para-administradores)
 3. [Reglamento General de Uso del Bot](#reglamento-general-de-uso-del-bot)
 4. [Política de privacidad](#Política-de-privacidad)
 
@@ -548,7 +549,24 @@ El bot reconoce la hora que escriben los usuarios y hace operaciones con ellas, 
 Para establecer la zona horaria correcta se debe utilizar el comando `/settimezone` con la zona horaria correspondiente como parámetro siguiendo el formato del [listado de zonas horarias de la IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). Por ejemplo:
     /settimezone Europe/Madrid
     /settimezone Atlantic/Canary
-    
+
+### Gestión de usuarios ###
+
+Para saber la cantidad de entrenadores que de cada equipo que hay en un grupo y saber los entrenadores que no están validados, puedes emplear el comando ´/joyuv´ y el bot te mostrará un mensaje parecido a este:
+💙 Azules: 10
+💛 Amarillos: 3
+❤️ Rojos: 8
+(corazón negro) No Validados: 5
+(?) Desconocidos: 12
+
+Los nicks de los entrenadores de uno de los equipos se pueden ver mediante:
+💙 Azules (equipo Sabiduría) -> /joyuv B
+💛 Amarillos (equipo Instinto) -> /joyuv Y
+❤️ Rojos (equipo Valor) -> /joyuv R
+
+El comando ´/joykickuv´ sirve para expulsar a todos aquellos No Validados en el bot. El bot no puede expulsar a los que no conoce, pero si a los que no están validados y conoce.
+*AVISO:* antes de usar el comando ´/joykickuv´ ten en cuenta que los únicos bots validados con @nurseyjoybot son: @detectivepikachubot, @nidospokemonbot, @ProfesorOak_bot y el própio bot @nurseyjoybot.
+
 ### Comandos personalizados ###
 
 `Actualmente esta opción no está disponible.`
