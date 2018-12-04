@@ -553,16 +553,24 @@ Para establecer la zona horaria correcta se debe utilizar el comando `/settimezo
 ### Gestión de usuarios ###
 
 Para saber la cantidad de entrenadores que de cada equipo que hay en un grupo y saber los entrenadores que no están validados, puedes emplear el comando ´/joyuv´ y el bot te mostrará un mensaje parecido a este:
-   💙 Azules: 10
-   💛 Amarillos: 3
-   ❤️ Rojos: 8
-   (corazón negro) No Validados: 5
-   (?) Desconocidos: 12
+
+💙 Azules: 10
+
+💛 Amarillos: 3
+
+❤️ Rojos: 8
+
+(corazón negro) No Validados: 5
+
+(?) Desconocidos: 12
 
 Los nicks de los entrenadores de uno de los equipos se pueden ver mediante:
-   💙 Azules (equipo Sabiduría) -> /joyuv B
-   💛 Amarillos (equipo Instinto) -> /joyuv Y
-   ❤️ Rojos (equipo Valor) -> /joyuv R
+
+💙 Azules (equipo Sabiduría) -> /joyuv B
+
+💛 Amarillos (equipo Instinto) -> /joyuv Y
+
+❤️ Rojos (equipo Valor) -> /joyuv R
 
 El comando ´/joykickuv´ sirve para expulsar a todos aquellos No Validados en el bot. El bot no puede expulsar a los que no conoce, pero si a los que no están validados y conoce.
 *AVISO:* antes de usar el comando ´/joykickuv´ ten en cuenta que los únicos bots validados con @nurseyjoybot son: @detectivepikachubot, @nidospokemonbot, @ProfesorOak_bot y el própio bot @nurseyjoybot.
