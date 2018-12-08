@@ -109,9 +109,9 @@ Algunos de ellos son los siguientes:
 
 Si quieres, puedes compartir tu código de entrenador con el bot para que cuando pregunten por ti con el comando `quién es` (para más información sobre este comando mira el apartado [Quién es](#quién-es)), aparezca junto al resto de información. Únicamente verán tu código aquellas personas que hayan compartido el suyo con el bot.
 
-Para compartir tu código de entrenador, lo debes hacer con el siguiente comando por privado a [@NurseJoyBot](https://t.me/NurseJoyBot) (el número sin espacios y separado del comando):
+Para compartir tu código de entrenador, lo debes hacer con el siguiente comando por privado a [@NurseJoyBot](https://t.me/NurseJoyBot) (el número sin espacios y separado del comando). Por ejemplo:
 
-    /set_friendid 
+    /set_friendid 123412341234
 
 Una vez hecho esto, para ver los codigos de entrenador de los demás, tienes dos formas:
 
@@ -119,6 +119,7 @@ Una vez hecho esto, para ver los codigos de entrenador de los demás, tienes dos
 
 `(no disponible)` - Respondiendo a un mensaje de alguien, Joy te enviará por privado la información de ese usuario.
 
+Si quieres eliminar de tu Ficha de Entrenador esa información puedes hacerlo escribiendo: `/set_friendid -`
 
 ### Quién es ###
 
@@ -433,6 +434,8 @@ Por defecto, este requisito, viene configurado como sin requisitos, 0 mensajes.
 
 El bot dispone de la opción de *Noticias*: Eso quiere decir que puede reenviar automáticamente las publicaciones que salgan en distintos canales.
 
+Para poder ver este apartado es necesario haber escrito el comando `/settings` y haber accedido al apartado `Noticias` haciendo click sobre el botón.
+
 Los canales de los que se dipone actualmente son los siguientes:
 
 - @pokemongohonesto (noticias sobre Pokémon Go)
@@ -443,8 +446,7 @@ Los canales de los que se dipone actualmente son los siguientes:
 
 Cada uno de los siguientes canales tienen sus própias características por los cuales son importantes y seguidos: algunos son de noticias sobre bots, noticias sobre el juego o noticias de broma.
 
-Es decisión de cada grupo activar o no el reenvio de las noticias (y cuales) para mantenerse informados. Por defecto todas las noticias estarán desactivadas.
-
+Es decisión de cada grupo activar o no el reenvio de las noticias (y cuales) para mantenerse informados. Por defecto todas las noticias estarán desactivadas. Para activarlas se debe clickar encima del botón y cuando ponga delante el icono ✅, si pone el icono ▪️ quiere decir que esas noticias estarán desactivadas y no serán enviadas al grupo.
 
 #### Bienvenida ####
 
@@ -566,14 +568,16 @@ Para saber la cantidad de entrenadores que de cada equipo que hay en un grupo y 
 
 Los nicks de los entrenadores de uno de los equipos se pueden ver mediante:
 
-💙 Azules (equipo Sabiduría) -> /joyuv B
+💙 Azules (equipo Sabiduría) -> `/joyuv B`
 
-💛 Amarillos (equipo Instinto) -> /joyuv Y
+💛 Amarillos (equipo Instinto) -> `/joyuv Y`
 
-❤️ Rojos (equipo Valor) -> /joyuv R
+❤️ Rojos (equipo Valor) -> `/joyuv R`
 
-El comando ´/joykickuv´ sirve para expulsar a todos aquellos No Validados en el bot. El bot no puede expulsar a los que no conoce, pero si a los que no están validados y conoce.
-*AVISO:* antes de usar el comando ´/joykickuv´ ten en cuenta que los únicos bots validados con @nurseyjoybot son: @detectivepikachubot, @nidospokemonbot, @ProfesorOak_bot y el própio bot @nurseyjoybot.
+No Validados -> `/joyuv L`
+
+El comando `/joykickuv` sirve para expulsar a todos aquellos No Validados en el bot. El bot no puede expulsar a los que no conoce, pero si a los que no están validados y conoce.
+*AVISO:* antes de usar el comando `/joykickuv` ten en cuenta que los únicos bots validados con @nurseyjoybot son: @detectivepikachubot, @nidospokemonbot, @ProfesorOak_bot y el própio bot @nurseyjoybot.
 
 ### Comandos personalizados ###
 
