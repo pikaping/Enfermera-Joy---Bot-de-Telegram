@@ -166,8 +166,8 @@ Estos son las tablas de las que se disponen actualmente:
 - Beldum 
 - Celebi
 - Cyndaquil (también la puedes solicitar como Community)
-- Deoxys (versión normal, también se puede solicitar como DeoxysN. Es la forma activa en el juego)
-- DeoxysA (versión ataque)
+- Deoxys (versión normal, también se puede solicitar como DeoxysN)
+- DeoxysA (versión ataque. Es la forma activa en el juego)
 - DeoxysD (versión defensa)
 - DeoxysV (versión velocidad)
 - Entei
@@ -177,6 +177,7 @@ Estos son las tablas de las que se disponen actualmente:
 - GiratinaM (versión modificada, también se puede solicitar como MGiratina)
 - Golem
 - Groudon
+- Heatran
 - Ho-oh
 - Kyogre
 - Lapras
