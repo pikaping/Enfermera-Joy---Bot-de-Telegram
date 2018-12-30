@@ -141,17 +141,25 @@ Ejemplos de posibles respuestas de Joy:
 
 El bot siempre enviará la información al privado, por ello es imprescindible tener abierta una conversación privada con [@NurseJoyBot](https://t.me/NurseJoyBot).
 
-Se puede emplear el comando de dos formas:
+Se puede emplear el comando de varias formas:
 
-1. Citando el mensaje del jugador por el grupo general y escribiendo el comando. El bot eliminará automáticamente el mensaje donde esté el comando y responderá con un mensaje que también será eliminado cuando hayan pasado unos segundos.
+1. Citando el mensaje del jugador por el grupo general y escribiendo el comando. 
+
+2. Citando un mensaje reenviando del jugador y escribiendo el comando.
 
 2. Citando el mensaje del jugador por privado. Este método evita escribir el mensaje por grupo, pero es algo más rebuscado. Primero de todo se debe reenviar un mensaje del jugador que se desea al privado del bot [@NurseJoyBot](https://t.me/NurseJoyBot), seguidamente, dentro del privado del bot, deberás citar el mensaje que acabas de reenviarle y escribir el comando.
 
-También se dispone, mediante únicamente el comando `/whois` (las otras versiones no lo permiten), de dos formas más de solicitar la información de otro entrenador:
+3. Escribiendo el comando y escribiendo el Nick del juego del entrenador del que quieres información. Por ejemplo: `/whois Berny`.
 
-1. Escribiendo el comando y escribiendo el Nick del juego del entrenador del que quieres información. Por ejemplo: `/whois Berny`
+4. Escribiendo el comando y escribiendo el Alias de Telegram (sin la @). Por ejemplo: `/whois bernyelperro`.
 
-2. Escribiendo el comando y escribiendo el Alias de Telegram (sin la @). Por ejemplo: `/whois bernyelperro`
+**Cosas a tener en cuenta:**
+
+Los cuatro métodos anteriores funcionan tanto por grupo como por privado.
+
+Si el comando se realiza por un grupo y el bot tiene permisos para borrar mensajes entonces este eliminará automáticamente el mensaje donde esté el comando y responderá con un mensaje que también será eliminado cuando hayan pasado unos segundos.
+
+Si el comando se realiza por privado, lógicamente, los mensajes no serán borrados.
 
 ### Tablas ###
 
