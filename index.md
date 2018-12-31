@@ -174,7 +174,7 @@ Estos son las tablas de las que se disponen actualmente:
 - Beldum 
 - Celebi
 - Cyndaquil
-- DeoxysA (versión ataque, es la forma activa en el juego. También se puede solicitar como: Deoxys)
+- DeoxysA (versión ataque, es la forma activa en el juego. También se puede solicitar como: Deoxys o aDeoxys)
 - DeoxysACounters (mejores counters contra Deoxys versión ataque. También se puede solicitar como: CountersDeoxysA)
 - DeoxysD (versión defensa)
 - DeoxysN (versión normal)
@@ -222,8 +222,8 @@ Estos son las tablas de las que se disponen actualmente:
 - Community
 - Ditto (pokémon que pueden transformarse en Ditto)
 - Evento (información evento de eclosión de huevos. También se puede solicitar como: eventos)
-- Huevos (qué pokémon puede salir de cada huevo. También se puede solicitar como: huevo, eclosion o eclosiones)
-- Jefes (también se puede solicitar como: raid, raids, incursión, incursion, incursiones o jefe)
+- Huevos (qué pokémon puede salir de cada huevo. También se puede solicitar como: huevo, eclosión o eclosiones)
+- Jefes (también se puede solicitar como: raid, raids, incursión incursiones o jefe)
 - Shiny (también se puede solicitar como: Shinys)
 - Sinnoh (tabla con las evoluciones que se pueden hacer actualmente con la piedra Sinnoh. También se puede solicitar como: piedrasinnoh)
 
