@@ -47,7 +47,9 @@ El registro puede ser obligatorio en algunos grupos (todo depende de la configur
 
 Registrarte te permite disfrutar de todas las funcionalidades del bot, como por ejemplo preguntar por otros usuarios, solicitar información de los Pokémon y muchas más funcionalidades que llegarán en un futuro.
 
-Para registrarte tienes tres opciones:
+
+
+Para registrarte (es necesario tener un [Alias de Telegram](#alias-de-telegram)) tienes tres opciones:
 
 1. La opción más rápida, si estás registrado con [@detectivepikachubot](https://t.me/detectivepikachubot), es decirle por privado a [@NurseJoyBot](https://t.me/NurseJoyBot) el comando `/register`, entonces te preguntará si quieres que le pregunte a Detective Pikachu tus datos. Si aceptas tendrás que abrir la conversación privada con Detective Pikachu que te preguntará lo mismo. Si aceptas en ambos entonces ya estarás registrado.
 
