@@ -173,16 +173,17 @@ Estos son las tablas de las que se disponen actualmente:
 - Articuno
 - Beldum 
 - Celebi
-- Cyndaquil (también la puedes solicitar como Community)
-- Deoxys (versión normal, también se puede solicitar como DeoxysN)
-- DeoxysA (versión ataque. Es la forma activa en el juego)
+- Cyndaquil
+- DeoxysA (versión ataque, es la forma activa en el juego. También se puede solicitar como: Deoxys)
+- DeoxysACounters (mejores counters contra Deoxys versión ataque. También se puede solicitar como: CountersDeoxysA)
 - DeoxysD (versión defensa)
+- DeoxysN (versión normal)
 - DeoxysV (versión velocidad)
 - Entei
 - Gengar
 - Giratina (la forma activa en el juego)
-- GiratinaO (versión Origen, también se puede solicitar como OGiratina)
-- GiratinaM (versión modificada, también se puede solicitar como MGiratina)
+- GiratinaO (versión Origen, también se puede solicitar como: OGiratina)
+- GiratinaM (versión modificada, también se puede solicitar como: MGiratina)
 - Golem
 - Groudon
 - Heatran
@@ -211,16 +212,20 @@ Estos son las tablas de las que se disponen actualmente:
 - Snorlax
 - Spiritomb
 - Suicune
+- Totodile (también se puede solicitar como: Community)
 - Tyranitar
 - Zapdos
 
 ***
 
-- Jefes (también se puede solicitar como: raid, raids, incursión, incursion, incursiones o jefe)
 - Amistad
 - Community
+- Ditto (pokémon que pueden transformarse en Ditto)
+- Evento (información evento de eclosión de huevos. También se puede solicitar como: eventos)
+- Huevos (qué pokémon puede salir de cada huevo. También se puede solicitar como: huevo, eclosion o eclosiones)
+- Jefes (también se puede solicitar como: raid, raids, incursión, incursion, incursiones o jefe)
 - Shiny (también se puede solicitar como: Shinys)
-- Huevos
+- Sinnoh (tabla con las evoluciones que se pueden hacer actualmente con la piedra Sinnoh. También se puede solicitar como: piedrasinnoh)
 
 Todas las tablas se van modificando según los cambios que van surgiendo en Pokémon Go y se van añadiendo tablas nuevas necesarias, por lo tanto la lista de tablas es algo que irá cambiando.
 
