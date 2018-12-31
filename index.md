@@ -221,7 +221,7 @@ Estos son las tablas de las que se disponen actualmente:
 - Amistad
 - Community
 - Ditto (pokémon que pueden transformarse en Ditto)
-- Evento (información evento de eclosión de huevos. También se puede solicitar como: eventos)
+- Evento (tabla con información del evento actual. También se puede solicitar como: eventos)
 - Huevos (qué pokémon puede salir de cada huevo. También se puede solicitar como: huevo, eclosión o eclosiones)
 - Jefes (también se puede solicitar como: raid, raids, incursión incursiones o jefe)
 - Shiny (también se puede solicitar como: Shinys)
