@@ -47,8 +47,6 @@ El registro puede ser obligatorio en algunos grupos (todo depende de la configur
 
 Registrarte te permite disfrutar de todas las funcionalidades del bot, como por ejemplo preguntar por otros usuarios, solicitar información de los Pokémon y muchas más funcionalidades que llegarán en un futuro.
 
-
-
 Para registrarte (es necesario tener un [Alias de Telegram](#alias-de-telegram)) tienes tres opciones:
 
 1. La opción más rápida, si estás registrado con [@detectivepikachubot](https://t.me/detectivepikachubot), es decirle por privado a [@NurseJoyBot](https://t.me/NurseJoyBot) el comando `/register`, entonces te preguntará si quieres que le pregunte a Detective Pikachu tus datos. Si aceptas tendrás que abrir la conversación privada con Detective Pikachu que te preguntará lo mismo. Si aceptas en ambos entonces ya estarás registrado.
@@ -93,7 +91,7 @@ Ejemplos de posibles respuestas del bot:
 3. ❌ No tengo información sobre ti.
    
    No tiene ningún tipo de dato sobre ti.
-
+   
 
 ### Iconos en la Ficha de Entrenador ###
 
@@ -149,8 +147,6 @@ Se puede emplear el comando de varias formas:
 
 2. Citando un mensaje reenviando del jugador y escribiendo el comando.
 
-2. Citando el mensaje del jugador por privado. Este método evita escribir el mensaje por grupo, pero es algo más rebuscado. Primero de todo se debe reenviar un mensaje del jugador que se desea al privado del bot [@NurseJoyBot](https://t.me/NurseJoyBot), seguidamente, dentro del privado del bot, deberás citar el mensaje que acabas de reenviarle y escribir el comando.
-
 3. Escribiendo el comando y escribiendo el Nick del juego del entrenador del que quieres información. Por ejemplo: `/whois Berny`.
 
 4. Escribiendo el comando y escribiendo el Alias de Telegram (sin la @). Por ejemplo: `/whois bernyelperro`.
@@ -161,7 +157,7 @@ Los cuatro métodos anteriores funcionan tanto por grupo como por privado.
 
 Si el comando se realiza por un grupo y el bot tiene permisos para borrar mensajes entonces este eliminará automáticamente el mensaje donde esté el comando y responderá con un mensaje que también será eliminado cuando hayan pasado unos segundos.
 
-Si el comando se realiza por privado, lógicamente, los mensajes no serán borrados.
+Si el comando se realiza por privado al bot [@NurseJoyBot](https://t.me/NurseJoyBot), lógicamente, los mensajes no serán borrados.
 
 ### Tablas ###
 
@@ -169,13 +165,11 @@ El bot dispone de una gran cantidad de tablas de IV, de recompensas por amistad,
 
 Todas las tablas son mandadas al privado del bot, para ello es necesario tener abierta una conversación privada con [@NurseJoyBot](https://t.me/NurseJoyBot).
 
-Estos son las tablas de las que se disponen actualmente:
+Estos son las tablas de IV las que se disponen actualmente:
 
 - Absol
 - Articuno
-- Beldum 
 - Celebi
-- Cyndaquil
 - DeoxysA (versión ataque, es la forma activa en el juego. También se puede solicitar como: Deoxys o aDeoxys)
 - DeoxysACounters (mejores counters contra Deoxys versión ataque. También se puede solicitar como: CountersDeoxysA)
 - DeoxysD (versión defensa)
@@ -214,11 +208,20 @@ Estos son las tablas de las que se disponen actualmente:
 - Snorlax
 - Spiritomb
 - Suicune
-- Totodile (también se puede solicitar como: Community)
 - Tyranitar
 - Zapdos
 
 ***
+
+Tablas de Community Day:
+
+- Beldum
+- Cyndaquil
+- Totodile (también se puede solicitar como: Community)
+
+***
+
+Otras tablas:
 
 - Amistad
 - Community
