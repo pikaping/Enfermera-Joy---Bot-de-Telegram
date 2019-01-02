@@ -191,12 +191,12 @@ Estos son las tablas de IV las que se disponen actualmente:
 - Lugia
 - Machamp
 - Magikarp
-- Marowak (alola)
+- Marowak (versión alola)
 - Mawile
 - Mew
 - Mewtwo
 - Moltres
-- Raichu (alola)
+- Raichu (versión alola)
 - Raikou
 - Rayquaza
 - Regice
