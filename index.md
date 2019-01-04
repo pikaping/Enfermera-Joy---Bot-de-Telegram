@@ -285,6 +285,18 @@ Ten en cuenta que el bot responderá únicamente si la frase que se escribas es 
 
 Por ejemplo, si escribieses "dios bidoof" el bot te respondería con el gif, pero si escribieses "Dios bidoof." ya no sería aceptado y el bot no lo detectaría como el comando personalizado.
 
+### Listas ###
+
+Joy dispone de la opción para hacer listas. En estas listas únicamente se podrá decir si vas ("Me apunto!") o si al estar apuntado has decidido no ir ("Paso...").
+
+Para crear una lista se debe emplear el comando `/list` y añadir el título que tendrá la lista. Por ejemplo:
+
+`/list Esto es una lista con un mensaje.`
+
+Con el comando `/joyrefloat` puedes reflotar una lista si esta ha quedado hundida. Para ello será necesario citar la lista y escribir el comando.
+
+Si se quiere borrar una lista bastará con eliminar el mensaje de la lista.
+
 ### Glosario de comandos para entrenadores ###
 
 Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
@@ -296,6 +308,8 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 `Nido en {Lugar}`| ? | ❌ | Grupo | `Lugar`<sup>1</sup>
 `Nido de {Pokémon}`| ? | ❌ | Grupo | `Lugar`<sup>1</sup>
 `Listado de comandos`| ? | ❌ | Grupo | ❌
+`/list`| ? | ❌ | Todos | ❌
+`/joyrefloat`| ? | ✅ | Todos | ❌
 `/start`| ? | ❌ | Todos | ❌
 `/help`| ? | ❌ | Todos | ❌
 `/register`| ? | ❌ | Privado | ❌
@@ -518,7 +532,7 @@ Opciones de las que dispones:
 
    - Aviso de la gente que entra al grupo o grupos vinculados.
 
-   - Aviso de la gente que sale del grupo o grupos vinculados. (sólo avisará si son grupos de 50 usuarios o menos, o si ha slido del grupo por ban o kick)
+   - Aviso de la gente que sale del grupo o grupos vinculados. (sólo avisará si son grupos de 50 usuarios o menos, o si ha salido del grupo por ban o kick)
 
    - Aviso cuando se escribe @admin en el grupo o grupos vinculados.
 
@@ -536,11 +550,11 @@ Para crear un grupo de administración que tenga uno o diversos grupos vinculado
 
 Es importante guardar el ID que te dará el bot, lo necesitarás más adelante.
 
-`Como ejemplo, a nosotros nos daría: ID 123456.`
+`Como ejemplo, a nosotros nos daría: ID -123456.`
 
 2. Seguidamente ve al grupo que quieres vincular y ejecuta en dicho grupo el comando `/create_link ID`.
 
-`En nuestro caso de muestra sería: /create_link 123456.`
+`En nuestro caso de muestra sería: /create_link -123456.`
 
 3. Vuelve al grupo de administradores e indica, en la botonera, de qué trata el grupo que acabas de vincular. Las opciones de las que dispones son las siguientes:
 
