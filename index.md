@@ -627,7 +627,7 @@ Si al intentar borrar un comando personalizado el bot te responde que este no ex
 Para borrar todos los comandos personalizados de golpe se puede hacer mediante el comando `eliminar todos los comandos`, pero tener cuidado que si el bot tenía en uno de ellos alguna información que querías conservar esta se perderá.
 
 ### Otros comandos exclusivos para administradores ###   
-`En proceso de escritura` + `Actualmente esta opción no está disponible.`
+`En proceso de escritura`
 
 Algunos de los comandos más importantes para un administrador son los de tipo "castigo". Estos comandos únicamente pueden ser utilizados por los administradores, y si algún usuario lo escribiese el bot respondería que dicho usuario no tiene permisos para ello.
 
