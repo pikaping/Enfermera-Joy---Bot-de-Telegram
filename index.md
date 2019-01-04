@@ -301,7 +301,7 @@ Para crear una lista se debe emplear el comando `/list` y añadir el título que
 
 Con el comando `/joyrefloat` puedes reflotar una lista si esta ha quedado hundida. Para ello será necesario citar la lista y escribir el comando.
 
-Si se quiere borrar una lista bastará con eliminar el mensaje de la lista.
+Si se quiere borrar una lista bastará con eliminar el mensaje que sea la lista.
 
 
 ### Glosario de comandos para entrenadores ###
