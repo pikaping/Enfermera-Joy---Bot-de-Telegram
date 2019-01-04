@@ -15,8 +15,9 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
    6. [Tablas](#tablas)  
    7. [Registrar nidos](#registrar-nidos)  
    8. [Listado de comandos](#listado-de-comandos) 
-   9. [Glosario de comandos para entrenadores](#glosario-de-comandos-para-entrenadores)
-   10. [Más ayuda](#más-ayuda)
+   9. [Listas](#listas) 
+   10. [Glosario de comandos para entrenadores](#glosario-de-comandos-para-entrenadores)
+   11. [Más ayuda](#más-ayuda)
 2. [Ayuda para administradores](#ayuda-para-administradores)
    1. [Añadir el bot a un grupo o canal](#añadir-el-bot-a-un-grupo-o-canal)
    2. [Configuración básica](#configuración-básica)
@@ -121,6 +122,7 @@ Una vez hecho esto, para ver los codigos de entrenador de los demás, tienes dos
 
 Si quieres eliminar de tu Ficha de Entrenador esa información puedes hacerlo escribiendo: `/set_friendid -`
 
+
 ### Quién es ###
 
 El comando `quién es` (también aceptado como `quien es` o `/whois`, sin interrogante) hace que el bot te responda la información de la Ficha de Entrenador (Nick del juego, Equipo, Nivel y Estado de Validación) del jugador solicitado.
@@ -158,6 +160,7 @@ Los cuatro métodos anteriores funcionan tanto por grupo como por privado.
 Si el comando se realiza por un grupo y el bot tiene permisos para borrar mensajes entonces este eliminará automáticamente el mensaje donde esté el comando y responderá con un mensaje que también será eliminado cuando hayan pasado unos segundos.
 
 Si el comando se realiza por privado al bot [@NurseJoyBot](https://t.me/NurseJoyBot), lógicamente, los mensajes no serán borrados.
+
 
 ### Tablas ###
 
@@ -235,6 +238,7 @@ Otras tablas:
 
 Todas las tablas se van modificando según los cambios que van surgiendo en Pokémon Go y se van añadiendo tablas nuevas necesarias, por lo tanto la lista de tablas es algo que irá cambiando.
 
+
 ### Registrar nidos ###
 
 El bot dispone de registro de nidos, para ello debe de estar configurado el grupo para aceptar su registro. Esta configuración únicamente la puede realizar un administrador de dicho grupo. Si eres administrador de un grupo y quieres saber más información al respecto lee el apartado [Configurar nidos](#configurar-nidos).
@@ -267,6 +271,7 @@ Según el ejemplo, el bot te buscará en sus datos si hay registrado algún nido
 
 Siguiendo también el ejemplo, el bot mirará si hay registrado algún nido de *Chansey* en tu grupo, si lo hay, te responderá con el nombre del lugar donde se ha registrado.
 
+
 ### Listado de comandos ###
 
 `Actualmente esta opción no está disponible.`
@@ -285,6 +290,7 @@ Ten en cuenta que el bot responderá únicamente si la frase que se escribas es 
 
 Por ejemplo, si escribieses "dios bidoof" el bot te respondería con el gif, pero si escribieses "Dios bidoof." ya no sería aceptado y el bot no lo detectaría como el comando personalizado.
 
+
 ### Listas ###
 
 Joy dispone de la opción para hacer listas. En estas listas únicamente se podrá decir si vas ("Me apunto!") o si al estar apuntado has decidido no ir ("Paso...").
@@ -296,6 +302,7 @@ Para crear una lista se debe emplear el comando `/list` y añadir el título que
 Con el comando `/joyrefloat` puedes reflotar una lista si esta ha quedado hundida. Para ello será necesario citar la lista y escribir el comando.
 
 Si se quiere borrar una lista bastará con eliminar el mensaje de la lista.
+
 
 ### Glosario de comandos para entrenadores ###
 
