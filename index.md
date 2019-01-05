@@ -237,6 +237,7 @@ Otras tablas:
 - Evento (tabla con información del evento actual. También se puede solicitar como: eventos)
 - Huevos (qué pokémon puede salir de cada huevo. También se puede solicitar como: huevo, eclosión o eclosiones)
 - Jefes (también se puede solicitar como: raid, raids, incursión incursiones o jefe)
+- Misiones
 - Sellos (tabla con las recompensas que se puden obtener en las cajas del séptimo sello)
 - Shiny (también se puede solicitar como: Shinys)
 - Sinnoh (tabla con las evoluciones que se pueden hacer actualmente con la piedra Sinnoh. También se puede solicitar como: piedrasinnoh)
