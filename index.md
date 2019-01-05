@@ -74,7 +74,6 @@ Para ello puedes seguir cualquiera de los tres métodos que encontrarás en el a
 
 #### Cambio de cuenta de Telegram ####
 
-
 ### Profile ###
 
 El comando `/Profile` puede utilizarse en un grupo o en una conversación privada con el bot [@NurseJoyBot](https://t.me/NurseJoyBot), pero la resupesta de Enfermera Joy será enviada al privado. Este comando hará que el bot responda con la Ficha de Entrenador (Nick del juego, Equipo, Nivel y Estado de Validación) del jugador que la solicita.
@@ -93,7 +92,6 @@ Ejemplos de posibles respuestas del bot:
    
    No tiene ningún tipo de dato sobre ti.
    
-
 ### Iconos en la Ficha de Entrenador ###
 
 En principio, el único icono que deberías de ver ya sea en tu Ficha de Entrenador o en la de tus companeros es el de Validado (✅), pero existen mucho otros.
@@ -104,7 +102,6 @@ Algunos de ellos son los siguientes:
 |:----------------|:---------------------------------|
 |        ⛔        | Baneado                          |
 |        👩‍⚕️        | Staff                            |
-
 
 ### Código de Entrenador ### 
 
@@ -121,7 +118,6 @@ Una vez hecho esto, para ver los codigos de entrenador de los demás, tienes dos
 `(no disponible)` - Respondiendo a un mensaje de alguien, Joy te enviará por privado la información de ese usuario.
 
 Si quieres eliminar de tu Ficha de Entrenador esa información puedes hacerlo escribiendo: `/set_friendid -`
-
 
 ### Quién es ###
 
@@ -160,7 +156,6 @@ Los cuatro métodos anteriores funcionan tanto por grupo como por privado.
 Si el comando se realiza por un grupo y el bot tiene permisos para borrar mensajes entonces este eliminará automáticamente el mensaje donde esté el comando y responderá con un mensaje que también será eliminado cuando hayan pasado unos segundos.
 
 Si el comando se realiza por privado al bot [@NurseJoyBot](https://t.me/NurseJoyBot), lógicamente, los mensajes no serán borrados.
-
 
 ### Tablas ###
 
@@ -238,7 +233,6 @@ Otras tablas:
 
 Todas las tablas se van modificando según los cambios que van surgiendo en Pokémon Go y se van añadiendo tablas nuevas necesarias, por lo tanto la lista de tablas es algo que irá cambiando.
 
-
 ### Registrar nidos ###
 
 El bot dispone de registro de nidos, para ello debe de estar configurado el grupo para aceptar su registro. Esta configuración únicamente la puede realizar un administrador de dicho grupo. Si eres administrador de un grupo y quieres saber más información al respecto lee el apartado [Configurar nidos](#configurar-nidos).
@@ -271,10 +265,7 @@ Según el ejemplo, el bot te buscará en sus datos si hay registrado algún nido
 
 Siguiendo también el ejemplo, el bot mirará si hay registrado algún nido de *Chansey* en tu grupo, si lo hay, te responderá con el nombre del lugar donde se ha registrado.
 
-
 ### Listado de comandos ###
-
-`Actualmente esta opción no está disponible.`
 
 Los comandos personalizados pueden ser creados y eliminados únicamente por los administradores. Si eres administrador te recomiendo que leas el apartado [Comandos personalizados](#comandos-personalizados).
 
@@ -284,12 +275,11 @@ Los comandos personalizados son una información própia de cada grupo, es por e
 
 Para solicitar el listado de comandos personalizados de un grupo debes escribir en dicho grupo la frase: `Listado de comandos`. La lista de comandos será mandada al privado que tienes con del bot y podrás ver todos los comandos personalizados que tiene ese grupo en concreto. 
 
-Por ejemplo, podría haber un comando personalizado que se llame `Dios bidoof` y que el bot responderá a este con un gif sobre bidoof.
+Por ejemplo, podría haber un comando personalizado que se llame **Dios bidoof** y que el bot responderá a este con un gif sobre bidoof.
 
 Ten en cuenta que el bot responderá únicamente si la frase que se escribas es únicamente el comando personalizado, sin importar las mayúsculas o minúsculas, y borrará el comando personalizado dejando únicamente su respuesta.
 
 Por ejemplo, si escribieses "dios bidoof" el bot te respondería con el gif, pero si escribieses "Dios bidoof." ya no sería aceptado y el bot no lo detectaría como el comando personalizado.
-
 
 ### Listas ###
 
@@ -299,10 +289,11 @@ Para crear una lista se debe emplear el comando `/list` y añadir el título que
 
 `/list Esto es una lista con un mensaje.`
 
+Los entrenadores que se apunten a dicha lista aparecerán junto a la siguiente información: Equipo, Nivel y Alias de Telegram.
+
 Con el comando `/joyrefloat` puedes reflotar una lista si esta ha quedado hundida. Para ello será necesario citar la lista y escribir el comando.
 
 Si se quiere borrar una lista bastará con eliminar el mensaje que sea la lista.
-
 
 ### Glosario de comandos para entrenadores ###
 
@@ -622,8 +613,6 @@ El comando `/joykickuv` sirve para expulsar a todos aquellos No Validados en el 
 
 ### Comandos personalizados ###
 
-`Actualmente esta opción no está disponible.`
-
 Los comandos personalizados pueden ser creados y eliminados únicamente por los administradores. Estos comandos personalizados harán que el bot responda con una frase, imagen, link, fichero, video, audio, nota de voz o gif.
 
 Pasos para crear comandos:
@@ -631,21 +620,23 @@ Pasos para crear comandos:
    2. Seguidamente el bot te preguntará qué nombre quieres ponerle a dicho comando a lo que deberás responder únicamente con el nombre        que quieras que tenga (máximo 30 carácteres). Ten en cuenta que cada vez que el bot lea ese comando responderá automáticamente con      la respuesta que le vas a dar. Una vez le digas el nombre del comando el bot te pedirá la respuesta que quieres que dé.
    3. Aquí es cuando puedes escribir una frase, poner un gif, un link, un audio, una nota de voz, un video, un fichero o una imagen.
    
-Por ejemplo, podría haber un comando personalizado que se llame `Dios bidoof` y que el bot responderá a este con un gif sobre bidoof.
+Por ejemplo, podría haber un comando personalizado que se llame "Dios bidoof" y que el bot responderá a este con un gif sobre bidoof.
 
 Además, el bot responderá únicamente si la frase que se escriba es únicamente el comando personalizado, sin importar las mayúsuculas o minúsuclas, y borrará el comando personalizado dejando únicamente su respuesta.
 
 Para que el bot te diga todos los comandos registrados en un grupo se debe emplear la frase: `Listado de comandos`. La lista de comandos será mandada al privado del usuario que lo solicite sin importar si es administrador o no.
 
-Si deseas borrar un comando puedes hacerlo con `eliminar comando {nombre del comando}`, substituyendo la variable {nombre del comando} por el nombre del comando personalizado que tenga. Por ejemplo:
+Si deseas borrar un comando puedes hacerlo con `eliminar comando {número del comando}`, substituyendo la variable {número del comando} por el número del comando personalizado que tenga en el "Listado de comandos". Por ejemplo:
 
-`Borrar comando Dios bidoof`
+`Borrar comando 55`
 
-En este caso el comando que se borraría sería el que responda al nombre de `Dios bidoof`.
+En este caso el comando que se borraría sería el comando que corresponda al número 55.
 
 Si al intentar borrar un comando personalizado el bot te responde que este no existe te recomiendo que le solicites al bot la lista de comandos (está explicado más arriba, en este mismo apartado, cómo se hace) para que te asegures de qué comando quieres eliminar.
 
 Para borrar todos los comandos personalizados de golpe se puede hacer mediante el comando `eliminar todos los comandos`, pero tener cuidado que si el bot tenía en uno de ellos alguna información que querías conservar esta se perderá.
+
+Si en vez de borrar un comando lo que se quiere es únicamente modificar la respuesta del bot, entonces bastará con crear de nuevo un comando con el mismo nombre.
 
 ### Otros comandos exclusivos para administradores ###   
 `En proceso de escritura`
