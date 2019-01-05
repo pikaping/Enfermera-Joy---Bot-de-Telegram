@@ -110,14 +110,24 @@ Si quieres, puedes compartir tu código de entrenador con el bot para que cuando
 Para compartir tu código de entrenador, lo debes hacer con el siguiente comando por privado a [@NurseJoyBot](https://t.me/NurseJoyBot) (el número sin espacios y separado del comando). Por ejemplo:
 
     /set_friendid 123412341234
+    
+Una vez hecho esto, es necesario autorizar a la enfermera Joy para que vuestros códigos sean visibles, para ello deberás escribir el comando `/privacity` por el chat privado a [@NurseJoyBot](https://t.me/NurseJoyBot).
 
-Una vez hecho esto, para ver los codigos de entrenador de los demás, tienes dos formas:
+Al escribir el comando verás las opciones de privacidad del bot. Clica sobre "Friend Code" y una vez allí podrás activar (✅) o desactivar (❌) la autorización para que Joy comparta tu código con otros jugadores.
 
-`(no disponible)` - Este comando es **exclusivo** para grupos. El bot te enviará un listado de todos los IDs conocidos del grupo por privado.
+Si aceptas el resto de jugadores podrán ver tu cógido, pero tú podrás ver los suyos. Si no aceptas, el resto de jugadores no podrán ver tu cógido, pero tú tampoco podrás ver los suyos.
 
-`(no disponible)` - Respondiendo a un mensaje de alguien, Joy te enviará por privado la información de ese usuario.
+Si has autorizado a Joy que comparta tu código, tienes dos formas para ver el código de los demás entrenadores:
 
-Si quieres eliminar de tu Ficha de Entrenador esa información puedes hacerlo escribiendo: `/set_friendid -`
+1) Escribiendo `/fc` o `/fclist` en un grupo. El bot te enviará un listado de todos los IDs conocidos del grupo por privado.
+
+2) Escribiendo el comando `quien es`. Para saber más sobre este comando ver el apartado [Quién es](#quién-es).
+
+En ambos casos, clicando sobre el número este será automáticamente copiado para que puedas ir al juego Pokémon Go y agregarlos sin dificultad.
+
+Si intentas ver el código de entrenador de otro jugador y no has aceptado compartir el tuyo entonces el bot te enviará por privado un mensaje diciendo que no cumples los requisitos para solicitarlo.
+
+Si quieres eliminar de tu Ficha de Entrenador la información del ID puedes hacerlo escribiendo: `/set_friendid -`. Recuerda que también puedes desactivar la autorización para que Joy comparta tu ID de entrenador y de esa forma el resto de jugadores no podrán acceder a esa información.
 
 ### Quién es ###
 
@@ -312,6 +322,7 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 `/help`| ? | ❌ | Todos | ❌
 `/register`| ? | ❌ | Privado | ❌
 `/set_friendid`| ? | ❌ | Privado | `ID de Pokémon GO`
+`/privacity`| ? | ❌ | Privado | ❌
 `Quién es`| ? | ❌ | Todos | ❌
 `Quién es ´{Entrenador}`| ? | ❌ | Todos | `Nombre de entrenador`
 `/profile`| ? | ❌ | Todos | ❌
