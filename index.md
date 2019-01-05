@@ -323,6 +323,8 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 `/register`| ? | ❌ | Privado | ❌
 `/set_friendid`| ? | ❌ | Privado | `ID de Pokémon GO`
 `/privacity`| ? | ❌ | Privado | ❌
+`/fc`| ? | ❌ | Grupo | ❌
+`/fclist`| ? | ❌ | Grupo | ❌
 `Quién es`| ? | ❌ | Todos | ❌
 `Quién es ´{Entrenador}`| ? | ❌ | Todos | `Nombre de entrenador`
 `/profile`| ? | ❌ | Todos | ❌
