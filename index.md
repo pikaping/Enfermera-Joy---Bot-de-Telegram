@@ -254,7 +254,7 @@ Para registrar un nido se debe emplear el comando `Registrar nido de {Pokémon} 
 
 Antes de poner el nombre del lugar ten en cuanta que el número máximo de carácteres que registra es 50.
 
-Este comando también lo puedes escribir como: :feet:
+Este comando también lo puedes escribir como: 
 
 `Registro nido de {Pokémon} en {Lugar}`
 
@@ -263,6 +263,8 @@ Este comando también lo puedes escribir como: :feet:
 `Registro spawn de {Pokémon} en {Lugar}`
 
 Para que el bot te mande una lista de todos los nidos o spawns que se haya registrado en tu grupo, debes utilizar el comando `Listado de nidos`. Este comando lo puedes escribir en el grupo y Joy responderá borrando el comando y avisando de que alguien ha solicitado la lista y ofreciendo mandarsela a quien la solicite pulsando en el botón de "Yo!". La lista será mandada al privado del bot.
+
+:feet: este icono aparecerá en la lista cuando se trate de un *spawn*.
 
 Si el nido es erroneo y se quiere borrar antes de que Joy los reinicie entonces se deberá utilizar el comando `Eliminar nido número {Número del nido}`. Puedes encontrar la variable {Número del nido} al solicitar el *Listado de nidos*. También se puede borrar todos los nidos de golpe empleando el comando `Eliminar todos los nidos de este grupo`. Estos dos comandos (de borrar nidos) son exclusivos para administradores.
 
@@ -276,7 +278,7 @@ Según el ejemplo, el bot te buscará en sus datos si hay registrado algún nido
 
 Siguiendo también el ejemplo, el bot mirará si hay registrado algún nido de *Chansey* en tu grupo, si lo hay, te responderá con el nombre del lugar donde se ha registrado.
 
-### Listado de comandos ###
+### Listado de comandos###
 
 Los comandos personalizados pueden ser creados y eliminados únicamente por los administradores. Si eres administrador te recomiendo que leas el apartado [Comandos personalizados](#comandos-personalizados).
 
@@ -637,6 +639,14 @@ Pasos para crear comandos:
 Por ejemplo, podría haber un comando personalizado que se llame "Dios bidoof" y que el bot responderá a este con un gif sobre bidoof.
 
 Además, el bot responderá únicamente si la frase que se escriba es únicamente el comando personalizado, sin importar las mayúsuculas o minúsuclas, y borrará el comando personalizado dejando únicamente su respuesta.
+
+Los siguientes ejemplos muestran cómo escribir el Markdown:
+
+Descripción | Descripción | Ejemplo 
+--------|-------------|---------------------------
+Para monoespaciado   | entre... eso | `Su texto` 
+Para negrita   | entre asteriscos | *Su texto* 
+Para cursiva   | entre barrabaja | _Su texto_
 
 Para que el bot te diga todos los comandos registrados en un grupo se debe emplear la frase: `Listado de comandos`. La lista de comandos será mandada al privado del usuario que lo solicite sin importar si es administrador o no.
 
