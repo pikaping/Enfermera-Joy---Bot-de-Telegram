@@ -323,6 +323,13 @@ Ambos comandos deberán ir seguidos del número del Pokémon que se solicita o e
 
 También se pueden escribir como: `/maxiv`, `/ivmax`, `/miniv` y `/ivmin`.
 
+Ejemplo completo: */max 025*
+Respuesta de Joy al privado: *25&pc13,pc41,pc69,pc98,pc126,pc154,pc183,pc211,pc239,pc268,pc294,pc321,pc348,pc375,pc402,pc428,pc455,pc482,pc509,pc536,pc562,pc589,pc616,pc643,pc670,pc696,pc723,pc750,pc777,pc804,pc817,pc830,pc844,pc857,pc871*
+Esa cadena de datos se deberá copiar y pegar en la barra de búsqueda del juego, de esa forma, en este ejemplo, verías únicamente los Pikachu con IV 100% que hayas capturado y a los que no hayas dado más poder.
+
+
+
+
 ### Glosario de comandos para entrenadores ###
 
 Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
