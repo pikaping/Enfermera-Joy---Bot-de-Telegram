@@ -15,9 +15,10 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
    6. [Tablas](#tablas)  
    7. [Registrar nidos](#registrar-nidos)  
    8. [Listado de comandos](#listado-de-comandos) 
-   9. [Listas](#listas) 
-   10. [Glosario de comandos para entrenadores](#glosario-de-comandos-para-entrenadores)
-   11. [Más ayuda](#más-ayuda)
+   9. [Listas](#listas)
+   10. [Cadenas de PC](#cadenas-de-pc)
+   11. [Glosario de comandos para entrenadores](#glosario-de-comandos-para-entrenadores)
+   12. [Más ayuda](#más-ayuda)
 2. [Ayuda para administradores](#ayuda-para-administradores)
    1. [Añadir el bot a un grupo o canal](#añadir-el-bot-a-un-grupo-o-canal)
    2. [Configuración básica](#configuración-básica)
@@ -55,6 +56,7 @@ Para registrarte (es necesario tener un [Alias de Telegram](#alias-de-telegram))
    Si antes de eso ya le habías dicho a Detective Pikachu que aceptas compartir los datos con Enfermera Joy, entonces al escribirle        `/register` preguntará automáticamente los datos a Detective Pikachu (sin que tu tengas que hacer nada) y ya estarás registrado.
 
 2. Si al decirle `/register` en privado a [@NurseJoyBot](https://t.me/NurseJoyBot) no estás registrado con el bot [@detectivepikachubot](https://t.me/detectivepikachubot) o no has aceptado que Enfermera Joy pregunte los datos a Detective Pikachu, entonces iniciará automáticamente el proceso de registro en el cual te preguntará tu nick de entrenador y te pedirá que hagas una captura de pantalla del juego con unas condiciones.
+Si pasan 6 horas entre el inicio del registro (cuando se escribe */register*) y la validación final (cuando se le manda la captura de pantalla y Joy te dice que estás validado) entonces el registro se reiniciará y se tendrá que iniciar de nuevo el registro desde el principio.
 
 3. También tienes la opción de que si estás registrado y validado con [@detectivepikachubot](https://t.me/detectivepikachubot), puedes escribir el comando `/profile` en el privado de Detective Pikachu y reenviar la respuesta a [@NurseJoyBot](https://t.me/NurseJoyBot). Este método, sirve tanto para registrarse como para subir de nivel.
 
@@ -126,6 +128,8 @@ Si has autorizado a Joy que comparta tu código, tienes dos formas para ver el c
 En ambos casos, clicando sobre el número este será automáticamente copiado para que puedas ir al juego Pokémon Go y agregarlos sin dificultad.
 
 Si intentas ver el código de entrenador de otro jugador y no has aceptado compartir el tuyo entonces el bot te enviará por privado un mensaje diciendo que no cumples los requisitos para solicitarlo.
+
+Los códigos de entrenador serán mostrados en orden aleatorio.
 
 Si quieres eliminar de tu Ficha de Entrenador la información del ID puedes hacerlo escribiendo: `/set_friendid -`. Recuerda que también puedes desactivar la autorización para que Joy comparta tu ID de entrenador y de esa forma el resto de jugadores no podrán acceder a esa información.
 
@@ -307,6 +311,17 @@ Los entrenadores que se apunten a dicha lista aparecerán junto a la siguiente i
 Con el comando `/joyrefloat` puedes reflotar una lista si esta ha quedado hundida. Para ello será necesario citar la lista y escribir el comando.
 
 Si se quiere borrar una lista bastará con eliminar el mensaje que sea la lista.
+
+### Cadenas de PC ###
+
+Los siguientes comandos `/max` y `/min` harán que Joy envie al chat privado una cadena con todos los PC de ese Pokémon que pueden salir salvajes (enteros entre los niveles del 1 al 35). El comando */max* enviará los de IV 100% y los del comando */min* enviará los del IV 0%.
+
+Ambos comandos deberán ir seguidos del número del Pokémon que se solicita o el nombre de dicho Pokémon. Por ejemplo:
+
+`/max 025`
+`/min Pikachu`
+
+También se pueden escribir como: `/maxiv`, `/ivmax`, `/miniv` y `/ivmin`.
 
 ### Glosario de comandos para entrenadores ###
 
