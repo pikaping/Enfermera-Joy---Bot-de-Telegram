@@ -32,11 +32,12 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
       2. [Vincular grupos al grupo de Admins](#vincular-grupos-al-grupo-de-admins)
    4. [Zona horaria](#zona-horaria)
    5. [Gestión de usuarios](#gestión-de-usuarios)
-   6. [Comandos personalizados](#comandos-personalizados)
-   7. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
+   6. [Id](#id)
+   7. [Comandos personalizados](#comandos-personalizados)
+   8. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
       1. [Moderación de un usuario](#moderación-de-un-usuario)
       2. [Moderación de varios usuarios](#moderación-de-varios-usuarios)
-   8. [Glosario de comandos para administradores](#glosario-de-comandos-para-administradores)
+   9. [Glosario de comandos para administradores](#glosario-de-comandos-para-administradores)
 3. [Reglamento General de Uso del Bot](#reglamento-general-de-uso-del-bot)
 4. [Política de privacidad](#Política-de-privacidad)
 
@@ -326,9 +327,6 @@ También se pueden escribir como: `/maxiv`, `/ivmax`, `/miniv` y `/ivmin`.
 Ejemplo completo: */max 025*
 Respuesta de Joy al privado: *25&pc13,pc41,pc69,pc98,pc126,pc154,pc183,pc211,pc239,pc268,pc294,pc321,pc348,pc375,pc402,pc428,pc455,pc482,pc509,pc536,pc562,pc589,pc616,pc643,pc670,pc696,pc723,pc750,pc777,pc804,pc817,pc830,pc844,pc857,pc871*
 Esa cadena de datos se deberá copiar y pegar en la barra de búsqueda del juego, de esa forma, en este ejemplo, verías únicamente los Pikachu con IV 100% que hayas capturado y a los que no hayas dado más poder.
-
-
-
 
 ### Glosario de comandos para entrenadores ###
 
@@ -646,8 +644,31 @@ Los nicks de los entrenadores de uno de los equipos se pueden ver mediante:
 
 No Validados -> `/joyuv L`
 
+Para que muestre una lista con todos -> `/joyuv all`
+
 El comando `/joykickuv` sirve para expulsar a todos aquellos No Validados en el bot. El bot no puede expulsar a los que no conoce, pero si a los que no están validados y conoce.
 *AVISO:* antes de usar el comando `/joykickuv` ten en cuenta que los únicos bots validados con @nurseyjoybot son: @detectivepikachubot, @nidospokemonbot, @ProfesorOak_bot y el própio bot @nurseyjoybot.
+
+### Id ###
+
+Saber el Id de un entrenador es posible gracias al comando `/id`. Este comando no és exclusivo para administradores, pero está orientado y pensado principalmente para a estos.
+
+El comando, al igual que el [Quién es](#quién-es), se puede emplear como:
+- Citando un mensaje del entrenador.
+- Citando un reenviado de un mensaje del entrenador.
+- Con el nick del entrenador.
+- Con el alias de Telegram del entrenador (Importante: sin el @).
+
+La respuesta será enviada al privado del bot y el comando será borrado (siempre que el bot tenga los permisos necesarios).
+
+Ejemplo de respuesta enviado al privado al emplear el comando `/id` sobre un entrenador:
+
+**ID:** 123456789
+**Alias:** @ansett
+**Nick:** Ansettt
+**Nivel:** 35
+**Equipo:** Valor
+**Estado:** ✅
 
 ### Comandos personalizados ###
 
