@@ -654,7 +654,7 @@ El comando `/joykickuv` sirve para expulsar a todos aquellos No Validados en el 
 
 *AVISO:* antes de usar el comando `/joykickuv` ten en cuenta que los únicos bots validados con @nurseyjoybot son: @detectivepikachubot, @nidospokemonbot, @ProfesorOak_bot y el própio bot @nurseyjoybot.
 
-El comando */joykickuv* y */joyuv*, ambos con sus variantes, está restringido a una vez al día. A las 00.00 se reinicia y se puede volver a utilizar.
+El comando */joykickuv* y */joyuv*, ambos con sus variantes, está restringido a una vez al día por grupo (independientemente de si este está vinculado o no). A las 00.00 se reinicia y se puede volver a utilizar.
 
 ### Id ###
 
@@ -668,16 +668,19 @@ El comando, al igual que el [Quién es](#quién-es), se puede emplear como:
 
 La respuesta será enviada al privado del bot y el comando será borrado (siempre que el bot tenga los permisos necesarios).
 
-`
-**Ejemplo de respuesta enviado al privado al emplear el comando */id* sobre un entrenador:**
+Ejemplo de respuesta enviado al privado al emplear el comando */id* sobre un entrenador:
 
- **ID:** 123456789
- **Alias:** @ansett
- **Nick:** Ansettt
-   **Nivel:** 35
-   **Equipo:** Valor
-   **Estado:** ✅
-`
+**ID:** 123456789
+
+**Alias:** @ansett
+
+**Nick:** Ansettt
+
+**Nivel:** 35
+
+**Equipo:** Valor
+
+**Estado:** ✅
 
 ### Comandos personalizados ###
 
@@ -696,7 +699,7 @@ Los siguientes ejemplos muestran cómo escribir el Markdown:
 
 Descripción | Descripción | Ejemplo 
 --------|-------------|---------------------------
-Para monoespaciado   | entre... eso | `Su texto` 
+Para monoespaciado   | entre "acento grave sin vocal" | `Su texto` 
 Para negrita   | entre asteriscos | *Su texto* 
 Para cursiva   | entre barrabaja | _Su texto_
 
