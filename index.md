@@ -27,7 +27,7 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
       3. [Configurar nidos](#configurar-nidos)
       4. [Noticias](#noticias)
       5. [Bienvenida](#bienvenida)
-   3. [Configuración Admins](#configuración-admins)
+   3. [Configuración Admins](#configuración-admins 
       1. [Ajustes del grupo de Admins](#ajustes-del-grupo-de-admins)
       2. [Vincular grupos al grupo de Admins](#vincular-grupos-al-grupo-de-admins)
    4. [Zona horaria](#zona-horaria)
@@ -695,7 +695,7 @@ Para que el bot te diga todos los comandos registrados en un grupo se debe emple
 
 Si deseas borrar un comando puedes hacerlo con `eliminar comando {número del comando}`, substituyendo la variable {número del comando} por el número del comando personalizado que tenga en el "Listado de comandos". Por ejemplo:
 
-`Borrar comando 55`
+`Eliminar comando 55`
 
 En este caso el comando que se borraría sería el comando que corresponda al número 55.
 
