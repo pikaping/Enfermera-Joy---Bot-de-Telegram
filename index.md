@@ -434,8 +434,8 @@ El modo enfermera evita que la gente hable en un grupo, borrando todos los mensa
 
 El comando `/settalkgroup` permite definir un grupo para hablar.  Por ejemplo:
 
-    /settalkgroup @enfermerajoyayuda
-    /settalkgroup https://t.me/joinchat/XXs3XkzYsXXxnvbtxxe11x
+    /set_talkgroup @enfermerajoyayuda
+    /set_talkgroup https://t.me/joinchat/XXs3XkzYsXXxnvbtxxe11x
 
 Si está el modo enfermera activado, el bot recordará el enlace al grupo para hablar cada vez que hable alguien.
 
