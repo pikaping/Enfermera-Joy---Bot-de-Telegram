@@ -669,14 +669,14 @@ El comando, al igual que el [Quién es](#quién-es), se puede emplear como:
 La respuesta será enviada al privado del bot y el comando será borrado (siempre que el bot tenga los permisos necesarios).
 
 `
-**Ejemplo de respuesta enviado al privado al emplear el comando `/id` sobre un entrenador:**
+**Ejemplo de respuesta enviado al privado al emplear el comando */id* sobre un entrenador:**
 
-**ID:** 123456789
-**Alias:** @ansett
-**Nick:** Ansettt
-**Nivel:** 35
-**Equipo:** Valor
-**Estado:** ✅
+ **ID:** 123456789
+ **Alias:** @ansett
+ **Nick:** Ansettt
+   **Nivel:** 35
+   **Equipo:** Valor
+   **Estado:** ✅
 `
 
 ### Comandos personalizados ###
