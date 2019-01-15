@@ -195,9 +195,11 @@ Estos son las tablas de IV las que se disponen actualmente:
 - GiratinaM (versión modificada, también se puede solicitar como: MGiratina)
 - Golem
 - Groudon
+- GroudonCounters (mejores counters contra Groudon. También se puede solicitar como: CountersGroudon)
 - Heatran
 - Ho-oh
 - Kyogre
+- KyogreCounters (mejores counters contra Kyogre. También se puede solicitar como: CountersKyogre)
 - Lapras
 - Latias
 - Latios
@@ -647,7 +649,12 @@ No Validados -> `/joyuv L`
 Para que muestre una lista con todos -> `/joyuv all`
 
 El comando `/joykickuv` sirve para expulsar a todos aquellos No Validados en el bot. El bot no puede expulsar a los que no conoce, pero si a los que no están validados y conoce.
+
+**Cosas a tener en cuenta:**
+
 *AVISO:* antes de usar el comando `/joykickuv` ten en cuenta que los únicos bots validados con @nurseyjoybot son: @detectivepikachubot, @nidospokemonbot, @ProfesorOak_bot y el própio bot @nurseyjoybot.
+
+El comando */joykickuv* y */joyuv*, ambos con sus variantes, está restringido a una vez al día. A las 00.00 se reinicia y se puede volver a utilizar.
 
 ### Id ###
 
@@ -661,7 +668,8 @@ El comando, al igual que el [Quién es](#quién-es), se puede emplear como:
 
 La respuesta será enviada al privado del bot y el comando será borrado (siempre que el bot tenga los permisos necesarios).
 
-Ejemplo de respuesta enviado al privado al emplear el comando `/id` sobre un entrenador:
+`
+**Ejemplo de respuesta enviado al privado al emplear el comando `/id` sobre un entrenador:**
 
 **ID:** 123456789
 **Alias:** @ansett
@@ -669,6 +677,7 @@ Ejemplo de respuesta enviado al privado al emplear el comando `/id` sobre un ent
 **Nivel:** 35
 **Equipo:** Valor
 **Estado:** ✅
+`
 
 ### Comandos personalizados ###
 
