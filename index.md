@@ -309,9 +309,9 @@ Para crear una lista se debe emplear el comando `/list` y añadir el título que
 
 `/list Esto es una lista con un mensaje.`
 
-Los entrenadores que se apunten a dicha lista aparecerán junto a la siguiente información: Equipo, Nivel y Alias de Telegram.
+Los entrenadores que se apunten a dicha lista aparecerán junto a la siguiente información: Equipo, Nivel y Alias de Telegram. Es por ello que es imprescindible estar *Registrado en el bot* (se recomienda leer el apartado [Registrarse en el bot](#registrarse-en-el-bot) si no estás registrado).
 
-Con el comando `/joyrefloat` puedes reflotar una lista si esta ha quedado hundida. Para ello será necesario citar la lista y escribir el comando.
+Con el comando `/joyrefloat` puedes reflotar una lista si esta ha quedado hundida. Para ello será necesario que un admin cite la lista y escriba el comando.
 
 Si se quiere borrar una lista bastará con eliminar el mensaje que sea la lista.
 
