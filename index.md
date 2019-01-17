@@ -695,14 +695,6 @@ Por ejemplo, podría haber un comando personalizado que se llame "Dios bidoof" y
 
 Además, el bot responderá únicamente si la frase que se escriba es únicamente el comando personalizado, sin importar las mayúsuculas o minúsuclas, y borrará el comando personalizado dejando únicamente su respuesta.
 
-Los siguientes ejemplos muestran cómo escribir el Markdown:
-
-Descripción | Descripción | Ejemplo 
---------|-------------|---------------------------
-Para monoespaciado   | entre "acento grave sin vocal" | `Su texto` 
-Para negrita   | entre asteriscos | *Su texto* 
-Para cursiva   | entre barrabaja | _Su texto_
-
 Para que el bot te diga todos los comandos registrados en un grupo se debe emplear la frase: `Listado de comandos`. La lista de comandos será mandada al privado del usuario que lo solicite sin importar si es administrador o no.
 
 Si deseas borrar un comando puedes hacerlo con `eliminar comando {número del comando}`, substituyendo la variable {número del comando} por el número del comando personalizado que tenga en el "Listado de comandos". Por ejemplo:
