@@ -481,8 +481,6 @@ El nivel mínimo para entrar en el grupo se puede configurar, clicando en el bot
 
 Si el apartado de "Expulsiones silenciosas" está activado ✅ entonces el bot no mostrará ningún mensaje por el grupo cuando expulse a alguien. Si, por el contrario, está desactivado ▪️, entonces el bot, cada vez que expulse a alguien, avisará por el grupo con un mensaje estandard como el siguiente:
 
-![GitHub Logo](aaaaaaaaaaaaaaaaaaaaaaaa/images/logo.png)
-
 #### Configurar Nidos ####
 
 El bot dispone de la opción de registrar nidos, para ello es necesario configurar el apartado de Nidos y sus requisitos.
@@ -694,7 +692,7 @@ Ejemplo de respuesta enviado al privado al emplear el comando */id* sobre un ent
 
 **Estado:** ✅
 
-![holiski](https://github.com/marcroga/Enfermera-Joy---Bot-de-Telegram/blob/master/images/navbar.png)
+![ID](https://github.com/marcroga/Enfermera-Joy---Bot-de-Telegram/blob/master/images/ID.JPG)
 
 ### Comandos personalizados ###
 
