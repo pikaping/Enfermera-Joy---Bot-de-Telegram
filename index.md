@@ -474,6 +474,15 @@ Determina un nivel mínimo como requisito para entrar al grupo. Esta opción vie
 
 El nivel mínimo para entrar en el grupo se puede configurar, clicando en el botón hasta que salga la opción deseada, según: 0 (sin nivel requerido), 15, 20, 25, 30, 35 o 40.
 
+##### Expulsiones silenciosas #####
+`apartado en escritura`
+
+Si el apartado de "Expulsiones silenciosas" está activado ✅ entonces el bot no mostrará ningún mensaje por el grupo cuando expulse a alguien. Si, por el contrario, está desactivado ▪️, entonces el bot, cada vez que expulse a alguien, avisará por el grupo con un mensaje estandard como el siguiente:
+
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
+
 #### Configurar Nidos ####
 
 El bot dispone de la opción de registrar nidos, para ello es necesario configurar el apartado de Nidos y sus requisitos.
