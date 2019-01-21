@@ -288,7 +288,7 @@ Según el ejemplo, el bot te buscará en sus datos si hay registrado algún nido
 
 Siguiendo también el ejemplo, el bot mirará si hay registrado algún nido de *Chansey* en tu grupo, si lo hay, te responderá con el nombre del lugar donde se ha registrado.
 
-### Listado de comandos###
+### Listado de comandos ###
 
 Los comandos personalizados pueden ser creados y eliminados únicamente por los administradores. Si eres administrador te recomiendo que leas el apartado [Comandos personalizados](#comandos-personalizados).
 
@@ -693,6 +693,8 @@ Ejemplo de respuesta enviado al privado al emplear el comando */id* sobre un ent
 **Equipo:** Valor
 
 **Estado:** ✅
+
+![title](https://github.com/username/reponame/blob/master/subfolders.../filename.jpg)
 
 ### Comandos personalizados ###
 
