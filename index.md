@@ -27,7 +27,7 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
       3. [Configurar nidos](#configurar-nidos)
       4. [Noticias](#noticias)
       5. [Bienvenida](#bienvenida)
-   3. [Configuración Admins](#configuración-admins 
+   3. [Configuración Admins](#configuración-admins) 
       1. [Ajustes del grupo de Admins](#ajustes-del-grupo-de-admins)
       2. [Vincular grupos al grupo de Admins](#vincular-grupos-al-grupo-de-admins)
    4. [Zona horaria](#zona-horaria)
