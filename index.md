@@ -132,7 +132,7 @@ Si intentas ver el código de entrenador de otro jugador y no has aceptado compa
 
 Los códigos de entrenador serán mostrados en orden aleatorio.
 
-Si quieres eliminar de tu Ficha de Entrenador la información del ID puedes hacerlo escribiendo: `/set_friendid -`. Recuerda que también puedes desactivar la autorización para que Joy comparta tu ID de entrenador y de esa forma el resto de jugadores no podrán acceder a esa información.
+Si quieres eliminar de tu Ficha de Entrenador la información del ID puedes hacerlo escribiendo el comando sin nada detrás: `/set_friendid`. Recuerda que también puedes desactivar la autorización para que Joy comparta tu ID de entrenador y de esa forma el resto de jugadores no podrán acceder a esa información.
 
 ### Quién es ###
 
@@ -174,7 +174,7 @@ Si el comando se realiza por privado al bot [@NurseJoyBot](https://t.me/NurseJoy
 
 ### Tablas ###
 
-El bot dispone de una gran cantidad de tablas de IV, de recompensas por amistad, Pokémon de los Community Day, Pokémon shiny, etc. Para solicitarlas se debe emplear el comando `/tabla` o `/table` seguido de un espacio y el nombre de la tabla que se desea. El mensaje solicitando la tabla será eliminado por el bot de forma automática.
+El bot dispone de una gran cantidad de tablas de IV, de recompensas por amistad, Pokémon de los Community Day, Pokémon shiny, etc. Para solicitarlas se debe emplear el comando `/tabla`, `/table` o `Tabla de` seguido de un espacio y el nombre de la tabla que se desea. El mensaje solicitando la tabla será eliminado por el bot de forma automática.
 
 Todas las tablas son mandadas al privado del bot, para ello es necesario tener abierta una conversación privada con [@NurseJoyBot](https://t.me/NurseJoyBot).
 
@@ -189,6 +189,7 @@ Estos son las tablas de IV las que se disponen actualmente:
 - DeoxysN (versión normal)
 - DeoxysV (versión velocidad)
 - Entei
+- Feebas
 - Gengar
 - Giratina (la forma activa en el juego)
 - GiratinaO (versión Origen, también se puede solicitar como: OGiratina)
@@ -208,6 +209,7 @@ Estos son las tablas de IV las que se disponen actualmente:
 - Magikarp
 - Marowak (versión alola)
 - Mawile
+- Metagross
 - Mew
 - Mewtwo
 - Moltres
@@ -248,6 +250,7 @@ Otras tablas:
 - Sellos (tabla con las recompensas que se puden obtener en las cajas del séptimo sello)
 - Shiny (también se puede solicitar como: Shinys)
 - Sinnoh (tabla con las evoluciones que se pueden hacer actualmente con la piedra Sinnoh. También se puede solicitar como: piedrasinnoh)
+- Tipos (tabla con los mejores atacantes por tipo. también se puede solicitar como: tipo o atacantes)
 
 Todas las tablas se van modificando según los cambios que van surgiendo en Pokémon Go y se van añadiendo tablas nuevas necesarias, por lo tanto la lista de tablas es algo que irá cambiando.
 
