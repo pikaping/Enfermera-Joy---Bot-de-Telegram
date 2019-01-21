@@ -365,8 +365,10 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 
 Si necesitas ayuda que no se encuentre en este manual, puedes preguntar en [@enfermerajoyayuda](https://t.me/enfermerajoyayuda). Si estás administrando un grupo o un canal, continua leyendo para ver la ayuda para administradores.
 
+
 ----
 ----
+
 
 
 ## Ayuda para administradores ##
@@ -479,9 +481,7 @@ El nivel mínimo para entrar en el grupo se puede configurar, clicando en el bot
 
 Si el apartado de "Expulsiones silenciosas" está activado ✅ entonces el bot no mostrará ningún mensaje por el grupo cuando expulse a alguien. Si, por el contrario, está desactivado ▪️, entonces el bot, cada vez que expulse a alguien, avisará por el grupo con un mensaje estandard como el siguiente:
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
-
+![GitHub Logo](aaaaaaaaaaaaaaaaaaaaaaaa/images/logo.png)
 
 #### Configurar Nidos ####
 
@@ -694,7 +694,7 @@ Ejemplo de respuesta enviado al privado al emplear el comando */id* sobre un ent
 
 **Estado:** ✅
 
-![title](https://github.com/username/reponame/blob/master/subfolders.../filename.jpg)
+![holiski](https://github.com/marcroga/Enfermera-Joy---Bot-de-Telegram/blob/master/images/navbar.png)
 
 ### Comandos personalizados ###
 
