@@ -320,7 +320,7 @@ Si se quiere borrar una lista bastará con eliminar el mensaje que sea la lista.
 
 ### Cadenas de PC ###
 
-Los siguientes comandos `/max` y `/min` harán que Joy envie al chat privado una cadena con todos los PC de ese Pokémon que pueden salir salvajes (enteros entre los niveles del 1 al 35). El comando */max* enviará los de IV 100% y los del comando */min* enviará los del IV 0%.
+Los siguientes comandos `/max` y `/min` harán que Joy envie al chat privado una cadena con todos los PC de ese Pokémon que pueden salir salvajes (enteros entre los niveles del 1 al 35). El comando */max* enviará los probables de IV 100% y los del comando */min* enviará los probables de IV 0%.
 
 Ambos comandos deberán ir seguidos del número del Pokémon que se solicita o el nombre de dicho Pokémon. Por ejemplo:
 
@@ -331,7 +331,7 @@ También se pueden escribir como: `/maxiv`, `/ivmax`, `/miniv` y `/ivmin`.
 
 Ejemplo completo: */max 025*
 Respuesta de Joy al privado: *25&pc13,pc41,pc69,pc98,pc126,pc154,pc183,pc211,pc239,pc268,pc294,pc321,pc348,pc375,pc402,pc428,pc455,pc482,pc509,pc536,pc562,pc589,pc616,pc643,pc670,pc696,pc723,pc750,pc777,pc804,pc817,pc830,pc844,pc857,pc871*
-Esa cadena de datos se deberá copiar y pegar en la barra de búsqueda del juego, de esa forma, en este ejemplo, verías únicamente los Pikachu con IV 100% que hayas capturado y a los que no hayas dado más poder.
+Esa cadena de datos se deberá copiar y pegar en la barra de búsqueda del juego, de esa forma, en este ejemplo, verías únicamente los Pikachu con probable IV 100% que hayas capturado y a los que no hayas dado más poder.
 
 ### Glosario de comandos para entrenadores ###
 
