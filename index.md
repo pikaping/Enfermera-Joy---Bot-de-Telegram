@@ -435,13 +435,6 @@ Activa o desactiva los juegos del bot. Por defecto esta opción está desactivad
 
 El modo enfermera evita que la gente hable en un grupo, borrando todos los mensajes que pongan los usuarios (no los mensajes de los administradores ni de los bots). Opción desactivada por defecto.
 
-El comando `/settalkgroup` permite definir un grupo para hablar.  Por ejemplo:
-
-    /set_talkgroup @enfermerajoyayuda
-    /set_talkgroup https://t.me/joinchat/XXs3XkzYsXXxnvbtxxe11x
-
-Si está el modo enfermera activado, el bot recordará el enlace al grupo para hablar cada vez que hable alguien.
-
 ##### Tipo de expulsión por Warns #####
 
 Este botón puede estar activado como `Ban (Warns)` o como `Kick (Warns)` y determina el tipo de expulsión que recibirá el usuario al llegar al máximo de Warns determinado por el grupo.
@@ -815,27 +808,27 @@ El comando para quitar el Ban a un usuario es:
 Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 --------|-------------|---------------------------|--------|-----------
 `/ban`   | ? | ✅ | Grupo | `{Motivo}`
-`/banuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
-`/banmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
-`/banold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
-`/banall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
-`/banteam`| ? | ✅ | Grupo & Grupo administración | `Grupo Equipo`<sup>1</sup>
-`/bangroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
+`/joybanuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
+`/joybanmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
+`/joybanold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
+`/joybanall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
+`/joybanteam`| ? | ✅ | Grupo & Grupo administración | `Grupo Equipo`<sup>1</sup>
+`/joybangroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
 `/unban`| ? | ✅ | Grupo & Grupo administración | ❌
 `/kick`   | ? | ✅ | Grupo | `{Motivo}`
-`/kickuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
-`/kickmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
-`/kickold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
-`/kickall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
-`/kickteam`| ? | ✅ | Grupo & Grupo administración | `Grupo Equipo`<sup>1</sup>
-`/kickgroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
-`/kickeveryone`| ? | ✅ | Grupo administración | `GrupoEX`<sup>3</sup>
+`/joykickuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
+`/joykickmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
+`/joykickold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
+`/joykickall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
+`/joykickteam`| ? | ✅ | Grupo & Grupo administración | `Grupo Equipo`<sup>1</sup>
+`/joykickgroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
+`/joykickeveryone`| ? | ✅ | Grupo administración | `GrupoEX`<sup>3</sup>
 `/warn`   | ? | ✅ | Grupo | `{Motivo}`
-`/warnuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
-`/warnmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
-`/warnold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
-`/warnall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
-`/warngroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
+`/joywarnuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
+`/joywarnmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
+`/joywarnold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
+`/joywarnall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
+`/joywarngroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
 `/settings_admin`| ? | ✅ | Grupo administración | ❌
 `/settings`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
 `/set_welcome`| ? | ✅ | Grupo | `Mensaje de bienvenida`
