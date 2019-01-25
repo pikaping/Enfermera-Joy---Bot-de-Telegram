@@ -225,6 +225,7 @@ Estos son las tablas de IV las que se disponen actualmente:
 - Snorlax
 - Spiritomb
 - Suicune
+- Swinub
 - Tyranitar
 - Zapdos
 
@@ -412,11 +413,8 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
       3. [Requisito de cantidad de mensajes](#requisito-de-cantidad-de-mensajes)
       
 4. [Noticias](#noticias) 
-      1. @pokemongohonesto
-      2. @enfermerajoynoticias
-      3. @detectivepikachunoticias
-      4. @noticiasPoGo
-      5. @teamRocketFake
+      1. [Canales de Noticias Oficiales](#canales-de-noticias-oficiales)
+      2. [Canales de Noticias No-Oficiales](#canales-de-noticias-no-oficiales)
 
 5. [Bienvenida](#bienvenida)
       1. Bienvenida
@@ -514,9 +512,11 @@ Por defecto, este requisito, viene configurado como sin requisitos, 0 mensajes.
 
 El bot dispone de la opción de *Noticias*: Eso quiere decir que puede reenviar automáticamente las publicaciones que salgan en distintos canales.
 
+##### Canales de Noticias Oficiales #####
+
 Para poder ver este apartado es necesario haber escrito el comando `/settings` y haber accedido al apartado `Noticias` haciendo click sobre el botón.
 
-Los canales de los que se dipone actualmente son los siguientes:
+Los canales de los que se dipone Oficialmente son los siguientes:
 
 - @pokemongohonesto (noticias sobre Pokémon Go)
 - @enfermerajoynoticias (noticias sobre el bot @NurseJoyBot)
@@ -527,6 +527,20 @@ Los canales de los que se dipone actualmente son los siguientes:
 Cada uno de los siguientes canales tienen sus própias características por los cuales son importantes y seguidos: algunos son de noticias sobre bots, noticias sobre el juego o noticias de broma.
 
 Es decisión de cada grupo activar o no el reenvio de las noticias (y cuales) para mantenerse informados. Por defecto todas las noticias estarán desactivadas. Para activarlas se debe clickar encima del botón y cuando ponga delante el icono ✅, si pone el icono ▪️ quiere decir que esas noticias estarán desactivadas y no serán enviadas al grupo.
+
+#### Canales de Noticias No-Oficiales ####
+
+Si quieres que las noticias de un canal (distinto a los mencionados en el apartado de [Canales de Noticias Oficiales](#canales-de-noticias-oficiales)) lleguen a un grupo en el cual seas administrador, lo puedes hacer de la siguiente forma:
+
+1) Primero de todo debes meter al bot [@NurseJoyBot](https://t.me/NurseJoyBot) al canal y darle poderes de administrador.
+
+2) Escribir en el canal en cuestión el comando `/init_news`. Ese comando hará que el bot responda informando que se ha iniciado tu canal como canal de noticias y te mostrará el ID de dicho canal.
+
+3) Ves al grupo en el cual quieres recibir las noticias reenviadas y ejecuta el comando `/add_news` seguido del ID que te ha dado el bot en el canal (esta opción es para *canales privados*) o seguido del alias del canal (incluyendo la @, opción para *canales públicos*).
+
+Una vez finalizado el paso 3 el bot ya empezará a reenviar las notificaciones del canal al grupo.
+
+Si se desea dejar de recibir noticias de un canal No-Oficial se deberá ejecutar el comando `/rm_news` seguido del ID o alias (con el @) del canal. También se puede dejar de recibir noticias de un canal si el dueño de este expulsa al bot.
 
 #### Bienvenida ####
 
@@ -634,7 +648,7 @@ Para establecer la zona horaria correcta se debe utilizar el comando `/settimezo
 
 ### Gestión de usuarios ###
 
-Para saber la cantidad de entrenadores que de cada equipo que hay en un grupo y saber los entrenadores que no están validados, puedes emplear el comando ´/joyuv´ y el bot te mostrará un mensaje parecido a este:
+Para saber la cantidad de entrenadores que de cada equipo que hay en un grupo y saber los entrenadores que no están validados, puedes emplear el comando `/joyuv` y el bot te mostrará un mensaje parecido a este:
 
 💙 Azules: 10
 
@@ -662,7 +676,7 @@ El comando `/joykickuv` sirve para expulsar a todos aquellos No Validados en el 
 
 **Cosas a tener en cuenta:**
 
-*AVISO:* antes de usar el comando `/joykickuv` ten en cuenta que los únicos bots validados con @nurseyjoybot son: @detectivepikachubot, @nidospokemonbot, @ProfesorOak_bot y el própio bot @nurseyjoybot.
+*AVISO:* antes de usar el comando */joykickuv* ten en cuenta que los únicos bots validados con @nurseyjoybot son: @detectivepikachubot, @nidospokemonbot, @ProfesorOak_bot y el própio bot @nurseyjoybot.
 
 El comando */joykickuv* y */joyuv*, ambos con sus variantes, está restringido a una vez al día por grupo (independientemente de si este está vinculado o no). A las 00.00 se reinicia y se puede volver a utilizar.
 
@@ -750,13 +764,13 @@ Tipos de Warn:
    
 `/warnuv` 
 
-`/warnmsg {Nº Mensajes}` - Advierte a los usuarios que hayan enviado menos de X mensajes, siendo X el número de mensajes especificados en el parámetro. Por ejemplo: `/warnmsg 20`
+`/joywarnmsg {Nº Mensajes}` - Advierte a los usuarios que hayan enviado menos de X mensajes, siendo X el número de mensajes especificados en el parámetro. Por ejemplo: `/warnmsg 20`
 
 `/warnold {Días}` - Advierte a los usuarios que no han hablado en los últimos X días, siendo X los días especificados en el parámetro. Por ejemplo: `/warnold 20`
 
-`/warnall {ID usuario}` 
+`/joywarnall {ID usuario}` 
 
-`/warngroup {ID usuario}` 
+`/joywarngroup {ID usuario}` 
 
 Tipos de Kick:
 
@@ -764,17 +778,17 @@ Tipos de Kick:
 
 `/kickuv` 
 
-`/kickmsg {Nº Mensajes}`  - Expulsa a los usuarios que hayan enviado menos de X mensajes, siendo X el número de mensajes especificados en el parámetro. Por ejemplo: `/kickmsg 20`
+`/kickmsg {Nº Mensajes}`  - Expulsa a los usuarios que hayan enviado menos de X mensajes, siendo X el número de mensajes especificados en el parámetro. Por ejemplo: */kickmsg 20*
 
-`/kickold {Días}` - Expulsa a los usuarios que no han hablado en los últimos X días, siendo X los días especificados en el parámetro. Por ejemplo: `/kickold 20`
+`/joykickold {Días}` - Expulsa a los usuarios que no han hablado en los últimos X días, siendo X los días especificados en el parámetro. Por ejemplo: */kickold 20*
 
-`/kickall {ID usuario}`
+`/joykickall {ID usuario}`
 
-`/kickteam {Equipo}` - Expulsa a todos los usuarios registrados del equipo TEAM (R para rojo, B para azul o Y para amarillo). Por ejemplo, /kickteam Y para expulsar a los del equipo amarillo.
+`/kickteam {Equipo}` - Expulsa a todos los usuarios registrados del equipo TEAM (R para rojo, B para azul o Y para amarillo). Por ejemplo */kickteam Y* para expulsar a los del equipo amarillo.
 
-`/kickgroup {ID usuario}`
+`/joykickgroup {ID usuario}`
 
-`/kickeveryone`
+`/joykickeveryone`
 
 Tipos de Ban:
 
