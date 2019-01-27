@@ -17,8 +17,9 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
    8. [Listado de comandos](#listado-de-comandos) 
    9. [Listas](#listas)
    10. [Cadenas de PC](#cadenas-de-pc)
-   11. [Glosario de comandos para entrenadores](#glosario-de-comandos-para-entrenadores)
-   12. [Más ayuda](#más-ayuda)
+   11. [Listado de grupos](#listado-de-grupos)
+   12. [Glosario de comandos para entrenadores](#glosario-de-comandos-para-entrenadores)
+   13. [Más ayuda](#más-ayuda)
 2. [Ayuda para administradores](#ayuda-para-administradores)
    1. [Añadir el bot a un grupo o canal](#añadir-el-bot-a-un-grupo-o-canal)
    2. [Configuración básica](#configuración-básica)
@@ -340,6 +341,15 @@ Respuesta de Joy al privado: *25&pc13,pc41,pc69,pc98,pc126,pc154,pc183,pc211,pc2
 
 Esa cadena de datos se deberá copiar y pegar en la barra de búsqueda del juego, de esa forma, en este ejemplo, verías únicamente los Pikachu con probable IV 100% que hayas capturado y a los que no hayas dado más poder.
 
+### Listado de grupos ###
+
+Joy dispone también de dos comandos con los cuales mandará, al privado del bot, la botonera del canal [Grupos Pokémon Go](https://t.me/PokemonGoGrupos). Canal que dispone de una gran cantidad de links a grupos de Pokémon Go, muy útil para buscar grupos:
+
+`Listado de grupos nacionales` -> mandará la botonera de lo grupos que se encuentran dentro de España
+`Listado de grupos internacionales` -> mandará la botonera de los grupos de todo el mundo separados de forma ordenada por paises
+
+Al clicar sobre uno de los botones se abrirá el canal *Grupos Pokémon Go* y podrás ver los grupos que estén dentro del territorio sobre el que has clicado.
+
 ### Glosario de comandos para entrenadores ###
 
 Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
@@ -436,8 +446,12 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
       2. [Canales de Noticias No-Oficiales](#canales-de-noticias-no-oficiales)
 
 6. [Bienvenida](#bienvenida)
-      1. Bienvenida
+      1. [Bienvenida](#bienvenida) 
 
+7. [Modo enfermera](#modo-enfermera) 
+
+8. [Safari](#Safari) `Actualmente esta opción no está disponible.`
+      
 #### Ajustes generales ####
 
 ##### Chistes #####   
@@ -670,6 +684,9 @@ Si se quiere desactivar esa opción y que el mensaje no sea eliminado entonces s
 
 El modo enfermera evita que la gente hable en un grupo, borrando todos los mensajes que pongan los usuarios (no los mensajes de los administradores ni de los bots). Opción desactivada por defecto.
 
+#### Safari ####
+`Actualmente esta opción no está disponible.`
+
 ### Configuración Admins ###
 
 #### Ajustes del grupo de Admins ####
@@ -824,7 +841,6 @@ Para borrar todos los comandos personalizados de golpe se puede hacer mediante e
 Si en vez de borrar un comando lo que se quiere es únicamente modificar la respuesta del bot, entonces bastará con crear de nuevo un comando con el mismo nombre.
 
 ### Otros comandos exclusivos para administradores ###   
-`En proceso de escritura`
 
 Algunos de los comandos más importantes para un administrador son los de tipo "castigo". Estos comandos únicamente pueden ser utilizados por los administradores, y si algún usuario lo escribiese el bot respondería que dicho usuario no tiene permisos para ello.
 
@@ -832,71 +848,14 @@ Algunos de los comandos más importantes para un administrador son los de tipo "
 
 La mayoría de bots disponen de tres "castigos" muy diferenciados: Warn, Kick y Ban.
 
-   Warn - El Warn es un aviso (advertencia), que después de una determinada cantidad de avisos será una expulsión del grupo por kick o ban (dependiendo de cómo esté configurado). Para ver la configuración de los Warn leer el apartado [Tipo de expulsión por Warns](#tipo-de-expulsión-por-warns) y [Cantidad de Warns](#cantidad-de-warns).
+   Warn - El Warn es un aviso (advertencia), que después de una determinada cantidad de avisos será una expulsión del grupo por kick o ban (dependiendo de cómo esté configurado). Para ver la configuración de los Warn lee el apartado [Tipo de expulsión por Warns](#tipo-de-expulsión-por-warns) y [Cantidad de Warns](#cantidad-de-warns).
 
    Kick - El Kick es la expulsión del grupo a un usuario, pero este podrá volver a entrar al momento.
    
    Ban - El Ban es la expulsión del grupo a un usuario, y este no podrá volver a entrar al grupo hasta que un administrador le quite el ban.
 
 #### Expulsiones masivas ####
-
-Como se ha dicho, la mayoría de bots disponen de estos tres, al menos de los dos últimos, pero `@NurseJoyBot` dispone, además, de muchos más que facilitarán la labor de los administradores.
-
-Antes de empezar con el listado debes saber que todos los comandos de este apartado funcionan tanto con la ID de Telegram del usuario al que se quiere expulsar o avisar, como citando un mensaje de dicho usuario.
-
-Este comando se puede emplear desde el grupo en el cual se quiere dar el aviso o desde el grupo de Admins especificando el grupo como variable.
-
-Tipos de Warn:
-
-`/warn` - Advierte al usuario. Este comando se puede emplear únicamente en el grupo en el cual se quiere advertir al entrenador. Se puede escribir también como `/warn {Motivo}`, siendo `{Motivo}` un texto de no más de 30 carácteres escrito por el administrador justificando la advertencia. Por ejemplo: `/warn lenguaje inapropiado`
-   
-`/warnuv` 
-
-`/joywarnmsg {Nº Mensajes}` - Advierte a los usuarios que hayan enviado menos de X mensajes, siendo X el número de mensajes especificados en el parámetro. Por ejemplo: `/warnmsg 20`
-
-`/warnold {Días}` - Advierte a los usuarios que no han hablado en los últimos X días, siendo X los días especificados en el parámetro. Por ejemplo: `/warnold 20`
-
-`/joywarnall {ID usuario}` 
-
-`/joywarngroup {ID usuario}` 
-
-Tipos de Kick:
-
-`/kick`   Grupo  `{Equipo}`
-
-`/kickuv` 
-
-`/kickmsg {Nº Mensajes}`  - Expulsa a los usuarios que hayan enviado menos de X mensajes, siendo X el número de mensajes especificados en el parámetro. Por ejemplo: */kickmsg 20*
-
-`/joykickold {Días}` - Expulsa a los usuarios que no han hablado en los últimos X días, siendo X los días especificados en el parámetro. Por ejemplo: */kickold 20*
-
-`/joykickall {ID usuario}`
-
-`/kickteam {Equipo}` - Expulsa a todos los usuarios registrados del equipo TEAM (R para rojo, B para azul o Y para amarillo). Por ejemplo */kickteam Y* para expulsar a los del equipo amarillo.
-
-`/joykickgroup {ID usuario}`
-
-`/joykickeveryone`
-
-Tipos de Ban:
-
-`/ban`: Citando el mensaje y escribiendo el comando en la respuesta. Puede ir seguido del motivo del ban.
-
-`/banuv`: Se puede hacer desde el grupo o desde el grupo de administración, si se hace desde el de administración se puede especificar el grupo al cual va dirigido el ban, sino baneará al entrenador de todos los grupos vinculados al grupo de administración.
-
-`/banmsg {Nº Mensajes}` - Expulsa y no les permite volver a entrar a los usuarios que hayan enviado menos de X mensajes, siendo X el número de mensajes especificados en el parámetro. Por ejemplo: `/banmsg 30`
-
-`/banold {Días}` - Expulsa y no les permite volver a entrar a los usuarios que no han hablado en los últimos X días, siendo X los días especificados en el parámetro. Por ejemplo: `/banold 30`
-
-`/banall {ID usuario}`: únicamente se puede realizar desde el grupo de administración `UserID Motivo`<sup>2</sup>
-
-`/banteam {Equipo}`
-
-`/bangroup {ID usuario}` 
-
-El comando para quitar el Ban a un usuario es:
-
-`/unban` - Desbanea a un usuario. También se puede desbanear sin necesidad de comando en: Ajustes de Grupo -> Administrar grupo -> Suspendidos.
+`En proceso de escritura`
 
 ### Glosario de comandos para administradores ###
 
