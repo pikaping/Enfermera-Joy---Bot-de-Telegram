@@ -24,9 +24,12 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
    2. [Configuración básica](#configuración-básica)
       1. [Ajustes generales](#ajustes-generales)
       2. [Ajustes de entrada](#ajustes-de-entrada)
-      3. [Configurar nidos](#configurar-nidos)
-      4. [Noticias](#noticias)
-      5. [Bienvenida](#bienvenida)
+      3. [Ajustes de administración](#ajustes-de-entrada)
+      4. [Nidos](#nidos)
+      5. [Noticias](#noticias)
+      6. [Bienvenida](#bienvenida)
+      7. [Modo enfermera](#modo-enfermera)
+      8. [Safari](#safari)
    3. [Configuración Admins](#configuración-admins) 
       1. [Ajustes del grupo de Admins](#ajustes-del-grupo-de-admins)
       2. [Vincular grupos al grupo de Admins](#vincular-grupos-al-grupo-de-admins)
@@ -399,24 +402,37 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
 1. [Ajustes generales](#ajustes-generales) (Configuraciones básicas de juegos y modo de administración.)
       1. [Chistes](#chistes) `Actualmente esta opción no está disponible.`
       2. [Juegos](#Juegos) `Actualmente esta opción no está disponible.`
-      3. [Modo enfermera](#modo-enfermera)   
-      4. [Tipo de expulsión por Warns](#tipo-de-expulsión-por-warns)
-      5. [Cantidad de Warns](#cantidad-de-warns)      
+      3. [Tipo de expulsión por Warns](#tipo-de-expulsión-por-warns)
+      4. [Respuestas](#respuestas)
+      5. [Límite de Warns](#limite-de-warns)      
 
 2. [Ajustes de entrada](#ajustes-de-entrada) (Configuración de los tipos de grupo y los requisitos.)
-      1. [Tipo de grupo](#tipo-de-grupo)
-      2. [Requisito de nivel](#requisito-de-nivel)
+      1. [No registrados Joy](#no-registrados-joy)
+      2. [No registrados Pikachu](#no-registrados-pikachu)
+      3. [Expulsiones silenciosas o notificadas](#expulsiones-silenciosas-o-notificadas)
+      4. [Borrar entradas](#borrar-entradas)
+      5. [Validaciones obligatorias Pikachu](#validaciones-obligatorias-pikachu)
+      6. [Nivel mínimo](#nivel-minimo)
+      7. [Tipo de grupo](#tipo-de-grupo)
+
+3. [Ajustes de administración](#ajustes-de-administracion)
+      1. [Aviso admins](#aviso-admins) 
+      2. [Entrada de usuarios](#entrada-de-usuarios)
+      3. [Salida de usuarios](#salida-de-usuarios) 
+      4. [Solicitud de nidos](#solicitud-de-nidos) 
+      5. [Expulsiones masivas](#expulsiones-masivas) 
+      6. [Expulsiones individuales](#expulsiones-individuales) 
       
-3. [Configurar Nidos](#configurar-nidos) (Configuración de los nidos y requisitos para el registro)
+4. [Configurar Nidos](#configurar-nidos) (Configuración de los nidos y requisitos para el registro)
       1. [Nidos](#nidos) 
-      2. [Requisito de cantidad de días](#requisito-de-cantidad-de-días)
-      3. [Requisito de cantidad de mensajes](#requisito-de-cantidad-de-mensajes)
+      2. [Mínimo de días](#minimo-de-dias)
+      3. [Mínimo de mensajes](#minimo-de-mensajes)
       
-4. [Noticias](#noticias) 
+5. [Noticias](#noticias) 
       1. [Canales de Noticias Oficiales](#canales-de-noticias-oficiales)
       2. [Canales de Noticias No-Oficiales](#canales-de-noticias-no-oficiales)
 
-5. [Bienvenida](#bienvenida)
+6. [Bienvenida](#bienvenida)
       1. Bienvenida
 
 #### Ajustes generales ####
@@ -431,15 +447,32 @@ Activa o desactiva los chistes, refranes y cualquier cosa que pueda hacer que el
 
 Activa o desactiva los juegos del bot. Por defecto esta opción está desactivada.
 
-##### Modo enfermera #####
-
-El modo enfermera evita que la gente hable en un grupo, borrando todos los mensajes que pongan los usuarios (no los mensajes de los administradores ni de los bots). Opción desactivada por defecto.
-
 ##### Tipo de expulsión por Warns #####
 
 Este botón puede estar activado como `Ban (Warns)` o como `Kick (Warns)` y determina el tipo de expulsión que recibirá el usuario al llegar al máximo de Warns determinado por el grupo.
 
-##### Cantidad de Warns #####
+##### Respuestas #####
+
+Clickando sobre este botón puedes hacer que el bot mande las respuestas a los comandos al privado (▪️ Respuestas al privado) o al grupo (✅ Respuestas en el grupo). Se debe tener en cuenta que las respuestas serán mandadas al privado únicamente si el entrenador tiene abierta una conversación privada con el bot [@NurseJoyBot](https://t.me/NurseJoyBot).
+
+Los comandos que actuarán según esta opción son: 
+
+| Comando   | Más información sobre este comando                   |
+|:----------------|:---------------------------------|
+|    /start      | *En proceso de escritura* |
+|    /help    | *En proceso de escritura* |   
+|    /joyping    | *En proceso de escritura* | 
+|    /tabla    | [Tablas](#tablas)  | 
+|    /max    | [Cadenas de PC](#cadenas-de-pc)| 
+|    /min    | [Cadenas de PC](#cadenas-de-pc) | 
+|    /groups    | *En proceso de escritura*  | 
+|    /id    |  [Id](#id) | 
+|    /whois    |  [Quién es](#quién-es) | 
+|    Listado de comandos   | [Listado de comandos](#listado-de-comandos)  | 
+
+Esta opción no incluye el listado de nidos ni el */fclist*.
+   
+##### Límite de Warns #####
 
 Clicando sobre el botón determina la cantidad máxima de Warns que podrá tener un usuario antes de recibir la expulsión del grupo. La cantidad de Warns que se puede configurar es de: 3, 5, 10, 25, 50 o 100.
 
@@ -447,13 +480,48 @@ Clicando sobre el botón determina la cantidad máxima de Warns que podrá tener
 
 (Configuración de los tipos de grupo y los requisitos.)
 
+##### No registrados Joy #####
+
+Si se activa este apartado (✅ No registrados (Joy)) el bot [@NurseJoyBot](https://t.me/NurseJoyBot) avisará si entra al grupo un entrenador que no esté registrado con dicho bot. El aviso que mostrará el bot consiste en un mensaje en el cual dice cómo y dónde debe registrarse.
+
+Si el apartado se muestra como "▪️ No registrados (Joy)" quiere decir que el apartado está desactivado.
+
+##### No registrados Pikachu #####
+
+Si se desea que el bot [@NurseJoyBot](https://t.me/NurseJoyBot) avise cuando un entrenador sin registrar en el bot  [@detectivepikachu](https://t.me/detectivepikachu) entre en el grupo, entonces se deberá de activar el botón (✅ No registrados (Pikachu)). En la siguiente tabla se muestran los dos estados del botón:
+
+| Identificador   | Estado                     |
+|:----------------|:---------------------------------|
+|    ▪️ No registrados (Pikachu)      | Desactivado |
+|    ✅ No registrados (Pikachu)    | Activado |   
+
+El aviso que el bot mostrará consiste en un mensaje en el cual dice cómo y dónde debe registrarse.
+
+##### Expulsiones silenciosas o notificadas #####
+
+Si el apartado de *Expulsiones* está activado (✅ Expulsiones silenciosas) entonces el bot no mostrará ningún mensaje por el grupo cuando expulse a alguien. Si, por el contrario, está desactivado (▪️ Expulsiones notificadas), entonces el bot, cada vez que expulse a alguien, avisará por el grupo con un mensaje estandard.
+
+##### Borrar entradas #####
+
+Si este apartado está activado (✅ Borrar -> entró al grupo) el bot eliminará las notificaciones que hace Telegram cuando un entrenador entra al grupo.
+
+##### Validación obligatoria Pikachu #####
+
+Activando este apartado (✅ Pikachu - Validación obligatoria), hará que el bot [@NurseJoyBot](https://t.me/NurseJoyBot) no permita la entrada al grupo de entrenadores que no estén validados con el bot  [@detectivepikachu](https://t.me/detectivepikachu).
+
+##### Nivel mínimo #####
+
+Determina un nivel mínimo como requisito para entrar al grupo. Esta opción viene activada por defecto (▪️) como 0, eso quiere decir que no hay nivel mínimo requerido.
+
+El nivel mínimo para entrar en el grupo se puede configurar, clicando en el botón hasta que salga la opción deseada, según:  ▪️ (0, sin nivel requerido), 15, 20, 25, 30, 35 o 40. Si se vuelve a clicar encima entonces se desactiva volviendo a ser 0.
+
 ##### Tipo de grupo #####
 
-Por defecto al introducir el bot, se establece el grupo como *grupo sin requisitos*.
+Por defecto al introducir el bot, se establece el grupo como *grupo abierto*.
 
 | Identificador   | Definición                       |
 |:----------------|:---------------------------------|
-|        ▪️        | Grupo sin requisitos             |
+|        ▪️        | Grupo abierto, sin requisitos             |
 |       ✅        | Grupo con validación obligatoria |
 |       ❤️        | Grupo exclusivo Rojo             |
 |       💙        | Grupo exclusivo Azul             |
@@ -461,17 +529,15 @@ Por defecto al introducir el bot, se establece el grupo como *grupo sin requisit
 
 En caso de que un usuario intente acceder a un grupo en el cual no cumpla las condiciones de entrada, si el bot cuenta con los privilegios pertinentes, expulsará al usuario.
 
-##### Requisito de nivel #####
+#### Ajustes de administración ####
 
-Determina un nivel mínimo como requisito para entrar al grupo. Esta opción viene activada por defecto como 0, eso quiere decir que no hay nivel mínimo requerido.
-
-El nivel mínimo para entrar en el grupo se puede configurar, clicando en el botón hasta que salga la opción deseada, según: 0 (sin nivel requerido), 15, 20, 25, 30, 35 o 40.
-
-##### Expulsiones silenciosas #####
-`apartado en escritura`
-
-Si el apartado de "Expulsiones silenciosas" está activado ✅ entonces el bot no mostrará ningún mensaje por el grupo cuando expulse a alguien. Si, por el contrario, está desactivado ▪️, entonces el bot, cada vez que expulse a alguien, avisará por el grupo con un mensaje estandard como el siguiente:
-
+##### Aviso admins #####
+##### Entrada de usuarios #####
+##### Salida de usuarios #####
+##### Solicitud de nidos #####
+##### Expulsiones masivas #####
+##### Expulsiones individuales #####
+      
 #### Configurar Nidos ####
 
 El bot dispone de la opción de registrar nidos, para ello es necesario configurar el apartado de Nidos y sus requisitos.
@@ -539,7 +605,7 @@ Si se desea dejar de recibir noticias de un canal No-Oficial se deberá ejecutar
 
 El bot puede dar la bienvenida a los entrenadores que vayan entrando al grupo. Opción desactivada por defecto. 
 
-Para activar la Bienvenida es necesario activarla en Settings y después es necesario utilizar el comando `/set_welcome` para definir el mensaje de bienvenida que dará el bot. Por ejemplo, si se quiere poner el mensaje "Bienvenidos al grupo", sería:
+Para activar la Bienvenida es necesario activarla en */settings* ✅ (clickando sobre el botón) y después es necesario utilizar el comando `/set_welcome` para definir el mensaje de bienvenida que dará el bot. Por ejemplo, si se quiere poner el mensaje "Bienvenidos al grupo", sería:
 
     /set_welcome Bienvenidos al grupo.
 
@@ -573,7 +639,11 @@ Para escribir más de un botón en una misma línea se ha de escribir `:same` al
 
 Para escribir texto en **negrita** dentro del mensaje de bienvenida se debe escribir con un * antes y después del texto, para escribir en *cursiva* se debe escribir, antes y después del texto, un _ .
 
-Si se quiere eliminar el mensaje de bienvenida, para que el bot deje de saludar cuando entren entrenadores nuevos, entonces se debe escribir el comando `/set_welcome` sin ningún texto más.
+Si se quiere eliminar el mensaje de bienvenida, para que el bot deje de saludar cuando entren entrenadores nuevos, entonces se debe escribir el comando `/set_welcome` sin ningún texto más. También se puede hacer que el bot deje de dar la bienvenida desactivando la opción en */settings*.
+
+#### Modo enfermera ####
+
+El modo enfermera evita que la gente hable en un grupo, borrando todos los mensajes que pongan los usuarios (no los mensajes de los administradores ni de los bots). Opción desactivada por defecto.
 
 ### Configuración Admins ###
 
