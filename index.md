@@ -38,8 +38,8 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
    6. [Id](#id)
    7. [Comandos personalizados](#comandos-personalizados)
    8. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
-      1. [Moderación de un usuario](#moderación-de-un-usuario)
-      2. [Moderación de varios usuarios](#moderación-de-varios-usuarios)
+      1. [Expulsiones individuales](#expulsiones-individuales)
+      2. [Expulsiones masivas](#expulsiones-masivas)
    9. [Glosario de comandos para administradores](#glosario-de-comandos-para-administradores)
 3. [Reglamento General de Uso del Bot](#reglamento-general-de-uso-del-bot)
 4. [Política de privacidad](#Política-de-privacidad)
@@ -531,11 +531,28 @@ En caso de que un usuario intente acceder a un grupo en el cual no cumpla las co
 
 #### Ajustes de administración ####
 
+Las alertas de administración son individuales en cada grupo, pero estás deben de estar configuradas tanto en el grupo de administración (ajustes generales) como en el grupo vinculado (ajustes particulares).
+
+Para más información sobre vincular grupos leed el apartado [Configuración Admins](#configuración-admins).
+
 ##### Aviso admins #####
+
+Al activar este apartado (✅ @admins), cada vez que un entrenador del grupo escriba el alias _@admins_ el mensaje que lo contenga será notificado en el grupo de administración.
+
 ##### Entrada de usuarios #####
+
+Con este apartado activado (✅ Entrada de usuarios), el bot avisará, al grupo de administración, de la entrada de nuevos entrenadores al grupo vinculado.
+
 ##### Salida de usuarios #####
+
+Si se activa este apartado (✅ Salida de usuarios) entonces el bot avisará al grupo de administración de la salida de entrenadores del grupo vinculado.
+
 ##### Solicitud de nidos #####
+
 ##### Expulsiones masivas #####
+
+Activando este apartado (✅ Expulsiones masivas) el bot informará en grupo de administración cuando se emplee un comando de expulsiones masivas (para más información leed el apartado [Expulsiones masivas](#expulsiones-masivas)) en el grupo vinculado.
+
 ##### Expulsiones individuales #####
       
 #### Configurar Nidos ####
@@ -640,6 +657,11 @@ Para escribir más de un botón en una misma línea se ha de escribir `:same` al
 Para escribir texto en **negrita** dentro del mensaje de bienvenida se debe escribir con un * antes y después del texto, para escribir en *cursiva* se debe escribir, antes y después del texto, un _ .
 
 Si se quiere eliminar el mensaje de bienvenida, para que el bot deje de saludar cuando entren entrenadores nuevos, entonces se debe escribir el comando `/set_welcome` sin ningún texto más. También se puede hacer que el bot deje de dar la bienvenida desactivando la opción en */settings*.
+
+Para configurar la duración del mensaje de bienvenida se debe emplear el comando `set_cooldown` seguido de un número entero y positivo que indicará la cantidad de segundos antes de que sea eliminado el mensaje. Por ejemplo: *set_cooldown 15*
+En este ejemplo el bot mandaría el mensaje de bienvenida cuando entrase un entrenador al grupo, dejaría el mensaje durante 15 segundos y una vez terminada ese tiempo el mensaje del bot se borraría.
+
+Si se quiere desactivar esa opción y que el mensaje no sea eliminado entonces se deberá escribir `/set_cooldown 0`.
 
 #### Modo enfermera ####
 
@@ -803,7 +825,7 @@ Si en vez de borrar un comando lo que se quiere es únicamente modificar la resp
 
 Algunos de los comandos más importantes para un administrador son los de tipo "castigo". Estos comandos únicamente pueden ser utilizados por los administradores, y si algún usuario lo escribiese el bot respondería que dicho usuario no tiene permisos para ello.
 
-#### Moderación de un usuario ####
+#### Expulsiones individuales ####
 
 La mayoría de bots disponen de tres "castigos" muy diferenciados: Warn, Kick y Ban.
 
@@ -813,7 +835,7 @@ La mayoría de bots disponen de tres "castigos" muy diferenciados: Warn, Kick y 
    
    Ban - El Ban es la expulsión del grupo a un usuario, y este no podrá volver a entrar al grupo hasta que un administrador le quite el ban.
 
-#### Moderación de varios usuarios ####
+#### Expulsiones masivas ####
 
 Como se ha dicho, la mayoría de bots disponen de estos tres, al menos de los dos últimos, pero `@NurseJoyBot` dispone, además, de muchos más que facilitarán la labor de los administradores.
 
