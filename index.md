@@ -309,9 +309,9 @@ Por ejemplo, si escribieses "dios bidoof" el bot te respondería con el gif, per
 
 Joy dispone de la opción para hacer listas. En estas listas únicamente se podrá decir si vas ("Me apunto!") o si al estar apuntado has decidido no ir ("Paso...").
 
-Para crear una lista se debe emplear el comando `/list` y añadir el título que tendrá la lista. Por ejemplo:
+Para crear una lista se debe emplear el comando `/joylist` y añadir el título que tendrá la lista. Por ejemplo:
 
-`/list Esto es una lista con un mensaje.`
+*/joylist Esto es una lista con un mensaje.*
 
 Los entrenadores que se apunten a dicha lista aparecerán junto a la siguiente información: Equipo, Nivel y Alias de Telegram. Es por ello que es imprescindible estar *Registrado en el bot* (se recomienda leer el apartado [Registrarse en el bot](#registrarse-en-el-bot) si no estás registrado).
 
@@ -559,7 +559,7 @@ Además el bot dispone de tres strings que se pueden introducir en el texto de b
 Para poner links en el mensaje de bienvenida lo puedes hacer mediante el siguiente string: `[NombreLink](Link)`.
 Por ejemplo: `[superjoy](https://websuperenfermerajoy.com)`. Este link que veremos en el mensaje de bienvenida como `superjoy` al clickarlo nos mandará a la web `https://websuperenfermerajoy.com`.
 
-El bot también puede tener botones en el mensaje de bienvenida, para ello se debe escribir de la siguiente manera: `[Texto a mostrar en el botón](buttonurl://dirección.com)`. Se debe escribir todo junto, sin espacio, y cambiar el texto del botón y el enlace. Como ejemplo:
+El bot también puede tener botones en el mensaje de bienvenida, para ello se debe escribir de la siguiente manera: `[Texto a mostrar en el botón](buttonurl://dirección.com)`. Se debe escribir todo junto, **sin espacios** (entre los : y las // NO debe de haber espacio), y cambiar el texto del botón y el enlace. Como ejemplo:
 
 `[Enlace a google.es](buttonurl:Google.es)`
 
