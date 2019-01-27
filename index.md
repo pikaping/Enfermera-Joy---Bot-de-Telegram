@@ -179,7 +179,7 @@ Si el comando se realiza por privado al bot [@NurseJoyBot](https://t.me/NurseJoy
 
 El bot dispone de una gran cantidad de tablas de IV, de recompensas por amistad, Pokémon de los Community Day, Pokémon shiny, etc. Para solicitarlas se debe emplear el comando `/tabla`, `/table` o `Tabla de` seguido de un espacio y el nombre de la tabla que se desea. El mensaje solicitando la tabla será eliminado por el bot de forma automática.
 
-Todas las tablas son mandadas al privado del bot, para ello es necesario tener abierta una conversación privada con [@NurseJoyBot](https://t.me/NurseJoyBot).
+Dependiendo de cómo esté configurado el grupo, las tablas podrán ser mandadas al privado del bot en vez de al grupo (si eres administrador de un grupo y quieres saber más sobre estas opciones lee el apartado [Respuestas](#respuestas)), para ello es necesario tener abierta una conversación privada con [@NurseJoyBot](https://t.me/NurseJoyBot).
 
 Estos son las tablas de IV las que se disponen actualmente:
 
@@ -254,7 +254,7 @@ Otras tablas:
 - Sellos (tabla con las recompensas que se puden obtener en las cajas del séptimo sello)
 - Shiny (también se puede solicitar como: Shinys)
 - Sinnoh (tabla con las evoluciones que se pueden hacer actualmente con la piedra Sinnoh. También se puede solicitar como: piedrasinnoh)
-- Tipos (tabla con los mejores atacantes por tipo. también se puede solicitar como: tipo o atacantes)
+- Tipos (tabla con los mejores atacantes por tipo. También se puede solicitar como: tipo o atacantes)
 
 Todas las tablas se van modificando según los cambios que van surgiendo en Pokémon Go y se van añadiendo tablas nuevas necesarias, por lo tanto la lista de tablas es algo que irá cambiando.
 
@@ -284,11 +284,11 @@ Si el nido es erroneo y se quiere borrar antes de que Joy los reinicie entonces 
 
 Otros dos comandos relacionados con los nidos son:  `Nido en {Lugar}` y `Nido de {Pokémon}`.
 
-`Nido en {Lugar}`, por ejemplo, "Nido en Parque Ilm".
+`Nido en {Lugar}`, por ejemplo, *Nido en Parque Ilm*.
 
 Según el ejemplo, el bot te buscará en sus datos si hay registrado algún nido en el lugar llamado *Parque Ilm* y, si lo hay, te dirá de qué pokémon se trata.
 
-`Nido de {Pokémon}`, por ejemplo, "Nido de Chansey".
+`Nido de {Pokémon}`, por ejemplo, *Nido de Chansey*.
 
 Siguiendo también el ejemplo, el bot mirará si hay registrado algún nido de *Chansey* en tu grupo, si lo hay, te responderá con el nombre del lugar donde se ha registrado.
 
@@ -302,7 +302,7 @@ Los comandos personalizados son una información própia de cada grupo, es por e
 
 Para solicitar el listado de comandos personalizados de un grupo debes escribir en dicho grupo la frase: `Listado de comandos`. La lista de comandos será mandada al privado que tienes con del bot y podrás ver todos los comandos personalizados que tiene ese grupo en concreto. 
 
-Por ejemplo, podría haber un comando personalizado que se llame **Dios bidoof** y que el bot responderá a este con un gif sobre bidoof.
+Por ejemplo, podría haber un comando personalizado que se llame *Dios bidoof* y que el bot responderá a este con un gif sobre bidoof.
 
 Ten en cuenta que el bot responderá únicamente si la frase que se escribas es únicamente el comando personalizado, sin importar las mayúsculas o minúsculas, y borrará el comando personalizado dejando únicamente su respuesta.
 
@@ -318,7 +318,7 @@ Para crear una lista se debe emplear el comando `/joylist` y añadir el título 
 
 Los entrenadores que se apunten a dicha lista aparecerán junto a la siguiente información: Equipo, Nivel y Alias de Telegram. Es por ello que es imprescindible estar *Registrado en el bot* (se recomienda leer el apartado [Registrarse en el bot](#registrarse-en-el-bot) si no estás registrado).
 
-Con el comando `/joyrefloat` puedes reflotar una lista si esta ha quedado hundida. Para ello será necesario que un admin cite la lista y escriba el comando.
+Con el comando `/joyrefloat` puedes reflotar una lista si esta ha quedado hundida. Para ello será necesario que un administrador cite la lista y escriba el comando.
 
 Si se quiere borrar una lista bastará con eliminar el mensaje que sea la lista.
 
@@ -328,13 +328,16 @@ Los siguientes comandos `/max` y `/min` harán que Joy envie al chat privado una
 
 Ambos comandos deberán ir seguidos del número del Pokémon que se solicita o el nombre de dicho Pokémon. Por ejemplo:
 
-`/max 025`
-`/min Pikachu`
+*/max 025*
 
-También se pueden escribir como: `/maxiv`, `/ivmax`, `/miniv` y `/ivmin`.
+*/min Pikachu*
+
+También se pueden escribir los comandos como: `/maxiv`, `/ivmax`, `/miniv` y `/ivmin`.
 
 Ejemplo completo: */max 025*
+
 Respuesta de Joy al privado: *25&pc13,pc41,pc69,pc98,pc126,pc154,pc183,pc211,pc239,pc268,pc294,pc321,pc348,pc375,pc402,pc428,pc455,pc482,pc509,pc536,pc562,pc589,pc616,pc643,pc670,pc696,pc723,pc750,pc777,pc804,pc817,pc830,pc844,pc857,pc871*
+
 Esa cadena de datos se deberá copiar y pegar en la barra de búsqueda del juego, de esa forma, en este ejemplo, verías únicamente los Pikachu con probable IV 100% que hayas capturado y a los que no hayas dado más poder.
 
 ### Glosario de comandos para entrenadores ###
@@ -415,7 +418,7 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
       6. [Nivel mínimo](#nivel-minimo)
       7. [Tipo de grupo](#tipo-de-grupo)
 
-3. [Ajustes de administración](#ajustes-de-administracion)
+3. [Ajustes de administración](#ajustes-de-administracion) (Configuración de las notificaciones en el grupo de administración)
       1. [Aviso admins](#aviso-admins) 
       2. [Entrada de usuarios](#entrada-de-usuarios)
       3. [Salida de usuarios](#salida-de-usuarios) 
