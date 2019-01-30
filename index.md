@@ -217,6 +217,8 @@ Estos son las tablas de IV las que se disponen actualmente:
 - Mew
 - Mewtwo
 - Moltres
+- Palkia
+- PalkiaCounters (mejores counters contra Palkia. También se puede solicitar como: CountersPalkia)
 - Raichu (versión alola)
 - Raikou
 - Rayquaza
@@ -621,7 +623,7 @@ Cada uno de los siguientes canales tienen sus própias características por los 
 
 Es decisión de cada grupo activar o no el reenvio de las noticias (y cuales) para mantenerse informados. Por defecto todas las noticias estarán desactivadas. Para activarlas se debe clickar encima del botón y cuando ponga delante el icono ✅, si pone el icono ▪️ quiere decir que esas noticias estarán desactivadas y no serán enviadas al grupo.
 
-#### Canales de Noticias No-Oficiales ####
+##### Canales de Noticias No-Oficiales #####
 
 Si quieres que las noticias de un canal (distinto a los mencionados en el apartado de [Canales de Noticias Oficiales](#canales-de-noticias-oficiales)) lleguen a un grupo en el cual seas administrador, lo puedes hacer de la siguiente forma:
 
@@ -683,6 +685,25 @@ Si se quiere desactivar esa opción y que el mensaje no sea eliminado entonces s
 #### Modo enfermera ####
 
 El modo enfermera evita que la gente hable en un grupo, borrando todos los mensajes que pongan los usuarios (no los mensajes de los administradores ni de los bots). Opción desactivada por defecto.
+
+Con el comando `set_nanny`puedes definir el mensaje que dará el bot cada vez que un usuario hable. Por ejemplo: */set_nanny Entrenador, para hablar debes ir a @enfermerajoycharla.
+
+##### Audio y Voz #####
+##### Comandos #####
+##### Contactos #####
+##### GIFs y Documentos #####
+##### Imagenes #####
+##### Juegos #####
+##### Mensajes #####
+##### Stickers #####
+##### Ubicaciones #####
+##### URLs #####
+##### Video #####
+##### Warns #####
+##### Mensajes de administradores #####
+
+- Modo enfermera: Se ha añadido una opción para que el modo enfermera actue también sobre administradores.
+
 
 #### Safari ####
 `Actualmente esta opción no está disponible.`
