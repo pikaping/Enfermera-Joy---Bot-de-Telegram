@@ -138,6 +138,11 @@ Los códigos de entrenador serán mostrados en orden aleatorio.
 
 Si quieres eliminar de tu Ficha de Entrenador la información del ID puedes hacerlo escribiendo el comando sin nada detrás: `/set_friendid`. Recuerda que también puedes desactivar la autorización para que Joy comparta tu ID de entrenador y de esa forma el resto de jugadores no podrán acceder a esa información.
 
+También puedes añadir al bot tus códigos de Nintendo3DS y Nintendo Switch mediante los comandos `/set_ds` (para el código de Nintendo3DS) y `/set_switch` (para el código de Nintendo Switch), cada comando seguido de un espacio y el código que se quiera registrar. Su funcionalidad es el mismo que el de */set_friendid*.
+
+Si se quieren eliminar los códigos de Nintendo3DS o de Nintendo Switch se deberá escribir el comando correspondiente sin escribir nada más detrás.
+
+
 ### Quién es ###
 
 El comando `quién es` (también aceptado como `quien es` o `/whois`, sin interrogante) hace que el bot te responda la información de la Ficha de Entrenador (Nick del juego, Equipo, Nivel y Estado de Validación) del jugador solicitado.
@@ -164,9 +169,9 @@ Se puede emplear el comando de varias formas:
 
 2. Citando un mensaje reenviando del jugador y escribiendo el comando.
 
-3. Escribiendo el comando y escribiendo el Nick del juego del entrenador del que quieres información. Por ejemplo: `/whois Berny`.
+3. Escribiendo el comando y escribiendo el Nick del juego del entrenador del que quieres información. Por ejemplo: */whois Berny*
 
-4. Escribiendo el comando y escribiendo el Alias de Telegram (sin la @). Por ejemplo: `/whois bernyelperro`.
+4. Escribiendo el comando y escribiendo el Alias de Telegram (sin la @). Por ejemplo: */whois bernyelperro*
 
 **Cosas a tener en cuenta:**
 
@@ -267,7 +272,7 @@ El bot dispone de registro de nidos, para ello debe de estar configurado el grup
 
 Para registrar un nido se debe emplear el comando `Registrar nido de {Pokémon} en {Lugar}` cambiando la variable {Pokémon} por el nombre del Pokémon del que sea el nido y {Lugar} por el nombre por el cual se reconozca ese espacio. Por ejemplo:
 
-`Registrar nido de Chansey en Parque Ilm`. En este caso, es *Chansey* la variable {Pokémon} y *Parque Ilm* la variable {Lugar}.
+*Registrar nido de Chansey en Parque Ilm*. En este caso, es *Chansey* la variable {Pokémon} y *Parque Ilm* la variable {Lugar}.
 
 Antes de poner el nombre del lugar ten en cuanta que el número máximo de carácteres que registra es 50.
 
@@ -356,27 +361,32 @@ Al clicar sobre uno de los botones se abrirá el canal *Grupos Pokémon Go* y po
 
 Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 --------|-------------|---------------------------|--------|-----------
-`Registrar nido de {Pokémon} en {Lugar}`| ? | ❌ | Grupo | `Pokémon Lugar`<sup>1</sup>
-`Listado de nidos`| ? | ❌ | Grupo | ❌
-`Eliminar nido número {Número del nido}`| ? | ✅ | Grupo | `Número del nido`
-`Eliminar todos los nidos de este grupo`| ? | ✅ | Grupo | ❌
-`Nido en {Lugar}`| ? | ❌ | Grupo | `Lugar`<sup>1</sup>
-`Nido de {Pokémon}`| ? | ❌ | Grupo | `Lugar`<sup>1</sup>
-`Listado de comandos`| ? | ❌ | Grupo | ❌
-`/list`| ? | ❌ | Todos | ❌
-`/joyrefloat`| ? | ✅ | Todos | ❌
+`/register`| [Registrarse en el bot](#registrarse-en-el-bot) | ❌ | Privado | ❌
+`/profile`| [Profile](#profile) | ❌ | Privado | ❌
+`/joyping`| ? | ❌ | Todos | ❌
 `/start`| ? | ❌ | Todos | ❌
 `/help`| ? | ❌ | Todos | ❌
-`/register`| ? | ❌ | Privado | ❌
-`/set_friendid`| ? | ❌ | Privado | `ID de Pokémon GO`
-`/privacity`| ? | ❌ | Privado | ❌
-`/fc`| ? | ❌ | Grupo | ❌
-`/fclist`| ? | ❌ | Grupo | ❌
-`Quién es`| ? | ❌ | Todos | ❌
-`Quién es ´{Entrenador}`| ? | ❌ | Todos | `Nombre de entrenador`
-`/profile`| ? | ❌ | Todos | ❌
-`/tabla {Pokémon}`| ? | ❌ | Todos | `Tabla disponible`
-`/joyping`| ? | ❌ | Todos | ❌
+`/set_friendid`| [Código de Entrenador](#código-de-entrenador) | ❌ | Privado | ID de Pokémon GO
+`/set_ds`| [Código de Entrenador](#código-de-entrenador) | ❌ | Privado | ID de Nintendo3DS
+`/set_switch`| [Código de Entrenador](#código-de-entrenador) | ❌ | Privado | ID de Nintendo Switch
+`/fc`| [Código de Entrenador](#código-de-entrenador) | ❌ | Grupo | ❌
+`/privacity`| [Código de Entrenador](#código-de-entrenador) | ❌ | Privado | ❌
+`/whois`| [Quién es](#quién-es) | ❌ | Todos | ❌
+`/whois {Entrenador}`| [Quién es](#quién-es) | ❌ | Todos | Alias telegram, nick
+`/tabla {Pokémon}`| [Tablas](#tablas) | ❌ | Todos | Pokémon
+`Registrar nido de {Pokémon} en {Lugar}`| [Registrar nidos](#registrar-nidos) | ❌ | Grupo | Pokémon, Lugar<sup>1</sup>
+`Listado de nidos`| [Registrar nidos](#registrar-nidos) | ❌ | Grupo | ❌
+`Eliminar nido número {Número del nido}`| [Registrar nidos](#registrar-nidos) | ✅ | Grupo | Número del nido
+`Eliminar todos los nidos de este grupo`| [Registrar nidos](#registrar-nidos) | ✅ | Grupo | ❌
+`Nido en {Lugar}`| [Registrar nidos](#registrar-nidos) | ❌ | Grupo | Lugar<sup>1</sup>
+`Nido de {Pokémon}`| [Registrar nidos](#registrar-nidos) | ❌ | Grupo | Lugar<sup>1</sup>
+`Listado de comandos`| [Listado de comandos](#listado-de-comandos)  | ❌ | Grupo | ❌
+`/list`| [Listas](#listas) | ❌ | Grupo | ❌
+`/joyrefloat`| [Listas](#listas) | ✅ | Grupo | ❌
+`/max`| [Cadenas de PC](#cadenas-de-pc) | ❌ | Privado | ❌
+`/min`| [Cadenas de PC](#cadenas-de-pc) | ❌ | Privado | ❌
+`Listado de grupos nacionales`| [Listado de grupos](#listado-de-grupos) | ❌ | Privado | ❌
+`Listado de grupos internacionales`| [Listado de grupos](#listado-de-grupos) | ❌ | Privado | ❌
 
 1. Número máximo de caracteres: 50.
 
@@ -387,7 +397,6 @@ Si necesitas ayuda que no se encuentre en este manual, puedes preguntar en [@enf
 
 ----
 ----
-
 
 
 ## Ayuda para administradores ##
@@ -422,13 +431,14 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
       5. [Límite de Warns](#limite-de-warns)      
 
 2. [Ajustes de entrada](#ajustes-de-entrada) (Configuración de los tipos de grupo y los requisitos.)
-      1. [No registrados Joy](#no-registrados-joy)
-      2. [No registrados Pikachu](#no-registrados-pikachu)
-      3. [Expulsiones silenciosas o notificadas](#expulsiones-silenciosas-o-notificadas)
-      4. [Borrar entradas](#borrar-entradas)
-      5. [Validaciones obligatorias Pikachu](#validaciones-obligatorias-pikachu)
-      6. [Nivel mínimo](#nivel-minimo)
-      7. [Tipo de grupo](#tipo-de-grupo)
+      1. [Configurar ajustes de entrada](#nconfigurar-ajustes-de-entrada)
+      2. [No registrados Joy](#no-registrados-joy)
+      3. [No registrados Pikachu](#no-registrados-pikachu)
+      4. [Expulsiones silenciosas o notificadas](#expulsiones-silenciosas-o-notificadas)
+      5. [Borrar entradas](#borrar-entradas)
+      6. [Validaciones obligatorias Pikachu](#validaciones-obligatorias-pikachu)
+      7. [Nivel mínimo](#nivel-minimo)
+      8. [Tipo de grupo](#tipo-de-grupo)
 
 3. [Ajustes de administración](#ajustes-de-administracion) (Configuración de las notificaciones en el grupo de administración)
       1. [Aviso admins](#aviso-admins) 
@@ -455,6 +465,8 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
 8. [Safari](#Safari) `Actualmente esta opción no está disponible.`
       
 #### Ajustes generales ####
+
+En este apartado dentro de */settings* encontrarás la forma de configurar los ajustes básicos del grupo.
 
 ##### Chistes #####   
 `Actualmente esta opción no está disponible.`
@@ -497,7 +509,14 @@ Clicando sobre el botón determina la cantidad máxima de Warns que podrá tener
 
 #### Ajustes de entrada ####
 
-(Configuración de los tipos de grupo y los requisitos.)
+En este apartado dentro de */settings* encontrarás la forma de configurar los tipos de grupo y los requisitos para permanecer en ellos.
+
+##### Configurar ajustes de entrada #####
+
+A demás de las opciones configurables que verás a continuación, dipones de el comando `/set_maxmembers` (seguido de un número entero y positivo) que establece el número máximo de miembros que puede haber en un grupo.
+
+Se debe de tener en cuenta que los bots y los administradores del grupo también cuentan en la suma de miembros.
+Si se quiere desactivar esta opción se deberá escribir `/set_maxmembers 0`.
 
 ##### No registrados Joy #####
 
@@ -573,7 +592,8 @@ Si se activa este apartado (✅ Salida de usuarios) entonces el bot avisará al 
 Activando este apartado (✅ Expulsiones masivas) el bot informará en grupo de administración cuando se emplee un comando de expulsiones masivas (para más información leed el apartado [Expulsiones masivas](#expulsiones-masivas)) en el grupo vinculado.
 
 ##### Expulsiones individuales #####
-      
+
+
 #### Configurar Nidos ####
 
 El bot dispone de la opción de registrar nidos, para ello es necesario configurar el apartado de Nidos y sus requisitos.
@@ -677,7 +697,7 @@ Para escribir texto en **negrita** dentro del mensaje de bienvenida se debe escr
 
 Si se quiere eliminar el mensaje de bienvenida, para que el bot deje de saludar cuando entren entrenadores nuevos, entonces se debe escribir el comando `/set_welcome` sin ningún texto más. También se puede hacer que el bot deje de dar la bienvenida desactivando la opción en */settings*.
 
-Para configurar la duración del mensaje de bienvenida se debe emplear el comando `set_cooldown` seguido de un número entero y positivo que indicará la cantidad de segundos antes de que sea eliminado el mensaje. Por ejemplo: *set_cooldown 15*
+Para configurar la duración del mensaje de bienvenida se debe emplear el comando `/set_cooldown` seguido de un número entero y positivo que indicará la cantidad de segundos antes de que sea eliminado el mensaje. Por ejemplo: *set_cooldown 15*
 En este ejemplo el bot mandaría el mensaje de bienvenida cuando entrase un entrenador al grupo, dejaría el mensaje durante 15 segundos y una vez terminada ese tiempo el mensaje del bot se borraría.
 
 Si se quiere desactivar esa opción y que el mensaje no sea eliminado entonces se deberá escribir `/set_cooldown 0`.
@@ -686,7 +706,7 @@ Si se quiere desactivar esa opción y que el mensaje no sea eliminado entonces s
 
 El modo enfermera evita que la gente hable en un grupo, borrando todos los mensajes que pongan los usuarios (no los mensajes de los administradores ni de los bots). Opción desactivada por defecto.
 
-Con el comando `set_nanny`puedes definir el mensaje que dará el bot cada vez que un usuario hable. Por ejemplo: */set_nanny Entrenador, para hablar debes ir a @enfermerajoycharla.
+Con el comando `/set_nanny`puedes definir el mensaje que dará el bot cada vez que un usuario hable. Por ejemplo: */set_nanny Entrenador, para hablar debes ir a @enfermerajoycharla.
 
 ##### Audio y Voz #####
 ##### Comandos #####
@@ -703,7 +723,6 @@ Con el comando `set_nanny`puedes definir el mensaje que dará el bot cada vez qu
 ##### Mensajes de administradores #####
 
 - Modo enfermera: Se ha añadido una opción para que el modo enfermera actue también sobre administradores.
-
 
 #### Safari ####
 `Actualmente esta opción no está disponible.`
@@ -882,6 +901,7 @@ La mayoría de bots disponen de tres "castigos" muy diferenciados: Warn, Kick y 
 
 Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 --------|-------------|---------------------------|--------|-----------
+`/set_maxmembers`| ? | ✅ | Grupo | ❌
 `/ban`   | ? | ✅ | Grupo | `{Motivo}`
 `/joybanuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
 `/joybanmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
@@ -923,12 +943,13 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 `/groups`| ? | ✅ | Grupo & Grupo administración<sup>4</sup> | ❌
 `Borrar nido de {Pokémon} en {Lugar}`| ? | ✅ | Grupo | `Pokémon Lugar`<sup>1</sup>
 `/joyping`| ? | ❌ | Todos | ❌
+`/set_nanny`| ? | ✅ | Grupo | ❌
+`/set_cooldown`| ? | ✅ | Grupo | ❌
 
 1. Argumento `Grupo` unicamente válido desde el grupo de administración.
 2. Argumento `Motivo` opcional.
 3. Solo disponible para grupos etiquetados como EX.
 4. En el grupo de administración incluye los ID.
-
 
 ## Reglamento General de Uso del Bot ##
 
