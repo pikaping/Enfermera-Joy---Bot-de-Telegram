@@ -259,6 +259,7 @@ Otras tablas:
 - Huevos (qué pokémon puede salir de cada huevo. También se puede solicitar como: huevo, eclosión o eclosiones)
 - Jefes (también se puede solicitar como: raid, raids, incursión incursiones o jefe)
 - Misiones
+- NuevosAtaques
 - Sellos (tabla con las recompensas que se puden obtener en las cajas del séptimo sello)
 - Shiny (también se puede solicitar como: Shinys)
 - Sinnoh (tabla con las evoluciones que se pueden hacer actualmente con la piedra Sinnoh. También se puede solicitar como: piedrasinnoh)
@@ -572,6 +573,10 @@ En caso de que un usuario intente acceder a un grupo en el cual no cumpla las co
 Las alertas de administración son individuales en cada grupo, pero estás deben de estar configuradas tanto en el grupo de administración (ajustes generales) como en el grupo vinculado (ajustes particulares).
 
 Para más información sobre vincular grupos leed el apartado [Configuración Admins](#configuración-admins).
+
+El marcar como activado (✅) alguno de los siguientes botones, que a continuación se explicarán, hará que el bot elimine ese tipo de formatos cada vez que un usuario lo envíe al grupo. Haciendo así un grupo en el cual no esté permitido ese tipo de formato. Eso no incluye los mensajes enviados por administradores y bots.
+
+Por ejemplo, si en un grupo A se activa "✅ Gif", cada vez que alguien mande un gif al grupo el bot lo eliminará automáticamente. Pero si otro bot o un administrador lo manda entonces el bot @NurseJoyBot no lo eliminará.
 
 ##### Aviso admins #####
 
