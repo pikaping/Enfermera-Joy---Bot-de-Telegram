@@ -1020,17 +1020,18 @@ La base legal para compartir los datos proporcionados es la prestación del serv
 
 ### Duración del almacenamiento ###
 
-La información se almacena durante el tiempo necesario para cumplir con los fines para los que se se recopila:
-
-La información de la cuenta de Pokémon GO y alias de Telegram se eliminan al pasar seis meses desde la última participación en un grupo en el cual esté el bot.
-Las interacciones en grupos y directas con el bot (logs) se eliminan pasados dos meses.
+La información se almacena durante el tiempo necesario para cumplir con los fines para los que se se recopila y las interacciones en grupos y directas con el bot (logs) se eliminan pasados dos meses.
 
 ### Derechos contemplados en el RGPD ###
 
-Se debe enviar un correo a [apelaciones@qwert1.es](mailto:apelaciones@qwert1.es) indicando que se desea ejercer alguno de los derechos contemplados: acceso, rectificación, supresión y limitación del tratamiento, portabilidad de datos.
+Para obtener información de los derechos ARCO, simplemente nos basta con escribir `RGPD` por privado al bot. Ahí, obtendremos un comando para poder eliminar la cuenta, proceso irreversible y con una duración indefinida.
 
 En caso de ejercitar el derecho de supresión, el bot guardará el identificador numérico de Telegram junto con una marca que indica este deseo. En este caso, no será posible utilizar el bot y el estado de la cuenta aparecerá como baneada y eliminada.
 
-Para eliminar sus datos se requerirá de su Documento Nacional de Identidad con fines acreditativos y de defensa en futuras reclamaciones. [Fuente 1 - Página 21 Apartado 5.4](https://www.aepd.es/media/guias/guia-ciudadano.pdf) [Fuente 2](https://ayudaleyprotecciondatos.es/2016/06/18/los-derechos-arco-acceso-rectificacion-cancelacion-y-oposicion/) 
+Fuentes: 
+Derechos ARCO: https://bit.ly/2P7IEyY 
+Derecho al olvido: https://bit.ly/2P7HLGE   
+[Fuente 1 - Página 21 Apartado 5.4](https://www.aepd.es/media/guias/guia-ciudadano.pdf)
+[Fuente 2](https://ayudaleyprotecciondatos.es/2016/06/18/los-derechos-arco-acceso-rectificacion-cancelacion-y-oposicion/) 
 
 
