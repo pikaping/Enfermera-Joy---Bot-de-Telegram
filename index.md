@@ -1030,8 +1030,11 @@ En caso de ejercitar el derecho de supresión, el bot guardará el identificador
 
 Fuentes: 
 Derechos ARCO: https://bit.ly/2P7IEyY 
-Derecho al olvido: https://bit.ly/2P7HLGE   
+
+Derecho al olvido: https://bit.ly/2P7HLGE  
+
 [Fuente 1 - Página 21 Apartado 5.4](https://www.aepd.es/media/guias/guia-ciudadano.pdf)
+
 [Fuente 2](https://ayudaleyprotecciondatos.es/2016/06/18/los-derechos-arco-acceso-rectificacion-cancelacion-y-oposicion/) 
 
 
