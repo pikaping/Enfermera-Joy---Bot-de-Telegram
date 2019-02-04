@@ -18,8 +18,9 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
    9. [Listas](#listas)
    10. [Cadenas de PC](#cadenas-de-pc)
    11. [Listado de grupos](#listado-de-grupos)
-   12. [Glosario de comandos para entrenadores](#glosario-de-comandos-para-entrenadores)
-   13. [Más ayuda](#más-ayuda)
+   12. [Grupos vinculados](#grupos-vinculados)
+   13. [Glosario de comandos para entrenadores](#glosario-de-comandos-para-entrenadores)
+   14. [Más ayuda](#más-ayuda)
 2. [Ayuda para administradores](#ayuda-para-administradores)
    1. [Añadir el bot a un grupo o canal](#añadir-el-bot-a-un-grupo-o-canal)
    2. [Configuración básica](#configuración-básica)
@@ -142,7 +143,6 @@ También puedes añadir al bot tus códigos de Nintendo3DS y Nintendo Switch med
 
 Si se quieren eliminar los códigos de Nintendo3DS o de Nintendo Switch se deberá escribir el comando correspondiente sin escribir nada más detrás.
 
-
 ### Quién es ###
 
 El comando `quién es` (también aceptado como `quien es` o `/whois`, sin interrogante) hace que el bot te responda la información de la Ficha de Entrenador (Nick del juego, Equipo, Nivel y Estado de Validación) del jugador solicitado.
@@ -161,7 +161,7 @@ Ejemplos de posibles respuestas de Joy:
 
    El Entrenador ha iniciado un proceso de registro, pero no se ha terminado correctamente.
 
-El bot siempre enviará la información al privado, por ello es imprescindible tener abierta una conversación privada con [@NurseJoyBot](https://t.me/NurseJoyBot).
+Dependiendo de cómo esté configurado el grupo es posible que la información sea enviada al privado, por ello es imprescindible tener abierta una conversación privada con [@NurseJoyBot](https://t.me/NurseJoyBot). Si eres administrador y quieres saber más de la configuración del bot lee el apartado [Respuestas](#respuestas).
 
 Se puede emplear el comando de varias formas:
 
@@ -358,6 +358,10 @@ Joy dispone también de dos comandos con los cuales mandará, al privado del bot
 
 Al clicar sobre uno de los botones se abrirá el canal *Grupos Pokémon Go* y podrás ver los grupos que estén dentro del territorio sobre el que has clicado.
 
+### Grupos vinculados ###
+
+`/groups`
+
 ### Glosario de comandos para entrenadores ###
 
 Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
@@ -388,6 +392,7 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 `/min`| [Cadenas de PC](#cadenas-de-pc) | ❌ | Privado | ❌
 `Listado de grupos nacionales`| [Listado de grupos](#listado-de-grupos) | ❌ | Privado | ❌
 `Listado de grupos internacionales`| [Listado de grupos](#listado-de-grupos) | ❌ | Privado | ❌
+`/groups`| [Listado de grupos](#listado-de-grupos) | ❌ | Grupo | ❌
 
 1. Número máximo de caracteres: 50.
 
