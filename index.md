@@ -23,7 +23,10 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
    14. [Más ayuda](#más-ayuda)
 2. [Ayuda para administradores](#ayuda-para-administradores)
    1. [Añadir el bot a un grupo o canal](#añadir-el-bot-a-un-grupo-o-canal)
-   2. [Configuración básica](#configuración-básica)
+   2. [Configuración admins](#configuración-admins) 
+      1. [Ajustes del grupo de Admins](#ajustes-del-grupo-de-admins)
+      2. [Vincular grupos al grupo de Admins](#vincular-grupos-al-grupo-de-admins)   
+   3. [Configuración básica](#configuración-básica)
       1. [Ajustes generales](#ajustes-generales)
       2. [Ajustes de entrada](#ajustes-de-entrada)
       3. [Ajustes de administración](#ajustes-de-entrada)
@@ -32,9 +35,6 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
       6. [Bienvenida](#bienvenida)
       7. [Modo enfermera](#modo-enfermera)
       8. [Safari](#safari)
-   3. [Configuración Admins](#configuración-admins) 
-      1. [Ajustes del grupo de Admins](#ajustes-del-grupo-de-admins)
-      2. [Vincular grupos al grupo de Admins](#vincular-grupos-al-grupo-de-admins)
    4. [Zona horaria](#zona-horaria)
    5. [Gestión de usuarios](#gestión-de-usuarios)
    6. [Id](#id)
@@ -431,6 +431,62 @@ Para **añadir el bot a un grupo** tienes tres alternativas:
 
 3. Puedes intentar añadirlo como un contacto más desde el grupo con su alias `@NurseJoyBot`, pero en versiones recientes de Telegram hay problemas usando este método.
 
+### Configuración admins ###
+
+#### Ajustes del grupo de Admins ####
+
+Escribe, en el grupo de administración (el grupo de admins) el comando `/settings_admin`. Este comando te permitirá activar distintas opciones de avisos que llegarán al grupo de Admins de los grupos que tenga vinculados (leer apartado [Vincular grupos al grupo de Admins](#vincular-grupos-al-grupo-de-admins)). No te preocupes mucho si no sabes bien bien qué activar, dispondrás siempre de este comando y podrás activar o desactivar las opciones siempre que lo necesites recurriendo a ese comando.
+
+Opciones de las que dispones:
+
+   - Aviso de la gente que entra al grupo o grupos vinculados.
+
+   - Aviso de la gente que sale del grupo o grupos vinculados. (sólo avisará si son grupos de 50 usuarios o menos, o si ha salido del grupo por ban o kick)
+
+   - Aviso cuando se escribe @admin en el grupo o grupos vinculados.
+
+   - Aviso de expulsiones y baneos individuales en el grupo o grupos vinculados.
+
+   - Aviso de los warn en el grupo o los grupos vinculados.
+
+   - Aviso de la solicitud de nidos en el grupo o grupos vinculados.
+
+#### Vincular grupos al grupo de Admins ####
+
+Para crear un grupo de administración que tenga uno o diversos grupos vinculados se debe seguir los siguientes pasos:
+
+1. Ejecutar el comando `/create_admin` en el grupo al cual quieres que vaya la información, el que será el grupo de Admins. Para configurar el grupo de Admins leer el apartado: [Ajustes del grupo de Admins](#ajustes-del-grupo-de-admins)
+
+Es importante guardar el ID que te dará el bot, lo necesitarás más adelante.
+
+`Como ejemplo, a nosotros nos daría: ID -123456.`
+
+2. Seguidamente ve al grupo que quieres vincular y ejecuta en dicho grupo el comando `/create_link ID`.
+
+`En nuestro caso de muestra sería: /create_link -123456.`
+
+3. Vuelve al grupo de administradores e indica, en la botonera, de qué trata el grupo que acabas de vincular. Las opciones de las que dispones son las siguientes:
+
+Icono | Nombre | Descripción 
+--------|-------------|---------------------------
+💥   | Raids | Grupo para incursiones (Raids)
+:repeat:   | Intercambios | Grupo para intercambios de Pokémon
+🗣   | Charla | Grupo de charla
+👫   | Amigos | Grupo de amigos
+🌟   | EX | Grupo para incursiones (Raids) EX
+👀   | Alertas | Grupo para alertas
+🔍   | Misiones | Grupo para misiones
+👾   | Otros | Cuando ninguno de los otros define tu grupo, este es el indicado
+❤️   | Valor | Grupo para miembros del equipo rojo (Valor)
+💛   | Instinto | Grupo para miembros del equipo amarillo (Instinto)
+💙   | Sabiduría | Grupo para miembros del equipo azul (Sabiduría)
+
+4. Para vincular más de un grupo a un mismo grupo de administradores vuelve al paso número 3 (la ID será la misma del paso número 1).
+
+Si quieres que el bot deje de considerar un grupo como grupo de administración puedes hacerlo escribiendo `/rm_admin` en dicho grupo. Con ese comando se desvincularán todos los grupos que tuvieses vinculados. Si sólo quieres desvincular un grupo entonces dirígete a ese grupo y ejecuta el comando `/rm_link`.
+
+Para saber qué grupos están vinculados a un grupo de administración escribe el comando `/groups` y el bot te hará una lista de los grupos vinculados, excepto el de administración.
+
 ### Configuración básica ###
 
 Para hacer la **configuración básica** del bot utiliza el comando `/settings`. Este comando se utiliza en el grupo que quieras configurar. La configuración está dividida en varios apartados y subapartados:
@@ -724,6 +780,11 @@ El modo enfermera evita que la gente hable en un grupo, borrando todos los mensa
 
 Con el comando `/set_nanny`puedes definir el mensaje que dará el bot cada vez que un usuario hable. Por ejemplo: */set_nanny Entrenador, para hablar debes ir a @enfermerajoycharla.
 
+Dentro del */settings* del apartado del modo enfermera encontrarás una gran cantidad de botones que puedes activar (✅). Si se activan serán los formatos que el bot **no** permitirá en el grupo.
+
+Por lo tanto, si se activa el *modo enfermera* el bot no permitirá que los usuarios (no incluye a los bots y administradores) manden mensajes de texto al grupo.
+
+
 ##### Audio y Voz #####
 ##### Comandos #####
 ##### Contactos #####
@@ -738,66 +799,10 @@ Con el comando `/set_nanny`puedes definir el mensaje que dará el bot cada vez q
 ##### Warns #####
 ##### Mensajes de administradores #####
 
-- Modo enfermera: Se ha añadido una opción para que el modo enfermera actue también sobre administradores.
+Si activas esta opción entonces el bot actuará también sobre los administradores con el *modo enfermera*. 
 
 #### Safari ####
 `Actualmente esta opción no está disponible.`
-
-### Configuración Admins ###
-
-#### Ajustes del grupo de Admins ####
-
-Escribe, en el grupo de administración (el grupo de admins) el comando `/settings_admin`. Este comando te permitirá activar distintas opciones de avisos que llegarán al grupo de Admins de los grupos que tenga vinculados (leer apartado [Vincular grupos al grupo de Admins](#vincular-grupos-al-grupo-de-admins)). No te preocupes mucho si no sabes bien bien qué activar, dispondrás siempre de este comando y podrás activar o desactivar las opciones siempre que lo necesites recurriendo a ese comando.
-
-Opciones de las que dispones:
-
-   - Aviso de la gente que entra al grupo o grupos vinculados.
-
-   - Aviso de la gente que sale del grupo o grupos vinculados. (sólo avisará si son grupos de 50 usuarios o menos, o si ha salido del grupo por ban o kick)
-
-   - Aviso cuando se escribe @admin en el grupo o grupos vinculados.
-
-   - Aviso de expulsiones y baneos individuales en el grupo o grupos vinculados.
-
-   - Aviso de los warn en el grupo o los grupos vinculados.
-
-   - Aviso de la solicitud de nidos en el grupo o grupos vinculados.
-
-#### Vincular grupos al grupo de Admins ####
-
-Para crear un grupo de administración que tenga uno o diversos grupos vinculados se debe seguir los siguientes pasos:
-
-1. Ejecutar el comando `/create_admin` en el grupo al cual quieres que vaya la información, el que será el grupo de Admins. Para configurar el grupo de Admins leer el apartado: [Ajustes del grupo de Admins](#ajustes-del-grupo-de-admins)
-
-Es importante guardar el ID que te dará el bot, lo necesitarás más adelante.
-
-`Como ejemplo, a nosotros nos daría: ID -123456.`
-
-2. Seguidamente ve al grupo que quieres vincular y ejecuta en dicho grupo el comando `/create_link ID`.
-
-`En nuestro caso de muestra sería: /create_link -123456.`
-
-3. Vuelve al grupo de administradores e indica, en la botonera, de qué trata el grupo que acabas de vincular. Las opciones de las que dispones son las siguientes:
-
-Icono | Nombre | Descripción 
---------|-------------|---------------------------
-💥   | Raids | Grupo para incursiones (Raids)
-:repeat:   | Intercambios | Grupo para intercambios de Pokémon
-🗣   | Charla | Grupo de charla
-👫   | Amigos | Grupo de amigos
-🌟   | EX | Grupo para incursiones (Raids) EX
-👀   | Alertas | Grupo para alertas
-🔍   | Misiones | Grupo para misiones
-👾   | Otros | Cuando ninguno de los otros define tu grupo, este es el indicado
-❤️   | Valor | Grupo para miembros del equipo rojo (Valor)
-💛   | Instinto | Grupo para miembros del equipo amarillo (Instinto)
-💙   | Sabiduría | Grupo para miembros del equipo azul (Sabiduría)
-
-4. Para vincular más de un grupo a un mismo grupo de administradores vuelve al paso número 3 (la ID será la misma del paso número 1).
-
-Si quieres que el bot deje de considerar un grupo como grupo de administración puedes hacerlo escribiendo `/rm_admin` en dicho grupo. Con ese comando se desvincularán todos los grupos que tuvieses vinculados. Si sólo quieres desvincular un grupo entonces dirígete a ese grupo y ejecuta el comando `/rm_link`.
-
-Para saber qué grupos están vinculados a un grupo de administración escribe el comando `/groups` y el bot te hará una lista de los grupos vinculados, excepto el de administración.
 
 ### Zona horaria ###
 
@@ -984,7 +989,6 @@ En caso de formar parte de un grupo en el cual se encuentre [@NurseJoyBot](https
 - 😊 Ante todo, ¡fomenta el buen rollo! El grupo no es restrictivo, no tengas miedo de preguntar o conversar sobre el juego. Pero ten cuidado con las cosas o "bromas" que digas, puedes ofender a alguien.
 - 📩 Se considera **flood** el hecho de repetir continuamente palabras, hacer *cadenas* de contenido multimedia o comandos (enviar muchas fotos o stickers seguidos), provocando molestias al grupo con contenido innecesario. 
 - 🌍 Normalmente el usuario estará unido en los grupos cercanos a su ubicación, o que suela frecuentar. Si un usuario es avistado en varios grupos de diferentes ubicaciones a la vez, podría ser expulsado de todos ellos por sospechas de posibles trampas. Se entiende que si un usuario se va de vacaciones a otro lugar, no es necesario abandonar los grupos de su ubicación, y se valorará este motivo.
-
 
 ### Normas del Entrenador ###
 
