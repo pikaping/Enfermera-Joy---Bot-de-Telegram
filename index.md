@@ -30,7 +30,7 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
       1. [Ajustes generales](#ajustes-generales)
       2. [Ajustes de entrada](#ajustes-de-entrada)
       3. [Ajustes de administración](#ajustes-de-entrada)
-      4. [Nidos](#nidos)
+      4. [Nidos](#configurar-nidos)
       5. [Noticias](#noticias)
       6. [Bienvenida](#bienvenida)
       7. [Modo enfermera](#modo-enfermera)
@@ -417,6 +417,8 @@ De aquí en adelante, [@NurseJoyBot](https://t.me/NurseJoyBot) pasará a ser *el
 
 ### Añadir el bot a un grupo o canal ###
 
+El soporte del bot, por el momento, solo está probado en grupos y supergrupos. En un futuro, contará con soporte en canales.
+
 En **grupos** el bot ya se puede utilizar tan pronto entra al grupo y envía un saludo. Conviene configurarlo, no obstante. Ten cuidado porque, si una vez añadas el bot conviertes el grupo a supergrupo, tendrás que volver a configurarlo. Un supergrupo es la mejor opción en la mayoría de los casos.
 
 Para **añadir el bot a un grupo o canal** tienes tres alternativas:
@@ -560,7 +562,7 @@ Los comandos que actuarán según esta opción son:
 |    /tabla    | [Tablas](#tablas)  | 
 |    /max    | [Cadenas de PC](#cadenas-de-pc)| 
 |    /min    | [Cadenas de PC](#cadenas-de-pc) | 
-|    /groups    | *En proceso de escritura*  | 
+|    /groups    | [Grupos vinculados](#grupos-vinculados)  | 
 |    /id    |  [Id](#id) | 
 |    /whois    |  [Quién es](#quién-es) | 
 |    Listado de comandos   | [Listado de comandos](#listado-de-comandos)  | 
