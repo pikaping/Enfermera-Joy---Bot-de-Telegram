@@ -918,8 +918,19 @@ La mayoría de bots disponen de tres "castigos" muy diferenciados: Warn, Kick y 
 
 ### Glosario de comandos para administradores ###
 
+`En proceso de escritura`
+
 Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 --------|-------------|---------------------------|--------|-----------
+`/settings_admin`| [Ajustes del grupo de Admins](#ajustes-del-grupo-de-admins) | ✅ | Grupo administración | ❌
+`/create_admin`| [Vincular grupos al grupo de Admins](#vincular-grupos-al-grupo-de-admins) | ✅ | Grupo administración | ❌
+`/create_link`| [Vincular grupos al grupo de Admins](#vincular-grupos-al-grupo-de-admins)  | ✅ | Grupo | ❌
+`/rm_admin`| [Vincular grupos al grupo de Admins](#vincular-grupos-al-grupo-de-admins) | ✅ | Grupo administración | ❌
+`/rm_link`| [Vincular grupos al grupo de Admins](#vincular-grupos-al-grupo-de-admins) | ✅ | Grupo| ❌
+`/settings`| [Configuración básica](#configuración-básica) | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
+
+Configuración ajustes de entrada
+
 `/set_maxmembers`| ? | ✅ | Grupo | ❌
 `/ban`   | ? | ✅ | Grupo | `{Motivo}`
 `/joybanuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
@@ -943,8 +954,9 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 `/joywarnold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
 `/joywarnall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
 `/joywarngroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
-`/settings_admin`| ? | ✅ | Grupo administración | ❌
-`/settings`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
+
+
+
 `/set_welcome`| ? | ✅ | Grupo | `Mensaje de bienvenida`
 `/set_zone`| ? | ✅ | Grupo & Grupo administración | `Zona horaria`
 `nuevo comando`| ? | ✅ | Grupo | ❌
@@ -954,7 +966,7 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 `/set_stops`| ? | ✅ | Grupo & Grupo administración | `Enlace hoja de calculo`
 `/set_talkgroup`| ? | ✅ | Grupo & Grupo administración | `Alias o enlace de Telegram`
 `/mk_admin`| ? | ✅ | Grupo administración | ❌
-`/rm_admin`| ? | ✅ | Grupo administración | ❌
+
 `/add_group`| ? | ✅ | Grupo | `AdminID Tipo Etiqueta`
 `/add_link`| ? | ✅ | Grupo | `Alias o enlace de Telegram`
 `/rm_group`| ? | ✅ | Grupo | ❌
@@ -964,6 +976,25 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 `/joyping`| ? | ❌ | Todos | ❌
 `/set_nanny`| ? | ✅ | Grupo | ❌
 `/set_cooldown`| ? | ✅ | Grupo | ❌
+
+ 
+   3. [Configuración básica](#configuración-básica)
+      1. [Ajustes generales](#ajustes-generales)
+      2. [Ajustes de entrada](#ajustes-de-entrada)
+      3. [Ajustes de administración](#ajustes-de-entrada)
+      4. [Nidos](#configurar-nidos)
+      5. [Noticias](#noticias)
+      6. [Bienvenida](#bienvenida)
+      7. [Modo enfermera](#modo-enfermera)
+      8. [Safari](#safari)
+   4. [Zona horaria](#zona-horaria)
+   5. [Gestión de usuarios](#gestión-de-usuarios)
+   6. [Id](#id)
+   7. [Comandos personalizados](#comandos-personalizados)
+   8. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
+      1. [Expulsiones individuales](#expulsiones-individuales)
+      2. [Expulsiones masivas](#expulsiones-masivas)
+
 
 1. Argumento `Grupo` unicamente válido desde el grupo de administración.
 2. Argumento `Motivo` opcional.
