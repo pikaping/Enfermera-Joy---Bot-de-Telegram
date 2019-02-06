@@ -928,10 +928,23 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 `/rm_admin`| [Vincular grupos al grupo de Admins](#vincular-grupos-al-grupo-de-admins) | ✅ | Grupo administración | ❌
 `/rm_link`| [Vincular grupos al grupo de Admins](#vincular-grupos-al-grupo-de-admins) | ✅ | Grupo| ❌
 `/settings`| [Configuración básica](#configuración-básica) | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
-
-Configuración ajustes de entrada
-
-`/set_maxmembers`| ? | ✅ | Grupo | ❌
+`/set_maxmembers`| [Ajustes de entrada](#ajustes-de-entrada) | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
+`init_news`| [Noticias](#noticias) | ✅ | Grupo | ❌
+`add_news`| [Noticias](#noticias) | ✅ | Grupo | ❌
+`rm_news`| [Noticias](#noticias) | ✅ | Grupo | ❌
+`stop_news`| [Noticias](#noticias) | ✅ | Grupo | ❌
+`list_news`| [Noticias](#noticias) | ✅ | Grupo | ❌
+`/set_welcome`| [Bienvenida](#bienvenida) | ✅ | Grupo | `Mensaje de bienvenida`
+`/set_cooldown`| [Bienvenida](#bienvenida) | ✅ | Grupo | ❌
+`/set_nanny`| [Bienvenida](#bienvenida) | ✅ | Grupo | ❌
+`/set_zone`| [Zona horaria](#zona-horaria) | ✅ | Grupo & Grupo administración | `Zona horaria`
+`/joyuv`   | [Gestión de usuarios](#gestión-de-usuarios) | ✅ | Grupo | `{b y r l all}`
+`/joykickuv`   | [Gestión de usuarios](#gestión-de-usuarios) | ✅ | Grupo | `{b y r l all}`
+`/id`   | [Id](#id) | ❌ | Grupo | ❌
+`nuevo comando`| [Comandos personalizados](#comandos-personalizados) | ✅ | Grupo | ❌
+`Listado de comandos`| [Comandos personalizados](#comandos-personalizados) | ❌ | Grupo| ❌
+`eliminar comando {número del comando}`| [Comandos personalizados](#comandos-personalizados) | ✅ | Grupo | `{número del comando}`
+`eliminar todos los comandos`| [Comandos personalizados](#comandos-personalizados) | ✅ | Grupo | ❌
 `/ban`   | ? | ✅ | Grupo | `{Motivo}`
 `/joybanuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
 `/joybanmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
@@ -954,19 +967,8 @@ Configuración ajustes de entrada
 `/joywarnold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
 `/joywarnall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
 `/joywarngroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
-
-
-
-`/set_welcome`| ? | ✅ | Grupo | `Mensaje de bienvenida`
-`/set_zone`| ? | ✅ | Grupo & Grupo administración | `Zona horaria`
-`nuevo comando`| ? | ✅ | Grupo | ❌
-`eliminar comando {nombre del comando}`| ? | ✅ | Grupo | `{nombre del comando}`
-`eliminar todos los comandos`| ? | ✅ | Grupo | ❌
-`Listado de comandos`| ? | ❌ | Grupo| ❌
 `/set_stops`| ? | ✅ | Grupo & Grupo administración | `Enlace hoja de calculo`
-`/set_talkgroup`| ? | ✅ | Grupo & Grupo administración | `Alias o enlace de Telegram`
 `/mk_admin`| ? | ✅ | Grupo administración | ❌
-
 `/add_group`| ? | ✅ | Grupo | `AdminID Tipo Etiqueta`
 `/add_link`| ? | ✅ | Grupo | `Alias o enlace de Telegram`
 `/rm_group`| ? | ✅ | Grupo | ❌
@@ -974,27 +976,6 @@ Configuración ajustes de entrada
 `/groups`| ? | ✅ | Grupo & Grupo administración<sup>4</sup> | ❌
 `Borrar nido de {Pokémon} en {Lugar}`| ? | ✅ | Grupo | `Pokémon Lugar`<sup>1</sup>
 `/joyping`| ? | ❌ | Todos | ❌
-`/set_nanny`| ? | ✅ | Grupo | ❌
-`/set_cooldown`| ? | ✅ | Grupo | ❌
-
- 
-   3. [Configuración básica](#configuración-básica)
-      1. [Ajustes generales](#ajustes-generales)
-      2. [Ajustes de entrada](#ajustes-de-entrada)
-      3. [Ajustes de administración](#ajustes-de-entrada)
-      4. [Nidos](#configurar-nidos)
-      5. [Noticias](#noticias)
-      6. [Bienvenida](#bienvenida)
-      7. [Modo enfermera](#modo-enfermera)
-      8. [Safari](#safari)
-   4. [Zona horaria](#zona-horaria)
-   5. [Gestión de usuarios](#gestión-de-usuarios)
-   6. [Id](#id)
-   7. [Comandos personalizados](#comandos-personalizados)
-   8. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
-      1. [Expulsiones individuales](#expulsiones-individuales)
-      2. [Expulsiones masivas](#expulsiones-masivas)
-
 
 1. Argumento `Grupo` unicamente válido desde el grupo de administración.
 2. Argumento `Motivo` opcional.
