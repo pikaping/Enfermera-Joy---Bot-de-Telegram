@@ -415,15 +415,11 @@ Si necesitas ayuda que no se encuentre en este manual, puedes preguntar en [@enf
 
 De aquí en adelante, [@NurseJoyBot](https://t.me/NurseJoyBot) pasará a ser *el bot*.
 
-### Grupos ###
-
-El soporte del bot, por el momento, solo está probado en **grupos y supergrupos**. En un futuro, contará con soporte en canales.
+### Añadir el bot a un grupo o canal ###
 
 En **grupos** el bot ya se puede utilizar tan pronto entra al grupo y envía un saludo. Conviene configurarlo, no obstante. Ten cuidado porque, si una vez añadas el bot conviertes el grupo a supergrupo, tendrás que volver a configurarlo. Un supergrupo es la mejor opción en la mayoría de los casos.
 
-### Añadir el bot a un grupo o canal ###
-
-Para **añadir el bot a un grupo** tienes tres alternativas:
+Para **añadir el bot a un grupo o canal** tienes tres alternativas:
 
 1. Dirígete al perfil del bot. En el menú, selecciona la opción *Añadir a un grupo* y escoge el grupo de la lista.
 
