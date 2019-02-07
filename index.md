@@ -40,8 +40,8 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
    6. [Id](#id)
    7. [Comandos personalizados](#comandos-personalizados)
    8. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
-      1. [Expulsiones individuales](#expulsiones-individuales)
-      2. [Expulsiones masivas](#expulsiones-masivas)
+      1. [Comandos de expulsiones individuales](#comandos-de-expulsiones-individuales)
+      2. [Comandos de expulsiones masivas](#comandos-de-expulsiones-masivas)
    9. [Glosario de comandos para administradores](#glosario-de-comandos-para-administradores)
 3. [Reglamento General de Uso del Bot](#reglamento-general-de-uso-del-bot)
 4. [Política de privacidad](#Política-de-privacidad)
@@ -898,7 +898,7 @@ Si en vez de borrar un comando lo que se quiere es únicamente modificar la resp
 
 Algunos de los comandos más importantes para un administrador son los de tipo "castigo". Estos comandos únicamente pueden ser utilizados por los administradores, y si algún usuario lo escribiese el bot respondería que dicho usuario no tiene permisos para ello.
 
-#### Expulsiones individuales ####
+#### Comandos de expulsiones individuales ####
 
 La mayoría de bots disponen de tres "castigos" muy diferenciados: Warn, Kick y Ban.
 
@@ -908,7 +908,7 @@ La mayoría de bots disponen de tres "castigos" muy diferenciados: Warn, Kick y 
    
    Ban - El Ban es la expulsión del grupo a un usuario, y este no podrá volver a entrar al grupo hasta que un administrador le quite el ban.
 
-#### Expulsiones masivas ####
+#### Comandos de expulsiones masivas ####
 `En proceso de escritura`
 
 `/joykickold {X}` - Siendo {X} el número de días que llevan los usuarios sin mandar mensajes.
