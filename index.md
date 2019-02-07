@@ -911,8 +911,25 @@ La mayoría de bots disponen de tres "castigos" muy diferenciados: Warn, Kick y 
 #### Expulsiones masivas ####
 `En proceso de escritura`
 
-### Glosario de comandos para administradores ###
+`/joykickold {X}` - Siendo {X} el número de días que llevan los usuarios sin mandar mensajes.
 
+   Por ejemplo: */joykickold 30*
+
+   Serian expulsados los entrenadores que llevan 30 días sin hablar.
+
+`/joykickmsg {X}` - Siendo {X} el número de mensajes que deben haber enviado los usuarios al grupo .
+
+   Ejemplo: */joykickmsg 50*
+
+   Todos los entrenadores que no hayan enviado 50 mensajes serán expulsados.
+   
+`/joykicklvl {X}` - Siendo {X} el nivel que tiene que tener el usuario para no ser expulsado. 
+
+   Ejemplo: */joykicklvl 15*
+   
+   Todos los que estén por debajo de 15 serán expulsados del grupo.
+
+### Glosario de comandos para administradores ###
 `En proceso de escritura`
 
 Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
