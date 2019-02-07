@@ -900,13 +900,27 @@ Algunos de los comandos más importantes para un administrador son los de tipo "
 
 #### Comandos de expulsiones individuales ####
 
-La mayoría de bots disponen de tres "castigos" muy diferenciados: Warn, Kick y Ban.
+La mayoría de bots disponen de tres "castigos" muy diferenciados: *Warn*, *Kick* y *Ban*.
 
-   Warn - El Warn es un aviso (advertencia), que después de una determinada cantidad de avisos será una expulsión del grupo por kick o ban (dependiendo de cómo esté configurado). Para ver la configuración de los Warn lee el apartado [Tipo de expulsión por Warns](#tipo-de-expulsión-por-warns) y [Cantidad de Warns](#cantidad-de-warns).
+   `/warn` - El Warn es un aviso (advertencia), que después de una determinada cantidad de avisos será una expulsión del grupo por kick o ban (dependiendo de cómo esté configurado). Para ver la configuración de los Warn lee el apartado [Tipo de expulsión por Warns](#tipo-de-expulsión-por-warns) y [Cantidad de Warns](#cantidad-de-warns).
 
-   Kick - El Kick es la expulsión del grupo a un usuario, pero este podrá volver a entrar al momento.
+   `/kick` - El Kick es la expulsión del grupo a un usuario, pero este podrá volver a entrar al momento.
    
-   Ban - El Ban es la expulsión del grupo a un usuario, y este no podrá volver a entrar al grupo hasta que un administrador le quite el ban.
+   `/ban` - El Ban es la expulsión del grupo a un usuario, y este no podrá volver a entrar al grupo hasta que un administrador le quite el ban.
+
+Para utilizar alguno de estos tres comandos se puede hacer mediante las siguientes opciones:
+
+1. Citando el mensaje del usuario al que se quiere "castigar" y escribiendo el comando.
+
+2. Escribiendo el comando seguido del nick de entrenador del usuario. Por ejemplo: */ban NurseJoy*
+
+3. Escribiendo el comando seguido del alias de Telegram del usuario. Por ejemplo: */kick NurseJoyBot*
+
+4. Escribiendo el comando seguido del ID del usuario. Por ejemplo: */warn 111111* Para conseguir el ID del usuario se puede hacer mediante el aviso del bot en el grupo de administración, si se tiene activado (para saber más información leer el apartado [Ajustes de administración](#ajustes-de-entrada)), o mediante el comando */id* (para más información leer el apartado [Id](#id)).
+
+Los tres comandos permiten además, con todas sus opciones, añadir un mensaje con el motivo de dicho "castigo". Por ejemplo: */kick NurseJoyBot por no asistir a la raid*. Este ejemplo sería un *kick* al usuario con el alias de Telegram *NurseJoyBot* con el motivo *por no asistir a la raid*.
+
+También es posible, si se hace desde el grupo de administración, especificar en qué grupo será el "castigo" mediante el ID del grupo. Por ejemplo: */ban -19999999 NurseJoy*. En este ejemplo se haría un *ban* desde el grupo de administración en el grupo con ID *-19999999* y al usuario con el nick de entrenador *NurseJoy*.
 
 #### Comandos de expulsiones masivas ####
 `En proceso de escritura`
@@ -957,26 +971,26 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 `Listado de comandos`| [Comandos personalizados](#comandos-personalizados) | ❌ | Grupo| ❌
 `eliminar comando {número del comando}`| [Comandos personalizados](#comandos-personalizados) | ✅ | Grupo | `{número del comando}`
 `eliminar todos los comandos`| [Comandos personalizados](#comandos-personalizados) | ✅ | Grupo | ❌
-`/ban`   | ? | ✅ | Grupo | `{Motivo}`
+`/ban`   | [Comandos de expulsiones individuales](#comandos-de-expulsiones-individuales) | ✅ | Grupo | ❌
+`/kick`   | [Comandos de expulsiones individuales](#comandos-de-expulsiones-individuales) | ✅ | Grupo | ❌
+`/warn`   | [Comandos de expulsiones individuales](#comandos-de-expulsiones-individuales) | ✅ | Grupo | ❌
 `/joybanuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
-`/joybanmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
-`/joybanold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
+`/joybanmsg`| [Comandos de expulsiones masivas](#comandos-de-expulsiones-masivas) | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
+`/joybanold`| [Comandos de expulsiones masivas](#comandos-de-expulsiones-masivas) | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
 `/joybanall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
 `/joybanteam`| ? | ✅ | Grupo & Grupo administración | `Grupo Equipo`<sup>1</sup>
 `/joybangroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
 `/unban`| ? | ✅ | Grupo & Grupo administración | ❌
-`/kick`   | ? | ✅ | Grupo | `{Motivo}`
 `/joykickuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
-`/joykickmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
-`/joykickold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
-`/joykickall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
+`/joykickmsg`|  [Comandos de expulsiones masivas](#comandos-de-expulsiones-masivas) | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
+`/joykickold`|  [Comandos de expulsiones masivas](#comandos-de-expulsiones-masivas) | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
+`/joykickall`| [Comandos de expulsiones masivas](#comandos-de-expulsiones-masivas) | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
 `/joykickteam`| ? | ✅ | Grupo & Grupo administración | `Grupo Equipo`<sup>1</sup>
 `/joykickgroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
 `/joykickeveryone`| ? | ✅ | Grupo administración | `GrupoEX`<sup>3</sup>
-`/warn`   | ? | ✅ | Grupo | `{Motivo}`
 `/joywarnuv`| ? | ✅ | Grupo & Grupo administración | `Grupo`<sup>1</sup>
-`/joywarnmsg`| ? | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
-`/joywarnold`| ? | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
+`/joywarnmsg`| [Comandos de expulsiones masivas](#comandos-de-expulsiones-masivas) | ✅ | Grupo & Grupo administración | `Grupo Nº Mensajes`<sup>1</sup>
+`/joywarnold`| [Comandos de expulsiones masivas](#comandos-de-expulsiones-masivas) | ✅ | Grupo & Grupo administración | `Grupo Días`<sup>1</sup>
 `/joywarnall`| ? | ✅ | Grupo administración | `UserID Motivo`<sup>2</sup>
 `/joywarngroup`| ? | ✅ | Grupo & Grupo administración | `UserID Grupo Motivo`<sup>2</sup>
 `/set_stops`| ? | ✅ | Grupo & Grupo administración | `Enlace hoja de calculo`
@@ -988,7 +1002,7 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 `/groups`| ? | ✅ | Grupo & Grupo administración<sup>4</sup> | ❌
 `Borrar nido de {Pokémon} en {Lugar}`| ? | ✅ | Grupo | `Pokémon Lugar`<sup>1</sup>
 `/joyping`| ? | ❌ | Todos | ❌
-
+      
 1. Argumento `Grupo` unicamente válido desde el grupo de administración.
 2. Argumento `Motivo` opcional.
 3. Solo disponible para grupos etiquetados como EX.
