@@ -62,13 +62,14 @@ Para registrarte (es necesario tener un [Alias de Telegram](#alias-de-telegram))
    Si antes de eso ya le habías dicho a Detective Pikachu que aceptas compartir los datos con Enfermera Joy, entonces al escribirle        `/register` preguntará automáticamente los datos a Detective Pikachu (sin que tu tengas que hacer nada) y ya estarás registrado.
 
 2. Si al decirle `/register` en privado a [@NurseJoyBot](https://t.me/NurseJoyBot) no estás registrado con el bot [@detectivepikachubot](https://t.me/detectivepikachubot) o no has aceptado que Enfermera Joy pregunte los datos a Detective Pikachu, entonces iniciará automáticamente el proceso de registro en el cual te preguntará tu nick de entrenador y te pedirá que hagas una captura de pantalla del juego con unas condiciones.
-Si pasan 6 horas entre el inicio del registro (cuando se escribe */register*) y la validación final (cuando se le manda la captura de pantalla y Joy te dice que estás validado) entonces el registro se reiniciará y se tendrá que iniciar de nuevo el registro desde el principio.
 
-3. También tienes la opción de que si estás registrado y validado con [@detectivepikachubot](https://t.me/detectivepikachubot), puedes escribir el comando `/profile` en el privado de Detective Pikachu y reenviar la respuesta a [@NurseJoyBot](https://t.me/NurseJoyBot). Este método, sirve tanto para registrarse como para subir de nivel.
+   Si pasan 6 horas entre el inicio del registro (cuando se escribe */register*) y la validación final (cuando se le manda la captura       de pantalla y Joy te dice que estás validado) entonces el registro se reiniciará y se tendrá que iniciar de nuevo el registro desde     el principio.
+
+3. También tienes la opción de que si estás registrado y validado con [@detectivepikachubot](https://t.me/detectivepikachubot), puedes escribir el comando `/profile` en el privado de Detective Pikachu y reenviar la respuesta a [@NurseJoyBot](https://t.me/NurseJoyBot).
 
 #### Alias de Telegram ####
 
-Para poder utilizar algunas de las funciones más básicas del bot es necesario tener definido un alias en Telegram. Puede hacerse desde: Opciones de Telegram -> Ajustes -> Alias.
+Para poder utilizar algunas de las funciones más básicas del bot es necesario tener definido un alias en Telegram. Puede hacerse desde: *Opciones de Telegram -> Ajustes -> Alias.*
 
 #### Subida de nivel ####
 
