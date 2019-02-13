@@ -706,11 +706,13 @@ Para poder ver este apartado es necesario haber escrito el comando `/settings` y
 
 Los canales de los que se dipone Oficialmente son los siguientes:
 
+- @enfermerajoynoticias (noticias sobre el bot @NurseJoyBot, bot de gestión de grupos)
+- @detectivepikachunoticias (noticias sobre el bot @detectivepikachu, bot para incursiones)
+- @detectivepikachunews (noticias en inglés sobre el bot @detectivepikachu, bot para incursiones)
 - @pokemongohonesto (noticias sobre Pokémon Go)
-- @enfermerajoynoticias (noticias sobre el bot @NurseJoyBot)
-- @detectivepikachunoticias (noticias sobre el bot @detectivepikachu)
 - @NoticiasPoGo (noticias sobre Pokémon Go)
-- @teamRocketFake (noticias broma de sobre Pokémon Go)
+- @ChivatazosNews (noticias sobre el bot @Chivatazos, bot para misiones y avistamientos)
+- @teamRocketFake (noticias de broma sobre Pokémon Go)
 
 Cada uno de los siguientes canales tienen sus própias características por los cuales son importantes y seguidos: algunos son de noticias sobre bots, noticias sobre el juego o noticias de broma.
 
