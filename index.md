@@ -725,7 +725,7 @@ Si quieres que las noticias de un canal (distinto a los mencionados en el aparta
 
 1) Primero de todo debes meter al bot [@NurseJoyBot](https://t.me/NurseJoyBot) al canal y darle poderes de administrador.
 
-2) Escribir en el canal en cuestión el comando `/init_news`. Ese comando hará que el bot responda informando que se ha iniciado tu canal como canal de noticias y te mostrará el ID de dicho canal.
+2) Escribir en el canal en cuestión el comando `/init_news`. Ese comando hará que el bot responda informando que se ha iniciado tu canal como canal de noticias y te mostrará el ID de dicho canal. Si se trata de un *canal privado* será necesario especificar un nombre para este. Por ejemplo: */init_news Los_Secretos_de_Joy*
 
 3) Ves al grupo en el cual quieres recibir las noticias reenviadas y ejecuta el comando `/add_news` seguido del ID que te ha dado el bot en el canal (esta opción es para *canales privados*) o seguido del alias del canal (incluyendo la @, opción para *canales públicos*).
 
