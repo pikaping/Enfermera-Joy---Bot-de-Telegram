@@ -520,7 +520,7 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
       2. [Mínimo de días](#minimo-de-dias)
       3. [Mínimo de mensajes](#minimo-de-mensajes)
       
-5. [Noticias](#noticias)  `Actualmente esta opción no está disponible.`
+5. [Noticias](#noticias) 
       1. [Canales de Noticias Oficiales](#canales-de-noticias-oficiales)
       2. [Canales de Noticias No-Oficiales](#canales-de-noticias-no-oficiales)
 
@@ -695,12 +695,10 @@ Para determinar el número mínimo de mensajes que un jugador debe de hacer en u
 Por defecto, este requisito, viene configurado como sin requisitos, 0 mensajes.
 
 #### Noticias ####
-`Actualmente esta opción no está disponible.`
 
 El bot dispone de la opción de *Noticias*: Eso quiere decir que puede reenviar automáticamente las publicaciones que salgan en distintos canales.
 
 ##### Canales de Noticias Oficiales #####
-`Actualmente esta opción no está disponible.`
 
 Para poder ver este apartado es necesario haber escrito el comando `/settings` y haber accedido al apartado `Noticias` haciendo click sobre el botón.
 
@@ -719,7 +717,6 @@ Cada uno de los siguientes canales tienen sus própias características por los 
 Es decisión de cada grupo activar o no el reenvio de las noticias (y cuales) para mantenerse informados. Por defecto todas las noticias estarán desactivadas. Para activarlas se debe clickar encima del botón y cuando ponga delante el icono ✅, si pone el icono ▪️ quiere decir que esas noticias estarán desactivadas y no serán enviadas al grupo.
 
 ##### Canales de Noticias No-Oficiales #####
-`Actualmente esta opción no está disponible.`
 
 Si quieres que las noticias de un canal (distinto a los mencionados en el apartado de [Canales de Noticias Oficiales](#canales-de-noticias-oficiales)) lleguen a un grupo en el cual seas administrador, lo puedes hacer de la siguiente forma:
 
