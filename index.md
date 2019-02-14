@@ -729,7 +729,7 @@ Si quieres que las noticias de un canal (distinto a los mencionados en el aparta
 
 Una vez finalizado el paso 3 el bot ya empezará a reenviar las notificaciones del canal al grupo.
 
-Si se desea dejar de recibir noticias de un canal No-Oficial se deberá ejecutar el comando `/rm_news` seguido del ID del canal. También se puede dejar de recibir noticias de un canal si el dueño de este expulsa al bot del canal, pero si volviese a meter al bot en el canal se volvería a recivir noticias.
+Si se desea dejar de recibir noticias de un canal No-Oficial se deberá ejecutar el comando `/rm_news` seguido del ID del canal. También se puede dejar de recibir noticias de un canal si el dueño de este expulsa al bot del canal, pero si volviese a meter al bot en el canal se volvería a recibir noticias.
 
 Si eres el administrador de un canal y quieres que el bot deje de dar las noticias de este a los grupos entonces se debe emplear el comando `/stop_news` en dicho canal.
 
