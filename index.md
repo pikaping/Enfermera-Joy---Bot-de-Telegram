@@ -192,7 +192,6 @@ Estos son las tablas de IV las que se disponen actualmente:
 
 - Absol
 - Articuno
-- Celebi
 - DeoxysA (versión ataque, es la forma activa en el juego. También se puede solicitar como: Deoxys o aDeoxys)
 - DeoxysACounters (mejores counters contra Deoxys versión ataque. También se puede solicitar como: CountersDeoxysA)
 - DeoxysD (versión defensa)
@@ -237,7 +236,6 @@ Estos son las tablas de IV las que se disponen actualmente:
 - Snorlax
 - Spiritomb
 - Suicune
-- Swinub
 - Tyranitar
 - Zapdos
 
@@ -248,6 +246,7 @@ Tablas de Community Day:
 - Beldum
 - Cyndaquil
 - Totodile (también se puede solicitar como: Community)
+- Swinub
 
 ***
 
