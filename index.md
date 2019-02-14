@@ -192,6 +192,7 @@ Estos son las tablas de IV las que se disponen actualmente:
 
 - Absol
 - Articuno
+- Celebi
 - DeoxysA (versión ataque, es la forma activa en el juego. También se puede solicitar como: Deoxys o aDeoxys)
 - DeoxysACounters (mejores counters contra Deoxys versión ataque. También se puede solicitar como: CountersDeoxysA)
 - DeoxysD (versión defensa)
