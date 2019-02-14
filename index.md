@@ -329,7 +329,9 @@ Para crear una lista se debe emplear el comando `/joylist` y añadir el título 
 
 Los entrenadores que se apunten a dicha lista aparecerán junto a la siguiente información: Equipo, Nivel y Alias de Telegram. Es por ello que es imprescindible estar *Registrado en el bot* (se recomienda leer el apartado [Registrarse en el bot](#registrarse-en-el-bot) si no estás registrado).
 
-Con el comando `/joyrefloat` puedes reflotar una lista si esta ha quedado hundida. Para ello será necesario que un administrador cite la lista y escriba el comando.
+Con el comando `/listrefloat` puedes reflotar una lista si esta ha quedado hundida. Para ello será necesario que un administrador cite la lista y escriba el comando.
+
+También se dispone de la posibilidad de cerrar una lista para que nadie más se pueda apuntar o desapuntar a partir de ese momento. Esto es posible hacerlo con el comando `/listclose`. Al cerrar la lista los botones para apuntarse y desapuntarse desaparecerán. Para abrir de nuevo una lista cerrada será necesario utilizar el comando `/listopen`; los botones volverán a aparecer y los usuarios podrán volverse a apuntar y desapuntar.
 
 Si se quiere borrar una lista bastará con eliminar el mensaje que sea la lista.
 
@@ -352,6 +354,7 @@ Respuesta de Joy al privado: *25&pc13,pc41,pc69,pc98,pc126,pc154,pc183,pc211,pc2
 Esa cadena de datos se deberá copiar y pegar en la barra de búsqueda del juego, de esa forma, en este ejemplo, verías únicamente los Pikachu con probable IV 100% que hayas capturado y a los que no hayas dado más poder.
 
 ### Listado de grupos ###
+`Actualmente esta opción no está disponible.`
 
 Joy dispone también de dos comandos con los cuales mandará, al privado del bot, la botonera del canal [Grupos Pokémon Go](https://t.me/PokemonGoGrupos). Canal que dispone de una gran cantidad de links a grupos de Pokémon Go, muy útil para buscar grupos:
 
@@ -393,7 +396,9 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 `Nido de {Pokémon}`| [Registrar nidos](#registrar-nidos) | ❌ | Grupo | Lugar<sup>1</sup>
 `Listado de comandos`| [Listado de comandos](#listado-de-comandos)  | ❌ | Grupo | ❌
 `/list`| [Listas](#listas) | ❌ | Grupo | ❌
-`/joyrefloat`| [Listas](#listas) | ✅ | Grupo | ❌
+`/listrefloat`| [Listas](#listas) | ✅ | Grupo | ❌
+`/listclose`| [Listas](#listas) | ✅ | Grupo | ❌
+`/listopen`| [Listas](#listas) | ✅ | Grupo | ❌
 `/max`| [Cadenas de PC](#cadenas-de-pc) | ❌ | Privado | ❌
 `/min`| [Cadenas de PC](#cadenas-de-pc) | ❌ | Privado | ❌
 `Listado de grupos nacionales`| [Listado de grupos](#listado-de-grupos) | ❌ | Privado | ❌
@@ -709,6 +714,7 @@ Los canales de los que se dipone Oficialmente son los siguientes:
 - @detectivepikachunews (noticias en inglés sobre el bot @detectivepikachu, bot para incursiones)
 - @pokemongohonesto (noticias sobre Pokémon Go)
 - @NoticiasPoGo (noticias sobre Pokémon Go)
+- @PkGoInfo (noticias sobre Pokémon Go)
 - @ChivatazosNews (noticias sobre el bot @Chivatazos, bot para misiones y avistamientos)
 - @teamRocketFake (noticias de broma sobre Pokémon Go)
 - @PkGoInfo (infografías sobre Pokémon Go)
