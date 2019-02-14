@@ -243,10 +243,8 @@ Estos son las tablas de IV las que se disponen actualmente:
 
 Tablas de Community Day:
 
-- Beldum
-- Cyndaquil
-- Totodile (también se puede solicitar como: Community)
-- Swinub
+- Totodile 
+- Swinub (también se puede solicitar como: Community)
 
 ***
 
