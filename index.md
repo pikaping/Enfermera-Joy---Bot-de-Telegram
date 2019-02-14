@@ -711,6 +711,7 @@ Los canales de los que se dipone Oficialmente son los siguientes:
 - @NoticiasPoGo (noticias sobre Pokémon Go)
 - @ChivatazosNews (noticias sobre el bot @Chivatazos, bot para misiones y avistamientos)
 - @teamRocketFake (noticias de broma sobre Pokémon Go)
+- @PkGoInfo (infografías sobre Pokémon Go)
 
 Cada uno de los siguientes canales tienen sus própias características por los cuales son importantes y seguidos: algunos son de noticias sobre bots, noticias sobre el juego o noticias de broma.
 
