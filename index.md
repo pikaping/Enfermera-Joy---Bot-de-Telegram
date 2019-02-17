@@ -193,6 +193,7 @@ Estos son las tablas de IV las que se disponen actualmente:
 - Absol
 - Articuno
 - Celebi
+- Chansey
 - DeoxysA (versión ataque, es la forma activa en el juego. También se puede solicitar como: Deoxys o aDeoxys)
 - DeoxysACounters (mejores counters contra Deoxys versión ataque. También se puede solicitar como: CountersDeoxysA)
 - DeoxysD (versión defensa)
@@ -225,6 +226,7 @@ Estos son las tablas de IV las que se disponen actualmente:
 - Moltres
 - Palkia
 - PalkiaCounters (mejores counters contra Palkia. También se puede solicitar como: CountersPalkia)
+- Porygon
 - Raichu (versión alola)
 - Raikou
 - Rayquaza
@@ -805,9 +807,9 @@ Finalmente, también hay la opción de activar el botón `Mensajes de administra
 
 El bot reconoce la hora que escriben los usuarios y hace operaciones con ellas, por lo que es importante que la hora que utilice el bot se corresponda con la hora real de tu grupo.
 
-Para establecer la zona horaria correcta se debe utilizar el comando `/settimezone` con la zona horaria correspondiente como parámetro siguiendo el formato del [listado de zonas horarias de la IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). Por ejemplo:
-    /settimezone Europe/Madrid
-    /settimezone Atlantic/Canary
+Para establecer la zona horaria correcta se debe utilizar el comando `/set_timezone` con la zona horaria correspondiente como parámetro siguiendo el formato del [listado de zonas horarias de la IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). Por ejemplo:
+    /set_timezone Europe/Madrid
+    /set_timezone Atlantic/Canary
 
 ### Gestión de usuarios ###
 
