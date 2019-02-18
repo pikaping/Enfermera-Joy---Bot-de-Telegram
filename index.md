@@ -812,11 +812,15 @@ Para escribir más de un botón en una misma línea se ha de escribir `:same` al
 
 ### Normas del grupo Admins ###
 
+El bot puede guardar y enviar las normas del grupo por privado o por el grupo (depende de cómo esté configurado el */settings*. Para más información lee el apartado [Respuestas](#respuestas)).
 
-El comando /rules manda las normas al privado.
-Para crear las normas: /set_rules lo que te dé la gana
-Máximo de caracteres en el set-rules?
-Para borrar y que ya no haya normas /clear_rules
+Para registrar las normas del grupo se debe escribir el comando `/set_rules` seguido del texto que se quiera guardar como normas. Una vez enviado el bot responderá que se han establecido correctamente las normas del grupo.
+
+El comando */set_rules* acepta los siguientes formatos: texto, imagen, link, fichero, video, audio, nota de voz y gif. También es posible añadir botones. Para saber más información sobre crear botones lee el apartado [Botones, botones y más botones](#botones-botones-y-mas-botones).
+
+El comando `/rules` hará que el bot responda con el mensaje que se haya guardado como las normas del grupo.
+
+Si se quieren eliminar las normas del grupo será necesario escribir en el grupo `/clear_rules`.
 
 ### Zona horaria ###
 
@@ -918,6 +922,12 @@ Si en vez de borrar un comando lo que se quiere es únicamente modificar la resp
 ### Otros comandos exclusivos para administradores ###   
 
 Algunos de los comandos más importantes para un administrador son los de tipo "castigo". Estos comandos únicamente pueden ser utilizados por los administradores, y si algún usuario lo escribiese el bot respondería que dicho usuario no tiene permisos para ello.
+
+En los comandos exclusivos para administradores de tipo "castigo" hay de dos tipos:
+
+- Comandos de expulsiones individuales: un comando "castigará" a un solo usuario.
+
+- Comandos de expulsiones masivas: un comando "castigará" a varios solo usuarios.
 
 #### Comandos de expulsiones individuales ####
 
