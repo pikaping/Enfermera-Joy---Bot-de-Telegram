@@ -17,10 +17,11 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
    8. [Listado de comandos](#listado-de-comandos) 
    9. [Listas](#listas)
    10. [Cadenas de PC](#cadenas-de-pc)
-   11. [Listado de grupos](#listado-de-grupos)
-   12. [Grupos vinculados](#grupos-vinculados)
-   13. [Glosario de comandos para entrenadores](#glosario-de-comandos-para-entrenadores)
-   14. [Más ayuda](#más-ayuda)
+   11. [Normas del grupo](#normas-del-grupo)
+   12. [Listado de grupos](#listado-de-grupos)
+   13. [Grupos vinculados](#grupos-vinculados)
+   14. [Glosario de comandos para entrenadores](#glosario-de-comandos-para-entrenadores)
+   15. [Más ayuda](#más-ayuda)
 2. [Ayuda para administradores](#ayuda-para-administradores)
    1. [Añadir el bot a un grupo o canal](#añadir-el-bot-a-un-grupo-o-canal)
    2. [Configuración admins](#configuración-admins) 
@@ -36,14 +37,15 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
       7. [Modo enfermera](#modo-enfermera)
       8. [Safari](#safari)
    4. [Botones, botones y más botones](#botones-botones-y-mas-botones)
-   5. [Zona horaria](#zona-horaria)
-   6. [Gestión de usuarios](#gestión-de-usuarios)
-   7. [Id](#id)
-   8. [Comandos personalizados](#comandos-personalizados)
-   9. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
+   5. [Normas del grupo Admins](#normas-del-grupo-admins)
+   6. [Zona horaria](#zona-horaria)
+   7. [Gestión de usuarios](#gestión-de-usuarios)
+   8. [Id](#id)
+   9. [Comandos personalizados](#comandos-personalizados)
+   10. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
       1. [Comandos de expulsiones individuales](#comandos-de-expulsiones-individuales)
       2. [Comandos de expulsiones masivas](#comandos-de-expulsiones-masivas)
-   10. [Glosario de comandos para administradores](#glosario-de-comandos-para-administradores)
+   11. [Glosario de comandos para administradores](#glosario-de-comandos-para-administradores)
 3. [Reglamento General de Uso del Bot](#reglamento-general-de-uso-del-bot)
 4. [Política de privacidad](#Política-de-privacidad)
 
@@ -125,7 +127,7 @@ Una vez hecho esto, es necesario autorizar a la enfermera Joy para que vuestros 
 
 Al escribir el comando verás las opciones de privacidad del bot. Clica sobre "Friend Code" y una vez allí podrás activar (✅) o desactivar (❌) la autorización para que Joy comparta tu código con otros jugadores.
 
-Si aceptas el resto de jugadores podrán ver tu cógido, pero tú podrás ver los suyos. Si no aceptas, el resto de jugadores no podrán ver tu cógido, pero tú tampoco podrás ver los suyos.
+Si aceptas el resto de jugadores podrán ver tu código, pero tú podrás ver los suyos. Si no aceptas, el resto de jugadores no podrán ver tu código, pero tú tampoco podrás ver los suyos.
 
 Si has autorizado a Joy que comparta tu código, tienes dos formas para ver el código de los demás entrenadores:
 
@@ -807,6 +809,14 @@ Para escribir más de un botón en una misma línea se ha de escribir `:same` al
 `[Botón 3](buttonurl://google.es:same)`
 `[Botón 4](buttonurl://google.es)`
 `[Botón 5](buttonurl://google.es:same)`
+
+### Normas del grupo Admins ###
+
+
+El comando /rules manda las normas al privado.
+Para crear las normas: /set_rules lo que te dé la gana
+Máximo de caracteres en el set-rules?
+Para borrar y que ya no haya normas /clear_rules
 
 ### Zona horaria ###
 
