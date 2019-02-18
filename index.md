@@ -356,6 +356,14 @@ Respuesta de Joy al privado: *25&pc13,pc41,pc69,pc98,pc126,pc154,pc183,pc211,pc2
 
 Esa cadena de datos se deberá copiar y pegar en la barra de búsqueda del juego, de esa forma, en este ejemplo, verías únicamente los Pikachu con probable IV 100% que hayas capturado y a los que no hayas dado más poder.
 
+### Normas del grupo ###
+
+Para recibir las normas del grupo es necesario que un admin las haya especificado. Si eres administrador del grupo lee el apartado [Normas del grupo Admins](#normas-del-grupo-admins).
+
+Con el comando `/rules`, Joy responderá las normas del grupo que hayan especificado el administrador.
+
+Si acabas de entrar a un grupo deberás pulsar sobre el botón *Normas del grupo* para que el bot te permita escribir en el grupo.
+
 ### Listado de grupos ###
 `Actualmente esta opción no está disponible.`
 
