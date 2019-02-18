@@ -6,7 +6,7 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
    1. [Registrarse en el bot](#registrarse-en-el-bot)
       1. [Alias de Telegram](#alias-de-telegram)
       2. [Subida de nivel](#subida-de-nivel)
-      3. [Cambio de nombre de entrenador](#cambio-de-nombre-de-entrenador)
+      3. [Cambio de nombre de entrenador o equipo](#cambio-de-nombre-de-entrenador-o-equipo)
       4. [Cambio de cuenta de Telegram](#cambio-de-cuenta-de-telegram)
    2. [Profile](#profile)
    3. [Iconos en la Ficha de Entrenador](#iconos-en-la-ficha-de-entrenador)
@@ -35,14 +35,15 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
       6. [Bienvenida](#bienvenida)
       7. [Modo enfermera](#modo-enfermera)
       8. [Safari](#safari)
-   4. [Zona horaria](#zona-horaria)
-   5. [Gestión de usuarios](#gestión-de-usuarios)
-   6. [Id](#id)
-   7. [Comandos personalizados](#comandos-personalizados)
-   8. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
+   4. [Botones, botones y más botones](#botones-botones-y-mas-botones)
+   5. [Zona horaria](#zona-horaria)
+   6. [Gestión de usuarios](#gestión-de-usuarios)
+   7. [Id](#id)
+   8. [Comandos personalizados](#comandos-personalizados)
+   9. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores)
       1. [Comandos de expulsiones individuales](#comandos-de-expulsiones-individuales)
       2. [Comandos de expulsiones masivas](#comandos-de-expulsiones-masivas)
-   9. [Glosario de comandos para administradores](#glosario-de-comandos-para-administradores)
+   10. [Glosario de comandos para administradores](#glosario-de-comandos-para-administradores)
 3. [Reglamento General de Uso del Bot](#reglamento-general-de-uso-del-bot)
 4. [Política de privacidad](#Política-de-privacidad)
 
@@ -75,9 +76,9 @@ Para poder utilizar algunas de las funciones más básicas del bot es necesario 
 
 Para indicar una subida de nivel una vez se esté validado, basta con enviar una captura de pantalla del perfil de entrenador de Pokémon Go por privado a [@NurseJoyBot](https://t.me/NurseJoyBot).
 
-#### Cambio de nombre de entrenador ####
+#### Cambio de nombre de entrenador o equipo ####
 
-Si has cambiado tu nombre de entrenador en el juego, debes volver a hacer el proceso de registro. No hay ninguna restricción, aunque ya estuvieras validado anteriormente con otra cuenta.
+Si has cambiado tu nombre de entrenador o de equipo en el juego, debes volver a hacer el proceso de registro. No hay ninguna restricción, aunque ya estuvieras validado anteriormente con otra cuenta.
 
 Para ello puedes seguir cualquiera de los tres métodos que encontrarás en el apartado [Registrarse en el bot](#registrarse-en-el-bot).
 
@@ -765,17 +766,7 @@ Además el bot dispone de tres strings que se pueden introducir en el texto de b
 Para poner links en el mensaje de bienvenida lo puedes hacer mediante el siguiente string: `[NombreLink](Link)`.
 Por ejemplo: `[superjoy](https://websuperenfermerajoy.com)`. Este link que veremos en el mensaje de bienvenida como `superjoy` al clickarlo nos mandará a la web `https://websuperenfermerajoy.com`.
 
-El bot también puede tener botones en el mensaje de bienvenida, para ello se debe escribir de la siguiente manera: `[Texto a mostrar en el botón](buttonurl://dirección.com)`. Se debe escribir todo junto, **sin espacios** (entre los : y las // NO debe de haber espacio), y cambiar el texto del botón y el enlace. Como ejemplo:
-
-`[Enlace a google.es](buttonurl:Google.es)`
-
-Para escribir más de un botón en una misma línea se ha de escribir `:same` al final de la dirección. En el siguiente ejemplo se verían 3 botones seguidos (Botón 1, 2 y 3) y en la siguiente línea dos botones (Botón 4 y 5).
-
-`[Botón 1](buttonurl:Google.es)`
-`[Botón 2](buttonurl:Google.es:same)`
-`[Botón 3](buttonurl:Google.es:same)`
-`[Botón 4](buttonurl:Google.es)`
-`[Botón 5](buttonurl:Google.es:same)`
+El bot también puede tener botones en el mensaje de bienvenida, para saber más información sobre ello lee el apartado [Botones, botones y más botones](#botones-botones-y-mas-botones).
 
 Para escribir texto en **negrita** dentro del mensaje de bienvenida se debe escribir con un * antes y después del texto, para escribir en *cursiva* se debe escribir, antes y después del texto, un _ .
 
@@ -802,6 +793,20 @@ Finalmente, también hay la opción de activar el botón `Mensajes de administra
 
 #### Safari ####
 `Actualmente esta opción no está disponible.`
+
+### Botones, botones y más botones ###
+
+El bot también puede tener botones en el mensaje de bienvenida y en los comandos personalizados, ara ello se debe escribir de la siguiente manera: `[Texto a mostrar en el botón](buttonurl://dirección.com)`. Se debe escribir todo junto, **sin espacios** (entre los : y las // NO debe de haber espacio), y cambiar el texto del botón y el enlace. Como ejemplo:
+
+`[Enlace a google.es](buttonurl://google.es)`
+
+Para escribir más de un botón en una misma línea se ha de escribir `:same` al final de la dirección. En el siguiente ejemplo se verían 3 botones seguidos (Botón 1, 2 y 3) y en la siguiente línea dos botones (Botón 4 y 5).
+
+`[Botón 1](buttonurl://google.es)`
+`[Botón 2](buttonurl://google.es:same)`
+`[Botón 3](buttonurl://google.es:same)`
+`[Botón 4](buttonurl://google.es)`
+`[Botón 5](buttonurl://google.es:same)`
 
 ### Zona horaria ###
 
@@ -880,7 +885,7 @@ Los comandos personalizados pueden ser creados y eliminados únicamente por los 
 Pasos para crear comandos:
    1. Para crear un comando personalizado se debe escribir `nuevo comando`.
    2. Seguidamente el bot te preguntará qué nombre quieres ponerle a dicho comando a lo que deberás responder únicamente con el nombre        que quieras que tenga (máximo 30 carácteres). Ten en cuenta que cada vez que el bot lea ese comando responderá automáticamente con      la respuesta que le vas a dar. Una vez le digas el nombre del comando el bot te pedirá la respuesta que quieres que dé.
-   3. Aquí es cuando puedes escribir una frase, poner un gif, un link, un audio, una nota de voz, un video, un fichero o una imagen.
+   3. Aquí es cuando puedes escribir una frase, poner un gif, un link, un audio, una nota de voz, un video, un fichero o una imagen. El bot también enviar botones en los comandos personalizados, para saber más información sobre ello lee el apartado [Botones, botones y más botones](#botones-botones-y-mas-botones).
    
 Por ejemplo, podría haber un comando personalizado que se llame "Dios bidoof" y que el bot responderá a este con un gif sobre bidoof.
 
