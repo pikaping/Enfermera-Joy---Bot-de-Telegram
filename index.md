@@ -50,17 +50,17 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
 4. [Política de privacidad](#Política-de-privacidad-)
 
 
-## Ayuda para entrenadores [⤴](#content) ## 
+## Ayuda para entrenadores [⤴](#content-) ## 
 
-### Registrarse en el bot [⤴](#content) ###
+### Registrarse en el bot [⤴](#content-) ###
 
 El registro puede ser obligatorio en algunos grupos (todo depende de la configuración del grupo), pero para poder interactuar con el bot, es imprescindible el registro.
 
 Registrarte te permite disfrutar de todas las funcionalidades del bot, como por ejemplo preguntar por otros usuarios, solicitar información de los Pokémon y muchas más funcionalidades que llegarán en un futuro.
 
-Para registrarte (es necesario tener un [Alias de Telegram](#alias-de-telegram)) tienes tres opciones:
+Para registrarte (es necesario tener un [Alias de Telegram](#alias-de-telegram-)) tienes tres opciones:
 
-1. La opción más rápida, si estás registrado con [@detectivepikachubot](https://t.me/detectivepikachubot), es decirle por privado a [@NurseJoyBot](https://t.me/NurseJoyBot) el comando `/register`, entonces te preguntará si quieres que le pregunte a Detective Pikachu tus datos. Si aceptas tendrás que abrir la conversación privada con Detective Pikachu que te preguntará lo mismo. Si aceptas en ambos entonces ya estarás registrado.
+1. La opción más rápida, si estás registrado con [@detectivepikachubot](https://t.me/detectivepikachubot-), es decirle por privado a [@NurseJoyBot](https://t.me/NurseJoyBot) el comando `/register`, entonces te preguntará si quieres que le pregunte a Detective Pikachu tus datos. Si aceptas tendrás que abrir la conversación privada con Detective Pikachu que te preguntará lo mismo. Si aceptas en ambos entonces ya estarás registrado.
 
    Si antes de eso ya le habías dicho a Detective Pikachu que aceptas compartir los datos con Enfermera Joy, entonces al escribirle        `/register` preguntará automáticamente los datos a Detective Pikachu (sin que tu tengas que hacer nada) y ya estarás registrado.
 
