@@ -278,7 +278,9 @@ El bot dispone de registro de nidos, para ello debe de estar configurado el grup
 
 Para registrar un nido se debe emplear el comando `Registrar nido de {Pokémon} en {Lugar}` cambiando la variable {Pokémon} por el nombre del Pokémon del que sea el nido y {Lugar} por el nombre por el cual se reconozca ese espacio. Por ejemplo:
 
-*Registrar nido de Chansey en Parque Ilm*. En este caso, es *Chansey* la variable {Pokémon} y *Parque Ilm* la variable {Lugar}.
+> *Registrar nido de Chansey en Parque Ilm*
+
+En este caso, es *Chansey* la variable {Pokémon} y *Parque Ilm* la variable {Lugar}.
 
 Antes de poner el nombre del lugar ten en cuanta que el número máximo de carácteres que registra es 50.
 
@@ -758,7 +760,7 @@ El bot puede dar la bienvenida a los entrenadores que vayan entrando al grupo. O
 
 Para activar la Bienvenida es necesario activarla en */settings* ✅ (clickando sobre el botón) y después es necesario utilizar el comando `/set_welcome` para definir el mensaje de bienvenida que dará el bot. Por ejemplo, si se quiere poner el mensaje "Bienvenidos al grupo", sería:
 
-    /set_welcome Bienvenidos al grupo.
+> /set_welcome Bienvenidos al grupo.
 
 Además el bot dispone de tres strings que se pueden introducir en el texto de bienvenida para conocer más información del entrenador que acaba de entrar. Por ejemplo:
 
@@ -886,7 +888,7 @@ La respuesta será enviada al privado del bot y el comando será borrado (siempr
 
 Ejemplo de respuesta enviado al privado al emplear el comando */id* sobre un entrenador:
 
-![alt text](https://github.com/marcroga/Enfermera-Joy---Bot-de-Telegram/blob/master/images/ID.JPG "Ejemplo comando /id")
+![alt text](https://github.com/marcroga/Enfermera-Joy---Bot-de-Telegram/blob/master/images/ID.JPG "Ejemplo comando")
 
 **ID:** 123456789
 
@@ -899,6 +901,10 @@ Ejemplo de respuesta enviado al privado al emplear el comando */id* sobre un ent
 **Equipo:** Valor
 
 **Estado:** ✅
+
+![alt text][logo]
+
+[logo]: https://github.com/marcroga/Enfermera-Joy---Bot-de-Telegram/blob/master/images/ID.JPG "Ejemplo comando"
 
 ### Comandos personalizados ###
 
