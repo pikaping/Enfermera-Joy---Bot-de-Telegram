@@ -50,7 +50,7 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
 4. [Política de privacidad](#Política-de-privacidad)
 
 
-## Ayuda para entrenadores ##
+## Ayuda para entrenadores ## [⤴](#content)
 
 ### Registrarse en el bot ###
 
@@ -474,13 +474,17 @@ Para crear un grupo de administración que tenga uno o diversos grupos vinculado
 
 1. Ejecutar el comando `/create_admin` en el grupo al cual quieres que vaya la información, el que será el grupo de Admins. Para configurar el grupo de Admins leer el apartado: [Ajustes del grupo de Admins](#ajustes-del-grupo-de-admins)
 
-Es importante guardar el ID que te dará el bot, lo necesitarás más adelante.
+Es importante guardar el ID que te dará el bot, lo necesitarás más adelante. Como ejemplo, a nosotros nos daría:
 
-`Como ejemplo, a nosotros nos daría: ID -123456.`
+```
+ID -123456.
+```
 
-2. Seguidamente ve al grupo que quieres vincular y ejecuta en dicho grupo el comando `/create_link ID`.
+2. Seguidamente ve al grupo que quieres vincular y ejecuta en dicho grupo el comando `/create_link ID`. En nuestro caso de muestra sería: 
 
-`En nuestro caso de muestra sería: /create_link -123456.`
+```
+/create_link -123456.
+```
 
 3. Vuelve al grupo de administradores e indica, en la botonera, de qué trata el grupo que acabas de vincular. Las opciones de las que dispones son las siguientes:
 
@@ -742,7 +746,11 @@ Si quieres que las noticias de un canal (distinto a los mencionados en el aparta
 
 1) Primero de todo debes meter al bot [@NurseJoyBot](https://t.me/NurseJoyBot) al canal y darle poderes de administrador.
 
-2) Escribir en el canal en cuestión el comando `/init_news`. Ese comando hará que el bot responda informando que se ha iniciado tu canal como canal de noticias y te mostrará el ID de dicho canal. Si se trata de un *canal privado* será necesario especificar un nombre para este. Por ejemplo: `/init_news Los_Secretos_de_Joy`
+2) Escribir en el canal en cuestión el comando `/init_news`. Ese comando hará que el bot responda informando que se ha iniciado tu canal como canal de noticias y te mostrará el ID de dicho canal. Si se trata de un *canal privado* será necesario especificar un nombre para este. Por ejemplo: 
+
+```
+/init_news Los_Secretos_de_Joy
+```
 
 3) Ves al grupo en el cual quieres recibir las noticias reenviadas y ejecuta el comando `/add_news` seguido del ID que te ha dado el bot en el canal.
 
@@ -760,7 +768,9 @@ El bot puede dar la bienvenida a los entrenadores que vayan entrando al grupo. O
 
 Para activar la Bienvenida es necesario activarla en */settings* ✅ (clickando sobre el botón) y después es necesario utilizar el comando `/set_welcome` para definir el mensaje de bienvenida que dará el bot. Por ejemplo, si se quiere poner el mensaje "Bienvenidos al grupo", sería:
 
-> /set_welcome Bienvenidos al grupo.
+```
+ /set_welcome Bienvenidos al grupo.
+```
 
 Además el bot dispone de tres strings que se pueden introducir en el texto de bienvenida para conocer más información del entrenador que acaba de entrar. Por ejemplo:
 
@@ -826,15 +836,19 @@ Para escribir más de un botón en una misma línea se ha de escribir `:same` al
 
 ### Normas del grupo Admins ###
 
-El bot puede guardar y enviar las normas del grupo por privado o por el grupo (depende de cómo esté configurado el */settings*. Para más información lee el apartado [Respuestas](#respuestas)).
+El bot puede guardar y enviar las normas del grupo por privado.
 
 Para registrar las normas del grupo se debe escribir el comando `/set_rules` seguido del texto que se quiera guardar como normas. Una vez enviado el bot responderá que se han establecido correctamente las normas del grupo.
 
-El comando */set_rules* acepta los siguientes formatos: texto, imagen, link, fichero, video, audio, nota de voz y gif. También es posible añadir botones. Para saber más información sobre crear botones lee el apartado [Botones y más botones](#botones-y-mas-botones).
+El comando */set_rules* acepta únicamente el formato texto. También es posible añadir botones. Para saber más información sobre crear botones lee el apartado [Botones y más botones](#botones-y-mas-botones).
 
 El comando `/rules` hará que el bot responda con el mensaje que se haya guardado como las normas del grupo.
 
 Si se quieren eliminar las normas del grupo será necesario escribir en el grupo `/clear_rules`.
+
+**Cosas a tener en cuenta:**
+
+No es recomendable tener las *Normas del grupo* activas junto a la *Bienvenida con /set_cooldown*. Si se activan las dos cosas es recomendable hacer un *Comando personalizado* en el cual puedan encontrar el botón con las Normas del grupo. Para más información leer [Comandos personalizados](#comandos-personalizados)).
 
 ### Zona horaria ###
 
@@ -903,9 +917,6 @@ Nivel: 35
 Equipo: Valor
 Estado: ✅
 ```
-
-![GitHub Logo](/images/ID.png)
-Format: ![Alt Text](url)
 
 ### Comandos personalizados ###
 
