@@ -36,7 +36,7 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
       6. [Bienvenida](#bienvenida)
       7. [Modo enfermera](#modo-enfermera)
       8. [Safari](#safari)
-   4. [Botones, botones y más botones](#botones,-botones-y-mas-botones)
+   4. [Botones y más botones](#botones-y-mas-botones)
    5. [Normas del grupo Admins](#normas-del-grupo-admins)
    6. [Zona horaria](#zona-horaria)
    7. [Gestión de usuarios](#gestión-de-usuarios)
@@ -776,7 +776,7 @@ Además el bot dispone de tres strings que se pueden introducir en el texto de b
 Para poner links en el mensaje de bienvenida lo puedes hacer mediante el siguiente string: `[NombreLink](Link)`.
 Por ejemplo: `[superjoy](https://websuperenfermerajoy.com)`. Este link que veremos en el mensaje de bienvenida como `superjoy` al clickarlo nos mandará a la web `https://websuperenfermerajoy.com`.
 
-El bot también puede tener botones en el mensaje de bienvenida, para saber más información sobre ello lee el apartado [Botones, botones y más botones](#botones-botones-y-mas-botones).
+El bot también puede tener botones en el mensaje de bienvenida, para saber más información sobre ello lee el apartado [Botones y más botones](#botones-y-mas-botones).
 
 Para escribir texto en **negrita** dentro del mensaje de bienvenida se debe escribir con un * antes y después del texto, para escribir en *cursiva* se debe escribir, antes y después del texto, un _ .
 
@@ -804,19 +804,19 @@ Finalmente, también hay la opción de activar el botón `Mensajes de administra
 #### Safari ####
 `Actualmente esta opción no está disponible.`
 
-### Botones, botones y más botones ###
+### Botones y más botones ###
 
 El bot también puede tener botones en el mensaje de bienvenida y en los comandos personalizados, ara ello se debe escribir de la siguiente manera: `[Texto a mostrar en el botón](buttonurl://dirección.com)`. Se debe escribir todo junto, **sin espacios** (entre los : y las // NO debe de haber espacio), y cambiar el texto del botón y el enlace. Como ejemplo:
 
-`[Enlace a google.es](buttonurl://google.es)`
+*[Enlace a google.es](buttonurl://google.es)*
 
 Para escribir más de un botón en una misma línea se ha de escribir `:same` al final de la dirección. En el siguiente ejemplo se verían 3 botones seguidos (Botón 1, 2 y 3) y en la siguiente línea dos botones (Botón 4 y 5).
 
-`[Botón 1](buttonurl://google.es)`
-`[Botón 2](buttonurl://google.es:same)`
-`[Botón 3](buttonurl://google.es:same)`
-`[Botón 4](buttonurl://google.es)`
-`[Botón 5](buttonurl://google.es:same)`
+*[Botón 1](buttonurl://google.es)
+[Botón 2](buttonurl://google.es:same)
+[Botón 3](buttonurl://google.es:same)
+[Botón 4](buttonurl://google.es)
+[Botón 5](buttonurl://google.es:same)*
 
 ### Normas del grupo Admins ###
 
@@ -824,7 +824,7 @@ El bot puede guardar y enviar las normas del grupo por privado o por el grupo (d
 
 Para registrar las normas del grupo se debe escribir el comando `/set_rules` seguido del texto que se quiera guardar como normas. Una vez enviado el bot responderá que se han establecido correctamente las normas del grupo.
 
-El comando */set_rules* acepta los siguientes formatos: texto, imagen, link, fichero, video, audio, nota de voz y gif. También es posible añadir botones. Para saber más información sobre crear botones lee el apartado [Botones, botones y más botones](#botones-botones-y-mas-botones).
+El comando */set_rules* acepta los siguientes formatos: texto, imagen, link, fichero, video, audio, nota de voz y gif. También es posible añadir botones. Para saber más información sobre crear botones lee el apartado [Botones y más botones](#botones-y-mas-botones).
 
 El comando `/rules` hará que el bot responda con el mensaje que se haya guardado como las normas del grupo.
 
@@ -886,6 +886,8 @@ La respuesta será enviada al privado del bot y el comando será borrado (siempr
 
 Ejemplo de respuesta enviado al privado al emplear el comando */id* sobre un entrenador:
 
+![alt text](https://github.com/marcroga/Enfermera-Joy---Bot-de-Telegram/blob/master/images/ID.JPG "Ejemplo comando /id")
+
 **ID:** 123456789
 
 **Alias:** @ansett
@@ -897,8 +899,6 @@ Ejemplo de respuesta enviado al privado al emplear el comando */id* sobre un ent
 **Equipo:** Valor
 
 **Estado:** ✅
-
-![ID](https://github.com/marcroga/Enfermera-Joy---Bot-de-Telegram/blob/master/images/ID.JPG)
 
 ### Comandos personalizados ###
 
