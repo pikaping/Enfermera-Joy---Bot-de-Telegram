@@ -50,7 +50,7 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
 4. [Política de privacidad](#Política-de-privacidad)
 
 
-## Ayuda para entrenadores ## [⤴](#content)
+## Ayuda para entrenadores ##  [⤴](#content)
 
 ### Registrarse en el bot ###
 
