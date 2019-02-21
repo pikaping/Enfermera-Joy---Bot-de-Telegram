@@ -888,23 +888,12 @@ La respuesta será enviada al privado del bot y el comando será borrado (siempr
 
 Ejemplo de respuesta enviado al privado al emplear el comando */id* sobre un entrenador:
 
-![alt text](https://github.com/marcroga/Enfermera-Joy---Bot-de-Telegram/blob/master/images/ID.JPG "Ejemplo comando")
-
-**ID:** 123456789
-
-**Alias:** @ansett
-
-**Nick:** Ansettt
-
-**Nivel:** 35
-
-**Equipo:** Valor
-
-**Estado:** ✅
-
-![alt text][logo]
-
-[logo]: https://github.com/marcroga/Enfermera-Joy---Bot-de-Telegram/blob/master/images/ID.JPG "Ejemplo comando"
+> **ID:** 123456789
+> **Alias:** @ansett
+> **Nick:** Ansettt
+> **Nivel:** 35
+> **Equipo:** Valor
+> **Estado:** ✅
 
 ### Comandos personalizados ###
 
