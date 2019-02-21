@@ -810,15 +810,19 @@ Finalmente, también hay la opción de activar el botón `Mensajes de administra
 
 El bot también puede tener botones en el mensaje de bienvenida y en los comandos personalizados, ara ello se debe escribir de la siguiente manera: `[Texto a mostrar en el botón](buttonurl://dirección.com)`. Se debe escribir todo junto, **sin espacios** (entre los : y las // NO debe de haber espacio), y cambiar el texto del botón y el enlace. Como ejemplo:
 
-*[Enlace a google.es](buttonurl://google.es)*
+```
+[Enlace a google.es](buttonurl://google.es)
+```
 
 Para escribir más de un botón en una misma línea se ha de escribir `:same` al final de la dirección. En el siguiente ejemplo se verían 3 botones seguidos (Botón 1, 2 y 3) y en la siguiente línea dos botones (Botón 4 y 5).
 
-*[Botón 1](buttonurl://google.es)
+```
+[Botón 1](buttonurl://google.es)
 [Botón 2](buttonurl://google.es:same)
 [Botón 3](buttonurl://google.es:same)
 [Botón 4](buttonurl://google.es)
 [Botón 5](buttonurl://google.es:same)*
+```
 
 ### Normas del grupo Admins ###
 
@@ -837,8 +841,11 @@ Si se quieren eliminar las normas del grupo será necesario escribir en el grupo
 El bot reconoce la hora que escriben los usuarios y hace operaciones con ellas, por lo que es importante que la hora que utilice el bot se corresponda con la hora real de tu grupo.
 
 Para establecer la zona horaria correcta se debe utilizar el comando `/set_timezone` con la zona horaria correspondiente como parámetro siguiendo el formato del [listado de zonas horarias de la IANA](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). Por ejemplo:
+
+```
     /set_timezone Europe/Madrid
     /set_timezone Atlantic/Canary
+```
 
 ### Gestión de usuarios ###
 
@@ -888,12 +895,14 @@ La respuesta será enviada al privado del bot y el comando será borrado (siempr
 
 Ejemplo de respuesta enviado al privado al emplear el comando */id* sobre un entrenador:
 
-> **ID:** 123456789
-> **Alias:** @ansett
-> **Nick:** Ansettt
-> **Nivel:** 35
-> **Equipo:** Valor
-> **Estado:** ✅
+```
+**ID:** 123456789
+**Alias:** @ansett
+**Nick:** Ansettt
+**Nivel:** 35
+**Equipo:** Valor
+**Estado:** ✅
+```
 
 ### Comandos personalizados ###
 
@@ -912,7 +921,9 @@ Para que el bot te diga todos los comandos registrados en un grupo se debe emple
 
 Si deseas borrar un comando puedes hacerlo con `eliminar comando {número del comando}`, substituyendo la variable {número del comando} por el número del comando personalizado que tenga en el "Listado de comandos". Por ejemplo:
 
-`Eliminar comando 55`
+```
+Eliminar comando 55
+```
 
 En este caso el comando que se borraría sería el comando que corresponda al número 55.
 
