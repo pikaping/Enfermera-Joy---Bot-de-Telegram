@@ -896,13 +896,16 @@ La respuesta será enviada al privado del bot y el comando será borrado (siempr
 Ejemplo de respuesta enviado al privado al emplear el comando */id* sobre un entrenador:
 
 ```
-**ID:** 123456789
-**Alias:** @ansett
-**Nick:** Ansettt
-**Nivel:** 35
-**Equipo:** Valor
-**Estado:** ✅
+ID: 123456789
+Alias: @ansett
+Nick: Ansettt
+Nivel: 35
+Equipo: Valor
+Estado: ✅
 ```
+
+![GitHub Logo](/images/ID.png)
+Format: ![Alt Text](url)
 
 ### Comandos personalizados ###
 
