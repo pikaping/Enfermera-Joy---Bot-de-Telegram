@@ -50,9 +50,9 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
 4. [Política de privacidad](#Política-de-privacidad)
 
 
-## Ayuda para entrenadores ## 
+## Ayuda para entrenadores ##        [⤴](#content)
 
-### Registrarse en el bot ###
+### Registrarse en el bot  [⤴](#content) ###
 
 El registro puede ser obligatorio en algunos grupos (todo depende de la configuración del grupo), pero para poder interactuar con el bot, es imprescindible el registro.
 
