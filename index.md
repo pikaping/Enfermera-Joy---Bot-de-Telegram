@@ -36,7 +36,7 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
       6. [Bienvenida](#bienvenida)
       7. [Modo enfermera](#modo-enfermera)
       8. [Safari](#safari)
-   4. [Botones, botones y más botones](#botones-,-botones-y-mas-botones)
+   4. [Botones, botones y más botones](#botones,-botones-y-mas-botones)
    5. [Normas del grupo Admins](#normas-del-grupo-admins)
    6. [Zona horaria](#zona-horaria)
    7. [Gestión de usuarios](#gestión-de-usuarios)
