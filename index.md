@@ -50,7 +50,7 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
 4. [Política de privacidad](#Política-de-privacidad)
 
 
-## Ayuda para entrenadores ##  [⤴](#content)
+## Ayuda para entrenadores ## 
 
 ### Registrarse en el bot ###
 
@@ -71,13 +71,13 @@ Para registrarte (es necesario tener un [Alias de Telegram](#alias-de-telegram))
 3. También tienes la opción de que si estás registrado y validado con [@detectivepikachubot](https://t.me/detectivepikachubot), puedes escribir el comando `/profile` en el privado de Detective Pikachu y reenviar la respuesta a [@NurseJoyBot](https://t.me/NurseJoyBot).
 
 #### Alias de Telegram ####
-
+ [⤴](#content)
 Para poder utilizar algunas de las funciones más básicas del bot es necesario tener definido un alias en Telegram. Puede hacerse desde: *Opciones de Telegram -> Ajustes -> Alias.*
 
 #### Subida de nivel ####
 
 Para indicar una subida de nivel una vez se esté validado, basta con enviar una captura de pantalla del perfil de entrenador de Pokémon Go por privado a [@NurseJoyBot](https://t.me/NurseJoyBot).
-
+ [⤴](#content)
 #### Cambio de nombre de entrenador o equipo ####
 
 Si has cambiado tu nombre de entrenador o de equipo en el juego, debes volver a hacer el proceso de registro. No hay ninguna restricción, aunque ya estuvieras validado anteriormente con otra cuenta.
