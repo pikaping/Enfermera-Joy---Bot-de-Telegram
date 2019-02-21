@@ -50,7 +50,7 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
 4. [Política de privacidad](#Política-de-privacidad)
 
 
-## Ayuda para entrenadores ##        [⤴](#content)
+## Ayuda para entrenadores [⤴](#content) ## 
 
 ### Registrarse en el bot  [⤴](#content) ###
 
@@ -70,23 +70,23 @@ Para registrarte (es necesario tener un [Alias de Telegram](#alias-de-telegram))
 
 3. También tienes la opción de que si estás registrado y validado con [@detectivepikachubot](https://t.me/detectivepikachubot), puedes escribir el comando `/profile` en el privado de Detective Pikachu y reenviar la respuesta a [@NurseJoyBot](https://t.me/NurseJoyBot).
 
-#### Alias de Telegram ####
- [⤴](#content)
+#### Alias de Telegram [⤴](#content) ####
+
 Para poder utilizar algunas de las funciones más básicas del bot es necesario tener definido un alias en Telegram. Puede hacerse desde: *Opciones de Telegram -> Ajustes -> Alias.*
 
-#### Subida de nivel ####
+#### Subida de nivel [⤴](#content) ####
 
 Para indicar una subida de nivel una vez se esté validado, basta con enviar una captura de pantalla del perfil de entrenador de Pokémon Go por privado a [@NurseJoyBot](https://t.me/NurseJoyBot).
- [⤴](#content)
-#### Cambio de nombre de entrenador o equipo ####
+
+#### Cambio de nombre de entrenador o equipo [⤴](#content) ####
 
 Si has cambiado tu nombre de entrenador o de equipo en el juego, debes volver a hacer el proceso de registro. No hay ninguna restricción, aunque ya estuvieras validado anteriormente con otra cuenta.
 
 Para ello puedes seguir cualquiera de los tres métodos que encontrarás en el apartado [Registrarse en el bot](#registrarse-en-el-bot).
 
-#### Cambio de cuenta de Telegram ####
+#### Cambio de cuenta de Telegram [⤴](#content) ####
 
-### Profile ###
+### Profile [⤴](#content) ###
 
 El comando `/Profile` puede utilizarse en un grupo o en una conversación privada con el bot [@NurseJoyBot](https://t.me/NurseJoyBot), pero la resupesta de Enfermera Joy será enviada al privado. Este comando hará que el bot responda con la Ficha de Entrenador (Nick del juego, Equipo, Nivel y Estado de Validación) del jugador que la solicita.
 
@@ -104,7 +104,7 @@ Ejemplos de posibles respuestas del bot:
    
    No tiene ningún tipo de dato sobre ti.
    
-### Iconos en la Ficha de Entrenador ###
+### Iconos en la Ficha de Entrenador [⤴](#content) ###
 
 En principio, el único icono que deberías de ver ya sea en tu Ficha de Entrenador o en la de tus companeros es el de Validado (✅), pero existen mucho otros.
 
@@ -115,13 +115,15 @@ Algunos de ellos son los siguientes:
 |        ⛔        | Baneado                          |
 |        👩‍⚕️        | Staff                            |
 
-### Código de Entrenador ### 
+### Código de Entrenador [⤴](#content) ### 
 
 Si quieres, puedes compartir tu código de entrenador con el bot para que cuando pregunten por ti con el comando `quién es` (para más información sobre este comando mira el apartado [Quién es](#quién-es)), aparezca junto al resto de información. Únicamente verán tu código aquellas personas que hayan compartido el suyo con el bot.
 
 Para compartir tu código de entrenador, lo debes hacer con el siguiente comando por privado a [@NurseJoyBot](https://t.me/NurseJoyBot) (el número sin espacios y separado del comando). Por ejemplo:
 
-    /set_friendid 123412341234
+```
+/set_friendid 123412341234
+```
     
 Una vez hecho esto, es necesario autorizar a la enfermera Joy para que vuestros códigos sean visibles, para ello deberás escribir el comando `/privacity` por el chat privado a [@NurseJoyBot](https://t.me/NurseJoyBot).
 
@@ -147,7 +149,7 @@ También puedes añadir al bot tus códigos de Nintendo3DS y Nintendo Switch med
 
 Si se quieren eliminar los códigos de Nintendo3DS o de Nintendo Switch se deberá escribir el comando correspondiente sin escribir nada más detrás.
 
-### Quién es ###
+### Quién es [⤴](#content) ###
 
 El comando `quién es` (también aceptado como `quien es` o `/whois`, sin interrogante) hace que el bot te responda la información de la Ficha de Entrenador (Nick del juego, Equipo, Nivel y Estado de Validación) del jugador solicitado.
 
@@ -185,7 +187,7 @@ Si el comando se realiza por un grupo y el bot tiene permisos para borrar mensaj
 
 Si el comando se realiza por privado al bot [@NurseJoyBot](https://t.me/NurseJoyBot), lógicamente, los mensajes no serán borrados.
 
-### Tablas ###
+### Tablas  [⤴](#content) ###
 
 El bot dispone de una gran cantidad de tablas de IV, de recompensas por amistad, Pokémon de los Community Day, Pokémon shiny, etc. Para solicitarlas se debe emplear el comando `/tabla`, `/table` o `Tabla de` seguido de un espacio y el nombre de la tabla que se desea. El mensaje solicitando la tabla será eliminado por el bot de forma automática.
 
@@ -217,6 +219,7 @@ Estos son las tablas de IV las que se disponen actualmente:
 - KyogreCounters (mejores counters contra Kyogre. También se puede solicitar como: CountersKyogre)
 - Lapras
 - Latias
+- LatiasCounters (mejores counters contra Latias. También se puede solicitar como: CountersLatias)
 - Latios
 - Lugia
 - Machamp
@@ -272,13 +275,15 @@ Otras tablas:
 
 Todas las tablas se van modificando según los cambios que van surgiendo en Pokémon Go y se van añadiendo tablas nuevas necesarias, por lo tanto la lista de tablas es algo que irá cambiando.
 
-### Registrar nidos ###
+### Registrar nidos [⤴](#content) ###
 
 El bot dispone de registro de nidos, para ello debe de estar configurado el grupo para aceptar su registro. Esta configuración únicamente la puede realizar un administrador de dicho grupo. Si eres administrador de un grupo y quieres saber más información al respecto lee el apartado [Configurar nidos](#configurar-nidos).
 
 Para registrar un nido se debe emplear el comando `Registrar nido de {Pokémon} en {Lugar}` cambiando la variable {Pokémon} por el nombre del Pokémon del que sea el nido y {Lugar} por el nombre por el cual se reconozca ese espacio. Por ejemplo:
 
-> *Registrar nido de Chansey en Parque Ilm*
+```
+Registrar nido de Chansey en Parque Ilm
+```
 
 En este caso, es *Chansey* la variable {Pokémon} y *Parque Ilm* la variable {Lugar}.
 
@@ -308,7 +313,7 @@ Según el ejemplo, el bot te buscará en sus datos si hay registrado algún nido
 
 Siguiendo también el ejemplo, el bot mirará si hay registrado algún nido de *Chansey* en tu grupo, si lo hay, te responderá con el nombre del lugar donde se ha registrado.
 
-### Listado de comandos ###
+### Listado de comandos [⤴](#content) ###
 
 Los comandos personalizados pueden ser creados y eliminados únicamente por los administradores. Si eres administrador te recomiendo que leas el apartado [Comandos personalizados](#comandos-personalizados).
 
@@ -324,13 +329,15 @@ Ten en cuenta que el bot responderá únicamente si la frase que se escribas es 
 
 Por ejemplo, si escribieses "dios bidoof" el bot te respondería con el gif, pero si escribieses "Dios bidoof." ya no sería aceptado y el bot no lo detectaría como el comando personalizado.
 
-### Listas ###
+### Listas [⤴](#content) ###
 
 Joy dispone de la opción para hacer listas. En estas listas únicamente se podrá decir si vas ("Me apunto!") o si al estar apuntado has decidido no ir ("Paso...").
 
 Para crear una lista se debe emplear el comando `/joylist` y añadir el título que tendrá la lista. Por ejemplo:
 
-*/joylist Esto es una lista con un mensaje.*
+```
+/joylist Esto es una lista con un mensaje.
+```
 
 Los entrenadores que se apunten a dicha lista aparecerán junto a la siguiente información: Equipo, Nivel y Alias de Telegram. Es por ello que es imprescindible estar *Registrado en el bot* (se recomienda leer el apartado [Registrarse en el bot](#registrarse-en-el-bot) si no estás registrado).
 
@@ -340,25 +347,29 @@ También se dispone de la posibilidad de cerrar una lista para que nadie más se
 
 Si se quiere borrar una lista bastará con eliminar el mensaje que sea la lista.
 
-### Cadenas de PC ###
+### Cadenas de PC [⤴](#content) ###
 
 Los siguientes comandos `/max` y `/min` harán que Joy envie al chat privado una cadena con todos los PC de ese Pokémon que pueden salir salvajes (enteros entre los niveles del 1 al 35). El comando */max* enviará los probables de IV 100% y los del comando */min* enviará los probables de IV 0%.
 
 Ambos comandos deberán ir seguidos del número del Pokémon que se solicita o el nombre de dicho Pokémon. Por ejemplo:
 
-*/max 025*
-
-*/min Pikachu*
+```
+/max 025
+/min Pikachu
+```
 
 También se pueden escribir los comandos como: `/maxiv`, `/ivmax`, `/miniv` y `/ivmin`.
 
 Ejemplo completo: */max 025*
 
-Respuesta de Joy al privado: *25&pc13,pc41,pc69,pc98,pc126,pc154,pc183,pc211,pc239,pc268,pc294,pc321,pc348,pc375,pc402,pc428,pc455,pc482,pc509,pc536,pc562,pc589,pc616,pc643,pc670,pc696,pc723,pc750,pc777,pc804,pc817,pc830,pc844,pc857,pc871*
+Respuesta de Joy al privado: 
+```
+25&pc13,pc41,pc69,pc98,pc126,pc154,pc183,pc211,pc239,pc268,pc294,pc321,pc348,pc375,pc402,pc428,pc455,pc482,pc509,pc536,pc562,pc589,pc616,pc643,pc670,pc696,pc723,pc750,pc777,pc804,pc817,pc830,pc844,pc857,pc871
+```
 
 Esa cadena de datos se deberá copiar y pegar en la barra de búsqueda del juego, de esa forma, en este ejemplo, verías únicamente los Pikachu con probable IV 100% que hayas capturado y a los que no hayas dado más poder.
 
-### Normas del grupo ###
+### Normas del grupo [⤴](#content) ###
 
 Para recibir las normas del grupo es necesario que un admin las haya especificado. Si eres administrador del grupo lee el apartado [Normas del grupo Admins](#normas-del-grupo-admins).
 
@@ -366,7 +377,7 @@ Con el comando `/rules`, Joy responderá las normas del grupo que hayan especifi
 
 Si acabas de entrar a un grupo deberás pulsar sobre el botón *Normas del grupo* para que el bot te permita escribir en el grupo.
 
-### Listado de grupos ###
+### Listado de grupos [⤴](#content) ###
 `Actualmente esta opción no está disponible.`
 
 Joy dispone también de dos comandos con los cuales mandará, al privado del bot, la botonera del canal [Grupos Pokémon Go](https://t.me/PokemonGoGrupos). Canal que dispone de una gran cantidad de links a grupos de Pokémon Go, muy útil para buscar grupos:
@@ -376,7 +387,7 @@ Joy dispone también de dos comandos con los cuales mandará, al privado del bot
 
 Al clicar sobre uno de los botones se abrirá el canal *Grupos Pokémon Go* y podrás ver los grupos que estén dentro del territorio sobre el que has clicado.
 
-### Grupos vinculados ###
+### Grupos vinculados [⤴](#content) ###
 
 Un comando muy útil del que dispone Joy es `/groups`. Con este comando podrás ver el link de todos los grupos vinculados a un grupo de administración. Por lo tanto, si te encuentras en un grupo de Offtopic, por ejemplo, y quieres saber el de raids o el de intercambios, con utilizar en dicho grupo el comando */groups* el bot te mandará al privado una lista de los grupos vinculados con su nombre y el link.
 
@@ -384,7 +395,7 @@ Si eres administrador puedes agregar el link de cada grupo vinculado mediante el
 
 Para eliminar un link del grupo vinculado y que no aparezca al emplear el comando */groups* se deberá escribir `/add_url -`
 
-### Glosario de comandos para entrenadores ###
+### Glosario de comandos para entrenadores [⤴](#content) ###
 
 Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 --------|-------------|---------------------------|--------|-----------
@@ -421,7 +432,7 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 
 1. Número máximo de caracteres: 50.
 
-### Más ayuda ###
+### Más ayuda [⤴](#content) ###
 
 Si necesitas ayuda que no se encuentre en este manual, puedes preguntar en [@enfermerajoyayuda](https://t.me/enfermerajoyayuda). Si estás administrando un grupo o un canal, continua leyendo para ver la ayuda para administradores.
 
@@ -430,11 +441,11 @@ Si necesitas ayuda que no se encuentre en este manual, puedes preguntar en [@enf
 ----
 
 
-## Ayuda para administradores ##
+## Ayuda para administradores  [⤴](#content) ##
 
 De aquí en adelante, [@NurseJoyBot](https://t.me/NurseJoyBot) pasará a ser *el bot*.
 
-### Añadir el bot a un grupo o canal ###
+### Añadir el bot a un grupo o canal [⤴](#content) ###
 
 El soporte del bot, por el momento, solo está probado en grupos y supergrupos. En un futuro, contará con soporte en canales.
 
@@ -448,9 +459,9 @@ Para **añadir el bot a un grupo o canal** tienes tres alternativas:
 
 3. Puedes intentar añadirlo como un contacto más desde el grupo con su alias `@NurseJoyBot`, pero en versiones recientes de Telegram hay problemas usando este método.
 
-### Configuración admins ###
+### Configuración admins [⤴](#content) ###
 
-#### Ajustes del grupo de Admins ####
+#### Ajustes del grupo de Admins [⤴](#content) ####
 
 Escribe, en el grupo de administración (el grupo de admins) el comando `/settings_admin`. Este comando te permitirá activar distintas opciones de avisos que llegarán al grupo de Admins de los grupos que tenga vinculados (leer apartado [Vincular grupos al grupo de Admins](#vincular-grupos-al-grupo-de-admins)). No te preocupes mucho si no sabes bien bien qué activar, dispondrás siempre de este comando y podrás activar o desactivar las opciones siempre que lo necesites recurriendo a ese comando.
 
@@ -468,7 +479,7 @@ Opciones de las que dispones:
 
    - Aviso de la solicitud de nidos en el grupo o grupos vinculados.
 
-#### Vincular grupos al grupo de Admins ####
+#### Vincular grupos al grupo de Admins [⤴](#content) ####
 
 Para crear un grupo de administración que tenga uno o diversos grupos vinculados se debe seguir los siguientes pasos:
 
@@ -508,7 +519,7 @@ Si quieres que el bot deje de considerar un grupo como grupo de administración 
 
 Para saber qué grupos están vinculados a un grupo de administración escribe el comando `/groups` y el bot te hará una lista de los grupos vinculados, excepto el de administración.
 
-### Configuración básica ###
+### Configuración básica [⤴](#content) ###
 
 Para hacer la **configuración básica** del bot utiliza el comando `/settings`. Este comando se utiliza en el grupo que quieras configurar. La configuración está dividida en varios apartados y subapartados:
 
@@ -553,25 +564,25 @@ Para hacer la **configuración básica** del bot utiliza el comando `/settings`.
 
 8. [Safari](#Safari) `Actualmente esta opción no está disponible.`
       
-#### Ajustes generales ####
+#### Ajustes generales [⤴](#content) ####
 
 En este apartado dentro de */settings* encontrarás la forma de configurar los ajustes básicos del grupo.
 
-##### Chistes #####   
+##### Chistes [⤴](#content) #####   
 `Actualmente esta opción no está disponible.`
 
 Activa o desactiva los chistes, refranes y cualquier cosa que pueda hacer que el bot hable sin que nadie lo invoque. Opción desactivada por defecto. 
 
-##### Juegos #####   
+##### Juegos [⤴](#content) #####   
 `Actualmente esta opción no está disponible.`
 
 Activa o desactiva los juegos del bot. Por defecto esta opción está desactivada.
 
-##### Tipo de expulsión por Warns #####
+##### Tipo de expulsión por Warns [⤴](#content) #####
 
 Este botón puede estar activado como `Ban (Warns)` o como `Kick (Warns)` y determina el tipo de expulsión que recibirá el usuario al llegar al máximo de Warns determinado por el grupo.
 
-##### Respuestas #####
+##### Respuestas [⤴](#content) #####
 
 Clickando sobre este botón puedes hacer que el bot mande las respuestas a los comandos al privado (▪️ Respuestas al privado) o al grupo (✅ Respuestas en el grupo). Se debe tener en cuenta que las respuestas serán mandadas al privado únicamente si el entrenador tiene abierta una conversación privada con el bot [@NurseJoyBot](https://t.me/NurseJoyBot).
 
@@ -592,28 +603,28 @@ Los comandos que actuarán según esta opción son:
 
 Esta opción no incluye el listado de nidos ni el */fclist*.
    
-##### Límite de Warns #####
+##### Límite de Warns [⤴](#content) #####
 
 Clicando sobre el botón determina la cantidad máxima de Warns que podrá tener un usuario antes de recibir la expulsión del grupo. La cantidad de Warns que se puede configurar es de: 3, 5, 10, 25, 50 o 100.
 
-#### Ajustes de entrada ####
+#### Ajustes de entrada [⤴](#content) ####
 
 En este apartado dentro de */settings* encontrarás la forma de configurar los tipos de grupo y los requisitos para permanecer en ellos.
 
-##### Configurar ajustes de entrada #####
+##### Configurar ajustes de entrada [⤴](#content) #####
 
 A demás de las opciones configurables que verás a continuación, dipones de el comando `/set_maxmembers` (seguido de un número entero y positivo) que establece el número máximo de miembros que puede haber en un grupo.
 
 Se debe de tener en cuenta que los bots y los administradores del grupo también cuentan en la suma de miembros.
 Si se quiere desactivar esta opción se deberá escribir `/set_maxmembers 0`.
 
-##### No registrados Joy #####
+##### No registrados Joy [⤴](#content) #####
 
 Si se activa este apartado (✅ No registrados (Joy)) el bot [@NurseJoyBot](https://t.me/NurseJoyBot) avisará si entra al grupo un entrenador que no esté registrado con dicho bot. El aviso que mostrará el bot consiste en un mensaje en el cual dice cómo y dónde debe registrarse.
 
 Si el apartado se muestra como "▪️ No registrados (Joy)" quiere decir que el apartado está desactivado.
 
-##### No registrados Pikachu #####
+##### No registrados Pikachu [⤴](#content) #####
 
 Si se desea que el bot [@NurseJoyBot](https://t.me/NurseJoyBot) avise cuando un entrenador sin registrar en el bot  [@detectivepikachu](https://t.me/detectivepikachu) entre en el grupo, entonces se deberá de activar el botón (✅ No registrados (Pikachu)). En la siguiente tabla se muestran los dos estados del botón:
 
@@ -624,25 +635,25 @@ Si se desea que el bot [@NurseJoyBot](https://t.me/NurseJoyBot) avise cuando un 
 
 El aviso que el bot mostrará consiste en un mensaje en el cual dice cómo y dónde debe registrarse.
 
-##### Expulsiones silenciosas o notificadas #####
+##### Expulsiones silenciosas o notificadas [⤴](#content) #####
 
 Si el apartado de *Expulsiones* está activado (✅ Expulsiones silenciosas) entonces el bot no mostrará ningún mensaje por el grupo cuando expulse a alguien. Si, por el contrario, está desactivado (▪️ Expulsiones notificadas), entonces el bot, cada vez que expulse a alguien, avisará por el grupo con un mensaje estandard.
 
-##### Borrar entradas #####
+##### Borrar entradas [⤴](#content) #####
 
 Si este apartado está activado (✅ Borrar -> entró al grupo) el bot eliminará las notificaciones que hace Telegram cuando un entrenador entra al grupo.
 
-##### Validación obligatoria Pikachu #####
+##### Validación obligatoria Pikachu [⤴](#content) #####
 
 Activando este apartado (✅ Pikachu - Validación obligatoria), hará que el bot [@NurseJoyBot](https://t.me/NurseJoyBot) no permita la entrada al grupo de entrenadores que no estén validados con el bot  [@detectivepikachu](https://t.me/detectivepikachu).
 
-##### Nivel mínimo #####
+##### Nivel mínimo [⤴](#content) #####
 
 Determina un nivel mínimo como requisito para entrar al grupo. Esta opción viene activada por defecto (▪️) como 0, eso quiere decir que no hay nivel mínimo requerido.
 
 El nivel mínimo para entrar en el grupo se puede configurar, clicando en el botón hasta que salga la opción deseada, según:  ▪️ (0, sin nivel requerido), 15, 20, 25, 30, 35 o 40. Si se vuelve a clicar encima entonces se desactiva volviendo a ser 0.
 
-##### Tipo de grupo #####
+##### Tipo de grupo [⤴](#content) #####
 
 Por defecto al introducir el bot, se establece el grupo como *grupo abierto*.
 
@@ -656,7 +667,7 @@ Por defecto al introducir el bot, se establece el grupo como *grupo abierto*.
 
 En caso de que un usuario intente acceder a un grupo en el cual no cumpla las condiciones de entrada, si el bot cuenta con los privilegios pertinentes, expulsará al usuario.
 
-#### Ajustes de administración ####
+#### Ajustes de administración [⤴](#content) ####
 
 Las alertas de administración son individuales en cada grupo, pero estás deben de estar configuradas tanto en el grupo de administración (ajustes generales) como en el grupo vinculado (ajustes particulares).
 
@@ -666,32 +677,32 @@ El marcar como activado (✅) alguno de los siguientes botones, que a continuaci
 
 Por ejemplo, si en un grupo A se activa "✅ Gif", cada vez que alguien mande un gif al grupo el bot lo eliminará automáticamente. Pero si otro bot o un administrador lo manda entonces el bot @NurseJoyBot no lo eliminará.
 
-##### Aviso admins #####
+##### Aviso admins [⤴](#content) #####
 
 Al activar este apartado (✅ @admins), cada vez que un entrenador del grupo escriba el alias _@admins_ el mensaje que lo contenga será notificado en el grupo de administración.
 
-##### Entrada de usuarios #####
+##### Entrada de usuarios [⤴](#content) #####
 
 Con este apartado activado (✅ Entrada de usuarios), el bot avisará, al grupo de administración, de la entrada de nuevos entrenadores al grupo vinculado.
 
-##### Salida de usuarios #####
+##### Salida de usuarios [⤴](#content) #####
 
 Si se activa este apartado (✅ Salida de usuarios) entonces el bot avisará al grupo de administración de la salida de entrenadores del grupo vinculado.
 
-##### Solicitud de nidos #####
+##### Solicitud de nidos [⤴](#content) #####
 
-##### Expulsiones masivas #####
+##### Expulsiones masivas [⤴](#content) #####
 
 Activando este apartado (✅ Expulsiones masivas) el bot informará en grupo de administración cuando se emplee un comando de expulsiones masivas (para más información leed el apartado [Expulsiones masivas](#expulsiones-masivas)) en el grupo vinculado.
 
-##### Expulsiones individuales #####
+##### Expulsiones individuales [⤴](#content) #####
 
 
-#### Configurar Nidos ####
+#### Configurar Nidos [⤴](#content) ####
 
 El bot dispone de la opción de registrar nidos, para ello es necesario configurar el apartado de Nidos y sus requisitos.
 
-##### Nidos ##### 
+##### Nidos [⤴](#content) ##### 
 
 Clicando sobre el botón `Nidos` podrás activar o desactivar esta opción para que no pueda entrar en conflicto con otros bots que puedan estar haciendo la misma función en el grupo.
 
@@ -704,23 +715,23 @@ El registro de nidos viene desactivado por defecto.
 
 Para saber cómo registrar un nido o spawn, o para borrar los que haya registrados leer el apartado [Registrar nidos](#registrar-nidos).
 
-##### Requisito de cantidad de días #####
+##### Requisito de cantidad de días [⤴](#content) #####
 
 Para determinar el número mínimo de días que un jugador ha de pertenecer al grupo para poder registrar un nido es necesario clicar sobre el botón hasta que aparezca la opción deseada. La cantidad de días que se pueden configurar son: 0 (sin requisito de días), 1, 3, 5, 7, 15 o 30.
 
 Por defecto viene configurado el requisito como sin requisito, 0 días.
 
-##### Requisito de cantidad de mensajes #####
+##### Requisito de cantidad de mensajes [⤴](#content) #####
 
 Para determinar el número mínimo de mensajes que un jugador debe de hacer en un grupo para poder registrar un nido se debe de clicar sobre el botón hasta que aparezca la opción deseada. La cantidad de mensajes requeridos que se puede configurar son: 0 (sin requisitos), 1, 5, 10, 20, 50 o 100.
 
 Por defecto, este requisito, viene configurado como sin requisitos, 0 mensajes.
 
-#### Noticias ####
+#### Noticias [⤴](#content) ####
 
 El bot dispone de la opción de *Noticias*: Eso quiere decir que puede reenviar automáticamente las publicaciones que salgan en distintos canales.
 
-##### Canales de Noticias Oficiales #####
+##### Canales de Noticias Oficiales [⤴](#content) #####
 
 Para poder ver este apartado es necesario haber escrito el comando `/settings` y haber accedido al apartado `Noticias` haciendo click sobre el botón.
 
@@ -740,7 +751,7 @@ Cada uno de los siguientes canales tienen sus própias características por los 
 
 Es decisión de cada grupo activar o no el reenvio de las noticias (y cuales) para mantenerse informados. Por defecto todas las noticias estarán desactivadas. Para activarlas se debe clickar encima del botón y cuando ponga delante el icono ✅, si pone el icono ▪️ quiere decir que esas noticias estarán desactivadas y no serán enviadas al grupo.
 
-##### Canales de Noticias No-Oficiales #####
+##### Canales de Noticias No-Oficiales [⤴](#content) #####
 
 Si quieres que las noticias de un canal (distinto a los mencionados en el apartado de [Canales de Noticias Oficiales](#canales-de-noticias-oficiales)) lleguen a un grupo en el cual seas administrador, lo puedes hacer de la siguiente forma:
 
@@ -762,7 +773,7 @@ Si eres el administrador de un canal y quieres que el bot deje de dar las notici
 
 También puedes utilizar el comando `/list_news` para ver qué canales están reenviando las noticias a tu grupo.
 
-#### Bienvenida ####
+#### Bienvenida [⤴](#content) ####
 
 El bot puede dar la bienvenida a los entrenadores que vayan entrando al grupo. Opción desactivada por defecto. 
 
@@ -799,7 +810,7 @@ En este ejemplo el bot mandaría el mensaje de bienvenida cuando entrase un entr
 
 Si se quiere desactivar esa opción y que el mensaje no sea eliminado entonces se deberá escribir `/set_cooldown 0`.
 
-#### Modo enfermera ####
+#### Modo enfermera [⤴](#content) ####
 
 El modo enfermera evita que la gente hable en un grupo, borrando todos los mensajes que pongan los usuarios (no los mensajes de los administradores ni de los bots). Opción desactivada por defecto.
 
@@ -813,10 +824,10 @@ Los formatos siguientes pueden ser bloqueados por el bot: `Audio y Voz`, `Comand
 
 Finalmente, también hay la opción de activar el botón `Mensajes de administradores`. Al activar esta opción el bot actuará también sobre los administradores con el *modo enfermera*. 
 
-#### Safari ####
+#### Safari [⤴](#content) ####
 `Actualmente esta opción no está disponible.`
 
-### Botones y más botones ###
+### Botones y más botones [⤴](#content) ###
 
 El bot también puede tener botones en el mensaje de bienvenida y en los comandos personalizados, ara ello se debe escribir de la siguiente manera: `[Texto a mostrar en el botón](buttonurl://dirección.com)`. Se debe escribir todo junto, **sin espacios** (entre los : y las // NO debe de haber espacio), y cambiar el texto del botón y el enlace. Como ejemplo:
 
@@ -834,7 +845,7 @@ Para escribir más de un botón en una misma línea se ha de escribir `:same` al
 [Botón 5](buttonurl://google.es:same)*
 ```
 
-### Normas del grupo Admins ###
+### Normas del grupo Admins [⤴](#content) ###
 
 El bot puede guardar y enviar las normas del grupo por privado.
 
@@ -850,7 +861,7 @@ Si se quieren eliminar las normas del grupo será necesario escribir en el grupo
 
 No es recomendable tener las *Normas del grupo* activas junto a la *Bienvenida con /set_cooldown*. Si se activan las dos cosas es recomendable hacer un *Comando personalizado* en el cual puedan encontrar el botón con las Normas del grupo. Para más información leer [Comandos personalizados](#comandos-personalizados)).
 
-### Zona horaria ###
+### Zona horaria [⤴](#content) ###
 
 El bot reconoce la hora que escriben los usuarios y hace operaciones con ellas, por lo que es importante que la hora que utilice el bot se corresponda con la hora real de tu grupo.
 
@@ -861,7 +872,7 @@ Para establecer la zona horaria correcta se debe utilizar el comando `/set_timez
     /set_timezone Atlantic/Canary
 ```
 
-### Gestión de usuarios ###
+### Gestión de usuarios [⤴](#content) ###
 
 Para saber la cantidad de entrenadores que de cada equipo que hay en un grupo y saber los entrenadores que no están validados, puedes emplear el comando `/joyuv` y el bot te mostrará un mensaje parecido a este:
 
@@ -895,7 +906,7 @@ El comando `/joykickuv` sirve para expulsar a todos aquellos No Validados en el 
 
 El comando */joykickuv* y */joyuv*, ambos con sus variantes, está restringido a una vez al día por grupo (independientemente de si este está vinculado o no). A las 00.00 se reinicia y se puede volver a utilizar.
 
-### Id ###
+### Id [⤴](#content) ###
 
 Saber el Id de un entrenador es posible gracias al comando `/id`. Este comando no és exclusivo para administradores, pero está orientado y pensado principalmente para a estos.
 
@@ -918,7 +929,7 @@ Equipo: Valor
 Estado: ✅
 ```
 
-### Comandos personalizados ###
+### Comandos personalizados [⤴](#content) ###
 
 Los comandos personalizados pueden ser creados y eliminados únicamente por los administradores. Estos comandos personalizados harán que el bot responda con una frase, imagen, link, fichero, video, audio, nota de voz o gif.
 
@@ -947,7 +958,7 @@ Para borrar todos los comandos personalizados de golpe se puede hacer mediante e
 
 Si en vez de borrar un comando lo que se quiere es únicamente modificar la respuesta del bot, entonces bastará con crear de nuevo un comando con el mismo nombre.
 
-### Otros comandos exclusivos para administradores ###   
+### Otros comandos exclusivos para administradores [⤴](#content) ###   
 
 Algunos de los comandos más importantes para un administrador son los de tipo "castigo". Estos comandos únicamente pueden ser utilizados por los administradores, y si algún usuario lo escribiese el bot respondería que dicho usuario no tiene permisos para ello.
 
@@ -957,7 +968,7 @@ En los comandos exclusivos para administradores de tipo "castigo" hay de dos tip
 
 - Comandos de expulsiones masivas: un comando "castigará" a varios solo usuarios.
 
-#### Comandos de expulsiones individuales ####
+#### Comandos de expulsiones individuales [⤴](#content) ####
 
 La mayoría de bots disponen de tres "castigos" muy diferenciados: *Warn*, *Kick* y *Ban*.
 
@@ -981,7 +992,7 @@ Los tres comandos permiten además, con todas sus opciones, añadir un mensaje c
 
 También es posible, si se hace desde el grupo de administración, especificar en qué grupo será el "castigo" mediante el ID del grupo. Por ejemplo: */ban -19999999 NurseJoy*. En este ejemplo se haría un *ban* desde el grupo de administración en el grupo con ID *-19999999* y al usuario con el nick de entrenador *NurseJoy*.
 
-#### Comandos de expulsiones masivas ####
+#### Comandos de expulsiones masivas [⤴](#content) ####
 `En proceso de escritura`
 
 `/joykickold {X}` - Siendo {X} el número de días que llevan los usuarios sin mandar mensajes.
@@ -1002,7 +1013,7 @@ También es posible, si se hace desde el grupo de administración, especificar e
    
    Todos los que estén por debajo de 15 serán expulsados del grupo.
 
-### Glosario de comandos para administradores ###
+### Glosario de comandos para administradores [⤴](#content) ###
 `En proceso de escritura`
 
 Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
@@ -1067,7 +1078,7 @@ Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
 3. Solo disponible para grupos etiquetados como EX.
 4. En el grupo de administración incluye los ID.
 
-## Reglamento General de Uso del Bot ##
+## Reglamento General de Uso del Bot [⤴](#content) ##
 
 El siguiente punto, detalla la normativa a cumplir en caso de registrarse en el bot. El desconocimiento de la misma no exime al usuario de su aplicación pues todas las normas aquí recogidas son de sentido común. 
 
@@ -1075,7 +1086,7 @@ Este bot no puede ser utilizado en grupos o canales que promueven el uso de tram
 
 En caso de formar parte de un grupo en el cual se encuentre [@NurseJoyBot](https://t.me/NurseJoyBot) y conozcas a un usuario o administrador que no cumpla alguna de las normas, se deberá comunicar mediante correo electrónico a la dirección [reportes@qwert1.es](mailto:reportes@qwert1.es). Cualquier sanción aplicada será debatida entre los miembros del staff del bot, apelable en la siguiente dirección de E-mail: [apelaciones@qwert1.es](mailto:apelaciones@qwert1.es).
 
-### Normas de Enfermera Joy ### 
+### Normas de Enfermera Joy  [⤴](#content) ### 
 
 - 🔞 Está totalmente prohibido enviar material sensible.
 - ⛔️ Está **COMPLETAMENTE PROHIBIDO** solicitar y/o aportar información relativa a otro jugador en cualquiera de los grupos oficiales del bot o bien por privado a cualquier miembro del staff. En caso de producirse esta situación, los administradores se reservan el derecho de banear **definitivamente** la cuenta del entrenador.
@@ -1085,7 +1096,7 @@ En caso de formar parte de un grupo en el cual se encuentre [@NurseJoyBot](https
 - 📩 Se considera **flood** el hecho de repetir continuamente palabras, hacer *cadenas* de contenido multimedia o comandos (enviar muchas fotos o stickers seguidos), provocando molestias al grupo con contenido innecesario. 
 - 🌍 Normalmente el usuario estará unido en los grupos cercanos a su ubicación, o que suela frecuentar. Si un usuario es avistado en varios grupos de diferentes ubicaciones a la vez, podría ser expulsado de todos ellos por sospechas de posibles trampas. Se entiende que si un usuario se va de vacaciones a otro lugar, no es necesario abandonar los grupos de su ubicación, y se valorará este motivo.
 
-### Normas del Entrenador ###
+### Normas del Entrenador [⤴](#content) ###
 
 Es **obligatorio** que todos los usuarios que están en el grupo, cumplan las [Normas del Entrenador](https://support.pokemongo.nianticlabs.com/hc/es/articles/221993967) de Niantic.
 
@@ -1098,9 +1109,9 @@ Obviando la parte de comportamiento ético como personas, se detalla que jugar d
 Debido a la polémica generada con los usuarios que utilicen más de una cuenta o compartan la suya, a diferencia de lo que dicen las normas del entrenador, **NO** será sancionable a excepción de usuarios que abusen de estas o las utilicen con el fin de perjudicar a terceras personas.
 
 
-## Política de privacidad ##
+## Política de privacidad [⤴](#content) ##
 
-### Qué información recopilamos y sometemos a tratamiento ###
+### Qué información recopilamos y sometemos a tratamiento  [⤴](#content)###
 
 Este bot recoge la siguiente información sobre sus usuarios al interactuar con él en privado o a través de un grupo o canal de Telegram:
 
@@ -1111,7 +1122,7 @@ Este bot recoge la siguiente información sobre sus usuarios al interactuar con 
 
 El bot también almacena unos ficheros no ordenados con las interacciones en grupos y directas (logs), con el objetivo de poder trazar problemas técnicos y atender a las apelaciones de baneo.
 
-### Cómo se utiliza la información ###
+### Cómo se utiliza la información [⤴](#content) ###
 
 La información almacenada se utiliza para los siguientes fines:
 
@@ -1120,7 +1131,7 @@ La base legal para el tratamiento de datos mencionado en esta sección es la pre
 
 Como se explica en la Política de tramposos, se rastrearán los logs la actividad de forma automatizada en busca de sospechosa. La base legal para este tratamiento de datos es el artículo 6, párrafo 1 (f) del RGPD.
 
-### Quién tiene acceso a la información ###
+### Quién tiene acceso a la información  [⤴](#content) ###
 
 El alias público de Telegram y los datos relacionados con la cuenta de Pokémon GO podrán compartirse en grupos o canales en los que se mantenga actividad. Esta compartición puede ser pública, dependiendo de la configuración de cada grupo o canal.
 
@@ -1128,11 +1139,11 @@ El identificador numérico y alias público de Telegram y el nombre de entrenado
 
 La base legal para compartir los datos proporcionados es la prestación del servicio que se solicita voluntariamente (artículo 6, párrafo 1 (b) del RGPD).
 
-### Duración del almacenamiento ###
+### Duración del almacenamiento [⤴](#content) ###
 
 La información se almacena durante el tiempo necesario para cumplir con los fines para los que se se recopila y las interacciones en grupos y directas con el bot (logs) se eliminan pasados dos meses.
 
-### Derechos contemplados en el RGPD ###
+### Derechos contemplados en el RGPD [⤴](#content) ###
 
 Para obtener información de los derechos ARCO, simplemente nos basta con escribir `RGPD` por privado al bot. Ahí, obtendremos un comando para poder eliminar la cuenta, proceso irreversible y con una duración indefinida.
 
