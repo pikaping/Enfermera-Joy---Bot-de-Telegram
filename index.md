@@ -194,7 +194,7 @@ Si el comando se realiza por un grupo y el bot tiene permisos para borrar mensaj
 
 Si el comando se realiza por privado al bot [@NurseJoyBot](https://t.me/NurseJoyBot), lógicamente, los mensajes no serán borrados.
 
-### Tablas  [⤴](#content) ###
+### Tablas [⤴](#content) ###
 
 El bot dispone de una gran cantidad de tablas de IV, de recompensas por amistad, Pokémon de los Community Day, Pokémon shiny, etc. Para solicitarlas se debe emplear el comando `/tabla`, `/table` o `Tabla de` seguido de un espacio y el nombre de la tabla que se desea. El mensaje solicitando la tabla será eliminado por el bot de forma automática.
 
@@ -459,7 +459,7 @@ Si necesitas ayuda que no se encuentre en este manual, puedes preguntar en [@enf
 ----
 
 
-## Ayuda para administradores  [⤴](#content) ##
+## Ayuda para administradores [⤴](#content) ##
 
 De aquí en adelante, [@NurseJoyBot](https://t.me/NurseJoyBot) pasará a ser *el bot*.
 
@@ -1110,7 +1110,7 @@ Este bot no puede ser utilizado en grupos o canales que promueven el uso de tram
 
 En caso de formar parte de un grupo en el cual se encuentre [@NurseJoyBot](https://t.me/NurseJoyBot) y conozcas a un usuario o administrador que no cumpla alguna de las normas, se deberá comunicar mediante correo electrónico a la dirección [reportes@qwert1.es](mailto:reportes@qwert1.es). Cualquier sanción aplicada será debatida entre los miembros del staff del bot, apelable en la siguiente dirección de E-mail: [apelaciones@qwert1.es](mailto:apelaciones@qwert1.es).
 
-### Normas de Enfermera Joy  [⤴](#content) ### 
+### Normas de Enfermera Joy [⤴](#content) ### 
 
 - 🔞 Está totalmente prohibido enviar material sensible.
 - ⛔️ Está **COMPLETAMENTE PROHIBIDO** solicitar y/o aportar información relativa a otro jugador en cualquiera de los grupos oficiales del bot o bien por privado a cualquier miembro del staff. En caso de producirse esta situación, los administradores se reservan el derecho de banear **definitivamente** la cuenta del entrenador.
@@ -1135,7 +1135,7 @@ Debido a la polémica generada con los usuarios que utilicen más de una cuenta 
 
 ## Política de privacidad [⤴](#content) ##
 
-### Qué información recopilamos y sometemos a tratamiento  [⤴](#content)###
+### Qué información recopilamos y sometemos a tratamiento [⤴](#content)###
 
 Este bot recoge la siguiente información sobre sus usuarios al interactuar con él en privado o a través de un grupo o canal de Telegram:
 
@@ -1155,7 +1155,7 @@ La base legal para el tratamiento de datos mencionado en esta sección es la pre
 
 Como se explica en la Política de tramposos, se rastrearán los logs la actividad de forma automatizada en busca de sospechosa. La base legal para este tratamiento de datos es el artículo 6, párrafo 1 (f) del RGPD.
 
-### Quién tiene acceso a la información  [⤴](#content) ###
+### Quién tiene acceso a la información [⤴](#content) ###
 
 El alias público de Telegram y los datos relacionados con la cuenta de Pokémon GO podrán compartirse en grupos o canales en los que se mantenga actividad. Esta compartición puede ser pública, dependiendo de la configuración de cada grupo o canal.
 
