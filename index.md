@@ -30,7 +30,7 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
    3. [Configuración básica](#configuración-básica-)
       1. [Ajustes generales](#ajustes-generales-)
       2. [Ajustes de entrada](#ajustes-de-entrada-)
-      3. [Ajustes de administración](#ajustes-de-entrada-)
+      3. [Ajustes de administración](#ajustes-de-administracion-)
       4. [Nidos](#configurar-nidos-)
       5. [Noticias](#noticias-)
       6. [Bienvenida](#bienvenida-)
@@ -39,7 +39,7 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
    4. [Botones y más botones](#botones-y-mas-botones-)
    5. [Normas del grupo Admins](#normas-del-grupo-admins-)
    6. [Zona horaria](#zona-horaria-)
-   7. [Gestión de usuarios](#gestión-de-usuarios-)
+   7. [Gestión de usuarios](#gestion-de-usuarios-)
    8. [Id](#id-)
    9. [Comandos personalizados](#comandos-personalizados-)
    10. [Otros comandos exclusivos para administradores](#otros-comandos-exclusivos-para-administradores-)
@@ -47,7 +47,7 @@ Puedes pedir ayuda en el grupo [@enfermerajoyayuda](https://t.me/enfermerajoyayu
       2. [Comandos de expulsiones masivas](#comandos-de-expulsiones-masivas-)
    11. [Glosario de comandos para administradores](#glosario-de-comandos-para-administradores-)
 3. [Reglamento General de Uso del Bot](#reglamento-general-de-uso-del-bot-)
-4. [Política de privacidad](#Política-de-privacidad-)
+4. [Política de privacidad](#politica-de-privacidad-)
 
 
 ## Ayuda para entrenadores [⤴](#content) ## 
@@ -401,6 +401,7 @@ Si acabas de entrar a un grupo deberás pulsar sobre el botón *Normas del grupo
 Joy dispone también de dos comandos con los cuales mandará, al privado del bot, la botonera del canal [Grupos Pokémon Go](https://t.me/PokemonGoGrupos). Canal que dispone de una gran cantidad de links a grupos de Pokémon Go, muy útil para buscar grupos:
 
 `Listado de grupos nacionales` -> mandará la botonera de lo grupos que se encuentran dentro de España
+
 `Listado de grupos internacionales` -> mandará la botonera de los grupos de todo el mundo separados de forma ordenada por paises
 
 Al clicar sobre uno de los botones se abrirá el canal *Grupos Pokémon Go* y podrás ver los grupos que estén dentro del territorio sobre el que has clicado.
