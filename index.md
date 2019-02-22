@@ -277,6 +277,7 @@ Otras tablas:
 - NuevosAtaques
 - Sellos (tabla con las recompensas que se puden obtener en las cajas del séptimo sello)
 - Shiny (también se puede solicitar como: Shinys)
+- Sincroaventura
 - Sinnoh (tabla con las evoluciones que se pueden hacer actualmente con la piedra Sinnoh. También se puede solicitar como: piedrasinnoh)
 - Tipos (tabla con los mejores atacantes por tipo. También se puede solicitar como: tipo o atacantes)
 
