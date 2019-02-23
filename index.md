@@ -940,6 +940,8 @@ La respuesta será enviada al privado del bot y el comando será borrado (siempr
 
 Ejemplo de respuesta enviado al privado al emplear el comando */id* sobre un entrenador:
 
+![ID]({{ site.baseurl }}/images/ID.png "Ejemplo comando id")
+
 ```
 ID: 123456789
 Alias: @ansett
