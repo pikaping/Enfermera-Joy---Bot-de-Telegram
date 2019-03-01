@@ -211,6 +211,9 @@ Estos son las tablas de IV las que se disponen actualmente:
 - DeoxysD (versión defensa)
 - DeoxysN (versión normal)
 - DeoxysV (versión velocidad)
+- Dialga
+- DialgaCounters (mejores counters contra Dialga. También se puede solicitar como: CountersDialga)
+- Dragonite
 - Entei
 - Feebas
 - Gengar
