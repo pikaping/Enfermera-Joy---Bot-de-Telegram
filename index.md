@@ -246,6 +246,7 @@ Estos son las tablas de IV las que se disponen actualmente:
 - Raichu (versión alola)
 - Raikou
 - Rayquaza
+- RayquazaCounters (mejores counters contra Rayquaza. También se puede solicitar como: CountersRayquaza)
 - Regice
 - Regirock
 - Registeel
@@ -263,6 +264,7 @@ Estos son las tablas de IV las que se disponen actualmente:
 Tablas de Community Day:
 
 - Totodile 
+- Treecko
 - Swinub (también se puede solicitar como: Community)
 
 ***
@@ -270,18 +272,22 @@ Tablas de Community Day:
 Otras tablas:
 
 - Amistad
+- Ataquespvp (tabla con los mejores ataques en pvp)
 - Community
 - Ditto (pokémon que pueden transformarse en Ditto)
 - Evento (tabla con información del evento actual. También se puede solicitar como: eventos)
 - Huevos (qué pokémon puede salir de cada huevo. También se puede solicitar como: huevo, eclosión o eclosiones)
 - Jefes (también se puede solicitar como: raid, raids, incursión incursiones o jefe)
+- Maxcp1, maxcp2, maxcp3 y maxcp4 (tabla con los PC máximos de los pokémon según la generación)
 - Misiones
 - Nidos (pokémon que pueden anidar)
 - NuevosAtaques
+- Polvoestellar (tabla con la cantidad de polvo estelar que te da cada pokémon según la situación)
 - Sellos (tabla con las recompensas que se puden obtener en las cajas del séptimo sello)
 - Shiny (también se puede solicitar como: Shinys)
 - Sincroaventura
 - Sinnoh (tabla con las evoluciones que se pueden hacer actualmente con la piedra Sinnoh. También se puede solicitar como: piedrasinnoh)
+- Spinda (tabla con las formas de Spinda)
 - Tipos (tabla con los mejores atacantes por tipo. También se puede solicitar como: tipo o atacantes)
 
 Todas las tablas se van modificando según los cambios que van surgiendo en Pokémon Go y se van añadiendo tablas nuevas necesarias, por lo tanto la lista de tablas es algo que irá cambiando.
@@ -876,9 +882,11 @@ Para registrar las normas del grupo se debe escribir el comando `/set_rules` seg
 
 El comando */set_rules* acepta únicamente el formato texto. También es posible añadir botones. Para saber más información sobre crear botones lee el apartado [Botones y más botones](#botones-y-mas-botones-).
 
-El comando `/rules` hará que el bot responda con el mensaje que se haya guardado como las normas del grupo.
+El comando `/rules` hará que el bot responda por privado con el mensaje que se haya guardado como las normas del grupo.
 
-Si se quieren eliminar las normas del grupo será necesario escribir en el grupo `/clear_rules`.
+Si un usuario entra nuevo al grupo cuando están las normas activas entonces deberán clicar sobre el botón *Normas* que aparecerá en la bienvenida y luego en el privado del bot en */start* para poder hablar en el grupo. No se recomienda tener activas las normas del grupo mientras a la vez que el */set_cooldown* de la bienvenida.
+
+Para eliminar las normas del grupo será necesario escribir en el grupo `/clear_rules`.
 
 **Cosas a tener en cuenta:**
 
