@@ -196,7 +196,7 @@ Si el comando se realiza por privado al bot [@NurseJoyBot](https://t.me/NurseJoy
 
 ### Tablas [⤴](#content) ###
 
-El bot dispone de una gran cantidad de tablas de IV, de recompensas por amistad, Pokémon de los Community Day, Pokémon shiny, etc. Para solicitarlas se debe emplear el comando `/tabla`, `/table` o `Tabla de` seguido de un espacio y el nombre de la tabla que se desea. El mensaje solicitando la tabla será eliminado por el bot de forma automática.
+El bot dispone de una gran cantidad de tablas de IV, de recompensas por amistad, Pokémon de los Community Day, Pokémon shiny, etc. Para solicitarlas se debe emplear el comando `/tabla` o `/table` seguido de un espacio y el nombre de la tabla que se desea. El mensaje solicitando la tabla será eliminado por el bot de forma automática.
 
 Dependiendo de cómo esté configurado el grupo, las tablas podrán ser mandadas al privado del bot en vez de al grupo (si eres administrador de un grupo y quieres saber más sobre estas opciones lee el apartado [Respuestas](#respuestas-)), para ello es necesario tener abierta una conversación privada con [@NurseJoyBot](https://t.me/NurseJoyBot).
 
@@ -218,6 +218,7 @@ Estos son las tablas de IV las que se disponen actualmente:
 - Feebas
 - Gengar
 - Giratina (la forma activa en el juego)
+- GiratinaCounters (mejores counters contra Giratina. También se puede solicitar como: GiratinaOCounters, CountersGirarinaO, GiratinaMCounters, CountersGiratinaM o CountersGiratina)
 - GiratinaO (versión Origen, también se puede solicitar como: OGiratina)
 - GiratinaM (versión modificada, también se puede solicitar como: MGiratina)
 - Golem
@@ -283,6 +284,7 @@ Otras tablas:
 - Nidos (pokémon que pueden anidar)
 - NuevosAtaques
 - Polvoestellar (tabla con la cantidad de polvo estelar que te da cada pokémon según la situación)
+- Regionales (tabla con los Pokémon regionales según su región. También se puede solicitar como: regional)
 - Sellos (tabla con las recompensas que se puden obtener en las cajas del séptimo sello)
 - Shiny (también se puede solicitar como: Shinys)
 - Sincroaventura
