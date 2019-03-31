@@ -272,6 +272,7 @@ Tablas de Community Day:
 
 Otras tablas:
 
+- Accesorios (tabla con información de los accesorios junto a sus pokémon. También se puede solicitar como: accesorio)
 - Amistad
 - Ataquespvp (tabla con los mejores ataques en pvp)
 - Community
@@ -405,7 +406,7 @@ Para recibir las normas del grupo es necesario que un admin las haya especificad
 
 Con el comando `/rules`, Joy responderá las normas del grupo que hayan especificado el administrador.
 
-Si acabas de entrar a un grupo deberás pulsar sobre el botón *Normas del grupo* para que el bot te permita escribir en el grupo.
+Si acabas de entrar a un grupo deberás pulsar sobre el botón *Normas del grupo* para que el bot te permita escribir en el grupo. Entonces se abrirá una conversación con el bot en la cual tendrás que escribir (o darle) a /start. De esa forma podrás empezar a escribir en el grupo.
 
 ### Listado de grupos [⤴](#content) ###
 `Actualmente esta opción no está disponible.`
