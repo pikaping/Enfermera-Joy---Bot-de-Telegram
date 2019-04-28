@@ -264,6 +264,7 @@ Estos son las tablas de IV las que se disponen actualmente:
 
 Tablas de Community Day:
 
+- Torchic
 - Totodile 
 - Treecko
 - Swinub (también se puede solicitar como: Community)
@@ -273,7 +274,9 @@ Tablas de Community Day:
 Otras tablas:
 
 - Accesorios (tabla con información de los accesorios junto a sus pokémon. También se puede solicitar como: accesorio)
+- Amisgossuerte (también se puede solicitar como: luckyfriends)
 - Amistad
+- Atacante (tabla con los mejores pokémon atacantes según el tipo. También se puede solicitar como: atacantes)
 - Ataquespvp (tabla con los mejores ataques en pvp)
 - Community
 - Ditto (pokémon que pueden transformarse en Ditto)
@@ -291,7 +294,7 @@ Otras tablas:
 - Sincroaventura
 - Sinnoh (tabla con las evoluciones que se pueden hacer actualmente con la piedra Sinnoh. También se puede solicitar como: piedrasinnoh)
 - Spinda (tabla con las formas de Spinda)
-- Tipos (tabla con los mejores atacantes por tipo. También se puede solicitar como: tipo o atacantes)
+- Tipos (tabla con los mejores atacantes por tipo. También se puede solicitar como: tipo)
 
 Todas las tablas se van modificando según los cambios que van surgiendo en Pokémon Go y se van añadiendo tablas nuevas necesarias, por lo tanto la lista de tablas es algo que irá cambiando.
 
