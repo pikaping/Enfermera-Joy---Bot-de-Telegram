@@ -430,10 +430,6 @@ Al clicar sobre uno de los botones se abrirá el canal *Grupos Pokémon Go* y po
 
 Un comando muy útil del que dispone Joy es `/groups`. Con este comando podrás ver el link de todos los grupos vinculados a un grupo de administración. Por lo tanto, si te encuentras en un grupo de Offtopic, por ejemplo, y quieres saber el de raids o el de intercambios, con utilizar en dicho grupo el comando */groups* el bot te mandará al privado una lista de los grupos vinculados con su nombre y el link.
 
-Si eres administrador puedes agregar el link de cada grupo vinculado mediante el comando `/add_url` seguido de un espacio y el link o alias de este. Por ejemplo: */add_url t.me* o */add_url @public_alias*.
-
-Para eliminar un link del grupo vinculado y que no aparezca al emplear el comando */groups* se deberá escribir `/add_url -`
-
 ### Glosario de comandos para entrenadores⠀[⤴](#content) ###
 
 Comando | Descripción | Exclusivo administradores | Ámbito | Parámetros
