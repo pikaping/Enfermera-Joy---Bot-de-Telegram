@@ -98,7 +98,7 @@ Ejemplos de posibles respuestas del bot:
 
 2. *Desconocido*, es *Desconocido* nivel *Desconocido*.
 
-   Esto quiere decir que el proceso de validación ha sido iniciado pero no finalizado, por lo tanto no estás registrado con el bot.
+   Esto quiere decir que el proceso de validación ha sido iniciado pero no finalizado, por lo tanto no estás registrado con el bot. 
 
 3. ❌ No tengo información sobre ti.
    
