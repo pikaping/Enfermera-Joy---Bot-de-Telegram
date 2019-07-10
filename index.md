@@ -991,8 +991,6 @@ En este caso el comando que se borraría sería el comando que corresponda al n�
 
 Si al intentar borrar un comando personalizado el bot te responde que este no existe te recomiendo que le solicites al bot la lista de comandos (está explicado más arriba, en este mismo apartado, cómo se hace) para que te asegures de qué comando quieres eliminar.
 
-Para borrar todos los comandos personalizados de golpe se puede hacer mediante el comando `eliminar todos los comandos`, pero tener cuidado que si el bot tenía en uno de ellos alguna información que querías conservar esta se perderá.
-
 Si en vez de borrar un comando lo que se quiere es únicamente modificar la respuesta del bot, entonces bastará con crear de nuevo un comando con el mismo nombre.
 
 ### Otros comandos exclusivos para administradores⠀[⤴](#content) ###   
