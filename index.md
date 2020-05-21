@@ -864,7 +864,7 @@ Finalmente, también hay la opción de activar el botón `Mensajes de administra
 
 ### Botones y más botones⠀[⤴](#content) ###
 
-El bot también puede tener botones en el mensaje de bienvenida y en los comandos personalizados, ara ello se debe escribir de la siguiente manera: `[Texto a mostrar en el botón](buttonurl://dirección.com)`. Se debe escribir todo junto, **sin espacios** (entre los : y las // NO debe de haber espacio), y cambiar el texto del botón y el enlace. Como ejemplo:
+El bot también puede tener botones en el mensaje de bienvenida y en los comandos personalizados, para ello se debe escribir de la siguiente manera: `[Texto a mostrar en el botón](buttonurl://dirección.com)`. Se debe escribir todo junto, **sin espacios** (entre los : y las // NO debe de haber espacio), y cambiar el texto del botón y el enlace. Como ejemplo:
 
 ```
 [Enlace a google.es](buttonurl://google.es)
@@ -970,10 +970,11 @@ Estado: ✅
 
 Los comandos personalizados pueden ser creados y eliminados únicamente por los administradores. Estos comandos personalizados harán que el bot responda con una frase, imagen, link, fichero, video, audio, nota de voz o gif.
 
-Pasos para crear comandos:
-   1. Para crear un comando personalizado se debe escribir `nuevo comando`.
-   2. Seguidamente el bot te preguntará qué nombre quieres ponerle a dicho comando a lo que deberás responder únicamente con el nombre        que quieras que tenga (máximo 30 carácteres). Ten en cuenta que cada vez que el bot lea ese comando responderá automáticamente con      la respuesta que le vas a dar. Una vez le digas el nombre del comando el bot te pedirá la respuesta que quieres que dé.
-   3. Aquí es cuando puedes escribir una frase, poner un gif, un link, un audio, una nota de voz, un video, un fichero o una imagen. El bot también enviar botones en los comandos personalizados, para saber más información sobre ello lee el apartado [Botones, botones y más botones](#botones-botones-y-mas-botones).
+Para crear un comando personalizado se debe escribir `/new_cmd` seguido del nombre que quieras ponerle al comando (máximo 30 carácteres), respondiendo a lo que quieras que Joy responda cuando se use dicho comando.
+
+Ten en cuenta que cada vez que el bot lea ese comando responderá automáticamente con la respuesta que le vas a dar.
+   
+El bot también puede enviar botones en los comandos personalizados, para saber más información sobre ello lee el apartado [Botones, botones y más botones](#botones-botones-y-mas-botones).
    
 Por ejemplo, podría haber un comando personalizado que se llame "Dios bidoof" y que el bot responderá a este con un gif sobre bidoof.
 
@@ -1152,7 +1153,7 @@ Debido a la polémica generada con los usuarios que utilicen más de una cuenta 
 
 ## Política de privacidad⠀[⤴](#content) ##
 
-### Qué información recopilamos y sometemos a tratamiento⠀[⤴](#content)###
+### Qué información recopilamos y sometemos a tratamiento⠀[⤴](#content) ###
 
 Este bot recoge la siguiente información sobre sus usuarios al interactuar con él en privado o a través de un grupo o canal de Telegram:
 
